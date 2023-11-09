@@ -2,7 +2,7 @@
 
 ### **Where can I take a look at Viction code? Is there a GitHub repository?**
 
-All the code regarding Viction is free to access on our [GitHub](https://github.com/Viction). This includes the code for the Viction blockchain client, governance Dapp, block explorer, tools, docker images, documentation, etc.
+All the code regarding Viction is free to access on our [GitHub](https://github.com/tomochain). This includes the code for the Viction blockchain client, governance Dapp, block explorer, tools, docker images, documentation, etc.
 
 We like to publish code publicly when it reaches a certain level of development and/or when we think auditing and contributions are beneficial to the codebase. Keeping early projects private is probably more responsible for now due to our scale. It might change in the future.
 
