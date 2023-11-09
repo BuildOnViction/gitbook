@@ -1,10 +1,10 @@
 ---
-description: The privacy policy of TomoChain
+description: The privacy policy of Viction
 ---
 
 # Privacy Policy
 
-This Privacy Policy is a legal agreement between you (Licensee or you) and TomoChain Lab Pte. Ltd. (UEN: 201716924E), a company incorporated under the laws of Singapore, and its subsidiaries, affiliates and related corporations who own or operate the Services (defined below) (“Company”, “we”, “us” or “our”)
+This Privacy Policy is a legal agreement between you (Licensee or you) and Viction Lab Pte. Ltd. (UEN: 201716924E), a company incorporated under the laws of Singapore, and its subsidiaries, affiliates and related corporations who own or operate the Services (defined below) (“Company”, “we”, “us” or “our”)
 
 This Policy (together with our Terms of Use) explains and sets out the basis for why and when we collect personal information about the people who use our Service(s), how we use it, the conditions under which we may disclose it to others and the measures we take to keep it secure.
 
@@ -12,7 +12,7 @@ By using our Services, you are accepting and consenting to the practices describ
 
 ### INTRODUCTION
 
-The Company values privacy and we make a concerted effort to minimize and, to the extent possible, eliminate the exposure of personal data during the use of our interface. TomoChain does not collect, hold, or store keys, account information, or passwords.
+The Company values privacy and we make a concerted effort to minimize and, to the extent possible, eliminate the exposure of personal data during the use of our interface. Viction does not collect, hold, or store keys, account information, or passwords.
 
 To the extent we collect any personal information, this privacy policy (“Policy”) describes how the Company collects, uses, and shares personal information of people who use our websites (the “Site”), TomoWallet, TomoScan, TomoMaster, TomoIssuer, TomoRelayer, TomoStats, TomoBridge and our other products (collectively, the “Services”).
 
@@ -22,7 +22,7 @@ So that we are clear about the terminology we are using, when we use the phrase 
 
 ### THE BLOCKCHAIN
 
-Due to the inherent transparency of many blockchains, including the TomoChain Blockchain, transactions that individuals broadcast via TomoChain may be publicly accessible. This includes, but is not limited to, your public sending address, the public address of the receiver, the amount sent or received, and any other data a user has chosen to include in a given transaction. Information stored on a blockchain may be public, immutable, and difficult or even impossible to remove or delete. Transactions and addresses may reveal information about the user’s identity and information can potentially be correlated now or in the future by any party who chooses to do so, including law enforcement. Users are encouraged to review how privacy and transparency on the blockchain works.
+Due to the inherent transparency of many blockchains, including the Viction Blockchain, transactions that individuals broadcast via Viction may be publicly accessible. This includes, but is not limited to, your public sending address, the public address of the receiver, the amount sent or received, and any other data a user has chosen to include in a given transaction. Information stored on a blockchain may be public, immutable, and difficult or even impossible to remove or delete. Transactions and addresses may reveal information about the user’s identity and information can potentially be correlated now or in the future by any party who chooses to do so, including law enforcement. Users are encouraged to review how privacy and transparency on the blockchain works.
 
 ### HOW WE COLLECT INFORMATION
 
@@ -84,7 +84,7 @@ Right to data portability: the right to request that we return any information y
 
 Right to object: the right to object to our use of your Personal Information including where we use it for our legitimate interests.
 
-Requests in relation to the above rights should be sent to: admin@tomochain.com
+Requests in relation to the above rights should be sent to: admin@Viction.com
 
 Legal Basis for Processing
 
@@ -98,7 +98,7 @@ We will retain the information you provide in order to process your request, pro
 
 ### CONTACT INFORMATION
 
-Any questions regarding this policy and our privacy practices should be sent by email to admin@tomochain.com or by writing TomoChain Lab Pte., Ltd at 10 Anson Road #22-15 International Plaza, Singapore 079903.
+Any questions regarding this policy and our privacy practices should be sent by email to admin@Viction.com or by writing Viction Lab Pte., Ltd at 10 Anson Road #22-15 International Plaza, Singapore 079903.
 
 ### CHANGES TO PRIVACY POLICY
 

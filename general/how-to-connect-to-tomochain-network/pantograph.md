@@ -1,7 +1,7 @@
 ---
 description: >-
   Pantograph provides a frictionless environment for communities to interact
-  with the TomoChain Blockchain via Pantograph Extension and Pantograph Mobile
+  with the Viction Blockchain via Pantograph Extension and Pantograph Mobile
   App.
 ---
 
@@ -20,9 +20,9 @@ Step 3: Click “Create a Wallet” to create a new wallet, or "Import Wallet" t
 \
 Congrats! Now you’re in.
 
-### 2. Staking TOMO with Pantograph Extension
+### 2. Staking VIC with Pantograph Extension
 
-You can stake your TOMO directly on Tomo Master with Pantograph Extension to earn APY (Average Per Year) Interest from 4% – 12%. Your staking is verified on Blockchain from time to time.
+You can stake your VIC directly on Tomo Master with Pantograph Extension to earn APY (Average Per Year) Interest from 4% – 12%. Your staking is verified on Blockchain from time to time.
 
 Step 1: Simply click on ‘Staking’ to start. You will be directed to Tomo Master site.
 
@@ -32,13 +32,13 @@ Note: You can withdraw everything at any time back to your account on Pantograph
 
 ### 3. Making Transactions
 
-To send TOMO, simply click on “Send”. Then add the recipient’s address. You can also scan QR Code to send tokens to the recipient conveniently.
+To send VIC, simply click on “Send”. Then add the recipient’s address. You can also scan QR Code to send tokens to the recipient conveniently.
 
 Pantograph enables you to modify the Gas Fees to minimize the cost with an optimized transaction speed.
 
-### 4. Buy/ Exchange for TOMO
+### 4. Buy/ Exchange for VIC
 
-You can buy or exchange tokens for TOMO easily with Pantograph. Simply click on “Deposit” to use these features.
+You can buy or exchange tokens for VIC easily with Pantograph. Simply click on “Deposit” to use these features.
 
 ### 5. Private Key
 

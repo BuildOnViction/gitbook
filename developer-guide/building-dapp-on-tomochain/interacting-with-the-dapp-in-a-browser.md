@@ -14,17 +14,17 @@ _Initiating MetaMask_
 
 4\. Now we’re connected to the Ethereum network, with a brand new wallet with 0 ETH.
 
-5\. Let’s now connect MetaMask to TomoChain (testnet). Click the menu with the “Main Ethereum Network” and select **Custom RPC**. Use the [Networks data from TomoChain](../../general/how-to-connect-to-tomochain-network/metamask.md) (testnet) and click **Save**
+5\. Let’s now connect MetaMask to Viction (testnet). Click the menu with the “Main Ethereum Network” and select **Custom RPC**. Use the [Networks data from Viction](../../general/how-to-connect-to-Viction-network/metamask.md) (testnet) and click **Save**
 
 ![](https://miro.medium.com/max/60/1\*Dm4qhGJOjnolRwxX-VN94w.png?q=20) ![](https://miro.medium.com/max/1424/1\*Dm4qhGJOjnolRwxX-VN94w.png)
 
-_Connecting MetaMask to TomoChain (testnet)_
+_Connecting MetaMask to Viction (testnet)_
 
-6\. The network name at the top will switch to say “TomoChain testnet”. Now that we are on TomoChain network we can import TomoChain wallets.
+6\. The network name at the top will switch to say “Viction testnet”. Now that we are on Viction network we can import Viction wallets.
 
-We could use the TOMO wallet we created previously, but better **let’s create a new TOMO wallet** and add a few TOMO tokens — _you know how to do it_.
+We could use the VIC wallet we created previously, but better **let’s create a new VIC wallet** and add a few VIC tokens — _you know how to do it_.
 
-7\. Once you have created your new TOMO wallet, **copy the private key**. Back to MetaMask, click on the top-right circle and select **Import Account.** Paste the private key and _voilà_! Your TOMO wallet is loaded in MetaMask
+7\. Once you have created your new VIC wallet, **copy the private key**. Back to MetaMask, click on the top-right circle and select **Import Account.** Paste the private key and _voilà_! Your VIC wallet is loaded in MetaMask
 
 ![](https://miro.medium.com/max/60/1\*AjEHidU-h0Ae0CXTsQUJ5Q.png?q=20) ![](https://miro.medium.com/max/1298/1\*AjEHidU-h0Ae0CXTsQUJ5Q.png)
 
@@ -75,4 +75,4 @@ npm install
 npm start
 ```
 
-Open [http://localhost:3000/](http://localhost:3000/) to see your Dapp. You will need to have [Coinbase Wallet](https://www.coinbase.com/wallet) or [Metamask](https://metamask.io/) installed and listening to`localhost 8545.`([Example](https://github.com/c98tristan/gitbook-tomochain/blob/master/developer-guide/building-dapp-on-tomochain/develop-a-simple-web3-frontend-to-interact-with-the-contract/interacting-with-the-dapp-in-a-browser.md#4986))
+Open [http://localhost:3000/](http://localhost:3000/) to see your Dapp. You will need to have [Coinbase Wallet](https://www.coinbase.com/wallet) or [Metamask](https://metamask.io/) installed and listening to`localhost 8545.`([Example](https://github.com/c98tristan/gitbook-Viction/blob/master/developer-guide/building-dapp-on-Viction/develop-a-simple-web3-frontend-to-interact-with-the-contract/interacting-with-the-dapp-in-a-browser.md#4986))

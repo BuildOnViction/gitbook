@@ -5,9 +5,9 @@ description: >-
   docker-compose to run the node.
 ---
 
-# Create a TomoChain Masternode
+# Create a Viction Masternode
 
-Using create-tomochain-masternode and docker-compose offers you benefits like:
+Using create-Viction-masternode and docker-compose offers you benefits like:
 
 * working "out of the box" docker-compose configuration
 * auto-restarting your node on failure
@@ -104,31 +104,31 @@ docker-compose version
 
 ### Installation <a href="#installation" id="installation"></a>
 
-Download `create-tomochain-masternode` from the [latest release](https://github.com/tomochain/create-tomochain-masternode/releases/latest).
+Download `create-Viction-masternode` from the [latest release](https://github.com/Viction/create-Viction-masternode/releases/latest).
 
 Make it executable.
 
 ```
-chmod +x create-tomochain-masternode
+chmod +x create-Viction-masternode
 ```
 
 Move it in your path.
 
 ```
-sudo mv create-tomochain-masternode /usr/local/bin/
+sudo mv create-Viction-masternode /usr/local/bin/
 ```
 
 ### Usage <a href="#usage" id="usage"></a>
 
-Simply run create-tomochain-masternode with the name of your Masternode as argument.
+Simply run create-Viction-masternode with the name of your Masternode as argument.
 
 ```
-create-tomochain-masternode mymasternode
+create-Viction-masternode mymasternode
 ```
 
 Follow the wizard by replying to the following questions:
 
-* **Coinbase private key**: Your Masternode coinbase account private key. A TomoChain node uses an account to be uniquely identified and to receive transaction fee.
+* **Coinbase private key**: Your Masternode coinbase account private key. A Viction node uses an account to be uniquely identified and to receive transaction fee.
 
 Important note:
 
@@ -137,9 +137,9 @@ We advise for security measures to use a fresh new account for your Masternode. 
 * **Storage**: The storage location for your node data (chaindata). Either `docker volume` if you want to use the default docker volume location, or `host directory` if you want to define specific location on your filesystem (usefull when extending storage).
 * **Chaindata**: The name of the docker volume that will be used or the path to the directory containing the chaindata, depending on your answer to the last question.
 * **The volume already exists**: If you selected "docker volume", this will determine if the volume already exists or if it needs to be created.
-* **Expose RPC**: If you want to expose or not port `8545`. It is the RPC api to your node. It should be only exposed if you have a specific reason to access the TomoChain JSON-RPC Protocol. The Masternode owner is responsible of proxing and securing the RPC api as it should not be directly exposed to the internet.
-* **Expose WebSocket**: If you want to expose or not port `8546`. It is the WebSocket api to your node. It should only be exposed if you have a specific reason to access the TomoChain Protocol via WebSocket. The Masternode owner is responsible of proxing and securing the WebSocket api as it should not be directly exposed to the internet.
-* **Logging level**: Set the logging level of the TomoChain container to error, info or debug. Info or Error is usually a good logging level. Only use the debug level if you have a good reason to do so, it will generate a lot of output and increase resource usage.
+* **Expose RPC**: If you want to expose or not port `8545`. It is the RPC api to your node. It should be only exposed if you have a specific reason to access the Viction JSON-RPC Protocol. The Masternode owner is responsible of proxing and securing the RPC api as it should not be directly exposed to the internet.
+* **Expose WebSocket**: If you want to expose or not port `8546`. It is the WebSocket api to your node. It should only be exposed if you have a specific reason to access the Viction Protocol via WebSocket. The Masternode owner is responsible of proxing and securing the WebSocket api as it should not be directly exposed to the internet.
+* **Logging level**: Set the logging level of the Viction container to error, info or debug. Info or Error is usually a good logging level. Only use the debug level if you have a good reason to do so, it will generate a lot of output and increase resource usage.
 
 Once finished, you will get a folder named after your Masternode (in our case "mymasternode") with two files.
 
@@ -162,7 +162,7 @@ For more docker-compose commands, use `docker-compose --help` or refer to their 
 
 ### Migrating from `tmn` <a href="#migrating-from-tmn" id="migrating-from-tmn"></a>
 
-You can find a guide on migrating from `tmn` in the [wiki](https://github.com/tomochain/docs/wiki/Migrate-from-tmn-to-docker-compose-with-create-tomochain-masternode).
+You can find a guide on migrating from `tmn` in the [wiki](https://github.com/Viction/docs/wiki/Migrate-from-tmn-to-docker-compose-with-create-Viction-masternode).
 
 For the long time Masternode runners who started with our older tool, `tmn`, here are the commands to achieve the same actions.
 

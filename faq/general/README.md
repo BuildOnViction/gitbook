@@ -1,7 +1,7 @@
 # General
 
-{% content-ref url="tomochain.md" %}
-[tomochain.md](tomochain.md)
+{% content-ref url="Viction.md" %}
+[Viction.md](Viction.md)
 {% endcontent-ref %}
 
 {% content-ref url="ecosystem.md" %}

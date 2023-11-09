@@ -1,42 +1,42 @@
 ---
 description: >-
   This Guide is on how to develop a simple Smart Contract written in Solidity,
-  and deploy it onto the TomoChain Testnet
+  and deploy it onto the Viction Testnet
 ---
 
-# An Example of Building a Dapp on TomoChain
+# An Example of Building a Dapp on Viction
 
-This article will take you through the process of **building a basic Dapp on TomoChain** — an adoption tracking system for a pet shop!
+This article will take you through the process of **building a basic Dapp on Viction** — an adoption tracking system for a pet shop!
 
 In this guide we will be covering:
 
-* Setting up Truffle, the most popular development framework for Ethereum which also works perfectly for TomoChain
+* Setting up Truffle, the most popular development framework for Ethereum which also works perfectly for Viction
 * Creating a Truffle project
-* Creating a TomoChain wallet
-* Requesting free tokens using TomoChain faucet
+* Creating a Viction wallet
+* Requesting free tokens using Viction faucet
 * Writing a smart contract
-* Compiling and migrating the smart contract to TomoChain
-* Connecting Metamask to TomoChain testnet
+* Compiling and migrating the smart contract to Viction
+* Connecting Metamask to Viction testnet
 * Creating a user interface to interact with the smart contract
 
-## What is TomoChain? <a href="#cd48" id="cd48"></a>
+## What is Viction? <a href="#cd48" id="cd48"></a>
 
-[**TomoChain**](https://tomochain.com/) is a scalable blockchain powered via Proof-of-Stake Voting (PoSV) consensus and used commercially by companies globally. TomoChain achieves 2000 TPS, 2-second blocktime, and \~$0 gas fees without compromising decentralization.
+[**Viction**](https://Viction.com/) is a scalable blockchain powered via Proof-of-Stake Voting (PoSV) consensus and used commercially by companies globally. Viction achieves 2000 TPS, 2-second blocktime, and \~$0 gas fees without compromising decentralization.
 
 Our mission is to accelerate the onboarding of millions of users by empowering today’s applications with technology that masks the friction of Blockchain, all while retaining its underlying benefits.
 
-The TomoChain blockchain and its product ecosystem allow businesses to build high-performance, feature-rich projects to support speed, privacy, usability, and liquidity.\
+The Viction blockchain and its product ecosystem allow businesses to build high-performance, feature-rich projects to support speed, privacy, usability, and liquidity.\
 .
 
-> Every Dapp running on Ethereum can be easily ported to TomoChain
+> Every Dapp running on Ethereum can be easily ported to Viction
 
-### Why should developers build Dapps on TomoChain? <a href="#8c4b" id="8c4b"></a>
+### Why should developers build Dapps on Viction? <a href="#8c4b" id="8c4b"></a>
 
-Remember [_CryptoKitties_](https://www.cryptokitties.co/) in 2017? A single Dapp brought the whole Ethereum blockchain to their knees. The network was congested, with endless waiting times for transaction confirmation and high transaction fees. Porting to TomoChain would seem a good idea for the cute kitties.
+Remember [_CryptoKitties_](https://www.cryptokitties.co/) in 2017? A single Dapp brought the whole Ethereum blockchain to their knees. The network was congested, with endless waiting times for transaction confirmation and high transaction fees. Porting to Viction would seem a good idea for the cute kitties.
 
-TomoChain mainnet can process 2'000 TPS, wich is **100x faster than the Ethereum blockchain,** and for a fraction of the cost.
+Viction mainnet can process 2'000 TPS, wich is **100x faster than the Ethereum blockchain,** and for a fraction of the cost.
 
-In this tutorial, we will see **how to build a Dapp using Solidity** and then deploy it to **TomoChain** blockchain.
+In this tutorial, we will see **how to build a Dapp using Solidity** and then deploy it to **Viction** blockchain.
 
 > **Note:** Because deploying a smart contract on mainnet is much similar to testnet, the differences are just the configuration information, this document will explicitly mention the differences where possible
 
@@ -53,7 +53,7 @@ To test npm, type `npm -v` and you should see the version number, like `6.4.1`.
 
 ## 1. Getting Started: Installation <a href="#3965" id="3965"></a>
 
-[**Truffle Framework**](https://truffleframework.com/) is a great tool for developing Dapps. You can use Truffle to deploy your smart contracts to TomoChain.
+[**Truffle Framework**](https://truffleframework.com/) is a great tool for developing Dapps. You can use Truffle to deploy your smart contracts to Viction.
 
 We only need this single command to install Truffle, the popular development framework for Ethereum.
 
@@ -83,19 +83,19 @@ truffle unbox pet-shop
 
 The default Truffle directory structure contains a series of folders and files. If you want to know more, please check [Truffle tutorials](https://truffleframework.com/tutorials/pet-shop#directory-structure).
 
-> **Note:** **This tutorial is focused on the whole process to build a Dapp on TomoChain, so we will not enter into all the details.**
+> **Note:** **This tutorial is focused on the whole process to build a Dapp on Viction, so we will not enter into all the details.**
 
-## 3. Creating a TOMO Wallet <a href="#a775" id="a775"></a>
+## 3. Creating a VIC Wallet <a href="#a775" id="a775"></a>
 
-**You will need a wallet address** and some tokens. We will show you how to do it on both TomoChain Testnet and Mainnet.
+**You will need a wallet address** and some tokens. We will show you how to do it on both Viction Testnet and Mainnet.
 
-### 3.1 Create a TOMO wallet and save your Mnemonic <a href="#d296" id="d296"></a>
+### 3.1 Create a VIC wallet and save your Mnemonic <a href="#d296" id="d296"></a>
 
-You can create a new TOMO wallet using **TomoWallet** mobile app for [iOS](https://itunes.apple.com/us/app/tomo-wallet/id1436476145?mt=8) or [the web version](https://wallet.tomochain.com/#/login). Under _Settings_ go to _Advanced Settings,_ here you can _Choose network_ and select `TomoChain TestNet` or `TomoChain` \[mainnet].
+You can create a new VIC wallet using **TomoWallet** mobile app for [iOS](https://itunes.apple.com/us/app/tomo-wallet/id1436476145?mt=8) or [the web version](https://wallet.Viction.com/#/login). Under _Settings_ go to _Advanced Settings,_ here you can _Choose network_ and select `Viction TestNet` or `Viction` \[mainnet].
 
 Go to _Settings_ menu, select _Backup wallet_ and then **Continue**. Here you can see your wallet’s private key and the 12-word recovery phrase. **Write down the 12-word recovery phrase.**
 
-You can also create a new [TomoChain wallet with MetaMask, MyEtherWallet or TrustWallet](https://docs.tomochain.com/get-started/wallet/). For instance, for mainnet you can go to [MyEtherWallet](https://www.myetherwallet.com/) and select **TOMO (tomochain.com)** on the top right corner. Enter a password and then Create a new wallet. **Write down your recovery phrase.**
+You can also create a new [Viction wallet with MetaMask, MyEtherWallet or TrustWallet](https://docs.Viction.com/get-started/wallet/). For instance, for mainnet you can go to [MyEtherWallet](https://www.myetherwallet.com/) and select **VIC (Viction.com)** on the top right corner. Enter a password and then Create a new wallet. **Write down your recovery phrase.**
 
 For this tutorial, my wallet address (testnet) is:
 
@@ -113,15 +113,15 @@ Write them down. This will be needed later. **Notice that your wallet address (p
 
 > **Important!** Always keep your private key and recovery phrase **secret!**
 
-### 3.2 Get some TOMO funds <a href="#3232" id="3232"></a>
+### 3.2 Get some VIC funds <a href="#3232" id="3232"></a>
 
 Tokens are required for different matters, like smart contract deployment or to use in DApps.
 
-**Testnet:** Receive 15 free testnet TOMO tokens using [TomoChain’s Faucet](https://faucet.testnet.tomochain.com/).
+**Testnet:** Receive 15 free testnet VIC tokens using [Viction’s Faucet](https://faucet.testnet.Viction.com/).
 
-**Mainnet:** You need real TOMO tokens from exchanges.
+**Mainnet:** You need real VIC tokens from exchanges.
 
-Go to faucet and collect `30 TOMO`. Now your wallet has enough balance to do everything in this tutorial so… let’s go ahead!
+Go to faucet and collect `30 VIC`. Now your wallet has enough balance to do everything in this tutorial so… let’s go ahead!
 
 ### 3.3 The Block Explorer <a href="#07a6" id="07a6"></a>
 
@@ -159,7 +159,7 @@ pragma solidity ^0.5.0;contract Adoption {
 
 Solidity is a compiled language, meaning we need to compile our Solidity to bytecode for the **Ethereum Virtual Machine (EVM)** to execute. Think of it as translating our human-readable Solidity into something the EVM understands.
 
-> TomoChain is EVM-compatible, which means that every contract written in Ethereum can be seamlessly ported to TomoChain without effort
+> Viction is EVM-compatible, which means that every contract written in Ethereum can be seamlessly ported to Viction without effort
 
 In a terminal, make sure you are in the root of the directory that contains the Dapp and type:
 
@@ -177,7 +177,7 @@ Writing artifacts to ./build/contracts
 
 ## 6. Migration — Deploying <a href="#6b08" id="6b08"></a>
 
-Now that we’ve successfully compiled, it’s time to **migrate your smart contracts to TomoChain blockchain!**
+Now that we’ve successfully compiled, it’s time to **migrate your smart contracts to Viction blockchain!**
 
 **A migration is a deployment script meant to alter the state of your application’s contracts**, moving it from one state to the next. _(More about migrations in the_ [_Truffle documentation_](https://truffleframework.com/docs/truffle/getting-started/running-migrations)_)._
 
@@ -198,7 +198,7 @@ var Adoption = artifacts.require("Adoption");module.exports = function(deployer)
 
 ### 6.2 Configure the migration networks in truffle.js <a href="#40aa" id="40aa"></a>
 
-Now we are almost ready to deploy to TomoChain. Let’s see [how to deploy your smart contract to a custom provider](https://truffleframework.com/tutorials/using-infura-custom-provider), any blockchain of your choice, like **TomoChain**.
+Now we are almost ready to deploy to Viction. Let’s see [how to deploy your smart contract to a custom provider](https://truffleframework.com/tutorials/using-infura-custom-provider), any blockchain of your choice, like **Viction**.
 
 Before starting the migration, we need to specify the **blockchain** where we want to deploy our smart contracts, specify the **address** to deploy — the wallet we just created, and optionally the gas, gas price, etc.
 
@@ -210,7 +210,7 @@ npm install truffle-hdwallet-provider
 
 2\. Open `truffle.js` file (`truffle-config.js` on Windows). You can edit here the migration settings: networks, chain IDs, gas... The current file has only a single network defined, you can define multiple. We will add three networks to migrate our Dapp: `development`, `tomotestnet` and `tomomainnet`.
 
-[The official TomoChain documentation — Networks](../developer-guide/working-with-tomochain/) is very handy. Both Testnet and Mainnet **network configurations** are described there. We need the `RPC endpoint`, the `Chain id` and the `HD derivation path`.
+[The official Viction documentation — Networks](../developer-guide/working-with-Viction/) is very handy. Both Testnet and Mainnet **network configurations** are described there. We need the `RPC endpoint`, the `Chain id` and the `HD derivation path`.
 
 Replace the `truffle.js` file with this new content:
 
@@ -228,7 +228,7 @@ Replace the `truffle.js` file with this new content:
     },    tomotestnet: {
       provider: () => new HDWalletProvider(
         mnemonic,
-        "https://testnet.tomochain.com",
+        "https://testnet.Viction.com",
         0,
         1,
         true,
@@ -240,7 +240,7 @@ Replace the `truffle.js` file with this new content:
     },    tomomainnet: {
       provider: () => new HDWalletProvider(
         mnemonic,
-        "https://rpc.tomochain.com",
+        "https://rpc.Viction.com",
         0,
         1,
         true,
@@ -260,9 +260,9 @@ Replace the `truffle.js` file with this new content:
 var mnemonic = '<PUT YOUR WALLET 12-WORD RECOVERY PHRASE HERE>';
 ```
 
-Done. Please notice the `tomotestnet` network will be used to deploy our smart contract. We have also added the `tomomainnet` network, in case you want to deploy to TomoChain Mainnet. However, if you are familiar with [Ganache](https://truffleframework.com/ganache), you could use the `development` network to do the local test as well if you want to. [_Ganache_](https://truffleframework.com/ganache) _is a locally running personal blockchain for Ethereum development you can use to deploy contracts, develop applications, and run tests._
+Done. Please notice the `tomotestnet` network will be used to deploy our smart contract. We have also added the `tomomainnet` network, in case you want to deploy to Viction Mainnet. However, if you are familiar with [Ganache](https://truffleframework.com/ganache), you could use the `development` network to do the local test as well if you want to. [_Ganache_](https://truffleframework.com/ganache) _is a locally running personal blockchain for Ethereum development you can use to deploy contracts, develop applications, and run tests._
 
-We have added the migration configuration so **we are now able to deploy to public blockchains like TomoChain** (both testnet and mainnet).
+We have added the migration configuration so **we are now able to deploy to public blockchains like Viction** (both testnet and mainnet).
 
 > **Warning**: In production, we highly recommend storing the **mnemonic** in another secret file (loaded from environment variables or a secure secret management system), to reduce the risk of the mnemonic becoming known. If someone knows your mnemonic, they have all of your addresses and private keys!
 
@@ -272,7 +272,7 @@ _Want to try? With npm package `dotenv` you can load an environment variable fro
 
 You should have your smart contract already compiled. Otherwise, now it’s a good time to do it with `truffle compile`.
 
-Back in our terminal, migrate the contract to **TomoChain testnet** network:
+Back in our terminal, migrate the contract to **Viction testnet** network:
 
 ```
 truffle migrate --network tomotestnet
@@ -331,15 +331,15 @@ The contract address is:
 0xB4Bb4FebdA9ec02427767FFC86FfbC6C05Da2A73
 ```
 
-**Congratulations!** You have already deployed your smart contract to TomoChain. All this in just 8 seconds. We started with `30 TOMO` and the deployment has costed `5.38 TOMO` in gas fees.
+**Congratulations!** You have already deployed your smart contract to Viction. All this in just 8 seconds. We started with `30 VIC` and the deployment has costed `5.38 VIC` in gas fees.
 
-> **Note:** The command to deploy to **TomoChain mainnet** is very similar:\
+> **Note:** The command to deploy to **Viction mainnet** is very similar:\
 > ` truffle migrate --network`` `` `**`tomomainnet`**
 
 ### \*\*\* Troubleshooting \*\*\* <a href="#4dbb" id="4dbb"></a>
 
-* **Error: `smart contract creation cost is under allowance`**. **Why?** Increasing transaction fees for smart contract creation is one of the ways TomoChain defends against spamming attacks. **Solution:** edit `truffle.js` and add more gas/gas Price to deploy.
-* **Error: `insufficient funds for gas * price + value`. Why?** You don’t have enough tokens in your wallet for gas fees. **Solution:** you need more funds in your wallet to deploy, go to [faucet](https://faucet.testnet.tomochain.com/) and get more tokens.
+* **Error: `smart contract creation cost is under allowance`**. **Why?** Increasing transaction fees for smart contract creation is one of the ways Viction defends against spamming attacks. **Solution:** edit `truffle.js` and add more gas/gas Price to deploy.
+* **Error: `insufficient funds for gas * price + value`. Why?** You don’t have enough tokens in your wallet for gas fees. **Solution:** you need more funds in your wallet to deploy, go to [faucet](https://faucet.testnet.Viction.com/) and get more tokens.
 
 ### 6.4 Check the deployment transaction <a href="#0b1e" id="0b1e"></a>
 
@@ -349,9 +349,9 @@ You should see details about the transaction, including the block number where t
 
 ![](<../.gitbook/assets/image (32).png>)
 
-You can also enter your wallet address on the TomoScan search bar. You will find 4 transactions out. Your contract has been successfully deployed to TomoChain.
+You can also enter your wallet address on the TomoScan search bar. You will find 4 transactions out. Your contract has been successfully deployed to Viction.
 
-**Congratulations!** You’ve deployed your contract to TomoChain using Truffle. You have written your first smart contract and deployed it to a public blockchain. It’s time to interact with our smart contract now to make sure it does what we want.
+**Congratulations!** You’ve deployed your contract to Viction using Truffle. You have written your first smart contract and deployed it to a public blockchain. It’s time to interact with our smart contract now to make sure it does what we want.
 
 ## 7. Testing the smart contract <a href="#8f62" id="8f62"></a>
 
@@ -359,7 +359,7 @@ It is a good idea to test your smart contracts. You can write some tests in the 
 
 ## 8. Creating a user interface to interact with the smart contract <a href="#5a54" id="5a54"></a>
 
-Now **we’ve created the smart contract and deployed it to TomoChain blockchain (testnet).** It’s time to create a UI so that people can use the shop!
+Now **we’ve created the smart contract and deployed it to Viction blockchain (testnet).** It’s time to create a UI so that people can use the shop!
 
 Included with the `pet-shop` Truffle Box was code for the app’s front-end. That code exists within the `src/` directory.
 
@@ -489,15 +489,15 @@ Now we’re ready to use our Dapp!
 
 4\. Now we’re connected to the Ethereum network,with a brand new wallet with 0 ETH.
 
-5\. Let’s now connect MetaMask to TomoChain (testnet). Click the menu with the “Main Ethereum Network” and select **Custom RPC**. Use the[ Networks data from TomoChain](../developer-guide/working-with-tomochain/tomochain-testnet.md) (testnet) and click **Save**.
+5\. Let’s now connect MetaMask to Viction (testnet). Click the menu with the “Main Ethereum Network” and select **Custom RPC**. Use the[ Networks data from Viction](../developer-guide/working-with-Viction/Viction-testnet.md) (testnet) and click **Save**.
 
 ![](<../.gitbook/assets/image (52).png>)
 
-6\. The network name at the top will switch to say “TomoChain testnet”. Now that we are on TomoChain network we can import TomoChain wallets.
+6\. The network name at the top will switch to say “Viction testnet”. Now that we are on Viction network we can import Viction wallets.
 
-We could use the TOMO wallet we created previously, but better **let’s create a new TOMO wallet** and add a few TOMO tokens — _you know how to do it_.
+We could use the VIC wallet we created previously, but better **let’s create a new VIC wallet** and add a few VIC tokens — _you know how to do it_.
 
-7\. Once you have created your new TOMO wallet, **copy the private key**. Back to MetaMask, click on the top-right circle and select **Import Account.** Paste the private key and _voilà_! Your TOMO wallet is loaded in MetaMask.
+7\. Once you have created your new VIC wallet, **copy the private key**. Back to MetaMask, click on the top-right circle and select **Import Account.** Paste the private key and _voilà_! Your VIC wallet is loaded in MetaMask.
 
 ![](<../.gitbook/assets/image (36).png>)
 
@@ -534,6 +534,6 @@ And in MetaMask you’ll see the transaction listed:
 
 ![](<../.gitbook/assets/image (10).png>)
 
-**Congratulations!** You have taken a huge step to becoming a full-fledged Dapp developer. You have all the tools you need to start making more advanced Dapps and now you can make your Dapp live for others to use deploying to TomoChain.
+**Congratulations!** You have taken a huge step to becoming a full-fledged Dapp developer. You have all the tools you need to start making more advanced Dapps and now you can make your Dapp live for others to use deploying to Viction.
 
 ### &#x20;<a href="#8c4b" id="8c4b"></a>

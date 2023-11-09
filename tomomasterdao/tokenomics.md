@@ -19,9 +19,9 @@ The allocation of tokens will follow three separate phases; initial distribution
 
 The governance treasury will be used to supplement funding for the TomoMasterDAO ecosystem through rewards for voters and funding for proposals.
 
-The treasury will be time locked for a period of 2 years with the TomoChain Foundation Fund being the sole source of funding for TomoMasterDAO. After this 2 year period, the treasury will unlock and be used as additional funds to make up for the block rewards reduction on the TomoChain network. The vesting period will be 8 years for the treasury where 80% of the treasury tokens will be distributed.
+The treasury will be time locked for a period of 2 years with the Viction Foundation Fund being the sole source of funding for TomoMasterDAO. After this 2 year period, the treasury will unlock and be used as additional funds to make up for the block rewards reduction on the Viction network. The vesting period will be 8 years for the treasury where 80% of the treasury tokens will be distributed.
 
-At the end of the 10 year cycle (2 year of time-locked, and 8 year vested), the community can vote on what to do with the remaining tokens. If additional funding exceeding the vested amount if required, it will be put to a community vote. This will ensure that the token supply enters the market slowly to minimize fluctuations in price. The treasury will provide great opportunities for long-term growth and development in the TomoChain ecosystem. The use of these treasury funds will be determined by the voters and projects.
+At the end of the 10 year cycle (2 year of time-locked, and 8 year vested), the community can vote on what to do with the remaining tokens. If additional funding exceeding the vested amount if required, it will be put to a community vote. This will ensure that the token supply enters the market slowly to minimize fluctuations in price. The treasury will provide great opportunities for long-term growth and development in the Viction ecosystem. The use of these treasury funds will be determined by the voters and projects.
 
 #### Token Distribution
 

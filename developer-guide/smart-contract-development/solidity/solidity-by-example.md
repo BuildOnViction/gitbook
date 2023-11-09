@@ -64,7 +64,7 @@ contract Ballot {
     function giveRightToVote(address voter) public {
         // If the first argument of `require` evaluates
         // to `false`, execution terminates and all
-        // changes to the state and to TOMO balances
+        // changes to the state and to VIC balances
         // are reverted.
         // This used to consume all gas in old EVM versions, but
         // not anymore.
@@ -169,11 +169,11 @@ Currently, many transactions are needed to assign the rights to vote to all part
 
 ### Blind Auction
 
-In this section, we will show how easy it is to create a completely blind auction contract on TomoChain network. We will start with an open auction where everyone can see the bids that are made and then extend this contract into a blind auction where it is not possible to see the actual bid until the bidding period ends.
+In this section, we will show how easy it is to create a completely blind auction contract on Viction network. We will start with an open auction where everyone can see the bids that are made and then extend this contract into a blind auction where it is not possible to see the actual bid until the bidding period ends.
 
 #### Simple Open Auction
 
-The general idea of the following simple auction contract is that everyone can send their bids during a bidding period. The bids already include sending money / TOMO in order to bind the bidders to their bid. If the highest bid is raised, the previously highest bidder gets their money back. After the end of the bidding period, the contract has to be called manually for the beneficiary to receive their money - contracts cannot activate themselves.
+The general idea of the following simple auction contract is that everyone can send their bids during a bidding period. The bids already include sending money / VIC in order to bind the bidders to their bid. If the highest bid is raised, the previously highest bidder gets their money back. After the end of the bidding period, the contract has to be called manually for the beneficiary to receive their money - contracts cannot activate themselves.
 
 ```solidity
 pragma solidity 0.8.17;
@@ -225,7 +225,7 @@ contract SimpleAuction {
         // information is already part of
         // the transaction. The keyword payable
         // is required for the function to
-        // be able to receive TOMO.
+        // be able to receive VIC.
 
         // Revert the call if the bidding
         // period is over.
@@ -279,14 +279,14 @@ contract SimpleAuction {
     /// to the beneficiary.
     function auctionEnd() public {
         // It is a good guideline to structure functions that interact
-        // with other contracts (i.e. they call functions or send TOMO)
+        // with other contracts (i.e. they call functions or send VIC)
         // into three phases:
         // 1. checking conditions
         // 2. performing actions (potentially changing conditions)
         // 3. interacting with other contracts
         // If these phases are mixed up, the other contract could call
         // back into the current contract and modify the state or cause
-        // effects (TOMO payout) to be performed multiple times.
+        // effects (VIC payout) to be performed multiple times.
         // If functions called internally include interaction with external
         // contracts, they also have to be considered interaction with
         // external contracts.
@@ -311,7 +311,7 @@ The previous open auction is extended to a blind auction in the following. The a
 
 During the **bidding period**, a bidder does not actually send their bid, but only a hashed version of it. Since it is currently considered practically impossible to find two (sufficiently long) values whose hash values are equal, the bidder commits to the bid by that. After the end of the bidding period, the bidders have to reveal their bids: They send their values unencrypted and the contract checks that the hash value is the same as the one provided during the bidding period.
 
-Another challenge is how to make the auction **binding and blind** at the same time: The only way to prevent the bidder from just not sending the money after they won the auction is to make them send it together with the bid. Since value transfers cannot be blinded in TomoChain, anyone can see the value.
+Another challenge is how to make the auction **binding and blind** at the same time: The only way to prevent the bidder from just not sending the money after they won the auction is to make them send it together with the bid. Since value transfers cannot be blinded in Viction, anyone can see the value.
 
 The following contract solves this problem by accepting any value that is larger than the highest bid. Since this can of course only be checked during the reveal phase, some bids might be **invalid**, and this is on purpose (it even provides an explicit flag to place invalid bids with high value transfers): Bidders can confuse competition by placing several high or low invalid bids.
 
@@ -358,9 +358,9 @@ contract BlindAuction {
 
     /// Place a blinded bid with `_blindedBid` =
     /// keccak256(abi.encodePacked(value, fake, secret)).
-    /// The sent TOMO is only refunded if the bid is correctly
+    /// The sent VIC is only refunded if the bid is correctly
     /// revealed in the revealing phase. The bid is valid if the
-    /// TOMO sent together with the bid is at least "value" and
+    /// VIC sent together with the bid is at least "value" and
     /// "fake" is not true. Setting "fake" to true and sending
     /// not the exact amount are ways to hide the real bid but
     /// still make the required deposit. The same address can
@@ -524,7 +524,7 @@ contract Purchase {
         require((2 * value) == msg.value, "Value has to be even.");
     }
 
-    /// Abort the purchase and reclaim the TOMO.
+    /// Abort the purchase and reclaim the VIC.
     /// Can only be called by the seller before
     /// the contract is locked.
     function abort()
@@ -542,8 +542,8 @@ contract Purchase {
     }
 
     /// Confirm the purchase as buyer.
-    /// Transaction has to include `2 * value` TOMO.
-    /// The TOMO will be locked until confirmReceived
+    /// Transaction has to include `2 * value` VIC.
+    /// The VIC will be locked until confirmReceived
     /// is called.
     function confirmPurchase()
         public
@@ -557,7 +557,7 @@ contract Purchase {
     }
 
     /// Confirm that you (the buyer) received the item.
-    /// This will release the locked TOMO.
+    /// This will release the locked VIC.
     function confirmReceived()
         public
         onlyBuyer
@@ -592,26 +592,26 @@ contract Purchase {
 
 ### Micropayment Channel
 
-In this section we will learn how to build an example implementation of a payment channel. It uses cryptographic signatures to make repeated transfers of TOMO between the same parties secure, instantaneous, and without transaction fees. For the example, we need to understand how to sign and verify signatures, and setup the payment channel.
+In this section we will learn how to build an example implementation of a payment channel. It uses cryptographic signatures to make repeated transfers of VIC between the same parties secure, instantaneous, and without transaction fees. For the example, we need to understand how to sign and verify signatures, and setup the payment channel.
 
 #### Creating and verifying signatures
 
-Imagine Alice wants to send a quantity of TOMO to Bob, e.g. Alice is the sender and the Bob is the recipient.
+Imagine Alice wants to send a quantity of VIC to Bob, e.g. Alice is the sender and the Bob is the recipient.
 
 Alice only needs to send cryptographically signed messages off-chain (e.g. via email) to Bob and it is similar to writing checks.
 
-Alice and Bob use signatures to authorise transactions, which is possible with smart contracts on TomoChain. Alice will build a simple smart contract that lets her transmit TOMO, but instead of calling a function herself to initiate a payment, she will let Bob do that, and therefore pay the transaction fee.
+Alice and Bob use signatures to authorise transactions, which is possible with smart contracts on Viction. Alice will build a simple smart contract that lets her transmit VIC, but instead of calling a function herself to initiate a payment, she will let Bob do that, and therefore pay the transaction fee.
 
 The contract will work as follows:
 
-> 1. Alice deploys the `ReceiverPays` contract, attaching enough TOMO to cover the payments that will be made.
+> 1. Alice deploys the `ReceiverPays` contract, attaching enough VIC to cover the payments that will be made.
 > 2. Alice authorises a payment by signing a message with their private key.
 > 3. Alice sends the cryptographically signed message to Bob. The message does not need to be kept secret (explained later), and the mechanism for sending it does not matter.
 > 4. Bob claims their payment by presenting the signed message to the smart contract, it verifies the authenticity of the message and then releases the funds.
 
 **Creating the signature**
 
-Alice does not need to interact with the TomoChain network to sign the transaction, the process is completely offline. In this tutorial, we will sign messages in the browser using [web3.js](https://github.com/ethereum/web3.js) and [MetaMask](https://metamask.io/), using the method described in [EIP-712](https://github.com/ethereum/EIPs/pull/712), as it provides a number of other security benefits.
+Alice does not need to interact with the Viction network to sign the transaction, the process is completely offline. In this tutorial, we will sign messages in the browser using [web3.js](https://github.com/ethereum/web3.js) and [MetaMask](https://metamask.io/), using the method described in [EIP-712](https://github.com/ethereum/EIPs/pull/712), as it provides a number of other security benefits.
 
 ```javascript
 /// Hashing first makes things easier
@@ -631,7 +631,7 @@ For a contract that fulfils payments, the signed message must include:
 > 2. The amount to be transferred.
 > 3. Protection against replay attacks.
 
-A replay attack is when a signed message is reused to claim authorization for a second action. To avoid replay attacks we use the same as in TomoChain transactions themselves, a so-called nonce, which is the number of transactions sent by an account. The smart contract checks if a nonce is used multiple times.
+A replay attack is when a signed message is reused to claim authorization for a second action. To avoid replay attacks we use the same as in Viction transactions themselves, a so-called nonce, which is the number of transactions sent by an account. The smart contract checks if a nonce is used multiple times.
 
 Another type of replay attack can occur when the owner deploys a `ReceiverPays` smart contract, makes some payments, and then destroys the contract. Later, they decide to deploy the `RecipientPays` smart contract again, but the new contract does not know the nonces used in the previous deployment, so the attacker can use the old messages again.
 
@@ -643,7 +643,7 @@ Now that we have identified what information to include in the signed message, w
 
 ```javascript
 // recipient is the address that should be paid.
-// amount, in wei, specifies how much TOMO should be sent.
+// amount, in wei, specifies how much VIC should be sent.
 // nonce can be any unique number to prevent replay attacks
 // contractAddress is used to prevent cross-contract replay attacks
 function signPayment(recipient, amount, nonce, contractAddress, callback) {
@@ -658,7 +658,7 @@ function signPayment(recipient, amount, nonce, contractAddress, callback) {
 
 **Recovering the Message Signer in Solidity**
 
-In general, ECDSA signatures consist of two parameters, `r` and `s`. Signatures in TomoChain include a third parameter called `v`, that you can use to verify which account’s private key was used to sign the message, and the transaction’s sender. Solidity provides a built-in function [ecrecover](https://solidity.readthedocs.io/en/v0.6.3/mathematical-and-cryptographic-functions) that accepts a message along with the `r`, `s` and `v` parameters and returns the address that was used to sign the message.
+In general, ECDSA signatures consist of two parameters, `r` and `s`. Signatures in Viction include a third parameter called `v`, that you can use to verify which account’s private key was used to sign the message, and the transaction’s sender. Solidity provides a built-in function [ecrecover](https://solidity.readthedocs.io/en/v0.6.3/mathematical-and-cryptographic-functions) that accepts a message along with the `r`, `s` and `v` parameters and returns the address that was used to sign the message.
 
 **Extracting the Signature Parameters**
 
@@ -737,36 +737,36 @@ contract ReceiverPays {
 
 #### Writing a Simple Payment Channel
 
-Alice now builds a simple but complete implementation of a payment channel. Payment channels use cryptographic signatures to make repeated transfers of TOMO securely, instantaneously, and without transaction fees.
+Alice now builds a simple but complete implementation of a payment channel. Payment channels use cryptographic signatures to make repeated transfers of VIC securely, instantaneously, and without transaction fees.
 
 **What is a Payment Channel?**
 
-Payment channels allow participants to make repeated transfers of TOMO without using transactions. This means that you can avoid the delays and fees associated with transactions. We are going to explore a simple unidirectional payment channel between two parties (Alice and Bob). It involves three steps:
+Payment channels allow participants to make repeated transfers of VIC without using transactions. This means that you can avoid the delays and fees associated with transactions. We are going to explore a simple unidirectional payment channel between two parties (Alice and Bob). It involves three steps:
 
-> 1. Alice funds a smart contract with TOMO. This “opens” the payment channel.
-> 2. Alice signs messages that specify how much of that TOMO is owed to the recipient. This step is repeated for each payment.
-> 3. Bob “closes” the payment channel, withdrawing their portion of the TOMO and sending the remainder back to the sender.
+> 1. Alice funds a smart contract with VIC. This “opens” the payment channel.
+> 2. Alice signs messages that specify how much of that VIC is owed to the recipient. This step is repeated for each payment.
+> 3. Bob “closes” the payment channel, withdrawing their portion of the VIC and sending the remainder back to the sender.
 
 Note
 
-Only steps 1 and 3 require TomoChain transactions, step 2 means that the sender transmits a cryptographically signed message to the recipient via off chain methods (e.g. email). This means only two transactions are required to support any number of transfers.
+Only steps 1 and 3 require Viction transactions, step 2 means that the sender transmits a cryptographically signed message to the recipient via off chain methods (e.g. email). This means only two transactions are required to support any number of transfers.
 
-Bob is guaranteed to receive their funds because the smart contract escrows the TOMO and honours a valid signed message. The smart contract also enforces a timeout, so Alice is guaranteed to eventually recover their funds even if the recipient refuses to close the channel. It is up to the participants in a payment channel to decide how long to keep it open. For a short-lived transaction, such as paying an internet café for each minute of network access, the payment channel may be kept open for a limited duration. On the other hand, for a recurring payment, such as paying an employee an hourly wage, the payment channel may be kept open for several months or years.
+Bob is guaranteed to receive their funds because the smart contract escrows the VIC and honours a valid signed message. The smart contract also enforces a timeout, so Alice is guaranteed to eventually recover their funds even if the recipient refuses to close the channel. It is up to the participants in a payment channel to decide how long to keep it open. For a short-lived transaction, such as paying an internet café for each minute of network access, the payment channel may be kept open for a limited duration. On the other hand, for a recurring payment, such as paying an employee an hourly wage, the payment channel may be kept open for several months or years.
 
 **Opening the Payment Channel**
 
-To open the payment channel, Alice deploys the smart contract, attaching the TOMO to be escrowed and specifying the intended recipient and a maximum duration for the channel to exist. This is the function `SimplePaymentChannel` in the contract, at the end of this section.
+To open the payment channel, Alice deploys the smart contract, attaching the VIC to be escrowed and specifying the intended recipient and a maximum duration for the channel to exist. This is the function `SimplePaymentChannel` in the contract, at the end of this section.
 
 **Making Payments**
 
-Alice makes payments by sending signed messages to Bob. This step is performed entirely outside of the TomoChain network. Messages are cryptographically signed by the sender and then transmitted directly to the recipient.
+Alice makes payments by sending signed messages to Bob. This step is performed entirely outside of the Viction network. Messages are cryptographically signed by the sender and then transmitted directly to the recipient.
 
 Each message includes the following information:
 
 > * The smart contract’s address, used to prevent cross-contract replay attacks.
-> * The total amount of TOMO that is owed the recipient so far.
+> * The total amount of VIC that is owed the recipient so far.
 
-A payment channel is closed just once, at the end of a series of transfers. Because of this, only one of the messages sent is redeemed. This is why each message specifies a cumulative total amount of TOMO owed, rather than the amount of the individual micropayment. The recipient will naturally choose to redeem the most recent message because that is the one with the highest total. The nonce per-message is not needed anymore, because the smart contract only honours a single message. The address of the smart contract is still used to prevent a message intended for one payment channel from being used for a different channel.
+A payment channel is closed just once, at the end of a series of transfers. Because of this, only one of the messages sent is redeemed. This is why each message specifies a cumulative total amount of VIC owed, rather than the amount of the individual micropayment. The recipient will naturally choose to redeem the most recent message because that is the one with the highest total. The nonce per-message is not needed anymore, because the smart contract only honours a single message. The address of the smart contract is still used to prevent a message intended for one payment channel from being used for a different channel.
 
 Here is the modified JavaScript code to cryptographically sign a message from the previous section:
 
@@ -787,7 +787,7 @@ function signMessage(message, callback) {
 }
 
 // contractAddress is used to prevent cross-contract replay attacks.
-// amount, in wei, specifies how much TOMO should be sent.
+// amount, in wei, specifies how much VIC should be sent.
 
 function signPayment(contractAddress, amount, callback) {
     var message = constructPaymentMessage(contractAddress, amount);
@@ -797,19 +797,19 @@ function signPayment(contractAddress, amount, callback) {
 
 **Closing the Payment Channel**
 
-When Bob is ready to receive their funds, it is time to close the payment channel by calling a `close` function on the smart contract. Closing the channel pays the recipient the TOMO they are owed and destroys the contract, sending any remaining TOMO back to Alice. To close the channel, Bob needs to provide a message signed by Alice.
+When Bob is ready to receive their funds, it is time to close the payment channel by calling a `close` function on the smart contract. Closing the channel pays the recipient the VIC they are owed and destroys the contract, sending any remaining VIC back to Alice. To close the channel, Bob needs to provide a message signed by Alice.
 
 The smart contract must verify that the message contains a valid signature from the sender. The process for doing this verification is the same as the process the recipient uses. The Solidity functions `isValidSignature` and `recoverSigner` work just like their JavaScript counterparts in the previous section, with the latter function borrowed from the `ReceiverPays` contract.
 
 Only the payment channel recipient can call the `close` function, who naturally passes the most recent payment message because that message carries the highest total owed. If the sender were allowed to call this function, they could provide a message with a lower amount and cheat the recipient out of what they are owed.
 
-The function verifies the signed message matches the given parameters. If everything checks out, the recipient is sent their portion of the TOMO, and the sender is sent the rest via a `selfdestruct`. You can see the `close` function in the full contract.
+The function verifies the signed message matches the given parameters. If everything checks out, the recipient is sent their portion of the VIC, and the sender is sent the rest via a `selfdestruct`. You can see the `close` function in the full contract.
 
 **Channel Expiration**
 
 Bob can close the payment channel at any time, but if they fail to do so, Alice needs a way to recover their escrowed funds. An _expiration_ time was set at the time of contract deployment. Once that time is reached, Alice can call `claimTimeout` to recover their funds. You can see the `claimTimeout` function in the full contract.
 
-After this function is called, Bob can no longer receive any TOMO, so it is important that Bob closes the channel before the expiration is reached.
+After this function is called, Bob can no longer receive any VIC, so it is important that Bob closes the channel before the expiration is reached.
 
 **The full contract**
 
@@ -850,7 +850,7 @@ contract SimplePaymentChannel {
     }
 
     /// if the timeout is reached without the recipient closing the channel,
-    /// then the TOMO is released back to the sender.
+    /// then the VIC is released back to the sender.
     function claimTimeout() public {
         require(block.timestamp >= expiration);
         selfdestruct(sender);
@@ -918,7 +918,7 @@ The recipient should verify each message using the following process:
 
 > 1. Verify that the contact address in the message matches the payment channel.
 > 2. Verify that the new total is the expected amount.
-> 3. Verify that the new total does not exceed the amount of TOMO escrowed.
+> 3. Verify that the new total does not exceed the amount of VIC escrowed.
 > 4. Verify that the signature is valid and comes from the payment channel sender.
 
 We’ll use the [ethereumjs-util](https://github.com/ethereumjs/ethereumjs-util) library to write this verification. The final step can be done a number of ways, and we use JavaScript. The following code borrows the constructMessage function from the signing **JavaScript code** above:

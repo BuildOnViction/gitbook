@@ -84,7 +84,7 @@ The source code above is just an example to illustrate how your source code look
 
 Solidity is a compiled language, meaning we need to compile our Solidity to bytecode for the **Ethereum Virtual Machine (EVM)** to execute. Think of it as translating our human-readable Solidity into something the EVM understands.
 
-> TomoChain is EVM-compatible, which means that every contract written in Ethereum can be seamlessly ported to TomoChain without effort.
+> Viction is EVM-compatible, which means that every contract written in Ethereum can be seamlessly ported to Viction without effort.
 
 To compile the contract run `npx hardhat compile` in your terminal. The `compile` task is one of the built-in tasks.
 

@@ -1,7 +1,7 @@
 ---
 description: >-
   We made a simple command line interface called tmn to easily and quickly start
-  a TomoChain Masternode
+  a Viction Masternode
 ---
 
 # Tmn
@@ -33,7 +33,7 @@ To check if you have installed the right Python version (must be greater than 3.
 python3 --version
 ```
 
-![tmn python](https://docs.tomochain.com/assets/tmn\_python.png)
+![tmn python](https://docs.Viction.com/assets/tmn\_python.png)
 
 #### Installation of Docker CE <a href="#installation-of-docker-ce" id="installation-of-docker-ce"></a>
 
@@ -119,13 +119,13 @@ When you first start your full node with tmn, you need to give some information.
 
 `--name`: The name of your full node. It should be formatted as a slug string. Slug format authorize all letters and numbers, dashes ("-") and underscores ("\_"). You can name it to reflect your identity, company name, etc.
 
-`--net`: The network your full node will connect to. You can choose here to connect it to the TomoChain Testnet or Mainnet.
+`--net`: The network your full node will connect to. You can choose here to connect it to the Viction Testnet or Mainnet.
 
-`--pkey`: The private key of the account that your full node will use. A TomoChain full node uses an account to be uniquely identified and to receive transaction fee.
+`--pkey`: The private key of the account that your full node will use. A Viction full node uses an account to be uniquely identified and to receive transaction fee.
 
 **Important note:**
 
-We advise, for security measures, to use a fresh new account for your Masternode. This is not the account who will receive the rewards. The rewards are sent to the account who will make the 50,000 TOMO initial deposit.
+We advise, for security measures, to use a fresh new account for your Masternode. This is not the account who will receive the rewards. The rewards are sent to the account who will make the 50,000 VIC initial deposit.
 
 `--api`: Expose RPC and websocket on ports `8545` and `8546`.
 
@@ -139,7 +139,7 @@ It could look like this:
 tmn start --name [YOUR_NODE_NAME] --net testnet --pkey [YOUR_COINBASE_PRIVATE_KEY] --api
 ```
 
-Once started, you should see your node on the [stats page](https://stats.testnet.tomochain.com/)!
+Once started, you should see your node on the [stats page](https://stats.testnet.Viction.com/)!
 
 Note: It can take up to one hour to properly sync the entire blockchain.
 

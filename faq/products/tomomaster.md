@@ -4,15 +4,15 @@
 
 ### **What is TomoMaster?**
 
-[TomoMaster](https://master.tomochain.com/), the 'Governance Dapp', provides a professional UI that lists all Masternodes and Masternode Candidates. Users can vote for Masternodes, see Masternode performance statistics, and deposit 50K TOMO to become a Masternode Candidate.
+[TomoMaster](https://master.Viction.com/), the 'Governance Dapp', provides a professional UI that lists all Masternodes and Masternode Candidates. Users can vote for Masternodes, see Masternode performance statistics, and deposit 50K VIC to become a Masternode Candidate.
 
 ### **How do I login on TomoMaster?**
 
-Go to [TomoMaster](http://master.tomochain.com). On the top-right corner click 'Login'. Then select how you want to login: with TomoWallet, with Ledger, with Trezor, with Metamask, TrustWallet or Private Key/Mnemonic.
+Go to [TomoMaster](http://master.Viction.com). On the top-right corner click 'Login'. Then select how you want to login: with TomoWallet, with Ledger, with Trezor, with Metamask, TrustWallet or Private Key/Mnemonic.
 
 ### **What is the 'capacity' of a Candidate/Masternode?**
 
-The capacity of a candidate is the 50K TOMO initial deposit plus the total amount of TOMO voted for that candidate.
+The capacity of a candidate is the 50K VIC initial deposit plus the total amount of VIC voted for that candidate.
 
 ### **Which of these numbers on TomoMaster will tell us which is a good performing node vs poorly performing?**
 
@@ -56,11 +56,11 @@ Voters who want to stake their tokens to a Masternode should simply click ‘Vot
 
 #### Unvoting <a href="#unvoting" id="unvoting"></a>
 
-If you do not want to support a Masternode you voted for, you can unvote from it by clicking the Unvote button on the Masternode's page and enter the amount of TOMO you want to unvote.
+If you do not want to support a Masternode you voted for, you can unvote from it by clicking the Unvote button on the Masternode's page and enter the amount of VIC you want to unvote.
 
-`Warning: After unvoting, your TOMO will be locked in the smart contract for 48 hours before you are able to withdraw.`
+`Warning: After unvoting, your VIC will be locked in the smart contract for 48 hours before you are able to withdraw.`
 
-### [Candidate](https://master.tomochain.com/candidate/0x3e3d98a26deef510b720967f4c4dbc88f308a994) <a href="#candidate" id="candidate"></a>
+### [Candidate](https://master.Viction.com/candidate/0x3e3d98a26deef510b720967f4c4dbc88f308a994) <a href="#candidate" id="candidate"></a>
 
 #### General Information <a href="#general-information" id="general-information"></a>
 
@@ -76,13 +76,13 @@ The rewards section shows the estimated rewards the Masternode has been receivin
 
 #### Voters <a href="#voters" id="voters"></a>
 
-Under the section for voters, you can see the list of TOMO stakers who have voted for this candidate.
+Under the section for voters, you can see the list of VIC stakers who have voted for this candidate.
 
 #### Transactions <a href="#transactions" id="transactions"></a>
 
 In this section, you can see all transactions of this candidate.
 
-### [Voter](https://master.tomochain.com/voter/0x82d83629f48b690226af91547cbfbfc8a52b73e6) <a href="#voter" id="voter"></a>
+### [Voter](https://master.Viction.com/voter/0x82d83629f48b690226af91547cbfbfc8a52b73e6) <a href="#voter" id="voter"></a>
 
 #### General Information <a href="#general-information_1" id="general-information_1"></a>
 
@@ -98,25 +98,25 @@ The candidates section shows all Masternode Candidates that have been voted by t
 
 The rewards section shows the rewards the voter has been receiving.
 
-`Tip: If you voted an equal amount of TOMO for different masternodes and you see one is giving fewer rewards, you may have voted for a masternode with performance issues and should consider changing your vote.`
+`Tip: If you voted an equal amount of VIC for different masternodes and you see one is giving fewer rewards, you may have voted for a masternode with performance issues and should consider changing your vote.`
 
 #### Transactions <a href="#transactions_1" id="transactions_1"></a>
 
 This section shows all transactions by the voter.
 
-### [Settings](https://master.tomochain.com/setting) <a href="#settings" id="settings"></a>
+### [Settings](https://master.Viction.com/setting) <a href="#settings" id="settings"></a>
 
 #### Network Provider <a href="#network-provider" id="network-provider"></a>
 
-Use settings to select the network provider you are using for TomoMaster (e.g., Metamask, TomoChain Testnet, Custom Network).
+Use settings to select the network provider you are using for TomoMaster (e.g., Metamask, Viction Testnet, Custom Network).
 
 #### Account Info <a href="#account-infos" id="account-infos"></a>
 
-This section will show you information about your public address and TOMO balance.
+This section will show you information about your public address and VIC balance.
 
-### [Apply](https://master.tomochain.com/apply) <a href="#apply" id="apply"></a>
+### [Apply](https://master.Viction.com/apply) <a href="#apply" id="apply"></a>
 
-This web page is used by TOMO holders looking to apply to become a Masternode Candidate.
+This web page is used by VIC holders looking to apply to become a Masternode Candidate.
 
 ### Search <a href="#search" id="search"></a>
 

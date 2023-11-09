@@ -1,5 +1,5 @@
 ---
-description: This guide shows how to connect Metamask to the TomoChain Mainnet.
+description: This guide shows how to connect Metamask to the Viction Mainnet.
 ---
 
 # Metamask
@@ -16,9 +16,9 @@ First install the[ MetaMask Extension](https://metamask.io/) on Chrome or Brave 
 
 | <p><br></p>        | Mainnet                   | Testnet                            |
 | ------------------ | ------------------------- | ---------------------------------- |
-| New RPC URL        | https://rpc.tomochain.com | https://rpc.testnet.tomochain.com  |
+| New RPC URL        | https://rpc.Viction.com | https://rpc.testnet.Viction.com  |
 | ChainID            | 88 or 0x58                | 89                                 |
-| Symbol             | TOMO                      | TOMO                               |
-| Nickname           | TomoChain                 | TomoChain Testnet                  |
-| Block Explorer URL | https://tomoscan.io       | https://scan.testnet.tomochain.com |
+| Symbol             | VIC                      | VIC                               |
+| Nickname           | Viction                 | Viction Testnet                  |
+| Block Explorer URL | https://tomoscan.io       | https://scan.testnet.Viction.com |
 

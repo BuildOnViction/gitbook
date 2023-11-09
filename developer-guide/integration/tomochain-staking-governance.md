@@ -1,11 +1,11 @@
-# TomoChain Staking Governance
+# Viction Staking Governance
 
-Masternodes and Voters' funds are locked and governed in the [TomoChain Validator smart contract](https://tomoscan.io/address/0x0000000000000000000000000000000000000088):
+Masternodes and Voters' funds are locked and governed in the [Viction Validator smart contract](https://tomoscan.io/address/0x0000000000000000000000000000000000000088):
 
-* Smart Contract Code: [TomoChain Validator](https://github.com/tomochain/tomomaster/blob/master/contracts/TomoValidator.sol)
-* Smart Contract ABI: [TomoValidatorAbi.json](https://raw.githubusercontent.com/tomochain/tomomaster/master/abis/TomoValidatorAbi.json)
+* Smart Contract Code: [Viction Validator](https://github.com/Viction/tomomaster/blob/master/contracts/TomoValidator.sol)
+* Smart Contract ABI: [TomoValidatorAbi.json](https://raw.githubusercontent.com/Viction/tomomaster/master/abis/TomoValidatorAbi.json)
 
-TomoChain Validator Smart Contract Interface:
+Viction Validator Smart Contract Interface:
 
 ```solidity
 // apply a new masternode candidate
@@ -40,22 +40,22 @@ function getWithdrawBlockNumbers() public view returns(uint256[]);
 function getWithdrawCap(uint256 _blockNumber) public view returns(uint256);
 ```
 
-TomoChain provides RPC APIs that can be used with Web3 library to directly call the functions in the smart contract.
+Viction provides RPC APIs that can be used with Web3 library to directly call the functions in the smart contract.
 
 You can follow the steps below to interact with the smart contract by using Web3 library and NodeJS.
 
 \
 **Init Web3 Provider**
 
-At the first step, you need init Web3 provider by connecting TomoChain Fullnode RPC endpoint.
+At the first step, you need init Web3 provider by connecting Viction Fullnode RPC endpoint.
 
 ```javascript
 const Web3 = require('web3')
-const web3 = new Web3('https://rpc.tomochain.com')
+const web3 = new Web3('https://rpc.Viction.com')
 const chainId = 88
 ```
 
-For testnet/mainnet details, you can get network information [here](../working-with-tomochain/)
+For testnet/mainnet details, you can get network information [here](../working-with-Viction/)
 
 ### Unlock Wallet <a href="#unlock-wallet" id="unlock-wallet"></a>
 
@@ -71,7 +71,7 @@ web3.eth.accounts.wallet.add(account)
 web3.eth.defaultAccount = owner
 ```
 
-### Init Web3 TomoChain Validator Contract <a href="#init-web3-tomochain-validator-contract" id="init-web3-tomochain-validator-contract"></a>
+### Init Web3 Viction Validator Contract <a href="#init-web3-Viction-validator-contract" id="init-web3-Viction-validator-contract"></a>
 
 ```javascript
 const validatorAbi = require('./TomoValidatorAbi.json')
@@ -80,11 +80,11 @@ const validator = new web3.eth.Contract(validatorAbi,
         address, {gasPrice: 250000000, gas: 2000000 })
 ```
 
-Note: you can get TomoValidatorAbi.json [here](https://raw.githubusercontent.com/tomochain/tomomaster/master/abis/TomoValidatorAbi.json)
+Note: you can get TomoValidatorAbi.json [here](https://raw.githubusercontent.com/Viction/tomomaster/master/abis/TomoValidatorAbi.json)
 
 ### Propose/Apply a Candidate <a href="#proposeapply-a-candidate" id="proposeapply-a-candidate"></a>
 
-Masternode owners need to have at least 50,000 TOMO to apply to become a Masternode Candidate. Make sure to have > 50,000 TOMO in the Masternode owner wallet in order to deposit it into the smart contract and pay the related transaction fee.
+Masternode owners need to have at least 50,000 VIC to apply to become a Masternode Candidate. Make sure to have > 50,000 VIC in the Masternode owner wallet in order to deposit it into the smart contract and pay the related transaction fee.
 
 Apply to become a Masternode Candidate by calling `propose` function from the smart contract
 
@@ -96,7 +96,7 @@ const coinbase = "0xf8ac9d5022853c5847ef75aea0104eed09e5f402"
 
 validator.methods.propose(coinbase).send({
     from : owner,
-    value: '50000000000000000000000', // 50000 TOMO
+    value: '50000000000000000000000', // 50000 VIC
     gas: 2000000,
     gasPrice: 250000000,
     chainId: chainId
@@ -106,20 +106,20 @@ validator.methods.propose(coinbase).send({
 }).catch(e => console.log(e))
 ```
 
-Refer to [Staking TomoChain script](https://gist.github.com/thanhson1085/7a6471ea0d6c0d6321a0454789d6266c)
+Refer to [Staking Viction script](https://gist.github.com/thanhson1085/7a6471ea0d6c0d6321a0454789d6266c)
 
 ### Stake/Vote for a Candidate <a href="#stakevote-a-candidate" id="stakevote-a-candidate"></a>
 
-Stake at least 100 TOMO for a node by calling `vote` function from the smart contract.
+Stake at least 100 VIC for a node by calling `vote` function from the smart contract.
 
 **Example**
 
-Stake 500 TOMO to a node.
+Stake 500 VIC to a node.
 
 ```javascript
 validator.methods.vote(coinbase).send({
     from: owner,
-    value: '500000000000000000000', // 500 TOMO
+    value: '500000000000000000000', // 500 VIC
     gas: 2000000,
     gasPrice: 250000000,
     chainId: chainId
@@ -134,7 +134,7 @@ validator.methods.vote(coinbase).send({
 You can unstake by calling `unvote` function from the smart contract
 
 ```javascript
-const cap = '500000000000000000000' // unvote 500 TOMO
+const cap = '500000000000000000000' // unvote 500 VIC
 
 validator.methods.unvote(coinbase, cap).send({
     from : owner,
@@ -161,9 +161,9 @@ validator.methods.resign(coinbase).send({
 }).catch(e => console.log(e))
 ```
 
-### Withdraw TOMO <a href="#withdraw-tomo" id="withdraw-tomo"></a>
+### Withdraw VIC <a href="#withdraw-tomo" id="withdraw-tomo"></a>
 
-You need to wait for 96 epochs (to unvote), 30 days (to resign) to unlock your staked TOMO
+You need to wait for 96 epochs (to unvote), 30 days (to resign) to unlock your staked VIC
 
 **Example**
 
@@ -219,18 +219,18 @@ console.log(withdraws)
 
 ### Get list Candidates <a href="#get-list-candidates" id="get-list-candidates"></a>
 
-You can get list Candidates from [RPC endpoint](https://apidocs.tomochain.com/?shell#eth\_getcandidates):
+You can get list Candidates from [RPC endpoint](https://apidocs.Viction.com/?shell#eth\_getcandidates):
 
 ```bash
-curl https://rpc.tomochain.com \
+curl https://rpc.Viction.com \
     -X POST \
     -H "Content-Type: application/json" \
     -d '{"jsonrpc":"2.0","method":"eth_getCandidates","params": ["latest"],"id":1}'
 ```
 
-Or [get list candidates from TomoMaster](https://apidocs.tomochain.com/?shell#tomomaster-apis-candidates):
+Or [get list candidates from TomoMaster](https://apidocs.Viction.com/?shell#tomomaster-apis-candidates):
 
 ```bash
-curl -X GET https://master.tomochain.com/api/candidates \
+curl -X GET https://master.Viction.com/api/candidates \
   -H 'Accept: application/json'
 ```

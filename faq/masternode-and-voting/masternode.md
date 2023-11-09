@@ -1,26 +1,26 @@
 # Masternodes
 
-### **Does TomoChain have Masternodes? How do they work?**
+### **Does Viction have Masternodes? How do they work?**
 
-Yes, TomoChain has a maximum of 150 Masternodes with Proof of Stake Voting (POSV) consensus that enable low transaction fees, and instant transaction confirmation. Masternodes create, verify and validate new blocks one the TomoChain blockchain.
+Yes, Viction has a maximum of 150 Masternodes with Proof of Stake Voting (POSV) consensus that enable low transaction fees, and instant transaction confirmation. Masternodes create, verify and validate new blocks one the Viction blockchain.
 
-* **Masternode Candidates:** Any account can deposit 50,000 TOMO using [TomoMaster](https://master.tomochain.com/) to become a Masternode candidate. A candidate can resign, but the tokens will be locked for the next 30 days (1,296,000 blocks) after the resignation.
+* **Masternode Candidates:** Any account can deposit 50,000 VIC using [TomoMaster](https://master.Viction.com/) to become a Masternode candidate. A candidate can resign, but the tokens will be locked for the next 30 days (1,296,000 blocks) after the resignation.
 * **Becoming a Masternode:** A Candidate becomes a Masternode when he/she belongs to the top 150 most voted Candidates in each epoch. A Masternode can resign, but the tokens will be locked for the next 30 days after the resignation.
 * **Rewards:** The rewards a Masternode receives in each epoch is proportional to the number of signatures it signs.
 
-TomoChain Masternodes started signing blocks and receiving block rewards when the Mainnet released in December 14th, 2018.
+Viction Masternodes started signing blocks and receiving block rewards when the Mainnet released in December 14th, 2018.
 
-### **What is a Masternode in the TomoChain ecosystem?**
+### **What is a Masternode in the Viction ecosystem?**
 
-A TomoChain Masternode is a server which uses its computing power to contribute to the network. Its job is to create and sign blocks. For this contribution to the network, Masternodes receive rewards in the form of TOMO.
+A Viction Masternode is a server which uses its computing power to contribute to the network. Its job is to create and sign blocks. For this contribution to the network, Masternodes receive rewards in the form of VIC.
 
-Masternodes are elected using the PoSV consensus via our governance Dapp [TomoMaster](https://master.tomochain.com/)
+Masternodes are elected using the PoSV consensus via our governance Dapp [TomoMaster](https://master.Viction.com/)
 
 ### **What are the incentives to run a Masternode?**
 
-Masternodes contribute to the network and for this work they receive significant block rewards, which will likely exceed the cost for running the infrastructure. However, Masternode owners need to invest in TomoChain by depositing at least 50,000 TOMO, and stake them over the long term.
+Masternodes contribute to the network and for this work they receive significant block rewards, which will likely exceed the cost for running the infrastructure. However, Masternode owners need to invest in Viction by depositing at least 50,000 VIC, and stake them over the long term.
 
-After the initial deposit, if the account does not become a Masternode (has less votes than the top 150 most voted candidates), it will not receive rewards. Therefore, Candidates are incentivised to do as much as they can to signal their capability to support TomoChain to get into top 150 most voted Candidates.
+After the initial deposit, if the account does not become a Masternode (has less votes than the top 150 most voted candidates), it will not receive rewards. Therefore, Candidates are incentivised to do as much as they can to signal their capability to support Viction to get into top 150 most voted Candidates.
 
 ### **How did you decide on 150 Masternodes? Why did you decide to increase this from the initial 99?**
 
@@ -30,7 +30,7 @@ Also 150 is [Dunbar’s Number](https://en.wikipedia.org/wiki/Dunbar's\_number).
 
 ### **Where will the Masternode rewards come from? Will they be from the DEX?**
 
-The block rewards will come from a 17 million TOMO reserve for 8 years - this was decided since the genesis block. Our [Economics paper ](https://docs.google.com/document/d/197Cu57A6OYPoEQbrUVr067qNVEzP\_FEwaDCFff7hnlM/edit)lays out the number in detail.
+The block rewards will come from a 17 million VIC reserve for 8 years - this was decided since the genesis block. Our [Economics paper ](https://docs.google.com/document/d/197Cu57A6OYPoEQbrUVr067qNVEzP\_FEwaDCFff7hnlM/edit)lays out the number in detail.
 
 ### **When are Masternode rewards paid out?**
 
@@ -42,9 +42,9 @@ You can check your Masternode/staking rewards using TomoWallet. Alternatively yo
 
 ### **What rewards do Masternodes receive?**
 
-Each epoch consists of 900 blocks, which will reward a total of 250 TOMO in the first two years. This amount of 250 TOMO is divided across all of the Masternodes proportionally to the number of signatures they sign during the epoch.
+Each epoch consists of 900 blocks, which will reward a total of 250 VIC in the first two years. This amount of 250 VIC is divided across all of the Masternodes proportionally to the number of signatures they sign during the epoch.
 
-Example: With only 25 Masternodes with equal performance, every Masternode would be rewarded with 10 TOMO. With 125 Masternodes, each one would receive 2 TOMO per epoch.
+Example: With only 25 Masternodes with equal performance, every Masternode would be rewarded with 10 VIC. With 125 Masternodes, each one would receive 2 VIC per epoch.
 
 Please, refer to our [Economics paper](https://docs.google.com/document/d/197Cu57A6OYPoEQbrUVr067qNVEzP\_FEwaDCFff7hnlM/edit) for more details about the Masternode rewards.
 
@@ -53,8 +53,8 @@ Please, refer to our [Economics paper](https://docs.google.com/document/d/197Cu5
 There is a reward sharing ratio among token holders and the Masternodes which have been elected to be supported by the token holders. The rewards achieved by each Masternode will be divided into three portions:
 
 * **Infrastructure Reward:** The first portion of 40% called Infrastructure Reward goes to the Masternode operator.
-* **Staking Reward:** The second portion of 50% called Staking Reward goes to the pool of all voters for that Masternode which is shared proportionally based on the token stake. The Masternode also gets proportional rewards for his 50K TOMO initial deposit.
-* **Foundation Reward:** The last portion of 10% called Foundation Reward goes to a special account controlled by the Masternode Foundation, which is run by the TomoChain company initially.
+* **Staking Reward:** The second portion of 50% called Staking Reward goes to the pool of all voters for that Masternode which is shared proportionally based on the token stake. The Masternode also gets proportional rewards for his 50K VIC initial deposit.
+* **Foundation Reward:** The last portion of 10% called Foundation Reward goes to a special account controlled by the Masternode Foundation, which is run by the Viction company initially.
 
 ### **What is the expected ROI for Masternodes and Stakers?**
 
@@ -87,7 +87,7 @@ Approximate reward achieved per year:
 
 ### **What is a Masternode Candidate? What is the difference between Masternode Candidate and Masternode?**
 
-A Masternode Candidate is any node owner who deposits 50,000 TOMO to be listed on [TomoMaster](https://master.tomochain.com/).
+A Masternode Candidate is any node owner who deposits 50,000 VIC to be listed on [TomoMaster](https://master.Viction.com/).
 
 A Candidate only becomes a Masternode when it is in the top-150 most-voted Masternode Candidates in an epoch. Only these elected Masternodes will be able to sign blocks and receive block rewards.
 
@@ -95,16 +95,16 @@ A Candidate only becomes a Masternode when it is in the top-150 most-voted Maste
 
 The first step to become a Masternode, is becoming a Masternode Candidate. To become a Masternode Candidate you need:
 
-* to run TomoChain software in a machine with a certain minimal hardware requirements
-* to deposit 50,000 TOMO in a smart contract via TomoMaster
+* to run Viction software in a machine with a certain minimal hardware requirements
+* to deposit 50,000 VIC in a smart contract via TomoMaster
 
-The list of Masternode Candidates will be available on the governance Dapp, [TomoMaster](https://master.tomochain.com/). The next step is to be elected as one of the top 150 most voted Candidates.
+The list of Masternode Candidates will be available on the governance Dapp, [TomoMaster](https://master.Viction.com/). The next step is to be elected as one of the top 150 most voted Candidates.
 
 ### **Do I need to use my own computer to run a node?**
 
 We recommend using an IaaS ("cloud") provider of your choice (like Amazon AWS, Digital Ocean, Google Cloud GCE, Vultr, etc). The machine must be directly internet facing (public IP, no NAT) and have 100% uptime.
 
-If you have another production grade environment other than cloud a provider at your disposal, please tell us more about it on our[ Github.](https://github.com/tomochain)
+If you have another production grade environment other than cloud a provider at your disposal, please tell us more about it on our[ Github.](https://github.com/Viction)
 
 ### **What are the hardware requirements to run a node?**
 
@@ -127,15 +127,15 @@ Setting up a masternode candidate on a weaker machine might result in poor perfo
 
 ### **How do Masternode Candidates become Masternodes?**
 
-Once you are a Masternode Candidate, you need the support of the TomoChain community in the form of votes. The top 150 most voted Candidates every period, called an epoch (900 blocks of 2-second block-time), will be promoted to Masternodes. This list will change dynamically every epoch. Only the 150 Masternodes elected will be able to sign blocks and will receive rewards in the form of TOMO.
+Once you are a Masternode Candidate, you need the support of the Viction community in the form of votes. The top 150 most voted Candidates every period, called an epoch (900 blocks of 2-second block-time), will be promoted to Masternodes. This list will change dynamically every epoch. Only the 150 Masternodes elected will be able to sign blocks and will receive rewards in the form of VIC.
 
 ### **Is there any guide on 'How to run a Masternode from A to Z'?**
 
-See this [Medium post](https://medium.com/tomochain/how-to-run-a-tomochain-masternode-from-a-to-z-3793752dc3d1).
+See this [Medium post](https://medium.com/Viction/how-to-run-a-Viction-masternode-from-a-to-z-3793752dc3d1).
 
 ### **Where can I find the latest Masternode guide or the instructions for setting up a Masternode?**
 
-Find more details about tmn [here](../../masternode/run-a-full-node/create-a-tomochain-masternode.md)
+Find more details about tmn [here](../../masternode/run-a-full-node/create-a-Viction-masternode.md)
 
 ### **What is the command to start a fullnode with 'tmn'?**
 
@@ -157,7 +157,7 @@ It is recommended for security reasons. You can create your wallet from wherever
 
 'Coinbase address' is the public address used to run your node and register it to the system.
 
-We recommend using two addresses when running your nodes. The public address or 'coinbase address' will only receive transaction fees. The private address is from where you make the initial 50K TOMO deposit and where the block rewards will be collected.
+We recommend using two addresses when running your nodes. The public address or 'coinbase address' will only receive transaction fees. The private address is from where you make the initial 50K VIC deposit and where the block rewards will be collected.
 
 ### **I noticed that we need another wallet for the Masternode with a different mnemonic. Assume we use a hardware wallet, we would need another hardware wallet with a different mnemonic?**
 
@@ -171,17 +171,17 @@ No. You must use different public 'coinbase' addresses. But you can use the same
 
 ### **I have finished all steps of setting up a node. Why I don't see my node on TomoMaster?**
 
-You must apply to become a Masternode Candidate on [TomoMaster](https://master.tomochain.com/)
+You must apply to become a Masternode Candidate on [TomoMaster](https://master.Viction.com/)
 
-### **Do I need to deposit the 50K TOMO before or after running 'tmn' in VPS?**
+### **Do I need to deposit the 50K VIC before or after running 'tmn' in VPS?**
 
 After. Your node must be fully synced before applying.
 
 ### **How do I check the blockchain sync status from the node?**
 
-You can watch the logs, but it is easier from the [TomoStats](https://stats.tomochain.com) website or its eth.blockNumber API call.
+You can watch the logs, but it is easier from the [TomoStats](https://stats.Viction.com) website or its eth.blockNumber API call.
 
-### **If the Masternode owner deposits 60K TOMO instead of 50K on its own node, can it later on unstake the excess 10K?**
+### **If the Masternode owner deposits 60K VIC instead of 50K on its own node, can it later on unstake the excess 10K?**
 
 Yes, it can.
 
@@ -201,7 +201,7 @@ Note: a slashed Masternode can still sign transactions if its online but will re
 
 After being slashed for 5 epochs, the Masternode is analysed for re-entry. If the slashed Masternode has signed any transaction during the last epoch (meaning that it's up and working again) it will come back to its Masternode status and receive rewards normally. Otherwise it will be slashed for a new round of 5 epochs. This can happen for as long as the node isn't back up or kicked out of the top 150.
 
-Some reasons for being Slashed might be that the Masternode does not have the correct TomoChain software, lack of memory or the Masternode crashed due to lack of e-maintenance and operation by the Masternode owner.
+Some reasons for being Slashed might be that the Masternode does not have the correct Viction software, lack of memory or the Masternode crashed due to lack of e-maintenance and operation by the Masternode owner.
 
 ### **How do I update my Masternode to the newest version?**
 
@@ -213,7 +213,7 @@ As many as you can.
 
 ### **How can I resign as a Masternode?**
 
-If you no longer want to be a Masternode, you can resign on TomoMaster. Your Masternode will stop generating rewards and your funds will be locked for 30 days (1,296,000 blocks). After the lockup period you will be able to withdraw your 50,000 TOMO deposit.
+If you no longer want to be a Masternode, you can resign on TomoMaster. Your Masternode will stop generating rewards and your funds will be locked for 30 days (1,296,000 blocks). After the lockup period you will be able to withdraw your 50,000 VIC deposit.
 
 ### **Can I close the node entirely, then start a new one with a totally separate coinbase address without being penalized?**
 
@@ -223,10 +223,10 @@ No. Your old node will be penalized (50K initial deposit 30-day lockup) and your
 
 Yes.
 
-### **What if I do not have enough TOMO for a Masternode? Can I stake my TOMO?**
+### **What if I do not have enough VIC for a Masternode? Can I stake my VIC?**
 
-Yes. Token holders can stake TOMO and receive rewards.
+Yes. Token holders can stake VIC and receive rewards.
 
-To stake TOMO you need to vote for Masternode Candidates by sending TOMO to each candidates specific voting-address using the official governance Dapp TomoMaster. The top-150 most voted will become Masternodes. Token holders can also un-vote Candidates, but the tokens will be locked for the next 96 epochs / 8,640 blocks (approx. 48 hours) after the un-voting.
+To stake VIC you need to vote for Masternode Candidates by sending VIC to each candidates specific voting-address using the official governance Dapp TomoMaster. The top-150 most voted will become Masternodes. Token holders can also un-vote Candidates, but the tokens will be locked for the next 96 epochs / 8,640 blocks (approx. 48 hours) after the un-voting.
 
 Masternode token deposits and all tokens used to vote for Masternodes will enter the staking program, and earn block rewards in each epoch, plus any fees. Tokens used to vote for candidates that do not become Masternodes will not earn staking rewards.

@@ -1,13 +1,13 @@
 ---
 description: >-
-  This tutorial shows how to set up a private TomoChain Testnet on a local
+  This tutorial shows how to set up a private Viction Testnet on a local
   machine. The purpose is to help developers to familiarise themselves with
-  TomoChain's source code and initial setup.
+  Viction's source code and initial setup.
 ---
 
-# TomoChain Private Testnet Setup
+# Viction Private Testnet Setup
 
-The following will walk you step-by-step to setup a TomoChain private net with four Masternodes.
+The following will walk you step-by-step to setup a Viction private net with four Masternodes.
 
 ### Setup environment <a href="#install-golang" id="install-golang"></a>
 
@@ -39,7 +39,7 @@ cd $HOME/tomo
 
 ```
 git init
-git remote add git@github.com:tomochain/tomochain.git
+git remote add git@github.com:Viction/Viction.git
 git pull origin master
 make all
 ```
@@ -47,8 +47,8 @@ make all
 * Download source code Tomo and install library:
 
 ```bash
-git clone https://github.com/tomochain/tomochain
-cd tomochain
+git clone https://github.com/Viction/Viction
+cd Viction
 go mod tidy -e
 make all
 cd ..
@@ -57,9 +57,9 @@ cd ..
 * Create alias for Tomo (this will only be effective in current session)
 
 ```bash
-alias tomo=$PWD/tomochain/build/bin/tomo
-alias puppeth=$PWD/tomochain/build/bin/puppeth
-alias bootnode=$PWD/tomochain/build/bin/bootnode
+alias tomo=$PWD/Viction/build/bin/tomo
+alias puppeth=$PWD/Viction/build/bin/puppeth
+alias bootnode=$PWD/Viction/build/bin/bootnode
 ```
 
 ### Setup Nodes and Accounts <a href="#setup-chain-data-folders-datadir-and-corresponding-keystore-folders-for-3-masternodes" id="setup-chain-data-folders-datadir-and-corresponding-keystore-folders-for-3-masternodes"></a>
@@ -110,7 +110,7 @@ puppeth
 * Require for confirm tx in Foundation MultiSignWallet: `1`
 * Account confirm Team MultiSignWallet: 2 or more addresses
 * Require for confirm tx in Team MultiSignWallet: `1`
-* Enter swap wallet address for fund 55 million TOMO: Any address
+* Enter swap wallet address for fund 55 million VIC: Any address
 * Enter account be pre-funded: Any address, should be at least 1
 * Enter Network ID: Any number
 * Export genesis file
@@ -207,7 +207,7 @@ tomo --networkid [YOUR_NETWORK_ID] --identity "NODE4" \
 --identity: your full-node's name.
 --rpc, --rpcaddr, --rpcport, --rpccorsdomain, --rpcvhosts: your full-node will accept RPC requests at 8545 TCP.
 --ws, --wsaddr, --wsport, --wsorigins: your full-node will accept Websocket requests at 8546 TCP.
---synmode: blockchain sync mode ("fast", "full", or "light". More detail: https://github.com/tomochain/tomochain/blob/master/eth/downloader/modes.go#L24)
+--synmode: blockchain sync mode ("fast", "full", or "light". More detail: https://github.com/Viction/Viction/blob/master/eth/downloader/modes.go#L24)
 --gcmode: blockchain garbage collection mode ("full", "archive")
 --port: your full-node's listening port (default to 30303)
 --bootnode: bootnode information to help to discover other nodes in the network

@@ -2,13 +2,13 @@
 
 tDAO is the main token for the governance of the TomoMasterDAO. With tDAO, users can vote for projects applying for grants provided by the TomoMasterDAO.
 
-The goal of tDAO is to allow users to have a say in funding decisions, in which allocations will be distributed to projects built on top of the TomoChain ecosystem.
+The goal of tDAO is to allow users to have a say in funding decisions, in which allocations will be distributed to projects built on top of the Viction ecosystem.
 
 * Relevant info:
   * [Voting and outcome](governance-model/voting-and-outcome.md)
   * [Tokenomics](tokenomics.md)
 
-tDAO is tradable on LuaSwap, TomoChain's main DEX. tDAO is _**only available on the TomoChain network**_, so please check you have the right network connection before making a swap on-chain, as well as _**$TOMO in your wallet as gas fee for the transaction**_.
+tDAO is tradable on LuaSwap, Viction's main DEX. tDAO is _**only available on the Viction network**_, so please check you have the right network connection before making a swap on-chain, as well as _**$VIC in your wallet as gas fee for the transaction**_.
 
 The instruction to make a sway on LuaSwap can be found [here](broken-reference). Please make sure to choose $tDAO as the token you want to swap to.
 

@@ -1,6 +1,6 @@
 ---
 description: >-
-  This shows useful CLI commands for developers to work with the TomoChain
+  This shows useful CLI commands for developers to work with the Viction
   client tomo.
 ---
 
@@ -24,7 +24,7 @@ Command: `$ tomo [OPTIONS]`
 * `--targetgaslimit`: Target gas limit sets the artificial target gas floor for the blocks to mine (default: 4712388)
 * `--bootnode`: bootnode information to help to discover other nodes in the network
 * `--gcmode`: blockchain garbage collection mode ("full", "archive")
-* `--synmode`: \[required] blockchain sync mode ("full". More detail: https://github.com/tomochain/tomochain/blob/master/eth/downloader/modes.go#L24)
+* `--synmode`: \[required] blockchain sync mode ("full". More detail: https://github.com/Viction/Viction/blob/master/eth/downloader/modes.go#L24)
 * `--ethstats`: send data to stats website
 * `--tomo-testnet`: required when the networkid is testnet(89)
 * `--store-reward`: store reward report

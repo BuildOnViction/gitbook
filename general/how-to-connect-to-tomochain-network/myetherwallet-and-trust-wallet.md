@@ -1,5 +1,5 @@
 ---
-description: How to connect with TomoChain Mainnet using MyEtherWallet (MEW)
+description: How to connect with Viction Mainnet using MyEtherWallet (MEW)
 ---
 
 # MyEtherWallet
@@ -13,11 +13,11 @@ description: How to connect with TomoChain Mainnet using MyEtherWallet (MEW)
 * Back to MEW > Click hardware > Click ledger-choose hardware > Select ethereum m/44'/60'/0' > Select it, accept terms and click “access my wallet”
 
 {% hint style="info" %}
-If the above guidance does not work, contact us via telegram chat: t.me/tomochain to get support.
+If the above guidance does not work, contact us via telegram chat: t.me/Viction to get support.
 {% endhint %}
 
 ### **When you login to MEW via the private key** <a href="#33b8" id="33b8"></a>
 
-On MEW, click “Access my wallet" -> Software -> Choose what way you prefer (private key, keystore file or mnemonic phrase) -> Change the network to TomoChain (inside the red rectangle) as the picture below
+On MEW, click “Access my wallet" -> Software -> Choose what way you prefer (private key, keystore file or mnemonic phrase) -> Change the network to Viction (inside the red rectangle) as the picture below
 
 ![](<../../.gitbook/assets/image (21).png>)

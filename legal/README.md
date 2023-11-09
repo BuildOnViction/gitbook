@@ -8,6 +8,6 @@
 [privacy.md](privacy.md)
 {% endcontent-ref %}
 
-{% content-ref url="https://github.com/tomochain/gitbook/blob/master/legal/broken-reference/README.md" %}
-[https://github.com/tomochain/gitbook/blob/master/legal/broken-reference/README.md](https://github.com/tomochain/gitbook/blob/master/legal/broken-reference/README.md)
+{% content-ref url="https://github.com/Viction/gitbook/blob/master/legal/broken-reference/README.md" %}
+[https://github.com/Viction/gitbook/blob/master/legal/broken-reference/README.md](https://github.com/Viction/gitbook/blob/master/legal/broken-reference/README.md)
 {% endcontent-ref %}

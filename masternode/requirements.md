@@ -25,7 +25,7 @@ We recommend using popular cloud providers as there reliability and uptime are c
 
 Setting up a Masternode Candidate on a weaker machine might result in poor performances, significantly impacting owner's rewards and the chain performance.
 
-If you have other production grade environment than a cloud provider at your disposal, please come chat with us on our [Gitter](https://gitter.im/tomochain).
+If you have other production grade environment than a cloud provider at your disposal, please come chat with us on our [Gitter](https://gitter.im/Viction).
 
 {% hint style="info" %}
 Info

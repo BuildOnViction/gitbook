@@ -1,5 +1,5 @@
 ---
-description: Terms and conditions for using TomoChain's products.
+description: Terms and conditions for using Viction's products.
 ---
 
 # Terms of Use
@@ -10,7 +10,7 @@ description: Terms and conditions for using TomoChain's products.
 
 ### AGREEMENT
 
-This Terms of Use is a legal agreement between you (Licensee or you) and TomoChain Lab Pte. Ltd. (UEN: 201716924E), a company incorporated under the laws of Singapore, and its subsidiaries, affiliates and related corporations who own or operate the Services (defined below) (“Company”, “we”, “us” or “our”).
+This Terms of Use is a legal agreement between you (Licensee or you) and Viction Lab Pte. Ltd. (UEN: 201716924E), a company incorporated under the laws of Singapore, and its subsidiaries, affiliates and related corporations who own or operate the Services (defined below) (“Company”, “we”, “us” or “our”).
 
 By accessing or using our Services or any part of it, you accept and agree to be bound by the Terms of Use, the Privacy Policy, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. Please read the Privacy Policy to find out how we collect, use, disclose, process and protect your personal data.
 
@@ -62,15 +62,15 @@ Our Services may store your Wallet address but does not receive or store your Wa
 
 **Cryptocurrencies Transactions.**
 
-In order to be completed, all proposed Cryptocurrencies transactions must be confirmed and recorded in the Cryptocurrencies of associated public blockchain. By using our Services, you acknowledge and agree that the transaction details you submit may not be completed, or may be substantially delayed, by the TomoChain Networks.
+In order to be completed, all proposed Cryptocurrencies transactions must be confirmed and recorded in the Cryptocurrencies of associated public blockchain. By using our Services, you acknowledge and agree that the transaction details you submit may not be completed, or may be substantially delayed, by the Viction Networks.
 
 Once transaction details have been submitted via the Services, we cannot assist you to cancel or otherwise modify your transaction. You must ensure that you have an adequate balance in your Wallet and/or gas to complete transactions before initiating a transaction. You acknowledge and agree that we will not be liable for any failed transactions due to insufficient funds or gas associated with your account.
 
 #### No Control and No Duty over Risk
 
-Any fee that you might pay while using the Services is not a remuneration of the Company for the Services. This fee is to pay for Masternodes who produce the block to maintain the TomoChain blockchain.
+Any fee that you might pay while using the Services is not a remuneration of the Company for the Services. This fee is to pay for Masternodes who produce the block to maintain the Viction blockchain.
 
-The Company provides you with the Services but you are the only person who is liable for any losses, damages, claims related to the use of the Services. The Company assumes no responsibility or liability related to TomoChain's Services.
+The Company provides you with the Services but you are the only person who is liable for any losses, damages, claims related to the use of the Services. The Company assumes no responsibility or liability related to Viction's Services.
 
 You understand and agree that the Company have no control over, and no duty to take any action regarding:
 
@@ -78,10 +78,10 @@ You understand and agree that the Company have no control over, and no duty to t
 * The risk of failure of hardware, software, and Internet connections;
 * The risk of malicious software being introduced or found in the software underlying our Services;
 * The risk that third parties may obtain unauthorized access to information stored within your Wallet, including, but not limited to your Wallet address, private key, and mnemonic (backup) phrase; and
-* The risk of unknown vulnerabilities in or unanticipated changes to the TomoChain Networks.
+* The risk of unknown vulnerabilities in or unanticipated changes to the Viction Networks.
 * Disasters. Disasters may damage the Cryptocurrencies systems resulting in loss of Cryptocurrencies held by users.
 * Mistakes made by the user of any cryptocurrency-related software or service, e.g., forgotten passwords, and payments sent to wrong coin addresses.
-* Software problems of TomoChain's and/or any cryptocurrency-related software or service, e.g., corrupted wallet file, incorrectly constructed transactions, unsafe cryptographic libraries, malware affecting the wallet and/or any cryptocurrency-related software or service
+* Software problems of Viction's and/or any cryptocurrency-related software or service, e.g., corrupted wallet file, incorrectly constructed transactions, unsafe cryptographic libraries, malware affecting the wallet and/or any cryptocurrency-related software or service
 * Technical failures in the hardware of the user of any cryptocurrency-related software or service, e.g., data loss due to a faulty or damaged storage device
 * Security problems experienced by the user of any cryptocurrency-related software or service, e.g., unauthorized access to users' wallets and/or accounts
 * Actions or inactions of third parties and/or events experienced by third parties, e.g., bankruptcy of service providers, information security attacks on service providers, and fraud conducted by third parties.

@@ -1,5 +1,5 @@
 ---
-description: 'TomoChain Integration: A Step-By-Step Guide'
+description: 'Viction Integration: A Step-By-Step Guide'
 ---
 
 # Integration
@@ -16,6 +16,6 @@ description: 'TomoChain Integration: A Step-By-Step Guide'
 [trc21-exchange-wallet-integration.md](trc21-exchange-wallet-integration.md)
 {% endcontent-ref %}
 
-{% content-ref url="tomochain-staking-governance.md" %}
-[tomochain-staking-governance.md](tomochain-staking-governance.md)
+{% content-ref url="Viction-staking-governance.md" %}
+[Viction-staking-governance.md](Viction-staking-governance.md)
 {% endcontent-ref %}

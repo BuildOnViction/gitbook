@@ -14,12 +14,12 @@ description: >-
 [standards-and-specification](standards-and-specification/)
 {% endcontent-ref %}
 
-{% content-ref url="building-dapp-on-tomochain/" %}
-[building-dapp-on-tomochain](building-dapp-on-tomochain/)
+{% content-ref url="building-dapp-on-Viction/" %}
+[building-dapp-on-Viction](building-dapp-on-Viction/)
 {% endcontent-ref %}
 
-{% content-ref url="working-with-tomochain/" %}
-[working-with-tomochain](working-with-tomochain/)
+{% content-ref url="working-with-Viction/" %}
+[working-with-Viction](working-with-Viction/)
 {% endcontent-ref %}
 
 {% content-ref url="integration/" %}

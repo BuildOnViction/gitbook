@@ -1,17 +1,17 @@
-# TomoChain Network
+# Viction Network
 
-{% content-ref url="tomochain-mainnet.md" %}
-[tomochain-mainnet.md](tomochain-mainnet.md)
+{% content-ref url="Viction-mainnet.md" %}
+[Viction-mainnet.md](Viction-mainnet.md)
 {% endcontent-ref %}
 
-{% content-ref url="tomochain-testnet.md" %}
-[tomochain-testnet.md](tomochain-testnet.md)
+{% content-ref url="Viction-testnet.md" %}
+[Viction-testnet.md](Viction-testnet.md)
 {% endcontent-ref %}
 
 {% content-ref url="cli-commands.md" %}
 [cli-commands.md](cli-commands.md)
 {% endcontent-ref %}
 
-{% content-ref url="tomochain-private-testnet-setup.md" %}
-[tomochain-private-testnet-setup.md](tomochain-private-testnet-setup.md)
+{% content-ref url="Viction-private-testnet-setup.md" %}
+[Viction-private-testnet-setup.md](Viction-private-testnet-setup.md)
 {% endcontent-ref %}

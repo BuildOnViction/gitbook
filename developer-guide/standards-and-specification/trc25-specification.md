@@ -1,5 +1,5 @@
 ---
-description: TRC25 is the official standard for fungible tokens in TomoChain ecosystem.
+description: TRC25 is the official standard for fungible tokens in Viction ecosystem.
 ---
 
 # TRC25 Specification
@@ -34,7 +34,7 @@ interface IVRC25 {
 }
 ```
 
-Source: [IVRC25.sol](https://github.com/tomochain/trc25/blob/main/contracts/interfaces/IVRC25.sol)
+Source: [IVRC25.sol](https://github.com/Viction/trc25/blob/main/contracts/interfaces/IVRC25.sol)
 
 #### Methods <a href="#trc25-api-specification" id="trc25-api-specification"></a>
 
@@ -168,7 +168,7 @@ This standard will need some basic information to track and
 
 * `_balances`: record the balance of each token holder
 * `_minFee`: the minimum fee in terms of tokens that the transaction sender must pay. Ideally, minFee will be paid when the `approve` function is called or when the transaction fails.
-* `_owner`: the address of the token issuer who will receive transaction fees from token holders in terms of the token, but will pay transaction fees to masternodes by means of TOMO.
+* `_owner`: the address of the token issuer who will receive transaction fees from token holders in terms of the token, but will pay transaction fees to masternodes by means of VIC.
 
 The implementation also defines some additional functions as follows:
 
@@ -487,7 +487,7 @@ abstract contract VRC25 is IVRC25, IERC165 {
 }
 ```
 
-Source: [VRC25.sol](https://github.com/tomochain/trc25/blob/main/contracts/VRC25.sol)
+Source: [VRC25.sol](https://github.com/Viction/trc25/blob/main/contracts/VRC25.sol)
 
 ### Example <a href="#trc25-token-example" id="trc25-token-example"></a>
 
@@ -533,7 +533,7 @@ contract SampleVRC25 is VRC25Permit {
 }
 ```
 
-Source: [SampleVRC25.sol](https://github.com/tomochain/trc25/blob/main/contracts/tests/SampleVRC25.sol)
+Source: [SampleVRC25.sol](https://github.com/Viction/trc25/blob/main/contracts/tests/SampleVRC25.sol)
 
 ### Enable gas-less transaction
 

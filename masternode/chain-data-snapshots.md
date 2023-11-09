@@ -6,21 +6,21 @@ description: >-
 
 # Chain Data Snapshots
 
-Latest snapshot: [download](https://chaindata.tomochain.com/20190813.tar) (91 GB, md5sum 0b23a48b0d6585690350e91b0f6c9f14)
+Latest snapshot: [download](https://chaindata.Viction.com/20190813.tar) (91 GB, md5sum 0b23a48b0d6585690350e91b0f6c9f14)
 
-The following commands are step by step instructions for TomoChain Masternode operators that can be used for two major use-cases:
+The following commands are step by step instructions for Viction Masternode operators that can be used for two major use-cases:
 
 1. Fixing nodes that are stuck; evidenced by a node that stays on a block and doesn't progress
 2. Jumpstarting a newly setup Masternode; avoid waiting a week for synchronization
 
-Basically, a compressed version of the last-known "good" chaindata is downloaded. This comes from TomoChain on a weekly basis. Remove the node's old data and update it with the newly downloaded data. Finally, restart the sync-process from this known-good checkpoint.
+Basically, a compressed version of the last-known "good" chaindata is downloaded. This comes from Viction on a weekly basis. Remove the node's old data and update it with the newly downloaded data. Finally, restart the sync-process from this known-good checkpoint.
 
 _Note: Ensure there is enough disk space for both the tar file AND its uncompressed contents. Double the space or more._
 
 ```
 # Login as user that has access to tmn
 # Download Tomo's chaindata archive (make sure you have enough disk space available)
-wget -c https://chaindata.tomochain.com/20190813.tar -P /tmp
+wget -c https://chaindata.Viction.com/20190813.tar -P /tmp
 
 # Stop your node (for tmn users)
 tmn stop

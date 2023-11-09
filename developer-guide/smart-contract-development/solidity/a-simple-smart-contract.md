@@ -24,9 +24,9 @@ contract SimpleStorage {
 }
 ```
 
-The first line tells you that the source code is written for Solidity version 0.8.17. This is to ensure that the contract is compatible with the current EVM version in TomoChain.
+The first line tells you that the source code is written for Solidity version 0.8.17. This is to ensure that the contract is compatible with the current EVM version in Viction.
 
-A contract in the sense of Solidity is a collection of code (its _functions_) and data (its _state_) that resides at a specific address on the TomoChain blockchain. The line `uint storedData;` declares a state variable called `storedData` of type `uint256` (unsigned integer of _256_ bits). You can think of it as a single slot in a database that you can query and alter by calling functions of the code that manages the database. In this example, the contract defines the functions `set` and `get` that can be used to modify or retrieve the value of the variable.
+A contract in the sense of Solidity is a collection of code (its _functions_) and data (its _state_) that resides at a specific address on the Viction blockchain. The line `uint storedData;` declares a state variable called `storedData` of type `uint256` (unsigned integer of _256_ bits). You can think of it as a single slot in a database that you can query and alter by calling functions of the code that manages the database. In this example, the contract defines the functions `set` and `get` that can be used to modify or retrieve the value of the variable.
 
 To access a state variable, you do not need the prefix `this` as is common in other languages.
 
@@ -34,7 +34,7 @@ This contract does not do much yet apart from allowing anyone to store a single 
 
 #### Subcurrency Example
 
-The following contract implements the simplest form of a cryptocurrency. The contract allows only its creator to create new coins (different issuance schemes are possible). Anyone can send coins to each other without a need for registering with a username and password, all you need is a TomoChain private key.
+The following contract implements the simplest form of a cryptocurrency. The contract allows only its creator to create new coins (different issuance schemes are possible). Anyone can send coins to each other without a need for registering with a username and password, all you need is a Viction private key.
 
 ```solidity
 pragma solidity 0.8.17;
@@ -100,7 +100,7 @@ function balances(address _account) external view returns (uint256) {
 
 You can use this function to query the balance of a single account.
 
-The line `event Sent(address from, address to, uint256 amount);` declares an [“event”](https://solidity.readthedocs.io/en/v0.6.3/contracts.html#events), which is emitted in the last line of the function `send`. TomoChain clients such as web applications can listen for these events emitted on the blockchain without much cost. As soon as it is emitted, the listener receives the arguments `from`, `to` and `amount`, which makes it possible to track transactions.
+The line `event Sent(address from, address to, uint256 amount);` declares an [“event”](https://solidity.readthedocs.io/en/v0.6.3/contracts.html#events), which is emitted in the last line of the function `send`. Viction clients such as web applications can listen for these events emitted on the blockchain without much cost. As soon as it is emitted, the listener receives the arguments `from`, `to` and `amount`, which makes it possible to track transactions.
 
 To listen for this event, you could use the following JavaScript code, which uses [web3.js](https://github.com/ethereum/web3.js/) to create the `Coin` contract object, and any user interface calls the automatically generated `balances` function from above:
 

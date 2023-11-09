@@ -8,9 +8,9 @@ description: >-
 
 ### **Prerequisites**
 
-Contract ABI: [IVRC25.json](https://raw.githubusercontent.com/tomochain/trc25/main/metadata/IVRC25.json)
+Contract ABI: [IVRC25.json](https://raw.githubusercontent.com/Viction/trc25/main/metadata/IVRC25.json)
 
-Contract Interface: [IVRC25.sol](https://github.com/tomochain/trc25/raw/main/contracts/interfaces/IVRC25.sol)
+Contract Interface: [IVRC25.sol](https://github.com/Viction/trc25/raw/main/contracts/interfaces/IVRC25.sol)
 
 ```solidity
 interface IVRC25 {
@@ -36,13 +36,13 @@ Follow the steps below to interact with the smart contract by using the Web3 lib
 
 ### Initialize Web3 provider <a href="#init-web3-provider" id="init-web3-provider"></a>
 
-As a first step, we need to initialize a Web3 provider by connecting to TomoChain Full node RPC endpoint.
+As a first step, we need to initialize a Web3 provider by connecting to Viction Full node RPC endpoint.
 
-Look at the [TomoChain Networks](../working-with-tomochain/) page to get more information of the TomoChain Testnet/Mainnet RPC network.
+Look at the [Viction Networks](../working-with-Viction/) page to get more information of the Viction Testnet/Mainnet RPC network.
 
 ```javascript
 const Web3 = require('web3')
-const web3 = new Web3('https://rpc.tomochain.com')
+const web3 = new Web3('https://rpc.Viction.com')
 const chainId = 88
 ```
 
@@ -69,7 +69,7 @@ const trc25 = new web3.eth.Contract(trc25Abi,
         address, {gasPrice: 250000000, gas: 2000000 })
 ```
 
-Note: Get IVRC21.json [here](https://raw.githubusercontent.com/tomochain/trc25/main/metadata/IVRC25.json).
+Note: Get IVRC21.json [here](https://raw.githubusercontent.com/Viction/trc25/main/metadata/IVRC25.json).
 
 ### Check balance <a href="#check-balance" id="check-balance"></a>
 

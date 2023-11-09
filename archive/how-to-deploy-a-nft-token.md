@@ -1,5 +1,5 @@
 ---
-description: 'Create a unique ERC721-equivalent token (ie: CryptoKitties) on TomoChain!'
+description: 'Create a unique ERC721-equivalent token (ie: CryptoKitties) on Viction!'
 ---
 
 # How to deploy an NFT token
@@ -8,15 +8,15 @@ This article will explain:
 
 * What is a Non-Fungible Token (NFT)
 * Use-cases of NFT
-* How-to step-by-step deploy a NFT token on TomoChain
+* How-to step-by-step deploy a NFT token on Viction
 
 What is a Non-Fungible Token (NFT)?
 
-Fungible tokens are **all equal and interchangeable**. For instance, dollars or Bitcoins or 1 kilogram of pure gold or ERC20 tokens. All TOMO are equivalent too, they are the same and have the same value. They are interchangeable 1:1. This is a fungible token.
+Fungible tokens are **all equal and interchangeable**. For instance, dollars or Bitcoins or 1 kilogram of pure gold or ERC20 tokens. All VIC are equivalent too, they are the same and have the same value. They are interchangeable 1:1. This is a fungible token.
 
 **Non-fungible tokens (NFTs)** are **all distinct and special**. Every token is rare, with unique atributes and different value. For instance: CryptoKitty tokens, collectible cards, airplane tickets or real art paintings. Every item has its own characteristics and specifics and is clearly differentiable to another one. They are **not interchangeable** 1:1. They are _distinguishable._
 
-> Think of Non-Fungible Tokens (NFT) as a rare collectible on the TomoChain network. Every token has unique characteristics, its own metadata and special attributes
+> Think of Non-Fungible Tokens (NFT) as a rare collectible on the Viction network. Every token has unique characteristics, its own metadata and special attributes
 
 Non-Fungible Tokens (NFT) are used to create verifiable digital scarcity. NFTs are unique and distinctive tokens that you can mainly find on EVM blockchains.
 
@@ -64,7 +64,7 @@ Most of the time when people think about ERC-721 or NFT, they refer to the most 
 
 ![](<../.gitbook/assets/image (33).png>)
 
-## How to deploy a NFT token on TomoChain <a href="#aeea" id="aeea"></a>
+## How to deploy a NFT token on Viction <a href="#aeea" id="aeea"></a>
 
 This article will create a basic **ERC721** token using the [OpenZeppelin](https://docs.openzeppelin.org/docs/learn-about-tokens.html#erc721) implementation of the [ERC721 standard](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md). Look at the links in order to familiarize yourself with the requirements as they can sometimes be hidden in the excellent [OpenZeppelin ERC721 implementations](https://github.com/OpenZeppelin/openzeppelin-solidity/tree/master/contracts/token/ERC721).
 
@@ -110,12 +110,12 @@ We will use [OpenZeppelin ERC721 implementation](https://docs.openzeppelin.org/d
 npm install openzeppelin-solidity
 ```
 
-## 2. Preparing your TOMO wallet <a href="#ef52" id="ef52"></a>
+## 2. Preparing your VIC wallet <a href="#ef52" id="ef52"></a>
 
-[Create a TOMO wallet](broken-reference). Then grab a few tokens:
+[Create a VIC wallet](broken-reference). Then grab a few tokens:
 
-* `TomoChain (testnet)`: Get [free tokens from faucet](https://faucet.testnet.tomochain.com/) (grab \~60 TOMO)
-* `TomoChain (mainnet)`: You will need real TOMO from exchanges
+* `Viction (testnet)`: Get [free tokens from faucet](https://faucet.testnet.Viction.com/) (grab \~60 VIC)
+* `Viction (mainnet)`: You will need real VIC from exchanges
 
 Go to _Settings_ menu, select _Backup wallet_ and then **Continue**. Here you can see your wallet’s private key and the 12-word recovery phrase.
 
@@ -198,7 +198,7 @@ const GradientToken = artifacts.require("GradientToken");module.exports = functi
 };
 ```
 
-This code will deploy or migrate our contract to TomoChain, with the name `Gradient Token` and the symbol `GRAD`.
+This code will deploy or migrate our contract to Viction, with the name `Gradient Token` and the symbol `GRAD`.
 
 ### 4.2 Configure truffle.js <a href="#b0d7" id="b0d7"></a>
 
@@ -210,9 +210,9 @@ Now we set up the migrations: the **blockchain** where we want to deploy our sma
 npm install truffle-hdwallet-provider
 ```
 
-2\. Open `truffle.js` file (`truffle-config.js` on Windows). Here the migration settings can be edited: networks, chain IDs, gas... You have multiple networks to migrate your ICO, you can deploy: locally, `ganache`, public `Ropsten (ETH)` testnet, `TomoChain (testnet)`, `TomoChain (Mainnet)`, etc…
+2\. Open `truffle.js` file (`truffle-config.js` on Windows). Here the migration settings can be edited: networks, chain IDs, gas... You have multiple networks to migrate your ICO, you can deploy: locally, `ganache`, public `Ropsten (ETH)` testnet, `Viction (testnet)`, `Viction (Mainnet)`, etc…
 
-Both Testnet and Mainnet **network configurations** are described in [the official TomoChain documentation — Networks.](../developer-guide/working-with-tomochain/) We need the `RPC endpoint`, the `Chain id` and the `HD derivation path`.
+Both Testnet and Mainnet **network configurations** are described in [the official Viction documentation — Networks.](../developer-guide/working-with-Viction/) We need the `RPC endpoint`, the `Chain id` and the `HD derivation path`.
 
 Replace the `truffle.js` file with this new content:
 
@@ -236,18 +236,18 @@ const mnemonic = '<PUT YOUR WALLET 12-WORD RECOVERY PHRASE HERE>';module.exports
         0,
         1,
         true,
-        "m/44'/889'/0'/0/", // Connect with HDPath same as TOMO
+        "m/44'/889'/0'/0/", // Connect with HDPath same as VIC
       ),
       network_id: 3,       // Ropsten's id
       gas: 5500000,        // Ropsten has a lower block limit than mainnet
       // confirmations: 2,    // # of confs to wait between deployments. (default: 0)
       // timeoutBlocks: 200,  // # of blocks before a deployment times out  (minimum/default: 50)
       // skipDryRun: true     // Skip dry run before migrations? (default: false for public nets )
-    },    // Useful for deploying to TomoChain testnet
+    },    // Useful for deploying to Viction testnet
     tomotestnet: {
       provider: () => new HDWalletProvider(
         mnemonic,
-        "https://testnet.tomochain.com",
+        "https://testnet.Viction.com",
         0,
         1,
         true,
@@ -255,12 +255,12 @@ const mnemonic = '<PUT YOUR WALLET 12-WORD RECOVERY PHRASE HERE>';module.exports
       ),
       network_id: "89",
       gas: 3000000,
-      gasPrice: 10000000000000,  // TomoChain requires min 10 TOMO to deploy, to fight spamming attacks
-    },    // Useful for deploying to TomoChain mainnet
+      gasPrice: 10000000000000,  // Viction requires min 10 VIC to deploy, to fight spamming attacks
+    },    // Useful for deploying to Viction mainnet
     tomomainnet: {
       provider: () => new HDWalletProvider(
         mnemonic,
-        "https://rpc.tomochain.com",
+        "https://rpc.Viction.com",
         0,
         1,
         true,
@@ -268,7 +268,7 @@ const mnemonic = '<PUT YOUR WALLET 12-WORD RECOVERY PHRASE HERE>';module.exports
       ),
       network_id: "88",
       gas: 3000000,
-      gasPrice: 10000000000000,  // TomoChain requires min 10 TOMO to deploy, to fight spamming attacks
+      gasPrice: 10000000000000,  // Viction requires min 10 VIC to deploy, to fight spamming attacks
     },    // Useful for private networks
     // private: {
       // provider: () => new HDWalletProvider(mnemonic, `https://network.io`),
@@ -305,7 +305,7 @@ const mnemonic = '<PUT YOUR WALLET 12-WORD RECOVERY PHRASE HERE>';
 
 ### 4.3 Ganache <a href="#a349" id="a349"></a>
 
-You can use `Ganache` blockchain to test your smart contracts locally, before migrating to a public blockchain like `Ethereum (Ropsten)` or `Tomochain`.
+You can use `Ganache` blockchain to test your smart contracts locally, before migrating to a public blockchain like `Ethereum (Ropsten)` or `Viction`.
 
 On a separate console window, install `Ganache` and run it:
 
@@ -381,15 +381,15 @@ The test passed.
 
 You should have your smart contract already compiled. Otherwise, now it’s a good time to do it with `truffle compile`.
 
-> **Note:** Check that you have enough _`TOMO`_ tokens in your wallet!! I recommend at least **`60 TOMO`** to deploy this smart contract
+> **Note:** Check that you have enough _`VIC`_ tokens in your wallet!! I recommend at least **`60 VIC`** to deploy this smart contract
 
-Back in our terminal, migrate the contract to **TomoChain testnet** network:
+Back in our terminal, migrate the contract to **Viction testnet** network:
 
 ```
 truffle migrate --network tomotestnet
 ```
 
-To deploy to the **TomoChain mainnet** is very similar:
+To deploy to the **Viction mainnet** is very similar:
 
 ```
 truffle migrate --network tomomainnet
@@ -434,20 +434,20 @@ Starting migrations...
 > Final cost:          32.14334 ETH
 ```
 
-**Congratulations!** You have already deployed your non-fungible token (NFT) to TomoChain! The deployment fees were `32.14 TOMO`.
+**Congratulations!** You have already deployed your non-fungible token (NFT) to Viction! The deployment fees were `32.14 VIC`.
 
-Read the output text on the screen. The NFT token [contract address](https://scan.testnet.tomochain.com/address/0x8B830F38b798B7b39808A059179f2c228209514C) is _(yours will be different)_:
+Read the output text on the screen. The NFT token [contract address](https://scan.testnet.Viction.com/address/0x8B830F38b798B7b39808A059179f2c228209514C) is _(yours will be different)_:
 
 ```
 0x8B830F38b798B7b39808A059179f2c228209514C
 ```
 
-> **⚠️ Note:** TomoChain’s smart contract[ **creation fee**](../developer-guide/working-with-tomochain/)**:** gas price 10000 Gwei, gas limit >= 1000000
+> **⚠️ Note:** Viction’s smart contract[ **creation fee**](../developer-guide/working-with-Viction/)**:** gas price 10000 Gwei, gas limit >= 1000000
 
 ### \*\*\* Troubleshooting \*\*\* <a href="#f097" id="f097"></a>
 
-* **Error: `smart contract creation cost is under allowance`**. \*\*Why?\*\*Increasing transaction fees for smart contract creation is one of the ways TomoChain offers to defend against spamming attacks. **Solution:** edit `truffle.js` and add more gas/gasPrice to deploy.
-* **Error: `insufficient funds for gas * price + value`. Why?** You don’t have enough tokens in your wallet for gas fees. **Solution:** you need more funds in your wallet to deploy, go to [faucet](https://faucet.testnet.tomochain.com/) and get more tokens.
+* **Error: `smart contract creation cost is under allowance`**. \*\*Why?\*\*Increasing transaction fees for smart contract creation is one of the ways Viction offers to defend against spamming attacks. **Solution:** edit `truffle.js` and add more gas/gasPrice to deploy.
+* **Error: `insufficient funds for gas * price + value`. Why?** You don’t have enough tokens in your wallet for gas fees. **Solution:** you need more funds in your wallet to deploy, go to [faucet](https://faucet.testnet.Viction.com/) and get more tokens.
 
 ## **7. Interacting with the smart contract** <a href="#4ecf" id="4ecf"></a>
 
@@ -461,7 +461,7 @@ GradientToken(gradientTokenAddress).mint("#001111", "#002222")
 
 You can call this function [via MyEtherWallet/Metamask or Web3](https://medium.com/@blockchain101/interacting-with-deployed-ethereum-contracts-in-truffle-39d7c7040455)... In a Dapp or game this would probably be called from a button click in a UI.
 
-Let’s use [MyEtherWallet](https://www.myetherwallet.com/interface/interact-with-contract) (MEW) to interact with the contract. We use [MetaMask](https://metamask.io/) to connect to the GradientToken **owner** **wallet** in TomoChain (testnet), then we will call function `mint()` to mint the first token.
+Let’s use [MyEtherWallet](https://www.myetherwallet.com/interface/interact-with-contract) (MEW) to interact with the contract. We use [MetaMask](https://metamask.io/) to connect to the GradientToken **owner** **wallet** in Viction (testnet), then we will call function `mint()` to mint the first token.
 
 ![](<../.gitbook/assets/image (38) (1).png>)
 
@@ -474,7 +474,7 @@ On the right you will see a dropdown list with the functions. Select `mint`. MEW
 
 ![](<../.gitbook/assets/image (11).png>)
 
-Here is [our contract address](https://scan.testnet.tomochain.com/address/0x8B830F38b798B7b39808A059179f2c228209514C), and the new `mint` transaction:
+Here is [our contract address](https://scan.testnet.Viction.com/address/0x8B830F38b798B7b39808A059179f2c228209514C), and the new `mint` transaction:
 
 ![](<../.gitbook/assets/image-2-copy (2).png>)
 
@@ -499,7 +499,7 @@ A few suggestions to continue from here:
 
 ![](<../.gitbook/assets/image (16).png>)
 
-**Congratulations!** You have learned about non-fungible tokens, use-cases of NFTs and how to deploy NFT tokens on TomoChain.
+**Congratulations!** You have learned about non-fungible tokens, use-cases of NFTs and how to deploy NFT tokens on Viction.
 
 ### Source Code <a href="#04a2" id="04a2"></a>
 

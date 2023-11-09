@@ -10,8 +10,8 @@ Each Board member rates the proposal and team following a preset criteria. The c
 
 * The legitimacy of the team,
 * Proposal benefits,
-* And relevance to the TomoChain network.
+* And relevance to the Viction network.
 
 Proposals that pass the criteria are then eligible for a vote. If the vote does not reach quorum, the result will be determined by the Board rating. Extra board responsibilities include following up with projects that have received funding to track progress and reaching out to development teams to encourage projects to apply for funding.
 
-[TomoMasterDAO presents: AMA with the 2023 Board Members](https://medium.com/tomochain/tomomasterdao-presents-ama-with-the-2023-board-members-800a44bf9b46)
+[TomoMasterDAO presents: AMA with the 2023 Board Members](https://medium.com/Viction/tomomasterdao-presents-ama-with-the-2023-board-members-800a44bf9b46)

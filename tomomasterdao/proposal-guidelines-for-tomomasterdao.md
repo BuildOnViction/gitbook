@@ -1,6 +1,6 @@
 # Proposal guidelines for TomoMasterDAO
 
-TomoMasterDAO gives you the opportunity to explore, experiment, and innovate in the world of web3 and blockchain. We believe in order to develop the financial and social tools of the future, contributions to projects in their early stage is a fundamental component. We have built a platform to offer grants decided by the community, for projects looking to innovate with the TomoChain ecosystem.
+TomoMasterDAO gives you the opportunity to explore, experiment, and innovate in the world of web3 and blockchain. We believe in order to develop the financial and social tools of the future, contributions to projects in their early stage is a fundamental component. We have built a platform to offer grants decided by the community, for projects looking to innovate with the Viction ecosystem.
 
 <figure><img src="../.gitbook/assets/1_l2oyHfWIPIzq-VloyljYuw.webp" alt=""><figcaption></figcaption></figure>
 
@@ -32,27 +32,27 @@ TomoMasterDAO offers a wide variety of grants in different fields of interest. Y
 
 ● Supply chain management
 
-In order to qualify for funding, the project must be relevant to the TomoChain ecosystem. This can be through directly building on the network, creating tools that can be used with the network, integration of an existing product, or promoting/educating with a focus on TomoChain.
+In order to qualify for funding, the project must be relevant to the Viction ecosystem. This can be through directly building on the network, creating tools that can be used with the network, integration of an existing product, or promoting/educating with a focus on Viction.
 
 ## Applying for a Grant <a href="#0684" id="0684"></a>
 
-The first step in applying for a grant is to post a summary of your proposal idea on the [Forum](https://forum.tomochain.com/c/tomomasterdao/35.). This will allow you to discuss your ideas with the community, answer any questions, and make the community aware before any proposal goes live on the governance portal. Include “Proposal Discussion”, then your proposal title, then a summary of your proposal and requested funding. Please use the format displayed in the following example:
+The first step in applying for a grant is to post a summary of your proposal idea on the [Forum](https://forum.Viction.com/c/tomomasterdao/35.). This will allow you to discuss your ideas with the community, answer any questions, and make the community aware before any proposal goes live on the governance portal. Include “Proposal Discussion”, then your proposal title, then a summary of your proposal and requested funding. Please use the format displayed in the following example:
 
 > Proposal Discussion — TomoWarrior NFT Series
 >
 > Crypto Labs is proposing to build…
 
-The next step is submitting a proposal to the TomoMasterDAO Board through the [governance portal](https://masterdao.tomochain.com/). You can also use the link [here ](https://forms.gle/uHhXxzVfmXn98hwz8)to submit your own proposal, which will be routinely checked and picked up by the Board . The Board is made up of 3 internal TomoChain Lab Members, and 4 external members elected by the community. The Board will assess your proposal on these criteria:
+The next step is submitting a proposal to the TomoMasterDAO Board through the [governance portal](https://masterdao.Viction.com/). You can also use the link [here ](https://forms.gle/uHhXxzVfmXn98hwz8)to submit your own proposal, which will be routinely checked and picked up by the Board . The Board is made up of 3 internal Viction Lab Members, and 4 external members elected by the community. The Board will assess your proposal on these criteria:
 
 ● Legitimacy and experience of the team or organization
 
 ● Analysis of the proposal idea
 
-● Relevancy to the TomoChain network
+● Relevancy to the Viction network
 
 ● Amount of funding requested
 
-Grant rounds are conducted every three months with \~50,000 TOMO of funding allocated for each round. Depending on the funding available for the rest of the grant round, the TomoMasterDAO Board may request that you reduce your funding, split your proposal into multiple rounds, or request you to wait until the next grant round.
+Grant rounds are conducted every three months with \~50,000 VIC of funding allocated for each round. Depending on the funding available for the rest of the grant round, the TomoMasterDAO Board may request that you reduce your funding, split your proposal into multiple rounds, or request you to wait until the next grant round.
 
 In the case of the funding requested is less than $1,000 equivalent USD, the Board will make a decision based upon the above criteria and funding can be directly allocated to the project. If the funding requested is more than $1,000 equivalent USD, the proposal will be put for a vote by the TomoMasterDAO community if the proposal is approved by the Board.
 
@@ -74,13 +74,13 @@ To give your proposal the highest chance of being approved it is critical that y
 
 ● Requested funding
 
-You can use this link [here ](https://forms.gle/uHhXxzVfmXn98hwz8)to submit an official proposal or you can email a draft document to _tomomasterdao@tomochain.com_ or _lak@tomochain.com_.
+You can use this link [here ](https://forms.gle/uHhXxzVfmXn98hwz8)to submit an official proposal or you can email a draft document to _tomomasterdao@Viction.com_ or _lak@Viction.com_.
 
 _Note that proposals will be rejected if the above criteria are not submitted. If you have a proposal but not a team, please head over to Discord to discuss your options._
 
 ## Allocation of Funding <a href="#9545" id="9545"></a>
 
-All funding for the initial stages of TomoMasterDAO will be allocated in TOMO. Depending on the size of the funding requested there will be a different process for a project to receive funds.
+All funding for the initial stages of TomoMasterDAO will be allocated in VIC. Depending on the size of the funding requested there will be a different process for a project to receive funds.
 
 ### Proposals < $1000 USD Equivalent <a href="#a76b" id="a76b"></a>
 

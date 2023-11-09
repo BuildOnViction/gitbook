@@ -1,8 +1,8 @@
 ---
 description: >-
-  TomoChain Labs has on-chain Staking services that allow people to secure the
-  chain and earn TOMO as rewards. Follow these instructions to stake and earn
-  rewards on TomoChain network.
+  Viction Labs has on-chain Staking services that allow people to secure the
+  chain and earn VIC as rewards. Follow these instructions to stake and earn
+  rewards on Viction network.
 ---
 
 # Staking

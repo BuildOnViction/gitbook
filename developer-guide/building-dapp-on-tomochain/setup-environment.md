@@ -91,17 +91,17 @@ $ npx hardhat init
 
 When Hardhat is run, it searches for the closest `hardhat.config.js` file starting from the current working directory. This file normally lives in the root of your project and an empty `hardhat.config.js` is enough for Hardhat to work. The entirety of your setup is contained in this file.
 
-### Create a TOMO Wallet
+### Create a VIC Wallet
 
-**You will need a wallet address** and some tokens. We will show you how to do it on both TomoChain Testnet and Mainnet.
+**You will need a wallet address** and some tokens. We will show you how to do it on both Viction Testnet and Mainnet.
 
-#### 1. Create a TOMO wallet and save your Mnemonic
+#### 1. Create a VIC wallet and save your Mnemonic
 
-You can create a new TOMO wallet using **TomoWallet** mobile app for [iOS](https://itunes.apple.com/us/app/tomo-wallet/id1436476145?mt=8), or the web version ([https://wallet.tomochain.com/#/login](https://wallet.tomochain.com/#/login)). Under _Settings_ go to _Advanced Settings,_ here you can _Choose network_ and select `TomoChain TestNet` or `TomoChain` \[mainnet].
+You can create a new VIC wallet using **TomoWallet** mobile app for [iOS](https://itunes.apple.com/us/app/tomo-wallet/id1436476145?mt=8), or the web version ([https://wallet.Viction.com/#/login](https://wallet.Viction.com/#/login)). Under _Settings_ go to _Advanced Settings,_ here you can _Choose network_ and select `Viction TestNet` or `Viction` \[mainnet].
 
 Go to _Settings_ menu, select _Backup wallet_ and then **Continue**. Here you can see your wallet’s private key and the 12-word recovery phrase. **Write down the 12-word recovery phrase.**
 
-You can also create a new [TomoChain wallet with MetaMask, MyEtherWallet or TrustWallet](https://docs.tomochain.com/get-started/wallet/). For instance, for mainnet you can go to [MyEtherWallet](https://www.myetherwallet.com/) and select **TOMO (tomochain.com)** on the top right corner. Enter a password and then Create a new wallet. **Write down your recovery phrase.**
+You can also create a new [Viction wallet with MetaMask, MyEtherWallet or TrustWallet](https://docs.Viction.com/get-started/wallet/). For instance, for mainnet you can go to [MyEtherWallet](https://www.myetherwallet.com/) and select **VIC (Viction.com)** on the top right corner. Enter a password and then Create a new wallet. **Write down your recovery phrase.**
 
 For this tutorial, my wallet address (testnet) is:
 
@@ -119,15 +119,15 @@ Write them down. This will be needed later. **Notice that your wallet address (p
 
 > **Important!** Always keep your private key and recovery phrase **secret!**
 
-#### 2. Get some TOMO funds
+#### 2. Get some VIC funds
 
 Tokens are required for different matters, like smart contract deployment or to use in Dapps.
 
-**Testnet:** Receive 15 free testnet TOMO tokens using [TomoChain's Faucet](https://faucet.testnet.tomochain.com/).
+**Testnet:** Receive 15 free testnet VIC tokens using [Viction's Faucet](https://faucet.testnet.Viction.com/).
 
-**Mainnet:** You need real TOMO tokens from exchanges.
+**Mainnet:** You need real VIC tokens from exchanges.
 
-Go to faucet and collect `30 TOMO`. Now your wallet has enough balance to do everything in this tutorial so… let’s go ahead!
+Go to faucet and collect `30 VIC`. Now your wallet has enough balance to do everything in this tutorial so… let’s go ahead!
 
 #### 3. The Block Explorer
 

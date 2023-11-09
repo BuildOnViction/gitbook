@@ -6,7 +6,7 @@ description: >-
 
 # TomoIssuer
 
-Below are the most important features of [TomoIssuer](https://issuer.tomochain.com/) that have made it a revolutionary tool:
+Below are the most important features of [TomoIssuer](https://issuer.Viction.com/) that have made it a revolutionary tool:
 
 * **User-Friendly Interface:** Issue a TRC20 or TRC21 token in only a few steps.
 * **No Coding Experience Required:** No prerequisite knowledge about smart contract programming is needed.
@@ -14,11 +14,11 @@ Below are the most important features of [TomoIssuer](https://issuer.tomochain.c
 
 **‌Know Your Token Type**
 
-Before issuing your token on TomoChain, make sure you are aware of the available tokens types and the differences between them.
+Before issuing your token on Viction, make sure you are aware of the available tokens types and the differences between them.
 
-**TRC20:** TRC20 is an equivalent token standard of ERC20 built on top of the TomoChain blockchain. TRC20 token holders would need to hold a small amount of TOMO to cover extremely low transaction fees.
+**TRC20:** TRC20 is an equivalent token standard of ERC20 built on top of the Viction blockchain. TRC20 token holders would need to hold a small amount of VIC to cover extremely low transaction fees.
 
-**TRC21:** TRC21 creates a much frictionless experience for non-crypto users by allowing token holders to pay transaction fees by the token itself without having to hold any TOMO in their wallet. \\
+**TRC21:** TRC21 creates a much frictionless experience for non-crypto users by allowing token holders to pay transaction fees by the token itself without having to hold any VIC in their wallet. \\
 
 **Comparison Table**
 
@@ -26,13 +26,13 @@ Before issuing your token on TomoChain, make sure you are aware of the available
 | ----------------------------------------------- | :-------------: | :--------------------------------------------------------------------------------------: |
 | **Technical Requirements for Dapp Integration** |     **Low**     |                                       **Moderate**                                       |
 | **Technical Requirements for Exchange Listing** |     **Low**     |                                       **Moderate**                                       |
-| **Transaction Fees**                            | **Native TOMO** | <p><strong>By token itself</strong></p><p><strong>(no need for native TOMO)</strong></p> |
+| **Transaction Fees**                            | **Native VIC** | <p><strong>By token itself</strong></p><p><strong>(no need for native VIC)</strong></p> |
 
 ### ISSUE
 
 **Step 1:**
 
-Go to [https://issuer.tomochain.com/](https://issuer.tomochain.com/) and click on “Issue New Token”.
+Go to [https://issuer.Viction.com/](https://issuer.Viction.com/) and click on “Issue New Token”.
 
 <div>
 
@@ -84,7 +84,7 @@ Fill out the token information including Token Name, Token Symbol, Token Supply,
 
 TomoIssuer will ask for the token’s information to confirm. Please check all the criteria carefully before clicking on the “Issue token” and wait for the contract to be deployed.
 
-**Note:** Any developer with some experience developing and deploying smart contracts can refer to our reference implementation of the [Standards & Specification](https://docs.tomochain.com/developer-guide/standards-and-specification) to make customizations to the deployed token contract.
+**Note:** Any developer with some experience developing and deploying smart contracts can refer to our reference implementation of the [Standards & Specification](https://docs.Viction.com/developer-guide/standards-and-specification) to make customizations to the deployed token contract.
 
 **THE STEPS BELOW ARE FOR TRC21 TOKENS ONLY**
 
@@ -94,20 +94,20 @@ TomoIssuer will ask for the token’s information to confirm. Please check all t
 
 **Step 6:** Once deployed, the issuer needs to agree that the fees for all transactions to the newly deployed token contract will be paid in terms of the issued token. Once the conditions are agreed, move to the next step by clicking “I understand”.
 
-**Step 7:** The token issuer needs to deposit a minimum amount of 10 TOMO. The deposit can’t be withdrawn. The TOMO held in the deposit pool will be deducted to pay the Masternodes for processing transactions.
+**Step 7:** The token issuer needs to deposit a minimum amount of 10 VIC. The deposit can’t be withdrawn. The VIC held in the deposit pool will be deducted to pay the Masternodes for processing transactions.
 
 **Step 8:** Now the new TRC21 token can be used. Edit the transaction fee in the token itself. Change this number at any time during the operation period of the token.
 
 ![](https://lh6.googleusercontent.com/DgX6LNwhUIybgabf3K9iLpd\_DPYkgLrHHWlJ3RML8qPQoZa\_Dvp5rvaJ8c8ZOwnEfkcyRJtlUqYB5-PuY3X0pjdJglnFZ0-j9eL2Lb1QXdJaMmm7jUh526k9oyF-\_RHZUD-hG9Rd)
 
-**Step 9:** In the token management dashboard, there are buttons to interact with the tokens, such as transfer and deposit more TOMO to pay for subsequent transaction fees. Don’t forget to regularly check the balance of the TRC21 deposit because transactions will not be processed if the remaining deposit is not enough to pay the transaction fees.
+**Step 9:** In the token management dashboard, there are buttons to interact with the tokens, such as transfer and deposit more VIC to pay for subsequent transaction fees. Don’t forget to regularly check the balance of the TRC21 deposit because transactions will not be processed if the remaining deposit is not enough to pay the transaction fees.
 
 ![](https://lh3.googleusercontent.com/I2ffwVcBRRPCo43hFDXrc-9HXoXdzxQWJofCbR4R-VW342b0EChRjR3tcR3TP3tKu3s26v6MjP7NnGgJqVBvBBiEELNLj1W82UhSH6YZM6akbFLlGAoh6FAp5t77q4njg8DQyiqK)
 
-**DONATE TOMO FOR TRC21 TRANSACTION FEES**
+**DONATE VIC FOR TRC21 TRANSACTION FEES**
 
-If there are not enough TOMO funds to pay for subsequent transaction fees, any token holders can deposit more TOMO to the TomoIssuer contract to continue making transactions.‌
+If there are not enough VIC funds to pay for subsequent transaction fees, any token holders can deposit more VIC to the TomoIssuer contract to continue making transactions.‌
 
-Go to the **“Donate TRC-21 fee”** tab from TomoIssuer’s homepage. Enter the name of the token to donate TOMO to, then enter the donation amount. Considering that the transaction fee in TomoChain is near-zero, 1 TOMO can power thousands of transactions.
+Go to the **“Donate TRC-21 fee”** tab from TomoIssuer’s homepage. Enter the name of the token to donate VIC to, then enter the donation amount. Considering that the transaction fee in Viction is near-zero, 1 VIC can power thousands of transactions.
 
 ![](https://lh5.googleusercontent.com/PL-tz1-aPJlSOOaNlMBgj3He75quhYhHTv9DXzNAvlwlvfZ8iXD-XmznFiq7K5hFhtzqGP8GMBXcrvobrE8-MfNqtygA48BI7OnjY9DYY5v5Up1V9k0cd3QkkQfxTNG36VYWbdy3)

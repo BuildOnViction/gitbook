@@ -1,6 +1,6 @@
 ---
 description: >-
-  This guide shows how to run a TomoChain Masternode in testnet and mainnet
+  This guide shows how to run a Viction Masternode in testnet and mainnet
   without the need of using Docker and tmn.
 ---
 
@@ -24,15 +24,15 @@ export GOPATH=$HOME/go
 Create new directory for the project
 
 ```
-mkdir -p $GOPATH/src/github.com/tomochain/
-cd $GOPATH/src/github.com/tomochain/
+mkdir -p $GOPATH/src/github.com/Viction/
+cd $GOPATH/src/github.com/Viction/
 ```
 
 * Download source code and build
 
 ```
-git clone https://github.com/tomochain/tomochain.git tomochain
-cd tomochain
+git clone https://github.com/Viction/Viction.git Viction
+cd Viction
 ```
 
 * Checkout the latest version (e.g v2.2.4)
@@ -48,15 +48,15 @@ git checkout v2.2.4
 make all
 ```
 
-* Binary file should be generated in build folder `$GOPATH/src/github.com/tomochain/tomochain/build/bin`
+* Binary file should be generated in build folder `$GOPATH/src/github.com/Viction/Viction/build/bin`
 
 ```
-alias tomo=$GOPATH/src/github.com/tomochain/tomochain/build/bin/tomo
+alias tomo=$GOPATH/src/github.com/Viction/Viction/build/bin/tomo
 ```
 
-**Download TomoChain binary from Github release page**
+**Download Viction binary from Github release page**
 
-Download tomo binary from our [releases page](https://github.com/tomochain/tomochain/releases)
+Download tomo binary from our [releases page](https://github.com/Viction/Viction/releases)
 
 ```
 alias tomo=path/to/tomo/binary
@@ -73,18 +73,18 @@ export GENESIS_PATH=path/to/genesis.json
 * Testnet
 
 ```
-curl -L https://raw.githubusercontent.com/tomochain/tomochain/master/genesis/testnet.json -o $GENESIS_PATH
+curl -L https://raw.githubusercontent.com/Viction/Viction/master/genesis/testnet.json -o $GENESIS_PATH
 ```
 
 * Mainnet
 
 ```
-curl -L https://raw.githubusercontent.com/tomochain/tomochain/master/genesis/mainnet.json -o $GENESIS_PATH
+curl -L https://raw.githubusercontent.com/Viction/Viction/master/genesis/mainnet.json -o $GENESIS_PATH
 ```
 
 ### Create datadir <a href="#create-datadir" id="create-datadir"></a>
 
-* create a folder to store tomochain data on your machine
+* create a folder to store Viction data on your machine
 
 ```
 export DATA_DIR=/path/to/your/data/folder
@@ -135,9 +135,9 @@ tomo account list --datadir $DATA_DIR  --keystore $KEYSTORE_DIR
 * $PASSWORD: the password file to unlock your account
 * $YOUR\_COINBASE\_ADDRESS: address of your account which generated in the previous step
 * $NETWORK\_ID: the networkId. Mainnet: 88. Testnet: 89
-* $BOOTNODES: The comma separated list of bootnodes. Find them [here](https://docs.tomochain.com/developer-guide/working-with-tomochain/tomochain-mainnet#bootnodes)
-* $WS\_SECRET: The password to send data to the stats website. Find them [here](https://docs.tomochain.com/developer-guide/working-with-tomochain/tomochain-mainnet#stats-websocket-secret)
-* $NETSTATS\_HOST: The stats website to report to, regarding to your environment. Find them [here](https://docs.tomochain.com/developer-guide/working-with-tomochain/tomochain-mainnet#stats-websocket-secret)
+* $BOOTNODES: The comma separated list of bootnodes. Find them [here](https://docs.Viction.com/developer-guide/working-with-Viction/Viction-mainnet#bootnodes)
+* $WS\_SECRET: The password to send data to the stats website. Find them [here](https://docs.Viction.com/developer-guide/working-with-Viction/Viction-mainnet#stats-websocket-secret)
+* $NETSTATS\_HOST: The stats website to report to, regarding to your environment. Find them [here](https://docs.Viction.com/developer-guide/working-with-Viction/Viction-mainnet#stats-websocket-secret)
 * $NETSTATS\_PORT: The port used by the stats website (usually 443)
 
 **Let's start a node**
@@ -200,7 +200,7 @@ tomo  --syncmode "full" \
 
 --gcmode: blockchain garbage collection mode ("full", "archive")
 
---synmode: blockchain sync mode ("fast", "full", or "light". More detail: https://github.com/tomochain/tomochain/blob/master/eth/downloader/modes.go#L24)
+--synmode: blockchain sync mode ("fast", "full", or "light". More detail: https://github.com/Viction/Viction/blob/master/eth/downloader/modes.go#L24)
 
 --ethstats: send data to stats website
 
@@ -217,8 +217,8 @@ tomo --help
 
 ### See your node on stats page <a href="#see-your-node-on-stats-page" id="see-your-node-on-stats-page"></a>
 
-* Testnet: [https://stats.testnet.tomochain.com](https://stats.testnet.tomochain.com/)
-* Mainnet: [https://stats.tomochain.com](http://stats.tomochain.com/)
+* Testnet: [https://stats.testnet.Viction.com](https://stats.testnet.Viction.com/)
+* Mainnet: [https://stats.Viction.com](http://stats.Viction.com/)
 
 ### Troubleshoot <a href="#troubleshoot" id="troubleshoot"></a>
 

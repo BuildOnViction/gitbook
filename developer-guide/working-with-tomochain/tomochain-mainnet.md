@@ -1,11 +1,11 @@
-# TomoChain Mainnet
+# Viction Mainnet
 
 ### Specifications
 
 * Chain id: `88 or 0x58`
-* RPC endpoint: `https://rpc.tomochain.com`
-* Websocket endpoint: `wss://ws.tomochain.com`
-* Metrics endpoint: `https://metrics.tomochain.com`
+* RPC endpoint: `https://rpc.Viction.com`
+* Websocket endpoint: `wss://ws.Viction.com`
+* Metrics endpoint: `https://metrics.Viction.com`
 * HD derivation path: `m/44'/889'/0'/0/`
 * Consensus: POSV
 * Block finality: `>75%`
@@ -16,10 +16,10 @@
 
 ### Useful links
 
-* [Status page](https://stats.tomochain.com/)
+* [Status page](https://stats.Viction.com/)
 * [TomoScan](https://tomoscan.io/) (Block explorer)
-* [TomoMaster](https://master.tomochain.com/) (Governance dApp)
-* [TomoIssuer](https://issuer.testnet.tomochain.com/) ([Dashboard](https://medium.com/tomochain/how-to-deploy-a-trc-21-token-on-tomochain-in-a-few-clicks-d0290f918b9a) to issue your token)
+* [TomoMaster](https://master.Viction.com/) (Governance dApp)
+* [TomoIssuer](https://issuer.testnet.Viction.com/) ([Dashboard](https://medium.com/Viction/how-to-deploy-a-trc-21-token-on-Viction-in-a-few-clicks-d0290f918b9a) to issue your token)
 * [TomoMaster smart contract](https://tomoscan.io/address/0x0000000000000000000000000000000000000088) (for staking and applying a new masternode)
 
 ### Bootnodes
@@ -35,4 +35,4 @@ enode://c8f2f0643527d4efffb8cb10ef9b6da4310c5ac9f2e988a7f85363e81d42f1793f64a9aa
 
 `getty-site-pablo-auger-room-sos-blair-shin-whiz-delhi`
 
-Host: stats.tomochain.com:443
+Host: stats.Viction.com:443

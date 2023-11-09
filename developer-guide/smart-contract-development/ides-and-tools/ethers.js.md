@@ -4,11 +4,11 @@
 
 The [Ethers.js](https://docs.ethers.org/) library provides a set of tools to interact with Ethereum Nodes with JavaScript, similar to Web3.js. Moonbeam has an Ethereum-like API available that is fully compatible with Ethereum-style JSON-RPC invocations. Therefore, developers can leverage this compatibility and use the Ethers.js library to interact with a Moonbeam node as if they were doing so on Ethereum. For more information on Ethers.js, check their [documentation site](https://docs.ethers.org/v6/).
 
-In this guide, you'll learn how to use the Ethers.js library to send a transaction and deploy a contract on TomoChain.
+In this guide, you'll learn how to use the Ethers.js library to send a transaction and deploy a contract on Viction.
 
 ### Checking Prerequisites  <a href="#user-content-checking-prerequisites" id="user-content-checking-prerequisites"></a>
 
-To test out the examples in this guide on TomoChain [mainnet](https://github.com/c98tristan/gitbook-tomochain/blob/master/developer-guide/working-with-tomochain/tomochain-mainnet.md) or [testnet](https://github.com/c98tristan/gitbook-tomochain/blob/master/developer-guide/working-with-tomochain/tomochain-testnet.md), you will need to have the corresponding RPC API endpoints and some native TOMO tokens.
+To test out the examples in this guide on Viction [mainnet](https://github.com/c98tristan/gitbook-Viction/blob/master/developer-guide/working-with-Viction/Viction-mainnet.md) or [testnet](https://github.com/c98tristan/gitbook-Viction/blob/master/developer-guide/working-with-Viction/Viction-testnet.md), you will need to have the corresponding RPC API endpoints and some native VIC tokens.
 
 {% hint style="info" %}
 The examples in this guide assumes you have a MacOS or Ubuntu 18.04-based environment and will need to be adapted accordingly for Windows.
@@ -53,8 +53,8 @@ const ethers = require('ethers');
 // 2. Define network configurations
 const providerRPC = {
   mainnet: {
-    name: 'tomochain-mainnet',
-    rpc: 'https://rpc.tomochain.com', // Insert your RPC URL here
+    name: 'Viction-mainnet',
+    rpc: 'https://rpc.Viction.com', // Insert your RPC URL here
     chainId: 88,
   },
 };
@@ -86,7 +86,7 @@ Next, you will create the script for this file and complete the following steps:
 1. [Set up the Ethers provider](https://docs.moonbeam.network/builders/build/eth-api/libraries/ethersjs/#setting-up-the-ethers-provider).
 2. Define the `addressFrom` and `addressTo` variables.
 3. Create the asynchronous `balances` function which wraps the `provider.getBalance` method.
-4. Use the `provider.getBalance` function to fetch the balances for the `addressFrom` and `addressTo` addresses. You can also leverage the `ethers.formatEther` function to transform the balance into a more readable number in TOMO.
+4. Use the `provider.getBalance` function to fetch the balances for the `addressFrom` and `addressTo` addresses. You can also leverage the `ethers.formatEther` function to transform the balance into a more readable number in VIC.
 5. Lastly, run the `balances` function.
 
 ```javascript
@@ -96,8 +96,8 @@ const ethers = require('ethers');
 // 2. Define network configurations
 const providerRPC = {
   mainnet: {
-    name: 'tomochain-mainnet',
-    rpc: 'https://rpc.tomochain.com', // Insert your RPC URL here
+    name: 'Viction-mainnet',
+    rpc: 'https://rpc.Viction.com', // Insert your RPC URL here
     chainId: 88,
   },
 };
@@ -137,7 +137,7 @@ If successful, the balances for the origin and receiving address will be display
 
 #### **Send Transaction Script**&#x20;
 
-You'll only need one file for executing a transaction between accounts. For this example, you'll be transferring 1 TOMO token from an origin address (from which you hold the private key) to another address. To get started, you can create a `transaction.js` file by running:
+You'll only need one file for executing a transaction between accounts. For this example, you'll be transferring 1 VIC token from an origin address (from which you hold the private key) to another address. To get started, you can create a `transaction.js` file by running:
 
 ```bash
 touch transaction.js
@@ -160,8 +160,8 @@ const ethers = require('ethers');
 // 2. Define network configurations
 const providerRPC = {
   mainnet: {
-    name: 'tomochain-mainnet',
-    rpc: 'https://rpc.tomochain.com', // Insert your RPC URL here
+    name: 'Viction-mainnet',
+    rpc: 'https://rpc.Viction.com', // Insert your RPC URL here
     chainId: 88,
   },
 };
@@ -323,8 +323,8 @@ const ethers = require('ethers');
 // 2. Define network configurations
 const providerRPC = {
   mainnet: {
-    name: 'tomochain-mainnet',
-    rpc: 'https://rpc.tomochain.com', // Insert your RPC URL here
+    name: 'Viction-mainnet',
+    rpc: 'https://rpc.Viction.com', // Insert your RPC URL here
     chainId: 88,
   },
 };
@@ -398,8 +398,8 @@ const { abi } = require('./compile');
 // 2. Define network configurations
 const providerRPC = {
   mainnet: {
-    name: 'tomochain-mainnet',
-    rpc: 'https://rpc.tomochain.com', // Insert your RPC URL here
+    name: 'Viction-mainnet',
+    rpc: 'https://rpc.Viction.com', // Insert your RPC URL here
     chainId: 88,
   },
 };
@@ -464,8 +464,8 @@ const { abi } = require('./compile');
 // 2. Define network configurations
 const providerRPC = {
   mainnet: {
-    name: 'tomochain-mainnet',
-    rpc: 'https://rpc.tomochain.com', // Insert your RPC URL here
+    name: 'Viction-mainnet',
+    rpc: 'https://rpc.Viction.com', // Insert your RPC URL here
     chainId: 88,
   },
 };
@@ -530,8 +530,8 @@ const { abi } = require('./compile');
 // 2. Define network configurations
 const providerRPC = {
   mainnet: {
-    name: 'tomochain-mainnet',
-    rpc: 'https://rpc.tomochain.com', // Insert your RPC URL here
+    name: 'Viction-mainnet',
+    rpc: 'https://rpc.Viction.com', // Insert your RPC URL here
     chainId: 88,
   },
 };

@@ -2,15 +2,15 @@
 
 ### **What is TomoWallet? Where can I download it?**
 
-TomoWallet is the official mobile wallet for TomoChain that stores the TOMO native coin and tokens issued on TomoChain. TomoWallet also allows users to vote for Masternodes and track rewards.
+TomoWallet is the official mobile wallet for Viction that stores the VIC native coin and tokens issued on Viction. TomoWallet also allows users to vote for Masternodes and track rewards.
 
 TomoWallet is available for iOS and Web.
 
-#### [iOS Download](https://itunes.apple.com/us/app/tomo-wallet/id1436476145?mt=8) | [TomoWallet Web](https://wallet.tomochain.com/) <a href="#android-download" id="android-download"></a>
+#### [iOS Download](https://itunes.apple.com/us/app/tomo-wallet/id1436476145?mt=8) | [TomoWallet Web](https://wallet.Viction.com/) <a href="#android-download" id="android-download"></a>
 
 ### **What tokens/coins does TomoWallet support?**
 
-The TomoWallet supports native TOMO on the TomoChain Mainnet and all tokens on the TomoChain platform including TRC20, TRC21 and TRC721.
+The TomoWallet supports native VIC on the Viction Mainnet and all tokens on the Viction platform including TRC20, TRC21 and TRC721.
 
 ### Does TomoWallet support multiple address?
 
@@ -18,21 +18,21 @@ Yes, it does. TomoWallet can support a maximum of 5 addresses.
 
 Go to bar on the upper left corner > "Add new wallet" button on the upper right corner > Create a new address or Import the current one.
 
-### **How can I create a TOMO wallet? What are the options to creating a TOMO wallet?**
+### **How can I create a VIC wallet? What are the options to creating a VIC wallet?**
 
-You can create a TOMO wallet with the iOS app, [TomoWallet Web](https://wallet.tomochain.com/), MyEtherWallet or Metamask.
+You can create a VIC wallet with the iOS app, [TomoWallet Web](https://wallet.Viction.com/), MyEtherWallet or Metamask.
 
 ### Create a new wallet on TomoWallet
 
 You can create a new wallet if you click on "CREATE NEW WALLET" after launching the App. You will receive a recovery passphrase consisting of 12 words to restore your wallet in case you lose your password. To protect your wallet you should click on "Settings" > "Create passcode" so all transfers from your wallet will need to be confirmed with a passcode.
 
-### Receive TOMO
+### Receive VIC
 
-By clicking on "Address" you can either receive TOMO by sharing your address or your QR-code. It's also possible to create a QR-code that requests a certain amount of tokens.
+By clicking on "Address" you can either receive VIC by sharing your address or your QR-code. It's also possible to create a QR-code that requests a certain amount of tokens.
 
-### Send TOMO
+### Send VIC
 
-By clicking on "Send" you can either send TOMO by scanning a QR-code or entering a recipient address manually.
+By clicking on "Send" you can either send VIC by scanning a QR-code or entering a recipient address manually.
 
 ### **Can we vote on TomoMaster using TomoWallet?**
 

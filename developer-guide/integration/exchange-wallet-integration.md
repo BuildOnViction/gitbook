@@ -1,15 +1,15 @@
 # Exchange/Wallet integration
 
-TomoChain is an EVM-compatible public blockchain. So you can use [TomoChain JSON-RPC APIs](https://apidocs.tomochain.com/#tomochain-apis-json-rpc) similar as in Ethereum.
+Viction is an EVM-compatible public blockchain. So you can use [Viction JSON-RPC APIs](https://apidocs.Viction.com/#Viction-apis-json-rpc) similar as in Ethereum.
 
-EVM compatible libraries such as [Web3.js](../smart-contract-development/ides-and-tools/web3js.md) or [Ethers.js](../smart-contract-development/ides-and-tools/ethers.js.md) library can be fully reused in integration to create a wallet, check wallet balances, or create/send transactions. All you need is to connect to TomoChain's RPC public endpoint. [This tutorial](../working-with-tomochain/) will guide you the steps to connect to TomoChain Testnet/Mainnet using Web3.js.
+EVM compatible libraries such as [Web3.js](../smart-contract-development/ides-and-tools/web3js.md) or [Ethers.js](../smart-contract-development/ides-and-tools/ethers.js.md) library can be fully reused in integration to create a wallet, check wallet balances, or create/send transactions. All you need is to connect to Viction's RPC public endpoint. [This tutorial](../working-with-Viction/) will guide you the steps to connect to Viction Testnet/Mainnet using Web3.js.
 
-### Connect to TomoChain's public RPC endpoint <a href="#connect-to-tomochain-nodes" id="connect-to-tomochain-nodes"></a>
+### Connect to Viction's public RPC endpoint <a href="#connect-to-Viction-nodes" id="connect-to-Viction-nodes"></a>
 
 ```javascript
 import Web3 from 'web3';
 
-const web3 = new Web3('https://rpc.tomochain.com');
+const web3 = new Web3('https://rpc.Viction.com');
 ```
 
 ### Create a wallet <a href="#create-wallet" id="create-wallet"></a>
@@ -91,8 +91,8 @@ web3.eth.sendTransaction(transactionObject [, callback])
 ```javascript
 const Web3 = require('web3')
 
-// Connect to TomoChain nodes
-const provider = new Web3.providers.HttpProvider('https://rpc.tomochain.com')
+// Connect to Viction nodes
+const provider = new Web3.providers.HttpProvider('https://rpc.Viction.com')
 const web3 = new Web3(provider)
 
 // Unlock wallet by private key
@@ -131,8 +131,8 @@ web3.eth.sign(dataToSign, address [, callback])
 ```javascript
 const Web3 = require('web3')
 
-// Connect to TomoChain nodes
-const provider = new Web3.providers.HttpProvider('https://rpc.tomochain.com')
+// Connect to Viction nodes
+const provider = new Web3.providers.HttpProvider('https://rpc.Viction.com')
 const web3 = new Web3(provider)
 
 // Unlock wallet by private key
@@ -180,19 +180,19 @@ Promise returns Object - A transaction receipt object, or null when no receipt w
 
 In normal case, you can wait for 60 confirmations, then checking block finality via `eth_getBlockFinalityByNumber` or `eth_getBlockFinalityByHash` API:
 
-* [eth\_getBlockFinalityByNumber](https://apidocs.tomochain.com/#eth\_getblockfinalitybynumber)
-* [eth\_getBlockFinalityByHash](https://apidocs.tomochain.com/#eth\_getblockFinalitybyhash)
+* [eth\_getBlockFinalityByNumber](https://apidocs.Viction.com/#eth\_getblockfinalitybynumber)
+* [eth\_getBlockFinalityByHash](https://apidocs.Viction.com/#eth\_getblockFinalitybyhash)
 
 If `result` >= 75, it means the block with the input hash is finalized, thus irreversible.
 
-### How does TomoChain smart contract work? <a href="#how-does-tomochain-smart-contract-work" id="how-does-tomochain-smart-contract-work"></a>
+### How does Viction smart contract work? <a href="#how-does-Viction-smart-contract-work" id="how-does-Viction-smart-contract-work"></a>
 
-TomoChain supports Solidity compiler version <= 0.8.17
+Viction supports Solidity compiler version <= 0.8.17
 
-### Does TomoChain support multi-signature wallets? <a href="#possible-to-create-muti-signature-wallet" id="possible-to-create-muti-signature-wallet"></a>
+### Does Viction support multi-signature wallets? <a href="#possible-to-create-muti-signature-wallet" id="possible-to-create-muti-signature-wallet"></a>
 
 Yes. Similar to Ethereum, you can use Gnosis MultiSigWallet.
 
-### Run TomoChain node <a href="#run-tomochain-node" id="run-tomochain-node"></a>
+### Run Viction node <a href="#run-Viction-node" id="run-Viction-node"></a>
 
-Please check [Run TomoChain Fullnode](../../masternode/run-a-full-node/) for details how to run a TomoChain full node.
+Please check [Run Viction Fullnode](../../masternode/run-a-full-node/) for details how to run a Viction full node.

@@ -1,7 +1,7 @@
 ---
 description: >-
   This section will guide you through deploying a smart contract on the
-  TomoChain using Hardhat.
+  Viction using Hardhat.
 ---
 
 # Hardhat
@@ -30,11 +30,11 @@ Select `Create a TypeScript project` then press _enter_ to confirm the project r
 
 Select `y` for both adding a `.gitignore` and loading the sample project. It will take a moment for the project setup process to complete.
 
-### Configure hardhat with TomoChain
+### Configure hardhat with Viction
 
-In order to deploy smart contracts to the TomoChain, you will need to configure your Hardhat project and add the TomoChain network.
+In order to deploy smart contracts to the Viction, you will need to configure your Hardhat project and add the Viction network.
 
-To configure Hardhat to use TomoChain, add TomoChain as a network to your project's `hardhat.config.ts` file:
+To configure Hardhat to use Viction, add Viction as a network to your project's `hardhat.config.ts` file:
 
 ```typescript
 import { HardhatUserConfig } from 'hardhat/config';
@@ -49,12 +49,12 @@ const config: HardhatUserConfig = {
   networks: {
     // for mainnet
     'tomo-mainnet': {
-      url: 'https://rpc.tomochain.com',
+      url: 'https://rpc.Viction.com',
       accounts: [process.env.PRIVATE_KEY as string],
     },
     // for testnet
     'tomo-testnet': {
-      url: 'https://rpc.testnet.tomochain.com',
+      url: 'https://rpc.testnet.Viction.com',
       accounts: [process.env.PRIVATE_KEY as string],
     },
   },
@@ -132,9 +132,9 @@ npx hardhat compile
 
 ### Deploy the smart contract[​](https://docs.base.org/guides/deploy-smart-contracts#deploying-the-smart-contract) <a href="#deploying-the-smart-contract" id="deploying-the-smart-contract"></a>
 
-Once your contract has been successfully compiled, you can deploy the contract to the TomoChain networks.
+Once your contract has been successfully compiled, you can deploy the contract to the Viction networks.
 
-To deploy the contract to the TomoChain testnet, you'll need to modify the `scripts/deploy.ts` in your project:
+To deploy the contract to the Viction testnet, you'll need to modify the `scripts/deploy.ts` in your project:
 
 ```typescript
 import { ethers } from 'hardhat';
@@ -159,7 +159,7 @@ main().catch((error) => {
 {% hint style="warning" %}
 **Note**
 
-Gas limit is required when deploying a smart contract using Hardhat in TomoChain
+Gas limit is required when deploying a smart contract using Hardhat in Viction
 {% endhint %}
 
 Finally, ensure your wallet has enough fund to cover gas fee and run script with command:
@@ -168,7 +168,7 @@ Finally, ensure your wallet has enough fund to cover gas fee and run script with
 npx hardhat run scripts/deploy.ts --network tomo-testnet
 ```
 
-The contract will be deployed on the TomoChain testnet. You can view the deployment status and contract by using [TomoScan](https://testnet.tomoscan.io/) and searching for the address returned by your deploy script. If you've deployed an exact copy of the token contract above, it will be verified, and you'll be able to read and write to the contract using the web interface.
+The contract will be deployed on the Viction testnet. You can view the deployment status and contract by using [TomoScan](https://testnet.tomoscan.io/) and searching for the address returned by your deploy script. If you've deployed an exact copy of the token contract above, it will be verified, and you'll be able to read and write to the contract using the web interface.
 
 ### Verify contract on TomoScan
 
@@ -181,8 +181,8 @@ import "@nomicfoundation/hardhat-toolbox";
 /** @type import('hardhat/config').HardhatUserConfig */
 const config: HardhatUserConfig = {
   networks: {
-    tomochain: {
-      url: "https://rpc.tomochain.com", // for mainnet
+    Viction: {
+      url: "https://rpc.Viction.com", // for mainnet
       accounts:  ['']
     }
   },
@@ -190,11 +190,11 @@ const config: HardhatUserConfig = {
   etherscan: {
     apiKey: {
       goerli: "",
-      tomochain: "tomoscan2023",
+      Viction: "tomoscan2023",
     },
     customChains: [
       {
-        network: "tomochain",
+        network: "Viction",
         chainId: 88, // for mainnet
         urls: {
           apiURL: "https://tomoscan.io/api/contract/hardhat/verify", // for mainnet

@@ -1,15 +1,15 @@
 ---
 description: >-
   This tutorial shows how to run a full node and meet the requirements to apply
-  to become a Masternode Candidate on TomoMaster. You have to run the TomoChain
-  client - our TomoChain implement on Go
+  to become a Masternode Candidate on TomoMaster. You have to run the Viction
+  client - our Viction implement on Go
 ---
 
 # Run a Full Node
 
 ### General hardware notice <a href="#general-hardware-notice" id="general-hardware-notice"></a>
 
-The TomoChain team has extensively tested performances and come up with those minimal requirements for any TomoChain masternode host.
+The Viction team has extensively tested performances and come up with those minimal requirements for any Viction masternode host.
 
 **Testnet**
 
@@ -38,11 +38,11 @@ We recommend prioritizing CPU. For example with Digital Ocean, pick a CPU optimi
 
 The full node will serve on port `30303` udp and tcp for p2p communication with other nodes, `8545` tcp for RPC api and `8546` tcp for websocket api. You may need to edit your firewall configuration accordingly.
 
-If you have other production grade environment than cloud provider at your displosal, please tell us more about on our [Gitter](https://gitter.im/tomochain).
+If you have other production grade environment than cloud provider at your displosal, please tell us more about on our [Gitter](https://gitter.im/Viction).
 
 ### tmn <a href="#tmn" id="tmn"></a>
 
-We made a simple command line interface called [tmn](https://github.com/tomochain/masternode) to easily and quickly start a TomoChain full node. It takes care of starting the necessary docker containers with the proper settings for you. It will really suit you if you don't already have a big infrastructure running. Spin up a machine in your favorite cloud and get your full node running in a few minutes!
+We made a simple command line interface called [tmn](https://github.com/Viction/masternode) to easily and quickly start a Viction full node. It takes care of starting the necessary docker containers with the proper settings for you. It will really suit you if you don't already have a big infrastructure running. Spin up a machine in your favorite cloud and get your full node running in a few minutes!
 
 #### Prerequisites <a href="#prerequisites" id="prerequisites"></a>
 
@@ -73,11 +73,11 @@ When you first start your full node with tmn, you need to give some information.
 
 `--name`: The name of your full node. It should be formatted as a slug string. Slug format authorize all letters and numbers, dashes ("-") and underscores ("\_"). You can name it to reflect your identity, company name, etc.
 
-`--net`: The network your full node will connect to. You can choose here to connect it to the TomoChain Testnet or Mainnet (once launched).
+`--net`: The network your full node will connect to. You can choose here to connect it to the Viction Testnet or Mainnet (once launched).
 
-`--pkey`: The private key of the account that your full node will use. A TomoChain full node uses an account to be uniquely identified and to receive transaction fee.
+`--pkey`: The private key of the account that your full node will use. A Viction full node uses an account to be uniquely identified and to receive transaction fee.
 
-**Important note:** we advise for security measures to use a fresh new account for your masternode. This is not the account who will receive the rewards. The rewards are sent to the account who will make the 50k TOMO initial deposit.
+**Important note:** we advise for security measures to use a fresh new account for your masternode. This is not the account who will receive the rewards. The rewards are sent to the account who will make the 50k VIC initial deposit.
 
 It could look like this:
 
@@ -87,7 +87,7 @@ tmn start --name [YOUR_NODE_NAME] \
     --pkey [YOUR_COINBASE_PRIVATE_KEY]
 ```
 
-Once started, you should see your node on the [testnet stats page](https://stats.testnet.tomochain.com/) or the [mainnet stats page](https://stats.tomochain.com/), depending on which net you are connecting to!
+Once started, you should see your node on the [testnet stats page](https://stats.testnet.Viction.com/) or the [mainnet stats page](https://stats.Viction.com/), depending on which net you are connecting to!
 
 Note: it can take up to one hour or more (depending on the blockchain data size) to properly sync the entire blockchain.
 

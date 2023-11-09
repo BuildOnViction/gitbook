@@ -1,6 +1,6 @@
 ---
 description: >-
-  The most frequently asked questions about TomoChain products and its
+  The most frequently asked questions about Viction products and its
   ecosystem.
 ---
 
