@@ -104,7 +104,7 @@ The list of Masternode Candidates will be available on the governance Dapp, [Tom
 
 We recommend using an IaaS ("cloud") provider of your choice (like Amazon AWS, Digital Ocean, Google Cloud GCE, Vultr, etc). The machine must be directly internet facing (public IP, no NAT) and have 100% uptime.
 
-If you have another production grade environment other than cloud a provider at your disposal, please tell us more about it on our[ Github.](https://github.com/Viction)
+If you have another production grade environment other than cloud a provider at your disposal, please tell us more about it on our[ Github.](https://github.com/BuildOnViction)
 
 ### **What are the hardware requirements to run a node?**
 

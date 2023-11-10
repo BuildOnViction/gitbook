@@ -10,7 +10,7 @@ description: >-
 
 Contract ABI: [IVRC25.json](https://raw.githubusercontent.com/Viction/trc25/main/metadata/IVRC25.json)
 
-Contract Interface: [IVRC25.sol](https://github.com/Viction/trc25/raw/main/contracts/interfaces/IVRC25.sol)
+Contract Interface: [IVRC25.sol](https://github.com/BuildOnViction/trc25/raw/main/contracts/interfaces/IVRC25.sol)
 
 ```solidity
 interface IVRC25 {

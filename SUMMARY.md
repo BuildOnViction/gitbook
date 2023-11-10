@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Getting Started](README.md)
+* [Getting Started](Coin98/Gitbook/Viction-Official/README.md)
 * [General](general/README.md)
   * [Overview](general/introduction.md)
   * [Viction public chain](general/blockchain-platform-comparison/README.md)

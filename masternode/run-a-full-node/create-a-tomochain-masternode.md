@@ -104,7 +104,7 @@ docker-compose version
 
 ### Installation <a href="#installation" id="installation"></a>
 
-Download `create-Viction-masternode` from the [latest release](https://github.com/Viction/create-Viction-masternode/releases/latest).
+Download `create-Viction-masternode` from the [latest release](https://github.com/BuildOnViction/create-Viction-masternode/releases/latest).
 
 Make it executable.
 
@@ -162,7 +162,7 @@ For more docker-compose commands, use `docker-compose --help` or refer to their 
 
 ### Migrating from `tmn` <a href="#migrating-from-tmn" id="migrating-from-tmn"></a>
 
-You can find a guide on migrating from `tmn` in the [wiki](https://github.com/Viction/docs/wiki/Migrate-from-tmn-to-docker-compose-with-create-Viction-masternode).
+You can find a guide on migrating from `tmn` in the [wiki](https://github.com/BuildOnViction/docs/wiki/Migrate-from-tmn-to-docker-compose-with-create-Viction-masternode).
 
 For the long time Masternode runners who started with our older tool, `tmn`, here are the commands to achieve the same actions.
 

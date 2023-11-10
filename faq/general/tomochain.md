@@ -56,7 +56,7 @@ An array of unique products is designed to support speed, privacy, usability, an
 **Our own ecosystem**
 
 * Viction Labs also is working vigorously on building its ecosystem and has sealed many partnerships from all fields, such as agriculture, robotics, gaming, IT solution providers, advertising, loyalty points, education and research, payment, communication, name service, food traceability, tourism etc
-* In collaboration with [TomoMasterDAO](https://github.com/Viction/gitbook/blob/master/faq/general/broken-reference/README.md), Viction Labs offers a developer friendly and scalable environment, extensive support and everything it takes to succeed for all builders.
+* In collaboration with [TomoMasterDAO](https://github.com/BuildOnViction/gitbook/blob/master/faq/general/broken-reference/README.md), Viction Labs offers a developer friendly and scalable environment, extensive support and everything it takes to succeed for all builders.
 
 ### Which blockchain(s) are Viction's main competitors?
 

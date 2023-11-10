@@ -2,7 +2,7 @@
 
 Masternodes and Voters' funds are locked and governed in the [Viction Validator smart contract](https://tomoscan.io/address/0x0000000000000000000000000000000000000088):
 
-* Smart Contract Code: [Viction Validator](https://github.com/Viction/tomomaster/blob/master/contracts/TomoValidator.sol)
+* Smart Contract Code: [Viction Validator](https://github.com/BuildOnViction/tomomaster/blob/master/contracts/TomoValidator.sol)
 * Smart Contract ABI: [TomoValidatorAbi.json](https://raw.githubusercontent.com/Viction/tomomaster/master/abis/TomoValidatorAbi.json)
 
 Viction Validator Smart Contract Interface:

@@ -31,7 +31,7 @@ cd $GOPATH/src/github.com/Viction/
 * Download source code and build
 
 ```
-git clone https://github.com/Viction/Viction.git Viction
+git clone https://github.com/BuildOnViction/Viction.git Viction
 cd Viction
 ```
 
@@ -56,7 +56,7 @@ alias tomo=$GOPATH/src/github.com/Viction/Viction/build/bin/tomo
 
 **Download Viction binary from Github release page**
 
-Download tomo binary from our [releases page](https://github.com/Viction/Viction/releases)
+Download tomo binary from our [releases page](https://github.com/BuildOnViction/Viction/releases)
 
 ```
 alias tomo=path/to/tomo/binary
@@ -200,7 +200,7 @@ tomo  --syncmode "full" \
 
 --gcmode: blockchain garbage collection mode ("full", "archive")
 
---synmode: blockchain sync mode ("fast", "full", or "light". More detail: https://github.com/Viction/Viction/blob/master/eth/downloader/modes.go#L24)
+--synmode: blockchain sync mode ("fast", "full", or "light". More detail: https://github.com/BuildOnViction/Viction/blob/master/eth/downloader/modes.go#L24)
 
 --ethstats: send data to stats website
 

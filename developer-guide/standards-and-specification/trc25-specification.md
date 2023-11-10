@@ -34,7 +34,7 @@ interface IVRC25 {
 }
 ```
 
-Source: [IVRC25.sol](https://github.com/Viction/trc25/blob/main/contracts/interfaces/IVRC25.sol)
+Source: [IVRC25.sol](https://github.com/BuildOnViction/trc25/blob/main/contracts/interfaces/IVRC25.sol)
 
 #### Methods <a href="#trc25-api-specification" id="trc25-api-specification"></a>
 
@@ -487,7 +487,7 @@ abstract contract VRC25 is IVRC25, IERC165 {
 }
 ```
 
-Source: [VRC25.sol](https://github.com/Viction/trc25/blob/main/contracts/VRC25.sol)
+Source: [VRC25.sol](https://github.com/BuildOnViction/trc25/blob/main/contracts/VRC25.sol)
 
 ### Example <a href="#trc25-token-example" id="trc25-token-example"></a>
 
@@ -533,7 +533,7 @@ contract SampleVRC25 is VRC25Permit {
 }
 ```
 
-Source: [SampleVRC25.sol](https://github.com/Viction/trc25/blob/main/contracts/tests/SampleVRC25.sol)
+Source: [SampleVRC25.sol](https://github.com/BuildOnViction/trc25/blob/main/contracts/tests/SampleVRC25.sol)
 
 ### Enable gas-less transaction
 

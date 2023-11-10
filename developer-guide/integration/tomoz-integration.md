@@ -19,5 +19,5 @@ description: TomoZ is the runtime feature to perform gas-less transaction with T
 
 The owner of TRC25 token must call `apply` function of `VRC25Issuer` contract at [0x8c0faeb5c6bed2129b8674f262fd45c4e9468bee](https://tomoscan.io/address/0x8c0faeb5c6bed2129b8674f262fd45c4e9468bee).
 
-The [source code](https://github.com/Viction/trc25/raw/main/contracts/tests/VRC25Issuer.sol) and [ABI](https://github.com/Viction/trc25/raw/main/metadata/VRC25Issuer.json) for VRC25Issuer contract can be found in [trc25 repository](https://github.com/Viction/trc25/).
+The [source code](https://github.com/BuildOnViction/trc25/raw/main/contracts/tests/VRC25Issuer.sol) and [ABI](https://github.com/BuildOnViction/trc25/raw/main/metadata/VRC25Issuer.json) for VRC25Issuer contract can be found in [trc25 repository](https://github.com/BuildOnViction/trc25/).
 

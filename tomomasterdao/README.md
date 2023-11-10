@@ -24,7 +24,7 @@ Relevant resources:
 {% endcontent-ref %}
 
 {% content-ref url="tokenomics.md" %}
-[tokenomics.md](tokenomics.md)
+[tokenomics.md](Coin98/Gitbook/Viction-Official/tomomasterdao/tokenomics.md)
 {% endcontent-ref %}
 
 {% content-ref url="how-to-utilize-and-trade-tdao.md" %}

@@ -42,7 +42,7 @@ If you have other production grade environment than cloud provider at your displ
 
 ### tmn <a href="#tmn" id="tmn"></a>
 
-We made a simple command line interface called [tmn](https://github.com/Viction/masternode) to easily and quickly start a Viction full node. It takes care of starting the necessary docker containers with the proper settings for you. It will really suit you if you don't already have a big infrastructure running. Spin up a machine in your favorite cloud and get your full node running in a few minutes!
+We made a simple command line interface called [tmn](https://github.com/BuildOnViction/masternode) to easily and quickly start a Viction full node. It takes care of starting the necessary docker containers with the proper settings for you. It will really suit you if you don't already have a big infrastructure running. Spin up a machine in your favorite cloud and get your full node running in a few minutes!
 
 #### Prerequisites <a href="#prerequisites" id="prerequisites"></a>
 

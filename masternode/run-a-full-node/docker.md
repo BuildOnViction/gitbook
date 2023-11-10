@@ -9,7 +9,7 @@ description: >-
 
 To achieve that, you just need to run our `Viction/node` docker image.
 
-This image runs the [Viction go client](https://github.com/Viction/Viction) with some automation added on top.
+This image runs the [Viction go client](https://github.com/BuildOnViction/Viction) with some automation added on top.
 
 ### Tags <a href="#tags" id="tags"></a>
 

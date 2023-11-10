@@ -7,14 +7,14 @@ description: >-
 
 # Whitepaper and Research
 
-{% content-ref url="https://github.com/Viction/gitbook/blob/master/whitepaper-and-research/broken-reference/README.md" %}
-[https://github.com/Viction/gitbook/blob/master/whitepaper-and-research/broken-reference/README.md](https://github.com/Viction/gitbook/blob/master/whitepaper-and-research/broken-reference/README.md)
+{% content-ref url="https://github.com/BuildOnViction/gitbook/blob/master/whitepaper-and-research/broken-reference/README.md" %}
+[https://github.com/BuildOnViction/gitbook/blob/master/whitepaper-and-research/broken-reference/README.md](https://github.com/BuildOnViction/gitbook/blob/master/whitepaper-and-research/broken-reference/README.md)
 {% endcontent-ref %}
 
-{% content-ref url="https://github.com/Viction/gitbook/blob/master/whitepaper-and-research/broken-reference/README.md" %}
-[https://github.com/Viction/gitbook/blob/master/whitepaper-and-research/broken-reference/README.md](https://github.com/Viction/gitbook/blob/master/whitepaper-and-research/broken-reference/README.md)
+{% content-ref url="https://github.com/BuildOnViction/gitbook/blob/master/whitepaper-and-research/broken-reference/README.md" %}
+[https://github.com/BuildOnViction/gitbook/blob/master/whitepaper-and-research/broken-reference/README.md](https://github.com/BuildOnViction/gitbook/blob/master/whitepaper-and-research/broken-reference/README.md)
 {% endcontent-ref %}
 
-{% content-ref url="https://github.com/Viction/gitbook/blob/master/whitepaper-and-research/broken-reference/README.md" %}
-[https://github.com/Viction/gitbook/blob/master/whitepaper-and-research/broken-reference/README.md](https://github.com/Viction/gitbook/blob/master/whitepaper-and-research/broken-reference/README.md)
+{% content-ref url="https://github.com/BuildOnViction/gitbook/blob/master/whitepaper-and-research/broken-reference/README.md" %}
+[https://github.com/BuildOnViction/gitbook/blob/master/whitepaper-and-research/broken-reference/README.md](https://github.com/BuildOnViction/gitbook/blob/master/whitepaper-and-research/broken-reference/README.md)
 {% endcontent-ref %}

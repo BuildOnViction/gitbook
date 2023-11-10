@@ -167,7 +167,7 @@ You can go to [**TomoScan Testnet** ](https://testnet.tomoscan.io/)to verify the
 
 Let’s get some faucet VIC from the [**faucet page**](https://faucet.testnet.Viction.com/).
 
-Connect MetaMask to Viction Testnet by following this [**guide**](https://github.com/Viction/docs/blob/game\_tutorials/get-started/wallet).
+Connect MetaMask to Viction Testnet by following this [**guide**](https://github.com/BuildOnViction/docs/blob/game\_tutorials/get-started/wallet).
 
 You can even play the game with [**TomoWallet**](broken-reference) through our built-in Dapp Browser, which provides the best user experience for gamers.
 
@@ -181,4 +181,4 @@ Below is the **video** showing how fast TomoRPS is on Viction.
 
 It will not be too difficult and won’t take much time to migrate your Dapps from Ethereum to Viction. Along with that Dapps running on Viction has many advantages in speed and cost. So don’t hesitate to bring your Dapps to Viction where you can make your Dapps great again.
 
-[**Github**](https://github.com/Viction/docs/blob/game\_tutorials/docs/developers/migrate\_from\_ethereum.md)
+[**Github**](https://github.com/BuildOnViction/docs/blob/game\_tutorials/docs/developers/migrate\_from\_ethereum.md)

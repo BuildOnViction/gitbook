@@ -47,7 +47,7 @@ make all
 * Download source code Tomo and install library:
 
 ```bash
-git clone https://github.com/Viction/Viction
+git clone https://github.com/BuildOnViction/Viction
 cd Viction
 go mod tidy -e
 make all
@@ -207,7 +207,7 @@ tomo --networkid [YOUR_NETWORK_ID] --identity "NODE4" \
 --identity: your full-node's name.
 --rpc, --rpcaddr, --rpcport, --rpccorsdomain, --rpcvhosts: your full-node will accept RPC requests at 8545 TCP.
 --ws, --wsaddr, --wsport, --wsorigins: your full-node will accept Websocket requests at 8546 TCP.
---synmode: blockchain sync mode ("fast", "full", or "light". More detail: https://github.com/Viction/Viction/blob/master/eth/downloader/modes.go#L24)
+--synmode: blockchain sync mode ("fast", "full", or "light". More detail: https://github.com/BuildOnViction/Viction/blob/master/eth/downloader/modes.go#L24)
 --gcmode: blockchain garbage collection mode ("full", "archive")
 --port: your full-node's listening port (default to 30303)
 --bootnode: bootnode information to help to discover other nodes in the network
