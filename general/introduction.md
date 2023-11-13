@@ -13,12 +13,6 @@ Viction is driven by a mission to build a decentralized platform that empowers h
 Viction collaborates with various partners, including LayerZero, Pyth, MoonPay, CoinGecko, and more.
 
 * **Viction**: Viction is the core public blockchain powering every product and Dapp built on it.
-* **TomoMasterDAO**: [TomoMasterDAO](https://masterdao.viction.com/) is a community-governed platform that propels the development of the Viction ecosystem.
 * **TomoScan**: [TomoScan](https://tomoscan.io/) provides a user-friendly and detailed blockchain explorer user interface for Viction. All blocks, transactions, finality, smart contracts, Dapps, and token information are captured. Also offered are technical visualizations and useful statistics about Viction's performance, token holders, and other functionalities.
-* **TomoDashboard**: [TomoDashboard](https://stats.viction.com/) is a dashboard for Viction's network status. It shows various metrics, including the current number of masternodes, masternode performance, current TPS, block time, confirmation time, finality, and other useful metrics.
 * **TomoStats:** [TomoStats](https://status.viction.com/) is a system for checking current and historical operational status of all Viction infrastructure.
-* **TomoMaster**: [TomoMaster](https://master.viction.com/) is a governance Dapp that allows users to see a list of Masternodes and Masternode Candidates. TomoMaster is also used to launch a Masternode Candidate, vote for Masternodes, and view Masternode performance statistics.
-* **TomoWallet**: [TomoWallet](https://wallet.viction.com/) is the official mobile wallet of Viction. Users can store VIC, tokens issued on Viction, vote for Masternodes, track rewards, and interact with Dapps.
 * **Viction Bridge:** Viction Bridge is now on [SpaceGate](https://blog.coin98.com/Viction-bridge-is-now-available-on-spacegate/) - a cross-chain bridge designed to seamlessly transfer assets from Ethereum to Viction.
-* **TomoIssuer**: [TomoIssuer](https://issuer.viction.com/) is a dashboard to issue a TRC20 or TRC21 standard token without requiring any programming skills.
-* **LuaSwap:** [LuaSwap](https://luaswap.org/) is a multichain AMM. It allows users to swap, add liquidity, yield farming, and stake for passive income. Built on LuaSwap is the multichain launchpad LuaStarter.
