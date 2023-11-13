@@ -67,7 +67,6 @@
   * [Proposal guidelines for TomoMasterDAO](tomomasterdao/proposal-guidelines-for-tomomasterdao.md)
 * [Viction Bridge](tomobridge/README.md)
   * [TOMOE](tomobridge/tomoe.md)
-  * [FAQ](tomobridge/faq.md)
 * [FAQ](faq/README.md)
   * [APIs](https://apidocs.viction.com/)
   * [General](faq/general/README.md)
