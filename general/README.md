@@ -4,7 +4,7 @@ description: This section provides a general overview of Viction's technology an
 
 # General
 
-Viction, previously known as Viction, is a people-centric layer-1 blockchain that provides zero-gas transactions and heightened security, making Web3 accessible and safe for everyone.&#x20;
+Viction, previously known as Tomochain, is a people-centric layer-1 blockchain that provides zero-gas transactions and heightened security, making Web3 accessible and safe for everyone.
 
 With a design emphasis on user experience, Viction prioritizes zero-gas transactions through the innovative TRC25 token standard, alongside speed, security, and scalability, all contributing to a more secure and open world.
 
