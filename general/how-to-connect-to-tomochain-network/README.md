@@ -16,5 +16,5 @@ description: >-
 {% endcontent-ref %}
 
 {% content-ref url="myetherwallet-and-trust-wallet.md" %}
-[myetherwallet-and-trust-wallet.md](myetherwallet-and-trust-wallet.md)
+[myetherwallet-and-trust-wallet.md](myetherwallet.md)
 {% endcontent-ref %}

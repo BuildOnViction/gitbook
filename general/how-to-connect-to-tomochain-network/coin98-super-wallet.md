@@ -28,7 +28,7 @@ Coin98 Super App is available for download at:
 
 
 
-<figure><img src="../../.gitbook/assets/Thiết kế chưa có tên (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="<../../.gitbook/assets/Thiết kế chưa có tên (1).png>" alt=""><figcaption></figcaption></figure>
 
 **Step 4:** Name the wallet and select Next.&#x20;
 
@@ -39,7 +39,7 @@ Coin98 Super App is available for download at:
 * Read the warnings carefully, then select three checkboxes to confirm your awareness of the risks when losing keys.
 * Click Create Wallet to complete.
 
-<figure><img src="../../.gitbook/assets/Thiết kế chưa có tên (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="<../../.gitbook/assets/Thiết kế chưa có tên (2).png>" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -59,7 +59,7 @@ If you’ve already had a Viction wallet address, you can simply restore it on C
 
 
 
-<figure><img src="../../.gitbook/assets/Thiết kế chưa có tên (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="<../../.gitbook/assets/Thiết kế chưa có tên (3).png>" alt=""><figcaption></figcaption></figure>
 
 ## III. How to add custom Network on Coin98 Super Wallet
 
@@ -78,7 +78,7 @@ In case users want to interact with other blockchains aside from Viction, comple
 * Symbol
 * Block Explorer URL (optional)
 
-<figure><img src="../../.gitbook/assets/Thiết kế chưa có tên (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="<../../.gitbook/assets/Thiết kế chưa có tên (4).png>" alt=""><figcaption></figcaption></figure>
 
 Note:
 
@@ -99,7 +99,7 @@ Note:
 
 **Step 4:** Click Slide to Send to finish the process.
 
-<figure><img src="../../.gitbook/assets/Thiết kế chưa có tên (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="<../../.gitbook/assets/Thiết kế chưa có tên (5).png>" alt=""><figcaption></figcaption></figure>
 
 **How to receive token**
 
@@ -109,7 +109,7 @@ Note:
 
 **Step 3:** Copy the wallet address to senders, then you are ready to receive the coin/ token to this wallet address.
 
-<figure><img src="../../.gitbook/assets/Thiết kế chưa có tên (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="<../../.gitbook/assets/Thiết kế chưa có tên (6).png>" alt=""><figcaption></figcaption></figure>
 
 And that’s it! You should now see your wallet, ready to send and receive funds.
 
