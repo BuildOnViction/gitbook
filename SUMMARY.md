@@ -1,7 +1,6 @@
 # Table of contents
 
-* [README](README.md)
-* [Getting Started](getting-started.md)
+* [Getting Started](README.md)
 * [General](general/README.md)
   * [Overview](general/introduction.md)
   * [Viction public chain](general/blockchain-platform-comparison/README.md)

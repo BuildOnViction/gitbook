@@ -7,32 +7,30 @@ description: >-
 
 # Coin98 Super Wallet
 
-## I. How to install Coin98 Super Wallet&#x20;
+## I. How to install Coin98 Super Wallet
 
-Coin98 Super App is available for download at:
+Coin98 Super Wallet is available for download at:
 
-* iOS: [ios.coin98.com](https://ios.coin98.com/)&#x20;
+* iOS: [ios.coin98.com](https://ios.coin98.com/)
 * Android: [android.coin98.com](https://android.coin98.com/)
 
 ## II. How to create and restore a wallet on the Coin98 Super Wallet
 
 #### Create a wallet for Viction on the Coin98 Super Wallet
 
-**Step 1:** Open Coin98 Super App & click the Wallets tab on the home screen
+**Step 1:** Open Coin98 Super Wallet & click the Wallets tab on the home screen
 
-**Step 2:** Click Manage →  Add Wallet
+**Step 2:** Click Manage → Add Wallet
 
-**Step 3:** Select MultiChain or Viction → Then click Create&#x20;
+**Step 3:** Select MultiChain or Viction → Then click Create
 
-(Note: When you create a multichain wallet, you can store and manage assets across numerous chains all in one place. Meanwhile, when you create a Viction wallet address, you can only access coins/tokens/NFTs on Viction)&#x20;
-
-
+(Note: When you create a multichain wallet, you can store and manage assets across numerous chains all in one place. Meanwhile, when you create a Viction wallet address, you can only access coins/tokens/NFTs on Viction)
 
 <figure><img src="../../.gitbook/assets/Thiết kế chưa có tên (1).png" alt=""><figcaption></figcaption></figure>
 
-**Step 4:** Name the wallet and select Next.&#x20;
+**Step 4:** Name the wallet and select Next.
 
-**Step 5:**&#x20;
+**Step 5:**
 
 * Back up your Passphrase and Private Key in a safe place. (Note: This is an extremely important step that directly affects your assets. If you unintentionally reveal it, this means that you are more prone to lose your wallet to someone else).
 * Re-enter your Passphrase into the reconfirmation box.
@@ -41,27 +39,23 @@ Coin98 Super App is available for download at:
 
 <figure><img src="../../.gitbook/assets/Thiết kế chưa có tên (2).png" alt=""><figcaption></figcaption></figure>
 
-
-
 Once completed, the wallet will be displayed on the main interface. You can also access diverse features of Coin98 Super Wallet.
 
 #### Restore a wallet on the Coin98 Super Wallet
 
 If you’ve already had a Viction wallet address, you can simply restore it on Coin98 Super Wallet by following these steps:
 
-**Step 1:** Open the Coin98 Super Wallet & click Wallets tab on the home screen.
+**Step 1:** Open the Coin98 Super Wallet & click the Wallets tab on the home screen.
 
-**Step 2:** Click Add Wallet icon
+**Step 2:** Click the Add Wallet icon
 
-**Step 3:** Select Viction icon → click Restore
+**Step 3:** Select the Viction icon → click Restore
 
 **Step 4:** Name the wallet and enter the saved Passphrase to restore. Click Restore.
 
-
-
 <figure><img src="../../.gitbook/assets/Thiết kế chưa có tên (3).png" alt=""><figcaption></figcaption></figure>
 
-## III. How to add custom Network on Coin98 Super Wallet
+## III. How to add a custom Network on Coin98 Super Wallet
 
 In case users want to interact with other blockchains aside from Viction, complete these steps as follows:
 
@@ -82,7 +76,7 @@ In case users want to interact with other blockchains aside from Viction, comple
 
 Note:
 
-* For the Testnets and Mainnets available in the Profile of the Coin98 Super Wallet, the user only needs to select the name of the Network. The system will automatically update the rest parameters after that. Currently, Coin98 Super Wallet has updated 34+ available profiles.
+* For the Testnets and Mainnets available in the Profile of the Coin98 Super Wallet, the user only needs to select the name of the Network. The system will automatically fill all fields after that. Currently, Coin98 Super Wallet has updated 34+ available profiles.
 * For Networks that are not available in the Profile, you can manually enter the required parameters that are provided on the official websites of those Networks.
 
 **Step 4:** Click Create to complete the process.
@@ -112,4 +106,3 @@ Note:
 <figure><img src="../../.gitbook/assets/Thiết kế chưa có tên (6).png" alt=""><figcaption></figcaption></figure>
 
 And that’s it! You should now see your wallet, ready to send and receive funds.
-
