@@ -24,4 +24,4 @@ You can get TOMOE by:
 
 ### 4. Where can I store TOMOE?
 
-You can store TOMOE in an Ethereum address. Make sure you own a private key/seeding phrase and can access the Ethereum address receiving TOMOE.\
+You can store TOMOE in an Ethereum address. Make sure you own a private key/seeding phrase and can access the Ethereum address receiving TOMOE.

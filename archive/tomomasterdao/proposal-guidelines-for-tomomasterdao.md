@@ -2,7 +2,7 @@
 
 TomoMasterDAO gives you the opportunity to explore, experiment, and innovate in the world of web3 and blockchain. We believe in order to develop the financial and social tools of the future, contributions to projects in their early stage is a fundamental component. We have built a platform to offer grants decided by the community, for projects looking to innovate with the Viction ecosystem.
 
-<figure><img src="../.gitbook/assets/1_l2oyHfWIPIzq-VloyljYuw.webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1_l2oyHfWIPIzq-VloyljYuw.webp" alt=""><figcaption></figcaption></figure>
 
 ## Proposal Scope <a href="#6db5" id="6db5"></a>
 
@@ -36,13 +36,13 @@ In order to qualify for funding, the project must be relevant to the Viction eco
 
 ## Applying for a Grant <a href="#0684" id="0684"></a>
 
-The first step in applying for a grant is to post a summary of your proposal idea on the [Forum](https://forum.Viction.com/c/tomomasterdao/35.). This will allow you to discuss your ideas with the community, answer any questions, and make the community aware before any proposal goes live on the governance portal. Include “Proposal Discussion”, then your proposal title, then a summary of your proposal and requested funding. Please use the format displayed in the following example:
+The first step in applying for a grant is to post a summary of your proposal idea on the [Forum](https://forum.viction.com/c/tomomasterdao/35.). This will allow you to discuss your ideas with the community, answer any questions, and make the community aware before any proposal goes live on the governance portal. Include “Proposal Discussion”, then your proposal title, then a summary of your proposal and requested funding. Please use the format displayed in the following example:
 
 > Proposal Discussion — TomoWarrior NFT Series
 >
 > Crypto Labs is proposing to build…
 
-The next step is submitting a proposal to the TomoMasterDAO Board through the [governance portal](https://masterdao.Viction.com/). You can also use the link [here ](https://forms.gle/uHhXxzVfmXn98hwz8)to submit your own proposal, which will be routinely checked and picked up by the Board . The Board is made up of 3 internal Viction Lab Members, and 4 external members elected by the community. The Board will assess your proposal on these criteria:
+The next step is submitting a proposal to the TomoMasterDAO Board through the [governance portal](https://masterdao.viction.com/). You can also use the link [here ](https://forms.gle/uHhXxzVfmXn98hwz8)to submit your own proposal, which will be routinely checked and picked up by the Board . The Board is made up of 3 internal Viction Lab Members, and 4 external members elected by the community. The Board will assess your proposal on these criteria:
 
 ● Legitimacy and experience of the team or organization
 
