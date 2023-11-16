@@ -6,7 +6,7 @@ Designed with a focus on user experience, Viction prioritizes zero-gas transacti
 
 With a network of 150 masternodes utilizing Proof-of-Stake (PoS) consensus, Viction touts its scalability and stability. It employs advanced techniques like double validation, smart contract staking, and proper randomization to enhance security and chain finality. Viction supports all EVM-compatible smart contracts, protocols, and atomic cross-chain token transfers.
 
-Viction introduces the TRC25 token standard, simplifying token operations by eliminating the need for gas fees during use. This innovation allows users to perform token-related actions without native tokens, as network fees can be paid using the token itself, making it more convenient for a broader audience to embrace the Web3 world without the hassle of gas fees.
+Viction introduces the VRC25 token standard, simplifying token operations by eliminating the need for gas fees during use. This innovation allows users to perform token-related actions without native tokens, as network fees can be paid using the token itself, making it more convenient for a broader audience to embrace the Web3 world without the hassle of gas fees.
 
 Viction is driven by a mission to build a decentralized platform that empowers humanity to connect, collaborate, and create without limitations, envisioning a world where transparency, accessibility, and growth thrive.
 
