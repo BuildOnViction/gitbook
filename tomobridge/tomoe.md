@@ -19,7 +19,7 @@ TOMOE Contract Address
 
 You can get TOMOE by:
 
-* Convert between VIC and TOMOE on [SpaceGate](https://blog.coin98.com/Viction-bridge-is-now-available-on-spacegate/);
+* Convert between VIC and TOMOE on [SpaceGate](https://docs.coin98.com/products/spacegate);
 * Buy TOMOE directly on exchanges (LuaSwap, Binance, Coinone, BingX, etc).
 
 ### 4. Where can I store TOMOE?
