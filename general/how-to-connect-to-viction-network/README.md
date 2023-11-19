@@ -7,14 +7,3 @@ description: >-
 
 # How to Connect to Viction Network
 
-{% content-ref url="metamask.md" %}
-[metamask.md](metamask.md)
-{% endcontent-ref %}
-
-{% content-ref url="ledger.md" %}
-[ledger.md](ledger.md)
-{% endcontent-ref %}
-
-{% content-ref url="myetherwallet-and-trust-wallet.md" %}
-[myetherwallet-and-trust-wallet.md](myetherwallet-and-trust-wallet.md)
-{% endcontent-ref %}
