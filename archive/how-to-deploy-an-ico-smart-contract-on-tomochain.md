@@ -121,7 +121,7 @@ To check the balance of a wallet address, use **VicScan**.
 
 **Testnet:** [https://testnet.tomoscan.io/](https://testnet.tomoscan.io/)
 
-**Mainnet:** [https://tomoscan.io/](https://tomoscan.io/)
+**Mainnet:** [https:/vicscan.xyz/](https:/vicscan.xyz/)
 
 > **Note:** Create 2 different VIC wallets, both with some tokens. The first wallet is to deploy the ICO smart contract or `deployment wallet`, the second one will be used to test it or `buyer wallet`.
 
@@ -497,7 +497,7 @@ Read carefully and **write down** the output text on the screen:
 
 ### 5.3 Check the deployment contracts <a href="#10d5" id="10d5"></a>
 
-If you want to verify that your contracts were deployed successfully, you can check on **VicScan** [testnet](https://testnet.tomoscan.io/) (or [mainnet](https://tomoscan.io/)). In the search field, type in the contract address you want to see.
+If you want to verify that your contracts were deployed successfully, you can check on **VicScan** [testnet](https://testnet.tomoscan.io/) (or [mainnet](https:/vicscan.xyz/)). In the search field, type in the contract address you want to see.
 
 Here are the results of our migrations:
 

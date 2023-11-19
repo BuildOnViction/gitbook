@@ -129,7 +129,7 @@ To check the balance of a wallet address, you can use **VicScan**.
 
 **Testnet:** [https://testnet.tomoscan.io/](https://testnet.tomoscan.io/)
 
-**Mainnet:** [https://tomoscan.io/](https://tomoscan.io/)
+**Mainnet:** [https:/vicscan.xyz/](https:/vicscan.xyz/)
 
 ## 4. Writing the smart contract <a href="#d658" id="d658"></a>
 
@@ -343,7 +343,7 @@ The contract address is:
 
 ### 6.4 Check the deployment transaction <a href="#0b1e" id="0b1e"></a>
 
-If you want to verify that your contract was deployed successfully, you can check on **VicScan** [testnet](https://testnet.tomoscan.io/) (or [mainnet](https://tomoscan.io/)). In the search field, type in the transaction ID for your new contract.
+If you want to verify that your contract was deployed successfully, you can check on **VicScan** [testnet](https://testnet.tomoscan.io/) (or [mainnet](https:/vicscan.xyz/)). In the search field, type in the transaction ID for your new contract.
 
 You should see details about the transaction, including the block number where the transaction was secured.
 

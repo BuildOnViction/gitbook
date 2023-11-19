@@ -20,5 +20,5 @@ First install the[ MetaMask Extension](https://metamask.io/) on Chrome or Brave 
 | ChainID            | 88 or 0x58                | 89                                 |
 | Symbol             | VIC                      | VIC                               |
 | Nickname           | Viction                 | Viction Testnet                  |
-| Block Explorer URL | https://tomoscan.io       | https://scan.testnet.Viction.com |
+| Block Explorer URL | https:/vicscan.xyz       | https://scan.testnet.Viction.com |
 

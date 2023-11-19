@@ -14,4 +14,4 @@ The instruction to make a sway on LuaSwap can be found [here](../../tomomasterda
 
 <figure><img src="../../.gitbook/assets/Screen Shot 2023-04-03 at 5.23.54 PM.png" alt=""><figcaption><p>LuaSwap interface for token swapping</p></figcaption></figure>
 
-The Token contract for tDAO is [0x4EaafA85bDBe9B02930926C594F83e62B036B1be](https://tomoscan.io/token/0x4EaafA85bDBe9B02930926C594F83e62B036B1be)
+The Token contract for tDAO is [0x4EaafA85bDBe9B02930926C594F83e62B036B1be](https:/vicscan.xyz/token/0x4EaafA85bDBe9B02930926C594F83e62B036B1be)
