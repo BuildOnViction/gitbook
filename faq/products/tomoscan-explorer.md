@@ -1,12 +1,12 @@
-# TomoScan (Explorer)
+# VicScan (Explorer)
 
 ## **General Questions**
 
-### **What is TomoScan?**
+### **What is VicScan?**
 
-[TomoScan](https://tomoscan.io/) is a block explorer for Viction. It is pretty similar to EtherScan used on the Ethereum network if you are already familiar with it.
+[VicScan](https://tomoscan.io/) is a block explorer for Viction. It is pretty similar to EtherScan used on the Ethereum network if you are already familiar with it.
 
-TomoScan provides a user-friendly interface to explore the Viction blockchain. From a user perspective, TomoScan provides transparency because all block information, transactions, finality, smart contracts, Dapps and token information are read from Viction and displayed here. Furthermore, TomoScan offers technical visualisations and useful statistics about Viction performance, token holders and other functionalities.
+VicScan provides a user-friendly interface to explore the Viction blockchain. From a user perspective, VicScan provides transparency because all block information, transactions, finality, smart contracts, Dapps and token information are read from Viction and displayed here. Furthermore, VicScan offers technical visualisations and useful statistics about Viction performance, token holders and other functionalities.
 
 ### **What is a TxHash? How to check a TxHash?**
 
@@ -16,7 +16,7 @@ An example of what a TxHash looks like: `0xedab9e59d4567e9ced8d61caefe20e1e2a3fe
 
 To check a TxHash, follow the steps below:
 
-On [TomoScan](https://tomoscan.io/), go to the search bar with the magnifying glass icon. Paste your transaction hash (TxHash) in the search bar and click the icon or press ENTER. Your transaction details will show up.
+On [VicScan](https://tomoscan.io/), go to the search bar with the magnifying glass icon. Paste your transaction hash (TxHash) in the search bar and click the icon or press ENTER. Your transaction details will show up.
 
 Example: [https://tomoscan.io/txs/0xedab9e59d4567e9ced8d61caefe20e1e2a3fe95cceaaeabc98466ef3f03c0eca](https://tomoscan.io/txs/0xedab9e59d4567e9ced8d61caefe20e1e2a3fe95cceaaeabc98466ef3f03c0eca)
 
@@ -26,7 +26,7 @@ Example: [https://tomoscan.io/txs/0xedab9e59d4567e9ced8d61caefe20e1e2a3fe95cceaa
 
 <figure><img src="../../.gitbook/assets/Screenshot_1 (5).png" alt=""><figcaption></figcaption></figure>
 
-This is the home page of TomoScan. In the middle of the page you can find a search field that lets you find anything by its address. Under it, some general stats gives you the total amount of accounts, tokens, contracts and blocks.
+This is the home page of VicScan. In the middle of the page you can find a search field that lets you find anything by its address. Under it, some general stats gives you the total amount of accounts, tokens, contracts and blocks.
 
 ### [Transactions](https://tomoscan.io/txs) <a href="#transactions" id="transactions"></a>
 

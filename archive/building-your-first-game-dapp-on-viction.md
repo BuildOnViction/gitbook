@@ -125,7 +125,7 @@ Go to faucet and collect `30 VIC`. Now your wallet has enough balance to do ever
 
 ### 3.3 The Block Explorer <a href="#07a6" id="07a6"></a>
 
-To check the balance of a wallet address, you can use **TomoScan**.
+To check the balance of a wallet address, you can use **VicScan**.
 
 **Testnet:** [https://testnet.tomoscan.io/](https://testnet.tomoscan.io/)
 
@@ -343,13 +343,13 @@ The contract address is:
 
 ### 6.4 Check the deployment transaction <a href="#0b1e" id="0b1e"></a>
 
-If you want to verify that your contract was deployed successfully, you can check on **TomoScan** [testnet](https://testnet.tomoscan.io/) (or [mainnet](https://tomoscan.io/)). In the search field, type in the transaction ID for your new contract.
+If you want to verify that your contract was deployed successfully, you can check on **VicScan** [testnet](https://testnet.tomoscan.io/) (or [mainnet](https://tomoscan.io/)). In the search field, type in the transaction ID for your new contract.
 
 You should see details about the transaction, including the block number where the transaction was secured.
 
 ![](<../.gitbook/assets/image (32).png>)
 
-You can also enter your wallet address on the TomoScan search bar. You will find 4 transactions out. Your contract has been successfully deployed to Viction.
+You can also enter your wallet address on the VicScan search bar. You will find 4 transactions out. Your contract has been successfully deployed to Viction.
 
 **Congratulations!** You’ve deployed your contract to Viction using Truffle. You have written your first smart contract and deployed it to a public blockchain. It’s time to interact with our smart contract now to make sure it does what we want.
 

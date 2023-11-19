@@ -131,7 +131,7 @@ Go to faucet and collect `30 VIC`. Now your wallet has enough balance to do ever
 
 #### 3. The Block Explorer
 
-To check the balance of a wallet address, you can use **TomoScan**.
+To check the balance of a wallet address, you can use **VicScan**.
 
 **Mainnet:** [https://tomoscan.io/](https://tomoscan.io/)
 

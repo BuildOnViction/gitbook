@@ -13,7 +13,7 @@ This guide will show how to
 * Access the VIC Wallet with the Ledger Nano S through MetaMask and MyEtherWallet.
 * Receive VIC
 * Send VIC
-* Check account balance on the Viction Explorer (TomoScan)
+* Check account balance on the Viction Explorer (VicScan)
 
 ### Requirements
 

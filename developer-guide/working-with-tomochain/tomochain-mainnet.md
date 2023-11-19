@@ -17,7 +17,7 @@
 ### Useful links
 
 * [Status page](https://stats.Viction.com/)
-* [TomoScan](https://tomoscan.io/) (Block explorer)
+* [VicScan](https://tomoscan.io/) (Block explorer)
 * [TomoMaster](https://master.Viction.com/) (Governance dApp)
 * [VicIssuer](https://issuer.testnet.Viction.com/) ([Dashboard](https://medium.com/Viction/how-to-deploy-a-trc-21-token-on-Viction-in-a-few-clicks-d0290f918b9a) to issue your token)
 * [TomoMaster smart contract](https://tomoscan.io/address/0x0000000000000000000000000000000000000088) (for staking and applying a new masternode)

@@ -168,11 +168,11 @@ Finally, ensure your wallet has enough fund to cover gas fee and run script with
 npx hardhat run scripts/deploy.ts --network tomo-testnet
 ```
 
-The contract will be deployed on the Viction testnet. You can view the deployment status and contract by using [TomoScan](https://testnet.tomoscan.io/) and searching for the address returned by your deploy script. If you've deployed an exact copy of the token contract above, it will be verified, and you'll be able to read and write to the contract using the web interface.
+The contract will be deployed on the Viction testnet. You can view the deployment status and contract by using [VicScan](https://testnet.tomoscan.io/) and searching for the address returned by your deploy script. If you've deployed an exact copy of the token contract above, it will be verified, and you'll be able to read and write to the contract using the web interface.
 
-### Verify contract on TomoScan
+### Verify contract on VicScan
 
-TomoScan now support contract verification via Hardhat API, you will need to change hardhat.config.ts with the following configuration:
+VicScan now support contract verification via Hardhat API, you will need to change hardhat.config.ts with the following configuration:
 
 ```typescript
 import { HardhatUserConfig } from "hardhat/config";

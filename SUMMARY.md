@@ -68,7 +68,7 @@
     * [Voter](faq/masternode-and-voting/voter.md)
   * [Products](faq/products/README.md)
     * [TomoWallet](faq/products/tomowallet.md)
-    * [TomoScan (Explorer)](faq/products/tomoscan-explorer.md)
+    * [VicScan (Explorer)](faq/products/tomoscan-explorer.md)
     * [TomoMaster](faq/products/tomomaster.md)
     * [TomoStats](faq/products/tomostats.md)
     * [VicIssuer](faq/products/tomoissuer.md)

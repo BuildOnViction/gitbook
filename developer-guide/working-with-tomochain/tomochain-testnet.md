@@ -21,7 +21,7 @@ description: >-
 ### Useful links
 
 * [Status page](https://stats.testnet.Viction.com/)
-* [TomoScan](https://testnet.tomoscan.io/) (Block explorer)
+* [VicScan](https://testnet.tomoscan.io/) (Block explorer)
 * [TomoMaster](https://master.testnet.Viction.com/) (Governance Dapp)
 * [TomoWallet](https://wallet.testnet.Viction.com/) (Download it and go to Setttings > Switch to Viction Testnet)
 * [Faucet](https://faucet.testnet.Viction.com/) (To request testnet VIC)
