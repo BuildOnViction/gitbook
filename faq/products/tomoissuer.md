@@ -1,16 +1,16 @@
 ---
 description: >-
-  TomoIssuer provides a friendly user interface and back-end mechanism to issue
+  VicIssuer provides a friendly user interface and back-end mechanism to issue
   TRC20 & TRC21 tokens in only a few steps.
 ---
 
-# TomoIssuer
+# VicIssuer
 
-Below are the most important features of [TomoIssuer](https://issuer.Viction.com/) that have made it a revolutionary tool:
+Below are the most important features of [VicIssuer](https://issuer.Viction.com/) that have made it a revolutionary tool:
 
 * **User-Friendly Interface:** Issue a TRC20 or TRC21 token in only a few steps.
 * **No Coding Experience Required:** No prerequisite knowledge about smart contract programming is needed.
-* **Token Customization Options:** Customize the token supply, token name, and minimum transaction fee through TomoIssuer’s dashboard.
+* **Token Customization Options:** Customize the token supply, token name, and minimum transaction fee through VicIssuer’s dashboard.
 
 **‌Know Your Token Type**
 
@@ -82,7 +82,7 @@ Fill out the token information including Token Name, Token Symbol, Token Supply,
 
 **Step 4:**
 
-TomoIssuer will ask for the token’s information to confirm. Please check all the criteria carefully before clicking on the “Issue token” and wait for the contract to be deployed.
+VicIssuer will ask for the token’s information to confirm. Please check all the criteria carefully before clicking on the “Issue token” and wait for the contract to be deployed.
 
 **Note:** Any developer with some experience developing and deploying smart contracts can refer to our reference implementation of the [Standards & Specification](https://docs.Viction.com/developer-guide/standards-and-specification) to make customizations to the deployed token contract.
 
@@ -106,8 +106,8 @@ TomoIssuer will ask for the token’s information to confirm. Please check all t
 
 **DONATE VIC FOR TRC21 TRANSACTION FEES**
 
-If there are not enough VIC funds to pay for subsequent transaction fees, any token holders can deposit more VIC to the TomoIssuer contract to continue making transactions.‌
+If there are not enough VIC funds to pay for subsequent transaction fees, any token holders can deposit more VIC to the VicIssuer contract to continue making transactions.‌
 
-Go to the **“Donate TRC-21 fee”** tab from TomoIssuer’s homepage. Enter the name of the token to donate VIC to, then enter the donation amount. Considering that the transaction fee in Viction is near-zero, 1 VIC can power thousands of transactions.
+Go to the **“Donate TRC-21 fee”** tab from VicIssuer’s homepage. Enter the name of the token to donate VIC to, then enter the donation amount. Considering that the transaction fee in Viction is near-zero, 1 VIC can power thousands of transactions.
 
 ![](https://lh5.googleusercontent.com/PL-tz1-aPJlSOOaNlMBgj3He75quhYhHTv9DXzNAvlwlvfZ8iXD-XmznFiq7K5hFhtzqGP8GMBXcrvobrE8-MfNqtygA48BI7OnjY9DYY5v5Up1V9k0cd3QkkQfxTNG36VYWbdy3)

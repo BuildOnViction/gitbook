@@ -25,7 +25,7 @@ description: >-
 * [TomoMaster](https://master.testnet.Viction.com/) (Governance Dapp)
 * [TomoWallet](https://wallet.testnet.Viction.com/) (Download it and go to Setttings > Switch to Viction Testnet)
 * [Faucet](https://faucet.testnet.Viction.com/) (To request testnet VIC)
-* [TomoIssuer](https://issuer.testnet.Viction.com/) ([Dashboard](https://medium.com/Viction/how-to-deploy-a-trc-21-token-on-Viction-in-a-few-clicks-d0290f918b9a) to issue your token)
+* [VicIssuer](https://issuer.testnet.Viction.com/) ([Dashboard](https://medium.com/Viction/how-to-deploy-a-trc-21-token-on-Viction-in-a-few-clicks-d0290f918b9a) to issue your token)
 * [TomoRelayer](https://relayer.testnet.Viction.com) ([Dashboard](https://medium.com/Viction/launch-your-own-dex-with-tomorelayer-eb440a2d6a3d) to build and manage your DEX)
 * [TomoMaster smart contract](https://scan.testnet.Viction.com/address/0x0000000000000000000000000000000000000088) (for staking and applying a new masternode)
 * Wrapped Tokens: [USDT](https://scan.testnet.Viction.com/address/0xc7ecCc9da22aBAAf9cfe311BFD9a55437eA05c2c), [ETH](https://scan.testnet.Viction.com/address/0xf55F13Fde623c00d6b0C7bfc6557735040aA6a08), [BTC](https://scan.testnet.Viction.com/address/0x11c2cAF973db997b8a9b5689b33962E1AedEA968)

@@ -1,16 +1,16 @@
 ---
 description: >-
   This article will guide you on how to deploy a VRC25 token on Viction using
-  TomoIssuer.
+  VicIssuer.
 ---
 
 # How to Deploy a VRC25 Token on Viction
 
-Below are the most important features of TomoIssuer that have made it a revolutionary tool:
+Below are the most important features of VicIssuer that have made it a revolutionary tool:
 
 * **User-Friendly Interface:** Issue a TRC20/TRC21 token in only a few steps.
 * **No Coding Experience Required:** No prerequisite knowledge about smart contract programming is needed.
-* **Token Customization Options:** All token features are customizable through TomoIssuer’s dashboard.
+* **Token Customization Options:** All token features are customizable through VicIssuer’s dashboard.
 
 ### **Let’s Start the Tutorial!**
 
@@ -40,7 +40,7 @@ Fill out the token information including Token Name, Token Symbol, Token Supply,
 
 **Step 4:**
 
-TomoIssuer will ask for the token’s information to confirm. Please check all the criteria carefully before clicking on the “Issue token” and wait for the contract to be deployed.
+VicIssuer will ask for the token’s information to confirm. Please check all the criteria carefully before clicking on the “Issue token” and wait for the contract to be deployed.
 
 <figure><img src="../.gitbook/assets/Screenshot_2.png" alt=""><figcaption></figcaption></figure>
 
@@ -68,9 +68,9 @@ TomoIssuer will ask for the token’s information to confirm. Please check all t
 
 **DONATE VIC FOR TRC21 TRANSACTION FEES**
 
-If there are not enough VIC funds to pay for subsequent transaction fees, any token holders can deposit more VIC to the TomoIssuer contract to continue making transactions.‌
+If there are not enough VIC funds to pay for subsequent transaction fees, any token holders can deposit more VIC to the VicIssuer contract to continue making transactions.‌
 
-Go to the **“Donate TRC-21 fee”** tab from TomoIssuer’s homepage. Enter the name of the token to donate VIC to, then enter the donation amount. Considering that the transaction fee in Viction is near-zero, 1 VIC can power thousands of transactions.
+Go to the **“Donate TRC-21 fee”** tab from VicIssuer’s homepage. Enter the name of the token to donate VIC to, then enter the donation amount. Considering that the transaction fee in Viction is near-zero, 1 VIC can power thousands of transactions.
 
 ![](<../.gitbook/assets/image (105).png>)
 

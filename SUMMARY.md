@@ -71,7 +71,7 @@
     * [TomoScan (Explorer)](faq/products/tomoscan-explorer.md)
     * [TomoMaster](faq/products/tomomaster.md)
     * [TomoStats](faq/products/tomostats.md)
-    * [TomoIssuer](faq/products/tomoissuer.md)
+    * [VicIssuer](faq/products/tomoissuer.md)
 * [Whitepaper and Research](whitepaper-and-research/README.md)
   * [Technical Paper](https://viction.com/files/technical-whitepaper-1.0.pdf)
   * [Economics Paper](https://docs.google.com/document/d/197Cu57A6OYPoEQbrUVr067qNVEzP\_FEwaDCFff7hnlM/edit?usp=sharing)
