@@ -1,2 +1,2 @@
-# How to Deploy a TRC25 Token on Viction
+# How to Deploy a VRC25 Token on Viction
 

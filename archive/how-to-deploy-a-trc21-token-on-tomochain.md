@@ -1,10 +1,10 @@
 ---
 description: >-
-  This article will guide you on how to deploy a TRC25 token on Viction using
+  This article will guide you on how to deploy a VRC25 token on Viction using
   TomoIssuer.
 ---
 
-# How to Deploy a TRC25 Token on Viction
+# How to Deploy a VRC25 Token on Viction
 
 Below are the most important features of TomoIssuer that have made it a revolutionary tool:
 

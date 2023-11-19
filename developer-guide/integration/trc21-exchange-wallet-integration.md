@@ -4,7 +4,7 @@ description: >-
   wallet, exchange)
 ---
 
-# TRC25 Exchange/Wallet integration
+# VRC25 Exchange/Wallet integration
 
 ### **Prerequisites**
 
@@ -30,7 +30,7 @@ interface IVRC25 {
 }
 ```
 
-Users are recommended to refer to the [TRC25 Specification](../standards-and-specification/trc25-specification.md) for more details about the TRC25 token standard.
+Users are recommended to refer to the [VRC25 Specification](../standards-and-specification/trc25-specification.md) for more details about the VRC25 token standard.
 
 Follow the steps below to interact with the smart contract by using the Web3 library and Node.
 
@@ -48,7 +48,7 @@ const chainId = 88
 
 ### Unlock wallet <a href="#unlock-wallet" id="unlock-wallet"></a>
 
-Unlock the wallet before interacting with TRC25 token contracts
+Unlock the wallet before interacting with VRC25 token contracts
 
 **Example**
 
@@ -60,7 +60,7 @@ web3.eth.accounts.wallet.add(account)
 web3.eth.defaultAccount = holder
 ```
 
-### Initialize Web3 TRC25 Contract <a href="#init-web3-trc21-contract" id="init-web3-trc21-contract"></a>
+### Initialize Web3 VRC25 Contract <a href="#init-web3-trc21-contract" id="init-web3-trc21-contract"></a>
 
 ```javascript
 const trc25Abi = require('./IVRC25.json')
@@ -73,7 +73,7 @@ Note: Get IVRC21.json [here](https://raw.githubusercontent.com/Viction/trc25/mai
 
 ### Check balance <a href="#check-balance" id="check-balance"></a>
 
-Call function `balanceOf()` from TRC25 contract to check the token balance for an address.
+Call function `balanceOf()` from VRC25 contract to check the token balance for an address.
 
 **Example**
 
@@ -86,7 +86,7 @@ trc25.methods.balanceOf(holder).call()
 
 ### Estimate fee <a href="#estimate-fee" id="estimate-fee"></a>
 
-Before sending tokens, we need to check TX fee by calling `estimateFee` function in TRC25 smart contract.
+Before sending tokens, we need to check TX fee by calling `estimateFee` function in VRC25 smart contract.
 
 **Example**
 
@@ -97,7 +97,7 @@ trc25.methods.estimateFee().call()
 }).catch(e => console.log(e))
 ```
 
-Note: this fee is the amount of the token that needs to be paid to send the TRC25 token applied to TomoZ
+Note: this fee is the amount of the token that needs to be paid to send the VRC25 token applied to TomoZ
 
 ### Transfer token <a href="#transfer-token" id="transfer-token"></a>
 

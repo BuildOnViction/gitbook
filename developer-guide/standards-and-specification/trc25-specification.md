@@ -1,8 +1,8 @@
 ---
-description: TRC25 is the official standard for fungible tokens in Viction ecosystem.
+description: VRC25 is the official standard for fungible tokens in Viction ecosystem.
 ---
 
-# TRC25 Specification
+# VRC25 Specification
 
 ### Abstract <a href="#abstract" id="abstract"></a>
 
@@ -12,7 +12,7 @@ The following standard allows for the implementation of a standard API for token
 
 For EVM-based blockchain, ERC20 has became the standard for fungible tokens. This standard works perfectly and had been proven for a long time. However, due to the way smart-contract works in blockchain, it's somewhat difficult for new users to understand, especially web2 users.
 
-TRC25 is developed in effort to simplify the way a token works by eliminate the need of gas when using the token. It means that users won't need to keep native token when they transfer, approve or any other actions available on the token. Instead the fee for the network can be paid by the token itself.
+VRC25 is developed in effort to simplify the way a token works by eliminate the need of gas when using the token. It means that users won't need to keep native token when they transfer, approve or any other actions available on the token. Instead the fee for the network can be paid by the token itself.
 
 ### Specification <a href="#trc25-specification" id="trc25-specification"></a>
 
@@ -72,7 +72,7 @@ function issuer() external view returns (address);
 
 The method returns the address of the token issuer. This is to ensure that only the issuer has the right to decide in regard to paying fees of token-holder transactions to the token contract in terms of the token itself. The method is to verify that no one else is able to change the token contract, except the issuer.
 
-* `estimateFee`: Calculate the transaction fee in terms of the token that the transaction makers will have to pay. Transaction fee will be paid to the issuer of the TRC25 token contract.
+* `estimateFee`: Calculate the transaction fee in terms of the token that the transaction makers will have to pay. Transaction fee will be paid to the issuer of the VRC25 token contract.
 
 ```solidity
 function estimateFee(uint256 value) external view returns (uint256);
@@ -134,7 +134,7 @@ This event MUST be emitted when tokens are transferred in functions `transfer` a
 
 ### Requirement <a href="#implementation" id="implementation"></a>
 
-For a contract to meet TRC25 requirements, it must satisfy the following conditions:
+For a contract to meet VRC25 requirements, it must satisfy the following conditions:
 
 * Implement `IVRC25` interface in the specification.
 * Have 3 first storage slots in the contracts as follow:&#x20;
@@ -156,7 +156,7 @@ interface IVRC25Permit {
 
 ### Implementation <a href="#implementation" id="implementation"></a>
 
-To implement the TRC25 standard, the following fields must be put at the beginning of the smart contract.
+To implement the VRC25 standard, the following fields must be put at the beginning of the smart contract.
 
 ```solidity
 mapping (address => uint256) private _balances;
@@ -491,9 +491,9 @@ Source: [VRC25.sol](https://github.com/BuildOnViction/trc25/blob/main/contracts/
 
 ### Example <a href="#trc25-token-example" id="trc25-token-example"></a>
 
-The following example demonstrates a token using the TRC25 standard with a custom fee.
+The following example demonstrates a token using the VRC25 standard with a custom fee.
 
-The easiest way to implement TRC25 specification is to let first inheritance of your contract to be `VRC25` or `VRC25Permit`.
+The easiest way to implement VRC25 specification is to let first inheritance of your contract to be `VRC25` or `VRC25Permit`.
 
 ```solidity
 contract SampleVRC25 is VRC25Permit {
@@ -537,4 +537,4 @@ Source: [SampleVRC25.sol](https://github.com/BuildOnViction/trc25/blob/main/cont
 
 ### Enable gas-less transaction
 
-Once you have deployed a TRC25 compatible contract. You will also need to register for TomoZ to enable gas-less transaction for your contract. Please refer to [TomoZ](../integration/tomoz-integration.md) page for more information.
+Once you have deployed a VRC25 compatible contract. You will also need to register for TomoZ to enable gas-less transaction for your contract. Please refer to [TomoZ](../integration/tomoz-integration.md) page for more information.
