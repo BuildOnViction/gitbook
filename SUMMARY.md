@@ -36,7 +36,7 @@
     * [How to Migrate Dapps from Ethereum](developer-guide/build-a-dapp-on-viction/how-to-migrate-dapps-from-ethereum.md)
   * [Integration](developer-guide/integration/README.md)
     * [Exchange/Wallet integration](developer-guide/integration/exchange-wallet-integration.md)
-    * [TomoZ integration](developer-guide/integration/tomoz-integration.md)
+    * [VIC ZeroGas integration](developer-guide/integration/tomoz-integration.md)
     * [VRC25 Exchange/Wallet integration](developer-guide/integration/trc21-exchange-wallet-integration.md)
     * [Viction Staking Governance](developer-guide/integration/viction-staking-governance.md)
   * [Viction Network](developer-guide/viction-network/README.md)

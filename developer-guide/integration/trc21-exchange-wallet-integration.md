@@ -97,7 +97,7 @@ trc25.methods.estimateFee().call()
 }).catch(e => console.log(e))
 ```
 
-Note: this fee is the amount of the token that needs to be paid to send the VRC25 token applied to TomoZ
+Note: this fee is the amount of the token that needs to be paid to send the VRC25 token applied to VIC ZeroGas
 
 ### Transfer token <a href="#transfer-token" id="transfer-token"></a>
 
@@ -119,6 +119,6 @@ trc25.methods.transfer(to, '500000000000000000000').send({
 }).catch(e => console.log(e))
 ```
 
-### Checking TomoZ <a href="#checking-tomoz" id="checking-tomoz"></a>
+### Checking VIC ZeroGas <a href="#checking-VIC ZeroGas" id="checking-VIC ZeroGas"></a>
 
-Call `getTokenCapacity` to [0x8c0faeb5c6bed2129b8674f262fd45c4e9468bee](https://tomoscan.io/address/0x8c0faeb5c6bed2129b8674f262fd45c4e9468bee). If the return value > 0, the token has successfully been enabled by the TomoZ protocol.
+Call `getTokenCapacity` to [0x8c0faeb5c6bed2129b8674f262fd45c4e9468bee](https://tomoscan.io/address/0x8c0faeb5c6bed2129b8674f262fd45c4e9468bee). If the return value > 0, the token has successfully been enabled by the VIC ZeroGas protocol.
