@@ -40,7 +40,7 @@ Go to [https://issuer.Viction.com/](https://issuer.viction.com/) and click on â€
 
  
 
-<figure><img src="../../.gitbook/assets/Screenshot_2 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="<../../.gitbook/assets/Screenshot_2 (2).png>" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -54,7 +54,7 @@ Unlock your wallet by choosing one of the available methods.
 
  
 
-<figure><img src="../../.gitbook/assets/Screenshot_3 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="<../../.gitbook/assets/Screenshot_3 (2).png>" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -72,7 +72,7 @@ Fill out the token information including Token Name, Token Symbol, Token Supply,
 
  
 
-<figure><img src="../../.gitbook/assets/Screenshot_1 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="<../../.gitbook/assets/Screenshot_1 (2).png>" alt=""><figcaption></figcaption></figure>
 
 </div>
 
