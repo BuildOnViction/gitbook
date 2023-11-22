@@ -139,7 +139,7 @@ It could look like this:
 tmn start --name [YOUR_NODE_NAME] --net testnet --pkey [YOUR_COINBASE_PRIVATE_KEY] --api
 ```
 
-Once started, you should see your node on the [stats page](https://stats.testnet.Viction.com/)!
+Once started, you should see your node on the [stats page](https://stats.testnet.tomochain.com/)!
 
 Note: It can take up to one hour to properly sync the entire blockchain.
 

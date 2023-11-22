@@ -123,7 +123,7 @@ Write them down. This will be needed later. **Notice that your wallet address (p
 
 Tokens are required for different matters, like smart contract deployment or to use in Dapps.
 
-**Testnet:** Receive 15 free testnet VIC tokens using [Viction's Faucet](https://faucet.testnet.Viction.com/).
+**Testnet:** Receive 15 free testnet VIC tokens using [Viction's Faucet](https://faucet.testnet.tomochain.com/).
 
 **Mainnet:** You need real VIC tokens from exchanges.
 

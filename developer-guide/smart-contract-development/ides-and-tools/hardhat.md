@@ -54,7 +54,7 @@ const config: HardhatUserConfig = {
     },
     // for testnet
     'tomo-testnet': {
-      url: 'https://rpc.testnet.Viction.com',
+      url: 'https://rpc.testnet.tomochain.com',
       accounts: [process.env.PRIVATE_KEY as string],
     },
   },

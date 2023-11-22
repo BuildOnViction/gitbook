@@ -109,7 +109,7 @@ Write them down. This will be needed later. **Notice that your wallet address an
 
 We will need some tokens for smart contract deployment and also to test later with our ICO smart contracts.
 
-**Testnet:** Receive 15 free testnet VIC tokens using [Viction’s Faucet](https://faucet.testnet.Viction.com/).
+**Testnet:** Receive 15 free testnet VIC tokens using [Viction’s Faucet](https://faucet.testnet.tomochain.com/).
 
 **Mainnet:** You need real VIC tokens from exchanges.
 
@@ -329,7 +329,7 @@ const mnemonic = '<PUT YOUR WALLET 12-WORD RECOVERY PHRASE HERE>';module.exports
     tomotestnet: {
       provider: () => new HDWalletProvider(
         mnemonic,
-        "https://testnet.Viction.com",
+        "https://testnet.tomochain.com",
         0,
         1,
         true,
@@ -493,7 +493,7 @@ Read carefully and **write down** the output text on the screen:
 ### \*\*\* Troubleshooting \*\*\* <a href="#f097" id="f097"></a>
 
 * **Error: `smart contract creation cost is under allowance`**. **Why?** Increasing transaction fees for smart contract creation is one of the ways Viction offers to defend against spamming attacks. **Solution:** edit `truffle.js` and add more gas/gasPrice to deploy.
-* **Error: `insufficient funds for gas * price + value`. Why?** You don’t have enough tokens in your wallet for gas fees. **Solution:** you need more funds in your wallet to deploy, go to [faucet](https://faucet.testnet.Viction.com/) and get more tokens.
+* **Error: `insufficient funds for gas * price + value`. Why?** You don’t have enough tokens in your wallet for gas fees. **Solution:** you need more funds in your wallet to deploy, go to [faucet](https://faucet.testnet.tomochain.com/) and get more tokens.
 
 ### 5.3 Check the deployment contracts <a href="#10d5" id="10d5"></a>
 
@@ -509,7 +509,7 @@ Here are the results of our migrations:
 **Viction testnet:**
 
 * Token: [0xd2e70e8386c9e3deca6583686a12f8da62b59969](https://testnet.tomoscan.io/address/0xd2e70e8386c9e3deca6583686a12f8da62b59969)
-* Crowdsale: [0xD102e777e893f30cb9630a32A9370ED6d575226B](https://scan.testnet.Viction.com/address/0xD102e777e893f30cb9630a32A9370ED6d575226B)
+* Crowdsale: [0xD102e777e893f30cb9630a32A9370ED6d575226B](https://scan.testnet.tomochain.com/address/0xD102e777e893f30cb9630a32A9370ED6d575226B)
 
 ![](<../.gitbook/assets/image-2-copy (3).png>)
 
@@ -569,9 +569,9 @@ We will now buy some `MyToken (MYT)` from the ICO Crowdsale contract.
 
 ![](<../.gitbook/assets/image (9) (1).png>)
 
-You can see the Crowdsale buy transaction. `20 VIC` were sent, and the contract sent `10'000 MYT` back to the buyer wallet. [Here is the transaction](https://scan.testnet.Viction.com/txs/0xc35a3d487ca0a87b85b6c113ae7776ab70eb8ee3310490c772dc68cf830191ec) of this tutorial on **VicScan**.
+You can see the Crowdsale buy transaction. `20 VIC` were sent, and the contract sent `10'000 MYT` back to the buyer wallet. [Here is the transaction](https://scan.testnet.tomochain.com/txs/0xc35a3d487ca0a87b85b6c113ae7776ab70eb8ee3310490c772dc68cf830191ec) of this tutorial on **VicScan**.
 
-Now you can visit the [Token Holders list](https://scan.testnet.Viction.com/tokens/0xd2e70e8386c9e3deca6583686a12f8da62b59969#tokenHolders), and you will find two holders:
+Now you can visit the [Token Holders list](https://scan.testnet.tomochain.com/tokens/0xd2e70e8386c9e3deca6583686a12f8da62b59969#tokenHolders), and you will find two holders:
 
 * The ICO/team: has `15'990'000 MYT`
 * Our buyer wallet: has `10'000 MYT`

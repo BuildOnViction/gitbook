@@ -117,7 +117,7 @@ Write them down. This will be needed later. **Notice that your wallet address (p
 
 Tokens are required for different matters, like smart contract deployment or to use in DApps.
 
-**Testnet:** Receive 15 free testnet VIC tokens using [Viction’s Faucet](https://faucet.testnet.Viction.com/).
+**Testnet:** Receive 15 free testnet VIC tokens using [Viction’s Faucet](https://faucet.testnet.tomochain.com/).
 
 **Mainnet:** You need real VIC tokens from exchanges.
 
@@ -228,7 +228,7 @@ Replace the `truffle.js` file with this new content:
     },    tomotestnet: {
       provider: () => new HDWalletProvider(
         mnemonic,
-        "https://testnet.Viction.com",
+        "https://testnet.tomochain.com",
         0,
         1,
         true,
@@ -339,7 +339,7 @@ The contract address is:
 ### \*\*\* Troubleshooting \*\*\* <a href="#4dbb" id="4dbb"></a>
 
 * **Error: `smart contract creation cost is under allowance`**. **Why?** Increasing transaction fees for smart contract creation is one of the ways Viction defends against spamming attacks. **Solution:** edit `truffle.js` and add more gas/gas Price to deploy.
-* **Error: `insufficient funds for gas * price + value`. Why?** You don’t have enough tokens in your wallet for gas fees. **Solution:** you need more funds in your wallet to deploy, go to [faucet](https://faucet.testnet.Viction.com/) and get more tokens.
+* **Error: `insufficient funds for gas * price + value`. Why?** You don’t have enough tokens in your wallet for gas fees. **Solution:** you need more funds in your wallet to deploy, go to [faucet](https://faucet.testnet.tomochain.com/) and get more tokens.
 
 ### 6.4 Check the deployment transaction <a href="#0b1e" id="0b1e"></a>
 

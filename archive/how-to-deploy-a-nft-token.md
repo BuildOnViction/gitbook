@@ -114,7 +114,7 @@ npm install openzeppelin-solidity
 
 [Create a VIC wallet](broken-reference). Then grab a few tokens:
 
-* `Viction (testnet)`: Get [free tokens from faucet](https://faucet.testnet.Viction.com/) (grab \~60 VIC)
+* `Viction (testnet)`: Get [free tokens from faucet](https://faucet.testnet.tomochain.com/) (grab \~60 VIC)
 * `Viction (mainnet)`: You will need real VIC from exchanges
 
 Go to _Settings_ menu, select _Backup wallet_ and then **Continue**. Here you can see your wallet’s private key and the 12-word recovery phrase.
@@ -247,7 +247,7 @@ const mnemonic = '<PUT YOUR WALLET 12-WORD RECOVERY PHRASE HERE>';module.exports
     tomotestnet: {
       provider: () => new HDWalletProvider(
         mnemonic,
-        "https://testnet.Viction.com",
+        "https://testnet.tomochain.com",
         0,
         1,
         true,
@@ -436,7 +436,7 @@ Starting migrations...
 
 **Congratulations!** You have already deployed your non-fungible token (NFT) to Viction! The deployment fees were `32.14 VIC`.
 
-Read the output text on the screen. The NFT token [contract address](https://scan.testnet.Viction.com/address/0x8B830F38b798B7b39808A059179f2c228209514C) is _(yours will be different)_:
+Read the output text on the screen. The NFT token [contract address](https://scan.testnet.tomochain.com/address/0x8B830F38b798B7b39808A059179f2c228209514C) is _(yours will be different)_:
 
 ```
 0x8B830F38b798B7b39808A059179f2c228209514C
@@ -447,7 +447,7 @@ Read the output text on the screen. The NFT token [contract address](https://sca
 ### \*\*\* Troubleshooting \*\*\* <a href="#f097" id="f097"></a>
 
 * **Error: `smart contract creation cost is under allowance`**. \*\*Why?\*\*Increasing transaction fees for smart contract creation is one of the ways Viction offers to defend against spamming attacks. **Solution:** edit `truffle.js` and add more gas/gasPrice to deploy.
-* **Error: `insufficient funds for gas * price + value`. Why?** You don’t have enough tokens in your wallet for gas fees. **Solution:** you need more funds in your wallet to deploy, go to [faucet](https://faucet.testnet.Viction.com/) and get more tokens.
+* **Error: `insufficient funds for gas * price + value`. Why?** You don’t have enough tokens in your wallet for gas fees. **Solution:** you need more funds in your wallet to deploy, go to [faucet](https://faucet.testnet.tomochain.com/) and get more tokens.
 
 ## **7. Interacting with the smart contract** <a href="#4ecf" id="4ecf"></a>
 
@@ -474,7 +474,7 @@ On the right you will see a dropdown list with the functions. Select `mint`. MEW
 
 ![](<../.gitbook/assets/image (11).png>)
 
-Here is [our contract address](https://scan.testnet.Viction.com/address/0x8B830F38b798B7b39808A059179f2c228209514C), and the new `mint` transaction:
+Here is [our contract address](https://scan.testnet.tomochain.com/address/0x8B830F38b798B7b39808A059179f2c228209514C), and the new `mint` transaction:
 
 ![](<../.gitbook/assets/image-2-copy (2).png>)
 

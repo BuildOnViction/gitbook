@@ -217,7 +217,7 @@ tomo --help
 
 ### See your node on stats page <a href="#see-your-node-on-stats-page" id="see-your-node-on-stats-page"></a>
 
-* Testnet: [https://stats.testnet.Viction.com](https://stats.testnet.Viction.com/)
+* Testnet: [https://stats.testnet.tomochain.com](https://stats.testnet.tomochain.com/)
 * Mainnet: [https://stats.Viction.com](http://stats.Viction.com/)
 
 ### Troubleshoot <a href="#troubleshoot" id="troubleshoot"></a>

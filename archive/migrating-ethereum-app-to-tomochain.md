@@ -109,7 +109,7 @@ module.exports = {
       provider: () =>
         new HDWalletProvider(
           mnemonic,
-          "https://testnet.Viction.com",
+          "https://testnet.tomochain.com",
           0,
           1,
           true,
@@ -165,7 +165,7 @@ You can go to [**VicScan Testnet** ](https://testnet.tomoscan.io/)to verify the 
 
 ## Testing <a href="#b3ec" id="b3ec"></a>
 
-Let’s get some faucet VIC from the [**faucet page**](https://faucet.testnet.Viction.com/).
+Let’s get some faucet VIC from the [**faucet page**](https://faucet.testnet.tomochain.com/).
 
 Connect MetaMask to Viction Testnet by following this [**guide**](https://github.com/BuildOnViction/docs/blob/game\_tutorials/get-started/wallet).
 
