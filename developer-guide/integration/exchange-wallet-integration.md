@@ -1,6 +1,6 @@
 # Exchange/Wallet integration
 
-Viction is an EVM-compatible public blockchain. So you can use [Viction JSON-RPC APIs](https://apidocs.Viction.com/#Viction-apis-json-rpc) similar as in Ethereum.
+Viction is an EVM-compatible public blockchain. So you can use [Viction JSON-RPC APIs](https://apidocs.tomochain.com/#Viction-apis-json-rpc) similar as in Ethereum.
 
 EVM compatible libraries such as [Web3.js](../smart-contract-development/ides-and-tools/web3js.md) or [Ethers.js](../smart-contract-development/ides-and-tools/ethers.js.md) library can be fully reused in integration to create a wallet, check wallet balances, or create/send transactions. All you need is to connect to Viction's RPC public endpoint. [This tutorial](../working-with-Viction/) will guide you the steps to connect to Viction Testnet/Mainnet using Web3.js.
 
@@ -180,8 +180,8 @@ Promise returns Object - A transaction receipt object, or null when no receipt w
 
 In normal case, you can wait for 60 confirmations, then checking block finality via `eth_getBlockFinalityByNumber` or `eth_getBlockFinalityByHash` API:
 
-* [eth\_getBlockFinalityByNumber](https://apidocs.Viction.com/#eth\_getblockfinalitybynumber)
-* [eth\_getBlockFinalityByHash](https://apidocs.Viction.com/#eth\_getblockFinalitybyhash)
+* [eth\_getBlockFinalityByNumber](https://apidocs.tomochain.com/#eth\_getblockfinalitybynumber)
+* [eth\_getBlockFinalityByHash](https://apidocs.tomochain.com/#eth\_getblockFinalitybyhash)
 
 If `result` >= 75, it means the block with the input hash is finalized, thus irreversible.
 

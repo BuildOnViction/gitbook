@@ -219,7 +219,7 @@ console.log(withdraws)
 
 ### Get list Candidates <a href="#get-list-candidates" id="get-list-candidates"></a>
 
-You can get list Candidates from [RPC endpoint](https://apidocs.Viction.com/?shell#eth\_getcandidates):
+You can get list Candidates from [RPC endpoint](https://apidocs.tomochain.com/?shell#eth\_getcandidates):
 
 ```bash
 curl https://rpc.Viction.com \
@@ -228,7 +228,7 @@ curl https://rpc.Viction.com \
     -d '{"jsonrpc":"2.0","method":"eth_getCandidates","params": ["latest"],"id":1}'
 ```
 
-Or [get list candidates from VicMaster](https://apidocs.Viction.com/?shell#tomomaster-apis-candidates):
+Or [get list candidates from VicMaster](https://apidocs.tomochain.com/?shell#tomomaster-apis-candidates):
 
 ```bash
 curl -X GET https://vicmaster.xyz/api/candidates \

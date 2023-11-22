@@ -17,7 +17,7 @@ description: >-
 | [Developer Guide](developer-guide/)                 | Guides to build Dapps and services using Viction                                 |
 | [Masternode](masternode/)                           | Step-by-step guide on how to run and vote for Masternodes                        |
 | [TomoMasterDAO](archive/tomomasterdao/)             | This document explains how TomoMasterDAO operates                                |
-| [APIs](https://apidocs.viction.com)                 | This document explains how to use Viction APIs                                   |
+| [APIs](https://apidocs.tomochain.com)                 | This document explains how to use Viction APIs                                   |
 | [FAQ](faq/)                                         | Frequently asked questions about Viction                                         |
 | [Whitepaper and Research](whitepaper-and-research/) | Official Whitepaper documents and research papers on new technology developments |
 | [Legal](legal/)                                     | Terms and conditions for the use of Viction technology                           |

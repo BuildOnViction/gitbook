@@ -62,7 +62,7 @@
 * [Viction Bridge](tomobridge/README.md)
   * [TOMOE](tomobridge/tomoe.md)
 * [FAQ](faq/README.md)
-  * [APIs](https://apidocs.viction.com/)
+  * [APIs](https://apidocs.tomochain.com/)
   * [General](faq/general/README.md)
     * [Viction](faq/general/viction.md)
     * [Ecosystem](faq/general/ecosystem.md)
