@@ -76,7 +76,6 @@
     * [VicMaster](faq/products/vicmaster.md)
     * [TomoStats](faq/products/tomostats.md)
     * [VicIssuer](faq/products/vicissuer.md)
-    * [VicIssuer 2](faq/products/vicissuer-copy.md)
 * [Whitepaper and Research](whitepaper-and-research/README.md)
   * [Technical Paper](https://viction.xyz/files/technical-whitepaper-1.0.pdf)
   * [Economics Paper](https://docs.google.com/document/d/197Cu57A6OYPoEQbrUVr067qNVEzP\_FEwaDCFff7hnlM/edit?usp=sharing)
