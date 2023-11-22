@@ -33,7 +33,7 @@ To check if you have installed the right Python version (must be greater than 3.
 python3 --version
 ```
 
-![tmn python](https://docs.Viction.com/assets/tmn\_python.png)
+![tmn python](https://docs.viction.xyz/assets/tmn\_python.png)
 
 #### Installation of Docker CE <a href="#installation-of-docker-ce" id="installation-of-docker-ce"></a>
 

@@ -101,7 +101,7 @@ You can create a new VIC wallet using **TomoWallet** mobile app for [iOS](https:
 
 Go to _Settings_ menu, select _Backup wallet_ and then **Continue**. Here you can see your wallet’s private key and the 12-word recovery phrase. **Write down the 12-word recovery phrase.**
 
-You can also create a new [Viction wallet with MetaMask, MyEtherWallet or TrustWallet](https://docs.Viction.com/get-started/wallet/). For instance, for mainnet you can go to [MyEtherWallet](https://www.myetherwallet.com/) and select **VIC (Viction.com)** on the top right corner. Enter a password and then Create a new wallet. **Write down your recovery phrase.**
+You can also create a new [Viction wallet with MetaMask, MyEtherWallet or TrustWallet](https://docs.viction.xyz/get-started/wallet/). For instance, for mainnet you can go to [MyEtherWallet](https://www.myetherwallet.com/) and select **VIC (Viction.com)** on the top right corner. Enter a password and then Create a new wallet. **Write down your recovery phrase.**
 
 For this tutorial, my wallet address (testnet) is:
 

@@ -44,7 +44,7 @@ VicIssuer will ask for the token’s information to confirm. Please check all th
 
 <figure><img src="../.gitbook/assets/Screenshot_2.png" alt=""><figcaption></figcaption></figure>
 
-**Note:** Any developer with some experience developing and deploying smart contracts can refer to our reference implementation of the [Standards & Specification](https://docs.Viction.com/developer-guide/standards-and-specification) to make customizations to the deployed token contract.
+**Note:** Any developer with some experience developing and deploying smart contracts can refer to our reference implementation of the [Standards & Specification](https://docs.viction.xyz/developer-guide/standards-and-specification) to make customizations to the deployed token contract.
 
 **THE STEPS BELOW ARE FOR TRC21 TOKENS ONLY**
 

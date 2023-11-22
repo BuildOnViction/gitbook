@@ -63,7 +63,7 @@ VicMaster is the decentralized governance Dapp of Viction, allowing users to vot
 * VIC Balance (right column) should show next to addresses (the first address has 2 VIC as in the figure)
 * Click on Unlock your wallet
 
-**Note:** Now you can use Ledger Nano S and VicMaster to vote and/or apply to become a Masternode Candidate (please refer to [here](https://docs.Viction.com/get-started/voting/) and [here](https://docs.Viction.com/get-started/apply-node/) for how to vote and apply to become a Masternode).
+**Note:** Now you can use Ledger Nano S and VicMaster to vote and/or apply to become a Masternode Candidate (please refer to [here](https://docs.viction.xyz/get-started/voting/) and [here](https://docs.viction.xyz/get-started/apply-node/) for how to vote and apply to become a Masternode).
 
 ![](<../../.gitbook/assets/image (24).png>)
 
