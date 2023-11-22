@@ -20,6 +20,10 @@ description: 'Viction Integration: A Step-By-Step Guide'
 [vic-zerogas-integration.md](vic-zerogas-integration.md)
 {% endcontent-ref %}
 
+{% content-ref url="vic-zerogas-integration.md" %}
+[vic-zerogas-integration.md](vic-zerogas-integration.md)
+{% endcontent-ref %}
+
 {% content-ref url="viction-staking-governance.md" %}
 [Viction-staking-governance.md](viction-staking-governance.md)
 {% endcontent-ref %}
