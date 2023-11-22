@@ -87,7 +87,7 @@ Yes. MyEtherWallet now has Viction in the supported network list. VIC holders th
 
 The following is information used for configuring Metamask to connect to Viction Mainnet.
 
-* RPC endpoint: `https://rpc.Viction.com`
+* RPC endpoint: `https://rpc.viction.xyz`
 * Chain ID: `88`
 * Symbol: `VIC`
 * Network Name: `Viction Mainnet`

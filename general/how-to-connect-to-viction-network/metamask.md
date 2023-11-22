@@ -16,7 +16,7 @@ First install the[ MetaMask Extension](https://metamask.io/) on Chrome or Brave 
 
 | <p><br></p>        | Mainnet                   | Testnet                            |
 | ------------------ | ------------------------- | ---------------------------------- |
-| New RPC URL        | https://rpc.Viction.com | https://rpc.testnet.tomochain.com  |
+| New RPC URL        | https://rpc.viction.xyz | https://rpc.testnet.tomochain.com  |
 | ChainID            | 88 or 0x58                | 89                                 |
 | Symbol             | VIC                      | VIC                               |
 | Nickname           | Viction                 | Viction Testnet                  |

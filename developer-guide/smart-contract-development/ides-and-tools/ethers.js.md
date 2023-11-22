@@ -54,7 +54,7 @@ const ethers = require('ethers');
 const providerRPC = {
   mainnet: {
     name: 'Viction-mainnet',
-    rpc: 'https://rpc.Viction.com', // Insert your RPC URL here
+    rpc: 'https://rpc.viction.xyz', // Insert your RPC URL here
     chainId: 88,
   },
 };
@@ -97,7 +97,7 @@ const ethers = require('ethers');
 const providerRPC = {
   mainnet: {
     name: 'Viction-mainnet',
-    rpc: 'https://rpc.Viction.com', // Insert your RPC URL here
+    rpc: 'https://rpc.viction.xyz', // Insert your RPC URL here
     chainId: 88,
   },
 };
@@ -161,7 +161,7 @@ const ethers = require('ethers');
 const providerRPC = {
   mainnet: {
     name: 'Viction-mainnet',
-    rpc: 'https://rpc.Viction.com', // Insert your RPC URL here
+    rpc: 'https://rpc.viction.xyz', // Insert your RPC URL here
     chainId: 88,
   },
 };
@@ -324,7 +324,7 @@ const ethers = require('ethers');
 const providerRPC = {
   mainnet: {
     name: 'Viction-mainnet',
-    rpc: 'https://rpc.Viction.com', // Insert your RPC URL here
+    rpc: 'https://rpc.viction.xyz', // Insert your RPC URL here
     chainId: 88,
   },
 };
@@ -399,7 +399,7 @@ const { abi } = require('./compile');
 const providerRPC = {
   mainnet: {
     name: 'Viction-mainnet',
-    rpc: 'https://rpc.Viction.com', // Insert your RPC URL here
+    rpc: 'https://rpc.viction.xyz', // Insert your RPC URL here
     chainId: 88,
   },
 };
@@ -465,7 +465,7 @@ const { abi } = require('./compile');
 const providerRPC = {
   mainnet: {
     name: 'Viction-mainnet',
-    rpc: 'https://rpc.Viction.com', // Insert your RPC URL here
+    rpc: 'https://rpc.viction.xyz', // Insert your RPC URL here
     chainId: 88,
   },
 };
@@ -531,7 +531,7 @@ const { abi } = require('./compile');
 const providerRPC = {
   mainnet: {
     name: 'Viction-mainnet',
-    rpc: 'https://rpc.Viction.com', // Insert your RPC URL here
+    rpc: 'https://rpc.viction.xyz', // Insert your RPC URL here
     chainId: 88,
   },
 };

@@ -49,7 +49,7 @@ const config: HardhatUserConfig = {
   networks: {
     // for mainnet
     'tomo-mainnet': {
-      url: 'https://rpc.Viction.com',
+      url: 'https://rpc.viction.xyz',
       accounts: [process.env.PRIVATE_KEY as string],
     },
     // for testnet
@@ -182,7 +182,7 @@ import "@nomicfoundation/hardhat-toolbox";
 const config: HardhatUserConfig = {
   networks: {
     Viction: {
-      url: "https://rpc.Viction.com", // for mainnet
+      url: "https://rpc.viction.xyz", // for mainnet
       accounts:  ['']
     }
   },

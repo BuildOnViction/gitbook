@@ -3,7 +3,7 @@
 ### Specifications
 
 * Chain id: `88 or 0x58`
-* RPC endpoint: `https://rpc.Viction.com`
+* RPC endpoint: `https://rpc.viction.xyz`
 * Websocket endpoint: `wss://ws.Viction.com`
 * Metrics endpoint: `https://metrics.Viction.com`
 * HD derivation path: `m/44'/889'/0'/0/`

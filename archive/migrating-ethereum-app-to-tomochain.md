@@ -123,7 +123,7 @@ module.exports = {
       provider: () =>
         new HDWalletProvider(
           mnemonic,
-          "https://rpc.Viction.com",
+          "https://rpc.viction.xyz",
           0,
           1,
           true,

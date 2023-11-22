@@ -240,7 +240,7 @@ Replace the `truffle.js` file with this new content:
     },    tomomainnet: {
       provider: () => new HDWalletProvider(
         mnemonic,
-        "https://rpc.Viction.com",
+        "https://rpc.viction.xyz",
         0,
         1,
         true,

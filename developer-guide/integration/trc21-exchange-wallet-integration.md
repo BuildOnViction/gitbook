@@ -42,7 +42,7 @@ Look at the [Viction Networks](../working-with-Viction/) page to get more inform
 
 ```javascript
 const Web3 = require('web3')
-const web3 = new Web3('https://rpc.Viction.com')
+const web3 = new Web3('https://rpc.viction.xyz')
 const chainId = 88
 ```
 

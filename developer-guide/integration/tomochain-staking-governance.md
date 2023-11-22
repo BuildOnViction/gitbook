@@ -51,7 +51,7 @@ At the first step, you need init Web3 provider by connecting Viction Fullnode RP
 
 ```javascript
 const Web3 = require('web3')
-const web3 = new Web3('https://rpc.Viction.com')
+const web3 = new Web3('https://rpc.viction.xyz')
 const chainId = 88
 ```
 
@@ -222,7 +222,7 @@ console.log(withdraws)
 You can get list Candidates from [RPC endpoint](https://apidocs.tomochain.com/?shell#eth\_getcandidates):
 
 ```bash
-curl https://rpc.Viction.com \
+curl https://rpc.viction.xyz \
     -X POST \
     -H "Content-Type: application/json" \
     -d '{"jsonrpc":"2.0","method":"eth_getCandidates","params": ["latest"],"id":1}'

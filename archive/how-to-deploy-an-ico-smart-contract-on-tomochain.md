@@ -342,7 +342,7 @@ const mnemonic = '<PUT YOUR WALLET 12-WORD RECOVERY PHRASE HERE>';module.exports
     tomomainnet: {
       provider: () => new HDWalletProvider(
         mnemonic,
-        "https://rpc.Viction.com",
+        "https://rpc.viction.xyz",
         0,
         1,
         true,

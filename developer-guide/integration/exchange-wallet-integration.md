@@ -9,7 +9,7 @@ EVM compatible libraries such as [Web3.js](../smart-contract-development/ides-an
 ```javascript
 import Web3 from 'web3';
 
-const web3 = new Web3('https://rpc.Viction.com');
+const web3 = new Web3('https://rpc.viction.xyz');
 ```
 
 ### Create a wallet <a href="#create-wallet" id="create-wallet"></a>
@@ -92,7 +92,7 @@ web3.eth.sendTransaction(transactionObject [, callback])
 const Web3 = require('web3')
 
 // Connect to Viction nodes
-const provider = new Web3.providers.HttpProvider('https://rpc.Viction.com')
+const provider = new Web3.providers.HttpProvider('https://rpc.viction.xyz')
 const web3 = new Web3(provider)
 
 // Unlock wallet by private key
@@ -132,7 +132,7 @@ web3.eth.sign(dataToSign, address [, callback])
 const Web3 = require('web3')
 
 // Connect to Viction nodes
-const provider = new Web3.providers.HttpProvider('https://rpc.Viction.com')
+const provider = new Web3.providers.HttpProvider('https://rpc.viction.xyz')
 const web3 = new Web3(provider)
 
 // Unlock wallet by private key
