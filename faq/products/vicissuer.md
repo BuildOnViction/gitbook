@@ -32,7 +32,7 @@ Before issuing your token on Viction, make sure you are aware of the available t
 
 **Step 1:**
 
-Go to [https://issuer.Viction.com/](https://issuer.viction.com/) and click on “Issue New Token”.
+Go to [https://issuer.viction.xyz/](https://issuer.viction.xyz/) and click on “Issue New Token”.
 
 <div>
 

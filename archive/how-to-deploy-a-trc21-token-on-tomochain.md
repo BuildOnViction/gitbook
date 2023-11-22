@@ -16,7 +16,7 @@ Below are the most important features of VicIssuer that have made it a revolutio
 
 **Step 1:**
 
-Go to [https://issuer.Viction.com/](https://issuer.Viction.com/) and click on “Issue New Token”.
+Go to [https://issuer.viction.xyz/](https://issuer.viction.xyz/) and click on “Issue New Token”.
 
 <figure><img src="../.gitbook/assets/Screenshot_2 (2).png" alt=""><figcaption></figcaption></figure>
 
