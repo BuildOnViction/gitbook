@@ -2,7 +2,7 @@
 
 ### **What is TomoStats?**
 
-[TomoStats ](https://stats.Viction.com/)shows various metrics regarding the current Mainnet including the current number of Masternodes, Masternode performance, current TPS, block-time, confirmation time, finality and other useful metrics.
+TomoStats shows various metrics regarding the current Mainnet including the current number of Masternodes, Masternode performance, current TPS, block-time, confirmation time, finality, and other useful metrics.
 
 ### **How long will it take to see my node appear on TomoStats?**
 

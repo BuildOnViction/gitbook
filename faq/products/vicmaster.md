@@ -4,31 +4,31 @@
 
 ### **What is VicMaster?**
 
-[VicMaster](https://master.Viction.com/), the 'Governance Dapp', provides a professional UI that lists all Masternodes and Masternode Candidates. Users can vote for Masternodes, see Masternode performance statistics, and deposit 50K VIC to become a Masternode Candidate.
+[VicMaster](https://www.vicmaster.xyz/), the 'Governance Dapp', provides a professional UI that lists all Masternodes and Masternode Candidates. Users can vote for Masternodes, see Masternode performance statistics and deposit 50K VIC to become a Masternode Candidate.
 
-### **How do I login on VicMaster?**
+### **How do I log in on VicMaster?**
 
-Go to [VicMaster](http://master.Viction.com). On the top-right corner click 'Login'. Then select how you want to login: with TomoWallet, with Ledger, with Trezor, with Metamask, TrustWallet or Private Key/Mnemonic.
+Go to [VicMaster](https://www.vicmaster.xyz/). On the top-right corner click 'Login'. Then select how you want to log in: with Viction Wallet, with Ledger, with Trezor, with Metamask, TrustWallet, or Private Key/Mnemonic.
 
 ### **What is the 'capacity' of a Candidate/Masternode?**
 
 The capacity of a candidate is the 50K VIC initial deposit plus the total amount of VIC voted for that candidate.
 
-### **Which of these numbers on VicMaster will tell us which is a good performing node vs poorly performing?**
+### **Which of these numbers on VicMaster will tell us which is a good-performing node vs poorly performing?**
 
-On VicMaster, click on a candidate to open the candidate page. Scroll down to 'Masternode Rewards'. You should look at 'Sign number', 'Slashing history' under Masternode Rewards to determine a good node or not.
+On VicMaster, click on a candidate to open the candidate page. Scroll down to 'Masternode Rewards'. You should look at 'Sign number', and 'Slashing history' under Masternode Rewards to determine a good node or not.
 
 Masternodes will sign a maximum of 60 blocks per epoch. A good Masternode will create around 60 signed transactions in that epoch. The rewards are also calculated based on the number of signed transactions.
 
 ### **What is a 'checkpoint'?**
 
-For each iteration of 900 blocks (called epoch), a checkpoint block is created. Afterwhich the rewards are released to Masternodes and Voters. The Masternodes take turns in sequential order to create blocks, verify all of the created blocks in the epoch and count the number of signatures.
+For each iteration of 900 blocks (called epoch), a checkpoint block is created. After which the rewards are released to Masternodes and Voters. The Masternodes take turns in sequential order to create blocks, verify all of the created blocks in the epoch, and count the number of signatures.
 
 It is worth noting that token holders who unvote before the checkpoint block will not receive any shared reward when staking rewards are allocated.
 
 ### **I want to stop running my node.**
 
-In case you want to stop your node, you need to resign it from the governance first in order to retrieve your locked funds. Access VicMaster, go to your candidate detail page, and click the `Resign` button. Your funds will be available to withdraw 30 days after the resignation (1,296,000 blocks).
+In case you want to stop your node, you need to resign it from the governance first to retrieve your locked funds. Access VicMaster, go to your candidate detail page, and click the `Resign` button. Your funds will be available to withdraw 30 days after the resignation (1,296,000 blocks).
 
 After resigning successfully, you can stop your node. If you ran it with `tmn`, simply run:
 
@@ -60,7 +60,7 @@ If you do not want to support a Masternode you voted for, you can unvote from it
 
 `Warning: After unvoting, your VIC will be locked in the smart contract for 48 hours before you are able to withdraw.`
 
-### [Candidate](https://master.Viction.com/candidate/0x3e3d98a26deef510b720967f4c4dbc88f308a994) <a href="#candidate" id="candidate"></a>
+### [Candidate](https://master.viction.com/candidate/0x3e3d98a26deef510b720967f4c4dbc88f308a994) <a href="#candidate" id="candidate"></a>
 
 #### General Information <a href="#general-information" id="general-information"></a>
 
@@ -82,7 +82,7 @@ Under the section for voters, you can see the list of VIC stakers who have voted
 
 In this section, you can see all transactions of this candidate.
 
-### [Voter](https://master.Viction.com/voter/0x82d83629f48b690226af91547cbfbfc8a52b73e6) <a href="#voter" id="voter"></a>
+### [Voter](https://master.viction.com/voter/0x82d83629f48b690226af91547cbfbfc8a52b73e6) <a href="#voter" id="voter"></a>
 
 #### General Information <a href="#general-information_1" id="general-information_1"></a>
 
@@ -104,7 +104,7 @@ The rewards section shows the rewards the voter has been receiving.
 
 This section shows all transactions by the voter.
 
-### [Settings](https://master.Viction.com/setting) <a href="#settings" id="settings"></a>
+### [Settings](https://master.viction.com/setting) <a href="#settings" id="settings"></a>
 
 #### Network Provider <a href="#network-provider" id="network-provider"></a>
 
@@ -114,7 +114,7 @@ Use settings to select the network provider you are using for VicMaster (e.g., M
 
 This section will show you information about your public address and VIC balance.
 
-### [Apply](https://master.Viction.com/apply) <a href="#apply" id="apply"></a>
+### [Apply](https://master.viction.com/apply) <a href="#apply" id="apply"></a>
 
 This web page is used by VIC holders looking to apply to become a Masternode Candidate.
 

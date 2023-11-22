@@ -6,7 +6,7 @@ description: >-
 
 # VicIssuer
 
-Below are the most important features of [VicIssuer](https://issuer.Viction.com/) that have made it a revolutionary tool:
+Below are the most important features of [VicIssuer](https://issuer.viction.xyz/) that have made it a revolutionary tool:
 
 * **User-Friendly Interface:** Issue a TRC20 or TRC21 token in only a few steps.
 * **No Coding Experience Required:** No prerequisite knowledge about smart contract programming is needed.
@@ -22,17 +22,17 @@ Before issuing your token on Viction, make sure you are aware of the available t
 
 **Comparison Table**
 
-|                                                 |    **TRC20**    |                                         **TRC21**                                        |
-| ----------------------------------------------- | :-------------: | :--------------------------------------------------------------------------------------: |
-| **Technical Requirements for Dapp Integration** |     **Low**     |                                       **Moderate**                                       |
-| **Technical Requirements for Exchange Listing** |     **Low**     |                                       **Moderate**                                       |
+|                                                 |    **TRC20**   |                                        **TRC21**                                        |
+| ----------------------------------------------- | :------------: | :-------------------------------------------------------------------------------------: |
+| **Technical Requirements for Dapp Integration** |     **Low**    |                                       **Moderate**                                      |
+| **Technical Requirements for Exchange Listing** |     **Low**    |                                       **Moderate**                                      |
 | **Transaction Fees**                            | **Native VIC** | <p><strong>By token itself</strong></p><p><strong>(no need for native VIC)</strong></p> |
 
 ### ISSUE
 
 **Step 1:**
 
-Go to [https://issuer.Viction.com/](https://issuer.Viction.com/) and click on “Issue New Token”.
+Go to [https://issuer.Viction.com/](https://issuer.viction.com/) and click on “Issue New Token”.
 
 <div>
 
@@ -84,7 +84,7 @@ Fill out the token information including Token Name, Token Symbol, Token Supply,
 
 VicIssuer will ask for the token’s information to confirm. Please check all the criteria carefully before clicking on the “Issue token” and wait for the contract to be deployed.
 
-**Note:** Any developer with some experience developing and deploying smart contracts can refer to our reference implementation of the [Standards & Specification](https://docs.Viction.com/developer-guide/standards-and-specification) to make customizations to the deployed token contract.
+**Note:** Any developer with some experience developing and deploying smart contracts can refer to our reference implementation of the [Standards & Specification](https://docs.viction.com/developer-guide/standards-and-specification) to make customizations to the deployed token contract.
 
 **THE STEPS BELOW ARE FOR TRC21 TOKENS ONLY**
 

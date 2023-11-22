@@ -14,6 +14,6 @@ Viction collaborates with various partners, including LayerZero, Pyth, MoonPay, 
 
 * **Viction**: Viction is the core public blockchain powering every product and Dapp built on it.
 * **Vicscan**: [Vicscan](https://www.vicscan.xyz/) provides a user-friendly and detailed blockchain explorer user interface for Viction. All blocks, transactions, finality, smart contracts, Dapps, and token information are captured. Also offered are technical visualizations and useful statistics about Viction's performance, token holders, and other functionalities.
-* **TomoStats:** [TomoStats](https://status.viction.com/) is a system for checking current and historical operational status of all Viction infrastructure.
+* **TomoStats:** [TomoStats](https://status.viction.com/) is a system for checking the current and historical operational status of all Viction infrastructure.
 * **Viction Bridge:** Viction Bridge is now on [SpaceGate](https://docs.coin98.com/products/spacegate) - a cross-chain bridge designed to seamlessly transfer assets from Ethereum to Viction.
-* **VicMaster**: [VicMaster](https://master.tomochain.com/) is a governance Dapp that allows users to see a list of Masternodes and Masternode Candidates. VicMaster is also used to launch a Masternode Candidate, vote for Masternodes, and view Masternode performance statistics.
+* **VicMaster**: [VicMaster ](https://www.vicmaster.xyz/)is a governance Dapp that allows users to see a list of Masternodes and Masternode Candidates. TomoMaster is also used to launch a Masternode Candidate, vote for Masternodes, and view Masternode performance statistics.
