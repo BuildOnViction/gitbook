@@ -1,17 +1,17 @@
 # Working With Viction
 
-{% content-ref url="Viction-mainnet.md" %}
-[Viction-mainnet.md](Viction-mainnet.md)
+{% content-ref url="viction-mainnet.md" %}
+[viction-mainnet.md](viction-mainnet.md)
 {% endcontent-ref %}
 
-{% content-ref url="Viction-testnet.md" %}
-[Viction-testnet.md](Viction-testnet.md)
+{% content-ref url="viction-testnet.md" %}
+[Viction-testnet.md](viction-testnet.md)
 {% endcontent-ref %}
 
 {% content-ref url="cli-commands.md" %}
 [cli-commands.md](cli-commands.md)
 {% endcontent-ref %}
 
-{% content-ref url="Viction-private-testnet-setup.md" %}
-[Viction-private-testnet-setup.md](Viction-private-testnet-setup.md)
+{% content-ref url="viction-private-testnet-setup.md" %}
+[Viction-private-testnet-setup.md](viction-private-testnet-setup.md)
 {% endcontent-ref %}
