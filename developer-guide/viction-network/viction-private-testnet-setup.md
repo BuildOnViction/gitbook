@@ -1,2 +1,0 @@
-# Viction Private Testnet Setup
-

@@ -1,4 +1,4 @@
-# Viction Network
+# Working With Viction
 
 {% content-ref url="Viction-mainnet.md" %}
 [Viction-mainnet.md](Viction-mainnet.md)

@@ -1,2 +1,0 @@
-# Write the Smart Contract
-

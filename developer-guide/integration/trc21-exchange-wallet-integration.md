@@ -30,7 +30,7 @@ interface IVRC25 {
 }
 ```
 
-Users are recommended to refer to the [VRC25 Specification](../standards-and-specification/trc25-specification.md) for more details about the VRC25 token standard.
+Users are recommended to refer to the [VRC25 Specification](../standards-and-specification/vrc25-specification.md) for more details about the VRC25 token standard.
 
 Follow the steps below to interact with the smart contract by using the Web3 library and Node.
 
