@@ -18,7 +18,7 @@ To have a Masternode Candidate, the following requirements must be satisfied:
 
 ### Apply to become a Masternode <a href="#applying-to-become-a-masternode" id="applying-to-become-a-masternode"></a>
 
-You can apply to become a Masternode by going on [TomoMaster](https://master.Viction.com/). Connect the wallet that contains the funds you want to deposit.
+You can apply to become a Masternode by going on [VicMaster](https://master.Viction.com/). Connect the wallet that contains the funds you want to deposit.
 
 {% hint style="danger" %}
 Warning
@@ -40,7 +40,7 @@ We advise for security measures to use a fresh new account for your Masternode o
 
 Confirm with apply and proceed to make the payment.
 
-Your full node will now be listed on TomoMaster. People can view its details and vote for it.
+Your full node will now be listed on VicMaster. People can view its details and vote for it.
 
 A Candidate becomes a Masternode when it belongs to top 150 most voted Candidates in each epoch.
 
@@ -54,7 +54,7 @@ If your node is in the top 150 most voted Candidates at the checkpoint between t
 
 ### Resigning a Masternode <a href="#resigning-your-masternode" id="resigning-your-masternode"></a>
 
-In case you want to stop your node, you need to resign it from the governance first in order to retrieve the locked funds. Access TomoMaster, go to your Candidate detail page, and click the `Resign` button. Your funds will be available to withdraw 30 days after the resignation (1,296,000 blocks).
+In case you want to stop your node, you need to resign it from the governance first in order to retrieve the locked funds. Access VicMaster, go to your Candidate detail page, and click the `Resign` button. Your funds will be available to withdraw 30 days after the resignation (1,296,000 blocks).
 
 After resigning successfully, you can stop your node. If you ran it with `tmn`, simply run:
 

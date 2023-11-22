@@ -8,7 +8,7 @@ The supply of VIC is fixed, long-term and non-inflationary.
 
 In addition to the above, VIC is an integral part of the Viction network for a number of reasons.
 
-* VIC will be used to fund the development of Viction and its ecosystem (VicScan, TomoMaster, TomoWallet, etc.).
+* VIC will be used to fund the development of Viction and its ecosystem (VicScan, VicMaster, TomoWallet, etc.).
 * VIC will be used as a reward to incentivise the building of the Viction engine/ecosystem.
 * VIC will be used as a long-term, decentralized governance instrument of the Viction network.
 

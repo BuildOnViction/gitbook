@@ -34,9 +34,9 @@ By clicking on "Address" you can either receive VIC by sharing your address or y
 
 By clicking on "Send" you can either send VIC by scanning a QR-code or entering a recipient address manually.
 
-### **Can we vote on TomoMaster using TomoWallet?**
+### **Can we vote on VicMaster using TomoWallet?**
 
-Yes, TomoWallet can be used for voting/staking on TomoMaster. Here is a [GUIDE](https://www.youtube.com/watch?v=EdeTsN6-hRM\&list=PLuqf1yr-JvSy0AwnxMyalxmM\_jKFOP\_Y\_).
+Yes, TomoWallet can be used for voting/staking on VicMaster. Here is a [GUIDE](https://www.youtube.com/watch?v=EdeTsN6-hRM\&list=PLuqf1yr-JvSy0AwnxMyalxmM\_jKFOP\_Y\_).
 
 ### Where to track rewards after voting?
 

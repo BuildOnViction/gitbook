@@ -4,7 +4,7 @@
 
 Yes, Viction has a maximum of 150 Masternodes with Proof of Stake Voting (POSV) consensus that enable low transaction fees, and instant transaction confirmation. Masternodes create, verify and validate new blocks one the Viction blockchain.
 
-* **Masternode Candidates:** Any account can deposit 50,000 VIC using [TomoMaster](https://master.Viction.com/) to become a Masternode candidate. A candidate can resign, but the tokens will be locked for the next 30 days (1,296,000 blocks) after the resignation.
+* **Masternode Candidates:** Any account can deposit 50,000 VIC using [VicMaster](https://master.Viction.com/) to become a Masternode candidate. A candidate can resign, but the tokens will be locked for the next 30 days (1,296,000 blocks) after the resignation.
 * **Becoming a Masternode:** A Candidate becomes a Masternode when he/she belongs to the top 150 most voted Candidates in each epoch. A Masternode can resign, but the tokens will be locked for the next 30 days after the resignation.
 * **Rewards:** The rewards a Masternode receives in each epoch is proportional to the number of signatures it signs.
 
@@ -14,7 +14,7 @@ Viction Masternodes started signing blocks and receiving block rewards when the 
 
 A Viction Masternode is a server which uses its computing power to contribute to the network. Its job is to create and sign blocks. For this contribution to the network, Masternodes receive rewards in the form of VIC.
 
-Masternodes are elected using the PoSV consensus via our governance Dapp [TomoMaster](https://master.Viction.com/)
+Masternodes are elected using the PoSV consensus via our governance Dapp [VicMaster](https://master.Viction.com/)
 
 ### **What are the incentives to run a Masternode?**
 
@@ -38,7 +38,7 @@ Masternode operators and Voters will receive rewards every epoch. An epoch is re
 
 ### **How can I check my rewards?**
 
-You can check your Masternode/staking rewards using TomoWallet. Alternatively you can use TomoMaster or VicScan.
+You can check your Masternode/staking rewards using TomoWallet. Alternatively you can use VicMaster or VicScan.
 
 ### **What rewards do Masternodes receive?**
 
@@ -87,7 +87,7 @@ Approximate reward achieved per year:
 
 ### **What is a Masternode Candidate? What is the difference between Masternode Candidate and Masternode?**
 
-A Masternode Candidate is any node owner who deposits 50,000 VIC to be listed on [TomoMaster](https://master.Viction.com/).
+A Masternode Candidate is any node owner who deposits 50,000 VIC to be listed on [VicMaster](https://master.Viction.com/).
 
 A Candidate only becomes a Masternode when it is in the top-150 most-voted Masternode Candidates in an epoch. Only these elected Masternodes will be able to sign blocks and receive block rewards.
 
@@ -96,9 +96,9 @@ A Candidate only becomes a Masternode when it is in the top-150 most-voted Maste
 The first step to become a Masternode, is becoming a Masternode Candidate. To become a Masternode Candidate you need:
 
 * to run Viction software in a machine with a certain minimal hardware requirements
-* to deposit 50,000 VIC in a smart contract via TomoMaster
+* to deposit 50,000 VIC in a smart contract via VicMaster
 
-The list of Masternode Candidates will be available on the governance Dapp, [TomoMaster](https://master.Viction.com/). The next step is to be elected as one of the top 150 most voted Candidates.
+The list of Masternode Candidates will be available on the governance Dapp, [VicMaster](https://master.Viction.com/). The next step is to be elected as one of the top 150 most voted Candidates.
 
 ### **Do I need to use my own computer to run a node?**
 
@@ -163,15 +163,15 @@ We recommend using two addresses when running your nodes. The public address or 
 
 It is recommended to use a separate empty account for your Masternode as it only receives transactions fees - what we call public or 'coinbase address' on the documentation.
 
-The block rewards are sent to the account connected to TomoMaster who make the initial deposit - the 'private' address.
+The block rewards are sent to the account connected to VicMaster who make the initial deposit - the 'private' address.
 
 ### **Can I use the same address pair (tmn public address + initial deposit address) for all my nodes? Or I have to transfer tokens to another wallet and start the second node?**
 
 No. You must use different public 'coinbase' addresses. But you can use the same initial deposit ('private') address, then all rewards will be transferred to only one address.
 
-### **I have finished all steps of setting up a node. Why I don't see my node on TomoMaster?**
+### **I have finished all steps of setting up a node. Why I don't see my node on VicMaster?**
 
-You must apply to become a Masternode Candidate on [TomoMaster](https://master.Viction.com/)
+You must apply to become a Masternode Candidate on [VicMaster](https://master.Viction.com/)
 
 ### **Do I need to deposit the 50K VIC before or after running 'tmn' in VPS?**
 
@@ -187,7 +187,7 @@ Yes, it can.
 
 ### **How can I change my node's name?**
 
-You can do it on TomoMaster. Go to your Masternode page on TomoMaster, if you are logged in to TomoMaster with the owner account, you can click next to the Mastenode name to edit info.
+You can do it on VicMaster. Go to your Masternode page on VicMaster, if you are logged in to VicMaster with the owner account, you can click next to the Mastenode name to edit info.
 
 ### **My node status is 'Proposed', will it change status with the next checkpoint?**
 
@@ -213,7 +213,7 @@ As many as you can.
 
 ### **How can I resign as a Masternode?**
 
-If you no longer want to be a Masternode, you can resign on TomoMaster. Your Masternode will stop generating rewards and your funds will be locked for 30 days (1,296,000 blocks). After the lockup period you will be able to withdraw your 50,000 VIC deposit.
+If you no longer want to be a Masternode, you can resign on VicMaster. Your Masternode will stop generating rewards and your funds will be locked for 30 days (1,296,000 blocks). After the lockup period you will be able to withdraw your 50,000 VIC deposit.
 
 ### **Can I close the node entirely, then start a new one with a totally separate coinbase address without being penalized?**
 
@@ -227,6 +227,6 @@ Yes.
 
 Yes. Token holders can stake VIC and receive rewards.
 
-To stake VIC you need to vote for Masternode Candidates by sending VIC to each candidates specific voting-address using the official governance Dapp TomoMaster. The top-150 most voted will become Masternodes. Token holders can also un-vote Candidates, but the tokens will be locked for the next 96 epochs / 8,640 blocks (approx. 48 hours) after the un-voting.
+To stake VIC you need to vote for Masternode Candidates by sending VIC to each candidates specific voting-address using the official governance Dapp VicMaster. The top-150 most voted will become Masternodes. Token holders can also un-vote Candidates, but the tokens will be locked for the next 96 epochs / 8,640 blocks (approx. 48 hours) after the un-voting.
 
 Masternode token deposits and all tokens used to vote for Masternodes will enter the staking program, and earn block rewards in each epoch, plus any fees. Tokens used to vote for candidates that do not become Masternodes will not earn staking rewards.

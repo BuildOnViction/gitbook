@@ -42,13 +42,13 @@ Users can use [MyEtherWallet vintage](http://vintage.myetherwallet.com/) for Led
 
 **Note:** Select **VIC (Viction.com)** the crypto asset network in the top-right corner. Select m/44'/60'/0'/0 as the derivation path
 
-### Connect to TomoMaster
+### Connect to VicMaster
 
-TomoMaster is the decentralized governance Dapp of Viction, allowing users to vote/unvote for masternodes and apply to become a Masternode Candidate.
+VicMaster is the decentralized governance Dapp of Viction, allowing users to vote/unvote for masternodes and apply to become a Masternode Candidate.
 
 * Make sure the Ledger Nano S device is powered on, unlocked and the Viction Dapp is open
 * Plug the Ledger Nano S into your PC/Laptop
-* Go to [TomoMaster](https://master.Viction.com/) using a U2F compatible browser
+* Go to [VicMaster](https://master.Viction.com/) using a U2F compatible browser
 * Click on Login button (top right)
 * Select Ledger Wallet from the dropdown list
 * Choose m/44’/60’/0’/0 path if the Ledger Nano S has the latest firmware. Otherwise, use m/44’/889’/0’/0 path
@@ -63,7 +63,7 @@ TomoMaster is the decentralized governance Dapp of Viction, allowing users to vo
 * VIC Balance (right column) should show next to addresses (the first address has 2 VIC as in the figure)
 * Click on Unlock your wallet
 
-**Note:** Now you can use Ledger Nano S and TomoMaster to vote and/or apply to become a Masternode Candidate (please refer to [here](https://docs.Viction.com/get-started/voting/) and [here](https://docs.Viction.com/get-started/apply-node/) for how to vote and apply to become a Masternode).
+**Note:** Now you can use Ledger Nano S and VicMaster to vote and/or apply to become a Masternode Candidate (please refer to [here](https://docs.Viction.com/get-started/voting/) and [here](https://docs.Viction.com/get-started/apply-node/) for how to vote and apply to become a Masternode).
 
 ![](<../../.gitbook/assets/image (24).png>)
 

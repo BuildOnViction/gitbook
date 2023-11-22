@@ -74,7 +74,7 @@
   * [Products](faq/products/README.md)
     * [TomoWallet](faq/products/tomowallet.md)
     * [VicScan (Explorer)](faq/products/tomoscan-explorer.md)
-    * [TomoMaster](faq/products/tomomaster.md)
+    * [VicMaster](faq/products/tomomaster.md)
     * [TomoStats](faq/products/tomostats.md)
     * [VicIssuer](faq/products/tomoissuer.md)
 * [Whitepaper and Research](whitepaper-and-research/README.md)

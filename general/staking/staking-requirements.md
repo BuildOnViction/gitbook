@@ -6,7 +6,7 @@ description: Introduction to stake VIC on Masternodes.
 
 ### Prerequisites <a href="#prerequisites" id="prerequisites"></a>
 
-* Have a wallet connected to the TomoMaster Governance Dapp
+* Have a wallet connected to the VicMaster Governance Dapp
 
 ### Introduction <a href="#introduction" id="introduction"></a>
 
@@ -14,11 +14,11 @@ With a connected wallet, it's time to try voting for some Masternodes. If there 
 
 ### How To Vote <a href="#how-to-vote" id="how-to-vote"></a>
 
-Access our Governance Dapp, [TomoMaster](https://master.Viction.com/), to start voting for Masternodes.
+Access our Governance Dapp, [VicMaster](https://master.Viction.com/), to start voting for Masternodes.
 
 <figure><img src="../../.gitbook/assets/Screenshot_5.png" alt=""><figcaption></figcaption></figure>
 
-Click the "Login" button. TomoMaster natively supports multiple options to login including MetaMask, [Ledger](https://app.gitbook.com/@Viction/s/Viction-docs/general/how-to-connect-to-Viction-network/ledger), Trezor, and Private Key/Mnemonic. Select the appropriate option and login.
+Click the "Login" button. VicMaster natively supports multiple options to login including MetaMask, [Ledger](https://app.gitbook.com/@Viction/s/Viction-docs/general/how-to-connect-to-Viction-network/ledger), Trezor, and Private Key/Mnemonic. Select the appropriate option and login.
 
 Once configured, vote for Masternodes by clicking on the `Vote` button.
 

@@ -12,21 +12,21 @@ Yes, you can stake VIC and receive VIC as rewards.
 
 ### **How do I Stake?**
 
-To stake in Viction you must participate in the Viction Masternode election, voting for Masternode Candidates using TomoMaster to deposit your tokens in a voting smart-contract.
+To stake in Viction you must participate in the Viction Masternode election, voting for Masternode Candidates using VicMaster to deposit your tokens in a voting smart-contract.
 
-Login to your wallet at [TomoMaster](https://master.Viction.com) and click 'Vote' on a node that you choose from the list of Masternodes displayed.
+Login to your wallet at [VicMaster](https://master.Viction.com) and click 'Vote' on a node that you choose from the list of Masternodes displayed.
 
 ### **How does the Viction Masternode system work?**
 
-Everyone can find a list of all Masternode Candidates on [TomoMaster](https://master.Viction.com/). All token holders can vote VIC on any candidates via TomoMaster. To vote, token holders must deposit VIC in a smart-contract associated with the voted Candidate.
+Everyone can find a list of all Masternode Candidates on [VicMaster](https://master.Viction.com/). All token holders can vote VIC on any candidates via VicMaster. To vote, token holders must deposit VIC in a smart-contract associated with the voted Candidate.
 
 The top-150 most-voted Candidates will be promoted to Masternode status during the next epoch and will be able to sign blocks and collect rewards. All the voters (stakers) who support the elected Masternodes will receive rewards, proportional to the amount of VIC voted and the efficiency of the Masternode.
 
 ### **How do I vote (stake)?**
 
-Any token holder can vote. Login to [TomoMaster](https://master.Viction.com/) and then click 'Vote' on a node. Then enter the amount of VIC to vote (minimum is 100 VIC). Vote by depositing (staking) tokens to a smart-contract associated with a Masternode Candidate.
+Any token holder can vote. Login to [VicMaster](https://master.Viction.com/) and then click 'Vote' on a node. Then enter the amount of VIC to vote (minimum is 100 VIC). Vote by depositing (staking) tokens to a smart-contract associated with a Masternode Candidate.
 
-There are many ways to vote in TomoMaster:
+There are many ways to vote in VicMaster:
 
 * Voting from [TomoWallet](https://www.youtube.com/watch?v=EdeTsN6-hRM\&list=PLuqf1yr-JvSy0AwnxMyalxmM\_jKFOP\_Y\_).
 * Voting from [Ledger wallet](https://www.youtube.com/watch?v=wfHK03D2m7s\&list=PLuqf1yr-JvSx7XiLxXlhItFhpz\_-j1fD0)
@@ -43,7 +43,7 @@ Or watch this video: [https://www.youtube.com/watch?v=tXp4WHl\_sxY](https://www.
 
 ### **How do I vote from my Ledger Nano S?**
 
-Plug in your Ledger and open the Ethereum App. Go to TomoMaster.
+Plug in your Ledger and open the Ethereum App. Go to VicMaster.
 
 Login in the top-right corner and select Ledger from the drop-down menu.
 
@@ -51,7 +51,7 @@ Change the HD path to `m/44'/60'/0'`
 
 You should see your VIC balance.
 
-To see a list of nodes click on the TomoMaster homepage button - top left corner. Next to each node should be a 'Vote' button. When voting you will need to confirm transaction on your Ledger.
+To see a list of nodes click on the VicMaster homepage button - top left corner. Next to each node should be a 'Vote' button. When voting you will need to confirm transaction on your Ledger.
 
 ### **Can I stake on multiple Masternodes via Ledger?**
 
@@ -63,7 +63,7 @@ Probably your Ledger firmware version is incompatible. Upgrade your Ledger to th
 
 ### **Can I use Trezor to vote for Masternodes?**
 
-Yes. TomoMaster supports Trezor now.
+Yes. VicMaster supports Trezor now.
 
 ### **What criteria must be considered when voting? Which Masternode Candidate should I vote for?**
 
@@ -88,7 +88,7 @@ The minimum amount to stake is 100 VIC.
 
 ### **Which hardware-wallet can I use to vote?**
 
-You are able to use hardware wallets (Ledger, Trezor) with MyEtherWallet or Metamask. You can also directly [connect to the Viction Mainnet ](../../general/how-to-connect-to-Viction-network/)with Ledger/Trezor and vote on [TomoMaster](https://master.Viction.com/).
+You are able to use hardware wallets (Ledger, Trezor) with MyEtherWallet or Metamask. You can also directly [connect to the Viction Mainnet ](../../general/how-to-connect-to-Viction-network/)with Ledger/Trezor and vote on [VicMaster](https://master.Viction.com/).
 
 ### **Is it possible to re-invest the VIC earned and use it to continue voting?**
 
@@ -110,6 +110,6 @@ After unvoting, your VIC are still locked in the smart contract for 96 epochs (a
 
 ### **How do I withdraw after unvoting?**
 
-After unvoting, you need to wait until your VIC is unlocked from the smart contract (96 epochs, approx. 48 hours). Then you can go to TomoMaster and click the 'Withdraw' button in your account page (the three vertical dots on the top-right) and choose which withdrawal you want to receive back your VIC.
+After unvoting, you need to wait until your VIC is unlocked from the smart contract (96 epochs, approx. 48 hours). Then you can go to VicMaster and click the 'Withdraw' button in your account page (the three vertical dots on the top-right) and choose which withdrawal you want to receive back your VIC.
 
 Note that you might see multiple withdrawals on your account page if you made multiple unvotes previously.

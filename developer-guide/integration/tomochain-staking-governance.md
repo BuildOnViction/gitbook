@@ -228,7 +228,7 @@ curl https://rpc.Viction.com \
     -d '{"jsonrpc":"2.0","method":"eth_getCandidates","params": ["latest"],"id":1}'
 ```
 
-Or [get list candidates from TomoMaster](https://apidocs.Viction.com/?shell#tomomaster-apis-candidates):
+Or [get list candidates from VicMaster](https://apidocs.Viction.com/?shell#tomomaster-apis-candidates):
 
 ```bash
 curl -X GET https://master.Viction.com/api/candidates \

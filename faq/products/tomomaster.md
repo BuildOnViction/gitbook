@@ -1,22 +1,22 @@
-# TomoMaster
+# VicMaster
 
 ## **General**
 
-### **What is TomoMaster?**
+### **What is VicMaster?**
 
-[TomoMaster](https://master.Viction.com/), the 'Governance Dapp', provides a professional UI that lists all Masternodes and Masternode Candidates. Users can vote for Masternodes, see Masternode performance statistics, and deposit 50K VIC to become a Masternode Candidate.
+[VicMaster](https://master.Viction.com/), the 'Governance Dapp', provides a professional UI that lists all Masternodes and Masternode Candidates. Users can vote for Masternodes, see Masternode performance statistics, and deposit 50K VIC to become a Masternode Candidate.
 
-### **How do I login on TomoMaster?**
+### **How do I login on VicMaster?**
 
-Go to [TomoMaster](http://master.Viction.com). On the top-right corner click 'Login'. Then select how you want to login: with TomoWallet, with Ledger, with Trezor, with Metamask, TrustWallet or Private Key/Mnemonic.
+Go to [VicMaster](http://master.Viction.com). On the top-right corner click 'Login'. Then select how you want to login: with TomoWallet, with Ledger, with Trezor, with Metamask, TrustWallet or Private Key/Mnemonic.
 
 ### **What is the 'capacity' of a Candidate/Masternode?**
 
 The capacity of a candidate is the 50K VIC initial deposit plus the total amount of VIC voted for that candidate.
 
-### **Which of these numbers on TomoMaster will tell us which is a good performing node vs poorly performing?**
+### **Which of these numbers on VicMaster will tell us which is a good performing node vs poorly performing?**
 
-On TomoMaster, click on a candidate to open the candidate page. Scroll down to 'Masternode Rewards'. You should look at 'Sign number', 'Slashing history' under Masternode Rewards to determine a good node or not.
+On VicMaster, click on a candidate to open the candidate page. Scroll down to 'Masternode Rewards'. You should look at 'Sign number', 'Slashing history' under Masternode Rewards to determine a good node or not.
 
 Masternodes will sign a maximum of 60 blocks per epoch. A good Masternode will create around 60 signed transactions in that epoch. The rewards are also calculated based on the number of signed transactions.
 
@@ -28,7 +28,7 @@ It is worth noting that token holders who unvote before the checkpoint block wil
 
 ### **I want to stop running my node.**
 
-In case you want to stop your node, you need to resign it from the governance first in order to retrieve your locked funds. Access TomoMaster, go to your candidate detail page, and click the `Resign` button. Your funds will be available to withdraw 30 days after the resignation (1,296,000 blocks).
+In case you want to stop your node, you need to resign it from the governance first in order to retrieve your locked funds. Access VicMaster, go to your candidate detail page, and click the `Resign` button. Your funds will be available to withdraw 30 days after the resignation (1,296,000 blocks).
 
 After resigning successfully, you can stop your node. If you ran it with `tmn`, simply run:
 
@@ -42,7 +42,7 @@ At this point, your Masternode is terminated.
 
 ### Network Status
 
-On TomoMaster, this area shows you what the current block is, the block time, how many blocks are in each epoch, and the next checkpoint (end of epoch).
+On VicMaster, this area shows you what the current block is, the block time, how many blocks are in each epoch, and the next checkpoint (end of epoch).
 
 #### Candidates List <a href="#candidates-list" id="candidates-list"></a>
 
@@ -108,7 +108,7 @@ This section shows all transactions by the voter.
 
 #### Network Provider <a href="#network-provider" id="network-provider"></a>
 
-Use settings to select the network provider you are using for TomoMaster (e.g., Metamask, Viction Testnet, Custom Network).
+Use settings to select the network provider you are using for VicMaster (e.g., Metamask, Viction Testnet, Custom Network).
 
 #### Account Info <a href="#account-infos" id="account-infos"></a>
 

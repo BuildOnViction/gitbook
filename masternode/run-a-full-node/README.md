@@ -1,7 +1,7 @@
 ---
 description: >-
   This tutorial shows how to run a full node and meet the requirements to apply
-  to become a Masternode Candidate on TomoMaster. You have to run the Viction
+  to become a Masternode Candidate on VicMaster. You have to run the Viction
   client - our Viction implement on Go
 ---
 
