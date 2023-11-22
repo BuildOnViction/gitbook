@@ -14,7 +14,7 @@ See: [https://www.youtube.com/watch?v=8J4h2zsd\_UE](https://www.youtube.com/watc
 
 ### **Where can I see Viction partnerships?**
 
-Viction is working vigorously on[ building its ecosystem and has sealed partnerships from all fields ](https://Viction.com/ecosystem/)such as gaming, education and research, payment, communication, name service, loyalty points, tourism, and the financial sector (as of March 2023).
+Viction is working vigorously on[ building its ecosystem and has sealed partnerships from all fields ](https://viction.xyz/ecosystem/)such as gaming, education and research, payment, communication, name service, loyalty points, tourism, and the financial sector (as of March 2023).
 
 All partnership announcements can be found on [Medium](https://medium.com/Viction) and on our official [Twitter account](https://twitter.com/VictionANN) for partnership announcements.
 
@@ -22,4 +22,4 @@ All partnership announcements can be found on [Medium](https://medium.com/Victio
 
 Please read the Mainnet announcement on our [Medium post](https://medium.com/Viction/Viction-mainnet-has-officially-been-launched-25a55dd2efed).
 
-Follow us on [Viction Announcement Channel](https://t.me/VictionChannel?source=post\_page---------------------------) | [Twitter](https://twitter.com/VictionANN?source=post\_page---------------------------) | [Facebook](https://www.facebook.com/Victionofficial?source=post\_page---------------------------) | [LinkedIn](https://www.linkedin.com/company/Viction/?source=post\_page---------------------------) | [Github](https://github.com/BuildOnViction?source=post\_page---------------------------) | Sign up for our newsletter on our [Website](https://Viction.com/).
+Follow us on [Viction Announcement Channel](https://t.me/VictionChannel?source=post\_page---------------------------) | [Twitter](https://twitter.com/VictionANN?source=post\_page---------------------------) | [Facebook](https://www.facebook.com/Victionofficial?source=post\_page---------------------------) | [LinkedIn](https://www.linkedin.com/company/Viction/?source=post\_page---------------------------) | [Github](https://github.com/BuildOnViction?source=post\_page---------------------------) | Sign up for our newsletter on our [Website](https://viction.xyz/).

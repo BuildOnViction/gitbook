@@ -21,7 +21,7 @@ In this guide we will be covering:
 
 ## What is Viction? <a href="#cd48" id="cd48"></a>
 
-[**Viction**](https://Viction.com/) is a scalable blockchain powered via Proof-of-Stake Voting (PoSV) consensus and used commercially by companies globally. Viction achieves 2000 TPS, 2-second blocktime, and \~$0 gas fees without compromising decentralization.
+[**Viction**](https://viction.xyz/) is a scalable blockchain powered via Proof-of-Stake Voting (PoSV) consensus and used commercially by companies globally. Viction achieves 2000 TPS, 2-second blocktime, and \~$0 gas fees without compromising decentralization.
 
 Our mission is to accelerate the onboarding of millions of users by empowering today’s applications with technology that masks the friction of Blockchain, all while retaining its underlying benefits.
 

@@ -23,7 +23,7 @@ You can keep in touch with our latest news here:
 1. Twitter: [https://twitter.com/VictionANN](https://twitter.com/VictionANN)
 2. Telegram Announcements: [https://t.me/VictionChannel](https://t.me/VictionChannel)
 3. Facebook: [https://www.facebook.com/Victionofficial](https://www.facebook.com/Victionofficial)
-4. Website: [https://Viction.com](https://Viction.com/)
+4. Website: [https://viction.xyz](https://viction.xyz/)
 5. Medium: [https://medium.com/Viction](https://medium.com/Viction)
 6. Reddit: [https://www.reddit.com/r/Viction/](https://www.reddit.com/r/Viction/)
 7. LinkedIn: [https://www.linkedin.com/company/Viction/](https://www.linkedin.com/company/Viction/)

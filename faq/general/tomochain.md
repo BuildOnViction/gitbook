@@ -84,7 +84,7 @@ Yes, they can make an app, and deploy it to both Ethereum, and Viction. It can b
 
 ### How do you solve 'security problems' when using Viction?
 
-In terms of security of consensus protocol, Viction proposes Double Validation and Randomization to protect the system. The details of these techniques can be referred in our [Technical paper.](https://Viction.com/files/technical-whitepaper-1.0.pdf)
+In terms of security of consensus protocol, Viction proposes Double Validation and Randomization to protect the system. The details of these techniques can be referred in our [Technical paper.](https://viction.xyz/files/technical-whitepaper-1.0.pdf)
 
 Viction solves some core consensus-related security aspects:
 

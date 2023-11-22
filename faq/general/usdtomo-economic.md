@@ -12,7 +12,7 @@ In addition to the above, VIC is an integral part of the Viction network for a n
 * VIC will be used as a reward to incentivise the building of the Viction engine/ecosystem.
 * VIC will be used as a long-term, decentralized governance instrument of the Viction network.
 
-You can check our [technical whitepaper](https://Viction.com/files/technical-whitepaper-1.0.pdf) for more details.
+You can check our [technical whitepaper](https://viction.xyz/files/technical-whitepaper-1.0.pdf) for more details.
 
 ### **Can I mine VIC?**
 
@@ -100,4 +100,4 @@ Also, you can find out more detailed information about how to use different wall
 
 ### **Where can I buy VIC?**
 
-You can trade VIC on various exchanges. Take a look in the ["Exchanges" section under Ecosystem Tab](https://Viction.com/ecosystem/) on our main website.
+You can trade VIC on various exchanges. Take a look in the ["Exchanges" section under Ecosystem Tab](https://viction.xyz/ecosystem/) on our main website.

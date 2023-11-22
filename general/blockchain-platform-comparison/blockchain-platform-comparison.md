@@ -34,7 +34,7 @@ In particular, our solution solves the transaction processing performance bottle
 * _Confirmation times: Bitcoin takes on average 1 hour to confirm a transaction because the confirmation of a Bitcoin block requires 5 subsequent blocks created following it. While Ethereum uses a smaller block-time, the average confirmation time still remains relatively high, around 13 minutes. These long confirmation times hinder many important applications (especially smart contract applications)._
 * _Fork generation: The problem of fork chain consumes computational energy, and time, and creates potential vulnerabilities for different types of attacks._
 
-[In the technical paper](https://Viction.com/files/technical-whitepaper-1.0.pdf), Viction proposed the Proof-of-Stake Voting (PoSV) consensus, which is a PoS-based blockchain protocol with a fair voting mechanism, rigorous security guarantees, and uniform probability. The consensus has the following key novelties:
+[In the technical paper](https://viction.xyz/files/technical-whitepaper-1.0.pdf), Viction proposed the Proof-of-Stake Voting (PoSV) consensus, which is a PoS-based blockchain protocol with a fair voting mechanism, rigorous security guarantees, and uniform probability. The consensus has the following key novelties:
 
 * _Double Validation to strengthen security and reduce fork risk_
 * _Randomization to guarantee a fair division of labour between Masternodes, and prevent handshaking attacks_
