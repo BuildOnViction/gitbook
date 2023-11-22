@@ -25,7 +25,7 @@ _Every Dapp running on Ethereum can be easily ported to Viction!_
 
 Remember CryptoKitties in 2017? A single Dapp brought the whole Ethereum blockchain to their knees. The network was congested, with endless waiting times for transaction confirmation and high transaction fees. Porting to Viction would seem a good idea for the cute kitties. Viction mainnet can process 2,000 TPS, which is 100x faster than the Ethereum blockchain, and for a fraction (1/1000) of the cost of Dapps on Ethereum. Furthermore, the whole Viction ecosystem is also quickly evolving, which makes it become an ideal platform for Dapp development.
 
-For more information about Viction, please refer to our [website](http://Viction.com/).
+For more information about Viction, please refer to our [website](http://viction.xyz/).
 
 ## Introduction <a href="#7e29" id="7e29"></a>
 

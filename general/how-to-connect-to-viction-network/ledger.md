@@ -40,7 +40,7 @@ Using the Ledger Live application, follow these instructions:
 
 Users can use [MyEtherWallet vintage](http://vintage.myetherwallet.com/) for Ledger Nano S to connect to Viction. We recommend checking and following [this clear tutorial](https://support.ledger.com/hc/en-us/articles/115005200009) with the following information:
 
-**Note:** Select **VIC (Viction.com)** the crypto asset network in the top-right corner. Select m/44'/60'/0'/0 as the derivation path
+**Note:** Select **VIC (viction.xyz)** the crypto asset network in the top-right corner. Select m/44'/60'/0'/0 as the derivation path
 
 ### Connect to VicMaster
 

@@ -74,4 +74,4 @@ Go to the **“Donate TRC-21 fee”** tab from VicIssuer’s homepage. Enter the
 
 ![](<../.gitbook/assets/image (105).png>)
 
-**‌Congratulations! You have learn how to deploy a TRC20/TRC21 token on**[ **Viction**](http://Viction.com/)**.**
+**‌Congratulations! You have learn how to deploy a TRC20/TRC21 token on**[ **Viction**](http://viction.xyz/)**.**
