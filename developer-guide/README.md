@@ -14,11 +14,11 @@ description: >-
 [standards-and-specification](standards-and-specification/)
 {% endcontent-ref %}
 
-{% content-ref url="building-dapp-on-Viction/" %}
+{% content-ref url="build-a-dapp-on-viction/" %}
 [building-a-dapp-on-Viction](build-a-dapp-on-viction/)
 {% endcontent-ref %}
 
-{% content-ref url="working-with-Viction/" %}
+{% content-ref url="working-with-viction/" %}
 [working-with-Viction](working-with-viction/)
 {% endcontent-ref %}
 
