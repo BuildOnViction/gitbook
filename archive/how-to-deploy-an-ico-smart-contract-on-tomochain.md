@@ -83,7 +83,7 @@ npm install openzeppelin-solidity
 
 ### 2.1 Create a VIC wallet and save the Mnemonic <a href="#eb9e" id="eb9e"></a>
 
-Create a new VIC wallet using **TomoWallet** mobile app for [iOS](https://itunes.apple.com/us/app/tomo-wallet/id1436476145?mt=8) or [the web version](https://wallet.Viction.com/#/login). Under _Settings_ go to _Advanced Settings._ Here _Choose network_ and select `Viction TestNet` or `Viction` \[mainnet].
+Create a new VIC wallet using **TomoWallet** mobile app for [iOS](https://itunes.apple.com/us/app/tomo-wallet/id1436476145?mt=8) or [the web version](https://wallet.tomochain.com/#/login). Under _Settings_ go to _Advanced Settings._ Here _Choose network_ and select `Viction TestNet` or `Viction` \[mainnet].
 
 Go to the _Settings_ menu, select _Backup wallet_ and then **Continue**. Here you can see your wallet’s private key and the 12-word recovery phrase. **Write down the 12-word recovery phrase.**
 
