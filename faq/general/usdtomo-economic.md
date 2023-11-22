@@ -12,7 +12,7 @@ In addition to the above, VIC is an integral part of the Viction network for a n
 * VIC will be used as a reward to incentivise the building of the Viction engine/ecosystem.
 * VIC will be used as a long-term, decentralized governance instrument of the Viction network.
 
-You can check our [technical whitepaper](https://Viction.com/files/technical-whitepaper-1.0.pdf) for more details.
+You can check our [technical whitepaper](https://viction.com/files/technical-whitepaper-1.0.pdf) for more details.
 
 ### **Can I mine VIC?**
 
@@ -77,7 +77,7 @@ You can store VIC in TomoWallet, TrustWallet, MetaMask, MyEtherWallet, Ledger an
 
 We recommend to store VIC in TomoWallet.
 
-Please, read more details [here](../products/tomowallet.md)
+Please, read more details [here](broken-reference)
 
 ### **Can I send VIC directly from my MyEtherWallet?**
 
@@ -94,10 +94,10 @@ The following is information used for configuring Metamask to connect to Viction
 
 Viction is now supported by MyEtherWallet. All you need to do is to choose `Network VIC`in the supported network list in MyEtherWallet.
 
-You can find the info about our Mainnet or Testnet [here](../products/tomowallet.md)
+You can find the info about our Mainnet or Testnet [here](broken-reference)
 
 Also, you can find out more detailed information about how to use different wallet types to connect to Viction Mainnet on [Connect your wallet](../../general/how-to-connect-to-Viction-network/)
 
 ### **Where can I buy VIC?**
 
-You can trade VIC on various exchanges. Take a look in the ["Exchanges" section under Ecosystem Tab](https://Viction.com/ecosystem/) on our main website.
+You can trade VIC on various exchanges. Take a look in the ["Exchanges" section under Ecosystem Tab](https://viction.com/ecosystem/) on our main website.
