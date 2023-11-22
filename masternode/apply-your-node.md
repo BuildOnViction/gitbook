@@ -18,7 +18,7 @@ To have a Masternode Candidate, the following requirements must be satisfied:
 
 ### Apply to become a Masternode <a href="#applying-to-become-a-masternode" id="applying-to-become-a-masternode"></a>
 
-You can apply to become a Masternode by going on [VicMaster](https://master.Viction.com/). Connect the wallet that contains the funds you want to deposit.
+You can apply to become a Masternode by going on [VicMaster](https://vicmaster.xyz/). Connect the wallet that contains the funds you want to deposit.
 
 {% hint style="danger" %}
 Warning

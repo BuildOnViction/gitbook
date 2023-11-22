@@ -60,7 +60,7 @@ If you do not want to support a Masternode you voted for, you can unvote from it
 
 `Warning: After unvoting, your VIC will be locked in the smart contract for 48 hours before you are able to withdraw.`
 
-### [Candidate](https://master.viction.com/candidate/0x3e3d98a26deef510b720967f4c4dbc88f308a994) <a href="#candidate" id="candidate"></a>
+### [Candidate](https://vicmaster.xyz/candidate/0x3e3d98a26deef510b720967f4c4dbc88f308a994) <a href="#candidate" id="candidate"></a>
 
 #### General Information <a href="#general-information" id="general-information"></a>
 
@@ -82,7 +82,7 @@ Under the section for voters, you can see the list of VIC stakers who have voted
 
 In this section, you can see all transactions of this candidate.
 
-### [Voter](https://master.viction.com/voter/0x82d83629f48b690226af91547cbfbfc8a52b73e6) <a href="#voter" id="voter"></a>
+### [Voter](https://vicmaster.xyz/voter/0x82d83629f48b690226af91547cbfbfc8a52b73e6) <a href="#voter" id="voter"></a>
 
 #### General Information <a href="#general-information_1" id="general-information_1"></a>
 
@@ -104,7 +104,7 @@ The rewards section shows the rewards the voter has been receiving.
 
 This section shows all transactions by the voter.
 
-### [Settings](https://master.viction.com/setting) <a href="#settings" id="settings"></a>
+### [Settings](https://vicmaster.xyz/setting) <a href="#settings" id="settings"></a>
 
 #### Network Provider <a href="#network-provider" id="network-provider"></a>
 
@@ -114,7 +114,7 @@ Use settings to select the network provider you are using for VicMaster (e.g., M
 
 This section will show you information about your public address and VIC balance.
 
-### [Apply](https://master.viction.com/apply) <a href="#apply" id="apply"></a>
+### [Apply](https://vicmaster.xyz/apply) <a href="#apply" id="apply"></a>
 
 This web page is used by VIC holders looking to apply to become a Masternode Candidate.
 

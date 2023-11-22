@@ -2,7 +2,7 @@
 
 <figure><img src="../../.gitbook/assets/Screen Shot 2023-04-03 at 4.28.40 PM.png" alt=""><figcaption></figcaption></figure>
 
-[TomoMasterDAO](https://master.viction.com/) is the Incubator DAO for the Viction ecosystem, supporting projects and founders looking to build on top of Viction.
+[TomoMasterDAO](https://vicmaster.xyz/) is the Incubator DAO for the Viction ecosystem, supporting projects and founders looking to build on top of Viction.
 
 In these docs, you will find information on the role and governance of the DAO, how to participate within the ecosystem, as well as requirements and procedures for funding.
 

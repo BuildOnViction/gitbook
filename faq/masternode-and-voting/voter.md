@@ -14,17 +14,17 @@ Yes, you can stake VIC and receive VIC as rewards.
 
 To stake in Viction you must participate in the Viction Masternode election, voting for Masternode Candidates using VicMaster to deposit your tokens in a voting smart-contract.
 
-Login to your wallet at [VicMaster](https://master.Viction.com) and click 'Vote' on a node that you choose from the list of Masternodes displayed.
+Login to your wallet at [VicMaster](https://vicmaster.xyz) and click 'Vote' on a node that you choose from the list of Masternodes displayed.
 
 ### **How does the Viction Masternode system work?**
 
-Everyone can find a list of all Masternode Candidates on [VicMaster](https://master.Viction.com/). All token holders can vote VIC on any candidates via VicMaster. To vote, token holders must deposit VIC in a smart-contract associated with the voted Candidate.
+Everyone can find a list of all Masternode Candidates on [VicMaster](https://vicmaster.xyz/). All token holders can vote VIC on any candidates via VicMaster. To vote, token holders must deposit VIC in a smart-contract associated with the voted Candidate.
 
 The top-150 most-voted Candidates will be promoted to Masternode status during the next epoch and will be able to sign blocks and collect rewards. All the voters (stakers) who support the elected Masternodes will receive rewards, proportional to the amount of VIC voted and the efficiency of the Masternode.
 
 ### **How do I vote (stake)?**
 
-Any token holder can vote. Login to [VicMaster](https://master.Viction.com/) and then click 'Vote' on a node. Then enter the amount of VIC to vote (minimum is 100 VIC). Vote by depositing (staking) tokens to a smart-contract associated with a Masternode Candidate.
+Any token holder can vote. Login to [VicMaster](https://vicmaster.xyz/) and then click 'Vote' on a node. Then enter the amount of VIC to vote (minimum is 100 VIC). Vote by depositing (staking) tokens to a smart-contract associated with a Masternode Candidate.
 
 There are many ways to vote in VicMaster:
 
@@ -88,7 +88,7 @@ The minimum amount to stake is 100 VIC.
 
 ### **Which hardware-wallet can I use to vote?**
 
-You are able to use hardware wallets (Ledger, Trezor) with MyEtherWallet or Metamask. You can also directly [connect to the Viction Mainnet ](../../general/how-to-connect-to-Viction-network/)with Ledger/Trezor and vote on [VicMaster](https://master.Viction.com/).
+You are able to use hardware wallets (Ledger, Trezor) with MyEtherWallet or Metamask. You can also directly [connect to the Viction Mainnet ](../../general/how-to-connect-to-Viction-network/)with Ledger/Trezor and vote on [VicMaster](https://vicmaster.xyz/).
 
 ### **Is it possible to re-invest the VIC earned and use it to continue voting?**
 

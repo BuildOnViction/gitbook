@@ -48,7 +48,7 @@ VicMaster is the decentralized governance Dapp of Viction, allowing users to vot
 
 * Make sure the Ledger Nano S device is powered on, unlocked and the Viction Dapp is open
 * Plug the Ledger Nano S into your PC/Laptop
-* Go to [VicMaster](https://master.Viction.com/) using a U2F compatible browser
+* Go to [VicMaster](https://vicmaster.xyz/) using a U2F compatible browser
 * Click on Login button (top right)
 * Select Ledger Wallet from the dropdown list
 * Choose m/44’/60’/0’/0 path if the Ledger Nano S has the latest firmware. Otherwise, use m/44’/889’/0’/0 path

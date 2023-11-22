@@ -14,7 +14,7 @@ With a connected wallet, it's time to try voting for some Masternodes. If there 
 
 ### How To Vote <a href="#how-to-vote" id="how-to-vote"></a>
 
-Access our Governance Dapp, [VicMaster](https://master.Viction.com/), to start voting for Masternodes.
+Access our Governance Dapp, [VicMaster](https://vicmaster.xyz/), to start voting for Masternodes.
 
 <figure><img src="../../.gitbook/assets/Screenshot_5.png" alt=""><figcaption></figcaption></figure>
 

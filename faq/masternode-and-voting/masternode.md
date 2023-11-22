@@ -4,7 +4,7 @@
 
 Yes, Viction has a maximum of 150 Masternodes with Proof of Stake Voting (POSV) consensus that enable low transaction fees, and instant transaction confirmation. Masternodes create, verify and validate new blocks one the Viction blockchain.
 
-* **Masternode Candidates:** Any account can deposit 50,000 VIC using [VicMaster](https://master.Viction.com/) to become a Masternode candidate. A candidate can resign, but the tokens will be locked for the next 30 days (1,296,000 blocks) after the resignation.
+* **Masternode Candidates:** Any account can deposit 50,000 VIC using [VicMaster](https://vicmaster.xyz/) to become a Masternode candidate. A candidate can resign, but the tokens will be locked for the next 30 days (1,296,000 blocks) after the resignation.
 * **Becoming a Masternode:** A Candidate becomes a Masternode when he/she belongs to the top 150 most voted Candidates in each epoch. A Masternode can resign, but the tokens will be locked for the next 30 days after the resignation.
 * **Rewards:** The rewards a Masternode receives in each epoch is proportional to the number of signatures it signs.
 
@@ -14,7 +14,7 @@ Viction Masternodes started signing blocks and receiving block rewards when the 
 
 A Viction Masternode is a server which uses its computing power to contribute to the network. Its job is to create and sign blocks. For this contribution to the network, Masternodes receive rewards in the form of VIC.
 
-Masternodes are elected using the PoSV consensus via our governance Dapp [VicMaster](https://master.Viction.com/)
+Masternodes are elected using the PoSV consensus via our governance Dapp [VicMaster](https://vicmaster.xyz/)
 
 ### **What are the incentives to run a Masternode?**
 
@@ -87,7 +87,7 @@ Approximate reward achieved per year:
 
 ### **What is a Masternode Candidate? What is the difference between Masternode Candidate and Masternode?**
 
-A Masternode Candidate is any node owner who deposits 50,000 VIC to be listed on [VicMaster](https://master.Viction.com/).
+A Masternode Candidate is any node owner who deposits 50,000 VIC to be listed on [VicMaster](https://vicmaster.xyz/).
 
 A Candidate only becomes a Masternode when it is in the top-150 most-voted Masternode Candidates in an epoch. Only these elected Masternodes will be able to sign blocks and receive block rewards.
 
@@ -98,7 +98,7 @@ The first step to become a Masternode, is becoming a Masternode Candidate. To be
 * to run Viction software in a machine with a certain minimal hardware requirements
 * to deposit 50,000 VIC in a smart contract via VicMaster
 
-The list of Masternode Candidates will be available on the governance Dapp, [VicMaster](https://master.Viction.com/). The next step is to be elected as one of the top 150 most voted Candidates.
+The list of Masternode Candidates will be available on the governance Dapp, [VicMaster](https://vicmaster.xyz/). The next step is to be elected as one of the top 150 most voted Candidates.
 
 ### **Do I need to use my own computer to run a node?**
 
@@ -171,7 +171,7 @@ No. You must use different public 'coinbase' addresses. But you can use the same
 
 ### **I have finished all steps of setting up a node. Why I don't see my node on VicMaster?**
 
-You must apply to become a Masternode Candidate on [VicMaster](https://master.Viction.com/)
+You must apply to become a Masternode Candidate on [VicMaster](https://vicmaster.xyz/)
 
 ### **Do I need to deposit the 50K VIC before or after running 'tmn' in VPS?**
 

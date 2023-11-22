@@ -18,7 +18,7 @@
 
 * [Status page](https://stats.Viction.com/)
 * [VicScan](https:/vicscan.xyz/) (Block explorer)
-* [VicMaster](https://master.Viction.com/) (Governance dApp)
+* [VicMaster](https://vicmaster.xyz/) (Governance dApp)
 * [VicIssuer](https://issuer.testnet.tomochain.com/) ([Dashboard](https://medium.com/Viction/how-to-deploy-a-trc-21-token-on-Viction-in-a-few-clicks-d0290f918b9a) to issue your token)
 * [VicMaster smart contract](https:/vicscan.xyz/address/0x0000000000000000000000000000000000000088) (for staking and applying a new masternode)
 

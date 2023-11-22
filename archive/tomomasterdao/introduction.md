@@ -8,4 +8,4 @@ DAO’s are predominantly used for network changes and governance over a project
 
 DAO’s offer a high level of transparency and power to the user, but this does not come without tradeoffs. There is the potential for security risks in the form of smart contract bugs, and the potential implications of leaving important financial decisions in the hands of the masses.
 
-[TomoMasterDAO](https://master.viction.com/) aims to address these issues to create a spirited community that can build strength in the Viction network.
+[TomoMasterDAO](https://vicmaster.xyz/) aims to address these issues to create a spirited community that can build strength in the Viction network.

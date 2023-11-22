@@ -231,6 +231,6 @@ curl https://rpc.Viction.com \
 Or [get list candidates from VicMaster](https://apidocs.Viction.com/?shell#tomomaster-apis-candidates):
 
 ```bash
-curl -X GET https://master.Viction.com/api/candidates \
+curl -X GET https://vicmaster.xyz/api/candidates \
   -H 'Accept: application/json'
 ```
