@@ -12,10 +12,10 @@ description: 'Viction Integration: A Step-By-Step Guide'
 [tomoz-integration.md](tomoz-integration.md)
 {% endcontent-ref %}
 
-{% content-ref url="trc21-exchange-wallet-integration.md" %}
-[trc21-exchange-wallet-integration.md](trc21-exchange-wallet-integration.md)
+{% content-ref url="vrc25-exchange-wallet-integration.md" %}
+[vrc25-exchange-wallet-integration.md](vrc25-exchange-wallet-integration.md)
 {% endcontent-ref %}
 
-{% content-ref url="Viction-staking-governance.md" %}
-[Viction-staking-governance.md](Viction-staking-governance.md)
+{% content-ref url="viction-staking-governance.md" %}
+[Viction-staking-governance.md](viction-staking-governance.md)
 {% endcontent-ref %}

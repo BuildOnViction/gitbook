@@ -38,7 +38,7 @@ Follow the steps below to interact with the smart contract by using the Web3 lib
 
 As a first step, we need to initialize a Web3 provider by connecting to Viction Full node RPC endpoint.
 
-Look at the [Viction Networks](../working-with-Viction/) page to get more information of the Viction Testnet/Mainnet RPC network.
+Look at the [Viction Networks](../working-with-Viction) page to get more information of the Viction Testnet/Mainnet RPC network.
 
 ```javascript
 const Web3 = require('web3')
