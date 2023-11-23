@@ -36,6 +36,21 @@ interface IVRC25 {
 
 Source: [IVRC25.sol](https://github.com/BuildOnViction/trc25/blob/main/contracts/interfaces/IVRC25.sol)
 
+```solidity
+interface IVRC25Permit {
+    function nonces(address owner) external view returns (uint256);
+    function permit(address owner, address spender, uint256 value, uint256 deadline, uint8 v, bytes32 r, bytes32 s) external;
+}
+```
+
+Source: [IVRC25Permit.sol](https://github.com/BuildOnViction/vrc25/blob/main/contracts/interfaces/IVRC25Permit.sol)
+
+{% hint style="info" %}
+For protocol contract, IVRC25 is enough.
+
+For token contract, IVRC25 and IVRC25Permit must be satisfied to be fully compatible with gas-less protocol on Viction.
+{% endhint %}
+
 #### Methods <a href="#trc25-api-specification" id="trc25-api-specification"></a>
 
 * `decimals`: Return the decimals of the token.
@@ -106,6 +121,22 @@ function transferFrom(address from, address to, uint256 value) external returns 
 
 Transfers `value` amount of tokens from the address `from` to the address `to`. The function must fire the `Transfer` and `Fee` events.
 
+* nonces
+
+```solidity
+function nonces(address owner) external view returns (uint256);
+```
+
+Returns unused nonce for specified `owner`. Signature with nonce different that this value is invalid thus cannot be used.
+
+* permit
+
+```solidity
+function permit(address owner, address spender, uint256 value, uint256 deadline, uint8 v, bytes32 r, bytes32 s) external;
+```
+
+This is the same as `approve` function with the different that caller is not necessary the `owner`. Instead, the caller must provide a valid signature signed by the `owner`.
+
 #### Events <a href="#trc25-event-specification" id="trc25-event-specification"></a>
 
 * `Transfer`
@@ -137,7 +168,7 @@ This event MUST be emitted when tokens are transferred in functions `transfer` a
 For a contract to meet VRC25 requirements, it must satisfy the following conditions:
 
 * Implement `IVRC25` interface in the specification.
-* Have 3 first storage slots in the contracts as follow:&#x20;
+* Have 3 first storage slots in the contracts as follow:
 
 ```solidity
 mapping (address => uint256) private _balances;
@@ -145,7 +176,7 @@ uint256 private _minFee;
 address private _owner;
 ```
 
-* Implement `Permit` extension, as defined in EIP-2612. Permit acts as a fallback for any gas-less protocol to support your token properly, in the case that your token isn't registered for [VIC ZeroGas](../integration/VIC ZeroGas-integration.md).
+* Implement `Permit` extension, as defined in EIP-2612. Permit acts as a fallback for any gas-less protocol to support your token properly, in the case that your token isn't registered for \[VIC ZeroGas]\(../integration/VIC ZeroGas-integration.md).
 
 ```solidity
 interface IVRC25Permit {
@@ -537,4 +568,4 @@ Source: [SampleVRC25.sol](https://github.com/BuildOnViction/trc25/blob/main/cont
 
 ### Enable gas-less transaction
 
-Once you have deployed a VRC25 compatible contract. You will also need to register for VIC ZeroGas to enable gas-less transaction for your contract. Please refer to [VIC ZeroGas](../integration/VIC ZeroGas-integration.md) page for more information.
+Once you have deployed a VRC25 compatible contract. You will also need to register for VIC ZeroGas to enable gas-less transaction for your contract. Please refer to [VIC ZeroGas](../integration/vic-zerogas-integration.md) page for more information.
