@@ -28,12 +28,14 @@ Any token holder can vote. Login to [VicMaster](https://vicmaster.xyz/) and then
 
 There are many ways to vote in VicMaster:
 
-* Voting from [TomoWallet](https://www.youtube.com/watch?v=EdeTsN6-hRM\&list=PLuqf1yr-JvSy0AwnxMyalxmM\_jKFOP\_Y\_).
+* Voting from VicWallet (coming soon)
+* Voting from [TomoWallet](https://www.youtube.com/watch?v=EdeTsN6-hRM\&list=PLuqf1yr-JvSy0AwnxMyalxmM\_jKFOP\_Y\_) (sunset soon - 31/12/2023)
 * Voting from [Ledger wallet](https://www.youtube.com/watch?v=wfHK03D2m7s\&list=PLuqf1yr-JvSx7XiLxXlhItFhpz\_-j1fD0)
 * Voting from Trezor wallet (same as Ledger)
 * Voting via MetaMask (can be connected to your hardware wallets).
 * Voting from [TrustWallet](https://www.youtube.com/watch?v=8qJCYsOuyeE)
-* Voting with your wallet's Private Key or MNEMONIC.
+
+
 
 ### **How do I vote/stake from the TomoWallet app on my phone?**
 
