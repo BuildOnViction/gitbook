@@ -14,13 +14,13 @@ Despite the explosive momentum gained, and promises of Bitcoin and Ethereum, the
 
 ## The shift to the more environmentally friendly, and more efficient Proof-of-Stake <a href="#e443" id="e443"></a>
 
-Proof-of-Stake (PoS) aims to provide a more environment-friendly and efficient consensus protocol. With PoS, the creator of a new block “[is chosen in a deterministic way, depending on its wealth, also defined as a stake](https://steemkr.com/blockchain/@sheydboss/a-very-brief-history-of-blockchain-technology-everyone-should-read)”. Some notable proponents of this shift are [EOS](https://eos.io/), [Ethereum Casper FFG](https://arxiv.org/pdf/1710.09437.pdf), [Cardano](https://www.cardano.org/en/home/), [Tendermint](https://tendermint.com/), and&#x20;
+Proof-of-Stake (PoS) aims to provide a more environment-friendly and efficient consensus protocol. With PoS, the creator of a new block “[is chosen in a deterministic way, depending on its wealth, also defined as a stake](https://steemkr.com/blockchain/@sheydboss/a-very-brief-history-of-blockchain-technology-everyone-should-read)”. Some notable proponents of this shift are [EOS](https://eos.io/), [Ethereum Casper FFG](https://arxiv.org/pdf/1710.09437.pdf), [Cardano](https://www.cardano.org/en/home/), [Tendermint](https://tendermint.com/), and
 
 > These blockchain solutions are not only trying to provide solutions for the energy and cost savings but also promise to solve the blockchain performance problem as well. While some PoS-related similarity is undoubtedly shared between these blockchains, many differences are yet to be analysed.
 
 In this post, we will show how Viction compares with EOS, Ethereum, Cardano and Tendermint. The aspects used for the comparison include _consensus protocol, decentralization, security, scalability/performance, roadmap, and ecosystem_.
 
-![](<../../.gitbook/assets/ba-ng-bie-u-so-sanh-01 (1).png>)
+![](<../../.gitbook/assets/Platform Comparision.png>)
 
 ## Overview of Viction <a href="#b088" id="b088"></a>
 
