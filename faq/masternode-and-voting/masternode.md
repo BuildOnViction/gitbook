@@ -68,20 +68,20 @@ One example is outlined below.
 
 Reward achieved per epoch (900 blocks):
 
-* `By a Masternode = 0.6667 Tomo`
-* `By a Voter with 1K Tomo staked = 0.00625 Tomo`
+* `By a Masternode = 0.6667 VIC`
+* `By a Voter with 1K VIC staked = 0.00625 VIC`
 
 Approximate reward achieved per week:
 
-* `By a Masternode = 224 Tomo`
-* `By a Voter with 1K Tomo staked = 2.1 Tomo`
+* `By a Masternode = 224 VIC`
+* `By a Voter with 1K VIC staked = 2.1 VIC`
 
 Approximate reward achieved per year:
 
-* `By a Masternode = 11,680 Tomo`
-* `By a Voter with 1K Tomo staked = 109.5 Tomo (10.95% annually)`
-* `By a Voter with 50K Tomo staked = 5,475 Tomo`
-* `Total reward for a Masternode with a 50K Tomo deposit: 11,680 + 5,475 = 17,155 Tomo (34.31% annually)`
+* `By a Masternode = 11,680 VIC`
+* `By a Voter with 1K VIC staked = 109.5 VIC (10.95% annually)`
+* `By a Voter with 50K VIC staked = 5,475 VIC`
+* `Total reward for a Masternode with a 50K VIC deposit: 11,680 + 5,475 = 17,155 VIC (34.31% annually)`
 
 ## Masternode Candidate
 
@@ -129,9 +129,7 @@ Setting up a masternode candidate on a weaker machine might result in poor perfo
 
 Once you are a Masternode Candidate, you need the support of the Viction community in the form of votes. The top 150 most voted Candidates every period, called an epoch (900 blocks of 2-second block-time), will be promoted to Masternodes. This list will change dynamically every epoch. Only the 150 Masternodes elected will be able to sign blocks and will receive rewards in the form of VIC.
 
-### **Is there any guide on 'How to run a Masternode from A to Z'?**
 
-See this [Medium post](https://medium.com/Viction/how-to-run-a-Viction-masternode-from-a-to-z-3793752dc3d1).
 
 ### **Where can I find the latest Masternode guide or the instructions for setting up a Masternode?**
 
@@ -179,7 +177,7 @@ After. Your node must be fully synced before applying.
 
 ### **How do I check the blockchain sync status from the node?**
 
-You can watch the logs, but it is easier from the [TomoStats](https://stats.Viction.com) website or its eth.blockNumber API call.
+You can watch the logs, but it is easier from the [VICStats](https://stats.viction.xyz/) website or its eth.blockNumber API call.
 
 ### **If the Masternode owner deposits 60K VIC instead of 50K on its own node, can it later on unstake the excess 10K?**
 
