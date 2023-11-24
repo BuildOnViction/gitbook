@@ -8,7 +8,7 @@ The supply of VIC is fixed, long-term and non-inflationary.
 
 In addition to the above, VIC is an integral part of the Viction network for a number of reasons.
 
-* VIC will be used to fund the development of Viction and its ecosystem (VicScan, VicMaster, TomoWallet, etc.).
+* VIC will be used to fund the development of Viction and its ecosystem (VicScan, VicMaster, Vic Wallet, etc.).
 * VIC will be used as a reward to incentivise the building of the Viction engine/ecosystem.
 * VIC will be used as a long-term, decentralized governance instrument of the Viction network.
 
@@ -77,7 +77,7 @@ You can store VIC in TomoWallet, TrustWallet, MetaMask, MyEtherWallet, Ledger an
 
 We recommend to store VIC in TomoWallet.
 
-Please, read more details [here](broken-reference)
+Please, read more details [here](broken-reference/)
 
 ### **Can I send VIC directly from my MyEtherWallet?**
 
@@ -94,7 +94,7 @@ The following is information used for configuring Metamask to connect to Viction
 
 Viction is now supported by MyEtherWallet. All you need to do is to choose `Network VIC`in the supported network list in MyEtherWallet.
 
-You can find the info about our Mainnet or Testnet [here](broken-reference)
+You can find the info about our Mainnet or Testnet [here](broken-reference/)
 
 Also, you can find out more detailed information about how to use different wallet types to connect to Viction Mainnet on [Connect your wallet](../../general/how-to-connect-to-Viction-network/)
 
