@@ -8,7 +8,7 @@
 
 ### **How do I log in on VicMaster?**
 
-Go to [VicMaster](https://www.vicmaster.xyz/). On the top-right corner click 'Login'. Then select how you want to log in: with Viction Wallet, with Ledger, with Trezor, with Metamask, TrustWallet, or Private Key/Mnemonic.
+Go to [VicMaster](https://www.vicmaster.xyz/). On the top-right corner click 'Login'. Then select how you want to log in: with Viction Wallet, with Ledger, with Trezor, with Metamask & TrustWallet.
 
 ### **What is the 'capacity' of a Candidate/Masternode?**
 

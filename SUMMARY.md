@@ -74,7 +74,7 @@
   * [Products](faq/products/README.md)
     * [VicScan (Explorer)](faq/products/vicscan-explorer.md)
     * [VicMaster](faq/products/vicmaster.md)
-    * [TomoStats](faq/products/tomostats.md)
+    * [VicStats](faq/products/tomostats.md)
     * [VicIssuer](faq/products/vicissuer.md)
 * [Whitepaper and Research](whitepaper-and-research/README.md)
   * [Technical Paper](https://viction.xyz/files/technical-whitepaper-1.0.pdf)

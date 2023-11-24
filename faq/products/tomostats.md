@@ -1,10 +1,10 @@
-# TomoStats
+# VicStats
 
-### **What is TomoStats?**
+### **What is VicStats?**
 
-TomoStats shows various metrics regarding the current Mainnet including the current number of Masternodes, Masternode performance, current TPS, block-time, confirmation time, finality, and other useful metrics.
+VicStats shows various metrics regarding the current Mainnet including the current number of Masternodes, Masternode performance, current TPS, block-time, confirmation time, finality, and other useful metrics.
 
-### **How long will it take to see my node appear on TomoStats?**
+### **How long will it take to see my node appear on VicStats?**
 
 It should be less than a minute after the tmn command is executed and finished.
 
