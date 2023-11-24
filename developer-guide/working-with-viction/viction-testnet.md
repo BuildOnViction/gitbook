@@ -25,15 +25,12 @@ description: >-
 * [Status page](https://stats.testnet.tomochain.com/)
 * [VicScan](https://testnet.tomoscan.io/) (Block explorer)
 * [VicMaster](https://master.testnet.tomochain.com/) (Governance Dapp)
-
-
-
 * [Faucet](https://faucet.testnet.tomochain.com/) (To request testnet VIC)
 * [VicIssuer](https://issuer.testnet.tomochain.com/) ([Dashboard](https://medium.com/Viction/how-to-deploy-a-trc-21-token-on-Viction-in-a-few-clicks-d0290f918b9a) to issue your token)
 * [VicMaster smart contract](https://scan.testnet.tomochain.com/address/0x0000000000000000000000000000000000000088) (for staking and applying a new masternode)
 * Wrapped Tokens: [USDT](https://scan.testnet.tomochain.com/address/0xc7ecCc9da22aBAAf9cfe311BFD9a55437eA05c2c), [ETH](https://scan.testnet.tomochain.com/address/0xf55F13Fde623c00d6b0C7bfc6557735040aA6a08), [BTC](https://scan.testnet.tomochain.com/address/0x11c2cAF973db997b8a9b5689b33962E1AedEA968)
 
-###
+
 
 {% hint style="warning" %}
 **Disclaimer**: We are in the process of transitioning; the new test-net end-points will be ready in the following weeks. You can, however, continue to utilize the above-mentioned URLs to carry on the testing.
