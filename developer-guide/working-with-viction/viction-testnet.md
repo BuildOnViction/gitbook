@@ -6,6 +6,10 @@ description: >-
 
 # Viction Testnet
 
+{% hint style="warning" %}
+**Disclaimer**: We are in the process of transitioning; the new test-net end-points will be ready in the following weeks. You can, however, continue to utilize the following URLs to carry on the testing.
+{% endhint %}
+
 ### Specifications
 
 * Chain id: `89`
@@ -31,10 +35,6 @@ description: >-
 * Wrapped Tokens: [USDT](https://scan.testnet.tomochain.com/address/0xc7ecCc9da22aBAAf9cfe311BFD9a55437eA05c2c), [ETH](https://scan.testnet.tomochain.com/address/0xf55F13Fde623c00d6b0C7bfc6557735040aA6a08), [BTC](https://scan.testnet.tomochain.com/address/0x11c2cAF973db997b8a9b5689b33962E1AedEA968)
 
 
-
-{% hint style="warning" %}
-**Disclaimer**: We are in the process of transitioning; the new test-net end-points will be ready in the following weeks. You can, however, continue to utilize the above-mentioned URLs to carry on the testing.
-{% endhint %}
 
 ### For developers
 
