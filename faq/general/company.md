@@ -12,7 +12,6 @@ We are also working with some third parties with which we signed a non-disclosur
 
 If you need support, please contact us on one of these platforms:
 
-* Technical talk and support: [https://forum.Viction.com/c/technical-discussion/9](https://forum.Viction.com/c/technical-discussion/9)
 * Bugs or technical contributions: [GitHub (https://github.com/BuildOnViction)](https://github.com/BuildOnViction)
 * General discussion regarding our blockchain: [Telegram (https://t.me/Viction)](https://t.me/Viction)
 
