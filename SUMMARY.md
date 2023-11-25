@@ -15,8 +15,6 @@
     * [Coin98 Super Wallet](general/how-to-connect-to-viction-network/coin98-super-wallet.md)
     * [Metamask](general/how-to-connect-to-viction-network/metamask.md)
     * [Ledger](general/how-to-connect-to-viction-network/ledger.md)
-    * [MyEtherWallet](general/how-to-connect-to-viction-network/myetherwallet.md)
-    * [Pantograph](general/how-to-connect-to-viction-network/pantograph.md)
   * [Staking](general/staking/README.md)
     * [Staking Requirements](general/staking/staking-requirements.md)
     * [Staking Rewards](general/staking/staking-rewards.md)
