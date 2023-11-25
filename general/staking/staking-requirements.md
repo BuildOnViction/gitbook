@@ -16,9 +16,9 @@ With a connected wallet, it's time to try voting for some Masternodes. If there 
 
 Access our Governance Dapp, [VicMaster](https://vicmaster.xyz/), to start voting for Masternodes.
 
-<figure><img src="../../.gitbook/assets/Screenshot_5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-Click the "Login" button. VicMaster natively supports multiple options to login including MetaMask, [Ledger](https://app.gitbook.com/@Viction/s/Viction-docs/general/how-to-connect-to-Viction-network/ledger), Trezor, and Private Key/Mnemonic. Select the appropriate option and login.
+Click the "Login" button. VicMaster natively supports multiple options to login including MetaMask, [Ledger](https://app.gitbook.com/@Viction/s/Viction-docs/general/how-to-connect-to-Viction-network/ledger), Trezor, and Private Key/Mnemonic. Select the appropriate option and log in.
 
 Once configured, vote for Masternodes by clicking on the `Vote` button.
 
@@ -26,7 +26,7 @@ At least 100 VIC is required per vote. After clicking submit, your VIC will be s
 
 ### How to Unvote <a href="#how-to-unvote" id="how-to-unvote"></a>
 
-Unvote by clicking the `Unvote` button on the Masternode's page and enter the amount of VIC to unvote.
+Unvote by clicking the `Unvote` button on the Masternode's page and entering the amount of VIC to unvote.
 
 After unvoting, VIC is still locked in the smart contract for \~48 hours (96 epochs) before it is able to be withdrawn.
 
