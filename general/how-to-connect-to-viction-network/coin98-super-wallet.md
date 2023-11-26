@@ -18,26 +18,30 @@ Coin98 Super Wallet is available for download at:
 
 #### Create a wallet for Viction on the Coin98 Super Wallet
 
-**Step 1:** Open Coin98 Super Wallet & click the Wallets tab on the home screen
+**Step 1:** Open Coin98 Super Wallet & click **Manage Wallets** on the home screen
 
-**Step 2:** Click Manage → Add Wallet
+**Step 2:** Click the **add wallet icon** at the top right corner;
 
-**Step 3:** Select MultiChain or Viction → Then click Create
+**Step 3:** Select wallet type: **Hot Wallet.** You can choose other wallet types depending on your desire, such as Social Wallet, Zen Card, Hardware Wallet, or Watch-only to observe the other wallets.&#x20;
 
-(Note: When you create a multichain wallet, you can store and manage assets across numerous chains all in one place. Meanwhile, when you create a Viction wallet address, you can only access coins/tokens/NFTs on Viction)
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Thiết kế chưa có tên (1).png" alt=""><figcaption></figcaption></figure>
+**Step 4:** Select MultiChain or Viction → Then click **Create**
 
-**Step 4:** Name the wallet and select Next.
+> When you create a multichain wallet, you can store and manage assets across numerous chains all in one place. Meanwhile, when you create a Viction wallet address, you can only access coins/tokens/NFTs on Viction
 
-**Step 5:**
+**Step 5:** Name the wallet and select **Next**.
 
-* Back up your Passphrase and Private Key in a safe place. (Note: This is an extremely important step that directly affects your assets. If you unintentionally reveal it, this means that you are more prone to lose your wallet to someone else).
-* Re-enter your Passphrase into the reconfirmation box.
+> You can choose the icon on the top right corner to choose Seed Phrase Type. Coin98 supports generating 2 types Seed Phrase: 12 words and 24 words. The 12 words seed phrase is set as default.
+
+**Step 6:**
+
+* Back up your Seed Phrase and Private Key in a safe place. (Note: This is an extremely important step that directly affects your assets. If you unintentionally reveal it, this means that you are more prone to lose your wallet to someone else).
+* Re-enter your **Seed Phrase** into the reconfirmation box.
 * Read the warnings carefully, then select three checkboxes to confirm your awareness of the risks when losing keys.
-* Click Create Wallet to complete.
+* Click **Create Wallet** to complete.
 
-<figure><img src="../../.gitbook/assets/Thiết kế chưa có tên (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 Once completed, the wallet will be displayed on the main interface. You can also access diverse features of Coin98 Super Wallet.
 
@@ -45,21 +49,21 @@ Once completed, the wallet will be displayed on the main interface. You can also
 
 If you’ve already had a Viction wallet address, you can simply restore it on Coin98 Super Wallet by following these steps:
 
-**Step 1:** Open the Coin98 Super Wallet & click the Wallets tab on the home screen.
+**Step 1:** Open the Coin98 Super Wallet & click **Manage Wallets** on the home screen.
 
 **Step 2:** Click the Add Wallet icon
 
-**Step 3:** Select the Viction icon → click Restore
+**Step 3:** Select a wallet type and choose the Viction icon → click **Restore**
 
-**Step 4:** Name the wallet and enter the saved Passphrase to restore. Click Restore.
+**Step 4:** Name the wallet and enter the saved Seed Phrase to restore. Click **Restore.**
 
-<figure><img src="../../.gitbook/assets/Thiết kế chưa có tên (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 ## III. How to add a custom Network on Coin98 Super Wallet
 
 In case users want to interact with other blockchains aside from Viction, complete these steps as follows:
 
-**Step 1:** Click Manage from the home screen → Select Custom Network.
+**Step 1:** Click **More** from the home screen → Select **Custom Network**.
 
 **Step 2:** Click (+) on the top right corner.
 
@@ -72,37 +76,37 @@ In case users want to interact with other blockchains aside from Viction, comple
 * Symbol
 * Block Explorer URL (optional)
 
-<figure><img src="../../.gitbook/assets/Thiết kế chưa có tên (4).png" alt=""><figcaption></figcaption></figure>
-
 Note:
 
 * For the Testnets and Mainnets available in the Profile of the Coin98 Super Wallet, the user only needs to select the name of the Network. The system will automatically fill all fields after that. Currently, Coin98 Super Wallet has updated 34+ available profiles.
 * For Networks that are not available in the Profile, you can manually enter the required parameters that are provided on the official websites of those Networks.
 
-**Step 4:** Click Create to complete the process.
+**Step 4:** Click **Create** to complete the process.
+
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 ## III. How to send/ receive a token
 
 **How to send token**
 
-**Step 1:** Select Send on the main interface.
+**Step 1:** Click **Send** on the Wallets interface.
 
 **Step 2:** Place an amount of VIC you want to send out
 
-**Step 3:** Fill the wallet address and send a message to the recipient (if any). You can also customize the gas fee with fast or slow processing speed depending on your needs (Note: The default gas fee on Coin98 Super App has been set at the standard rate that offers the most optimized speed at a reasonable cost).
+**Step 3:** Fill the wallet address and send a message to the recipient (if any).&#x20;
 
-**Step 4:** Click Slide to Send to finish the process.
+**Step 4:** Click **Slide to Send** to finish the process.
 
-<figure><img src="../../.gitbook/assets/Thiết kế chưa có tên (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 **How to receive token**
 
 **Step 1:** Select a coin/token on the main interface.
 
-**Step 2:** Click Receive.
+**Step 2:** Click **Receive**.
 
 **Step 3:** Copy the wallet address to senders, then you are ready to receive the coin/ token to this wallet address.
 
-<figure><img src="../../.gitbook/assets/Thiết kế chưa có tên (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 And that’s it! You should now see your wallet, ready to send and receive funds.
