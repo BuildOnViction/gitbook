@@ -8,8 +8,8 @@
 [ecosystem.md](ecosystem.md)
 {% endcontent-ref %}
 
-{% content-ref url="usdtomo-economic.md" %}
-[usdtomo-economic.md](usdtomo-economic.md)
+{% content-ref url="vic-economic.md" %}
+[vic-economic.md](vic-economic.md)
 {% endcontent-ref %}
 
 {% content-ref url="company.md" %}

@@ -65,7 +65,7 @@
   * [General](faq/general/README.md)
     * [Viction](faq/general/viction.md)
     * [Ecosystem](faq/general/ecosystem.md)
-    * [VIC - Economics](faq/general/usdtomo-economic.md)
+    * [VIC - Economics](faq/general/vic-economic.md)
     * [Contact & Support](faq/general/company.md)
   * [Masternodes and Voting](faq/masternode-and-voting/README.md)
     * [Masternodes](faq/masternode-and-voting/masternode.md)
