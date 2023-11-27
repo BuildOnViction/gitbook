@@ -91,7 +91,7 @@ The default Truffle directory structure contains a series of folders and files. 
 
 ### 3.1 Create a VIC wallet and save your Mnemonic <a href="#d296" id="d296"></a>
 
-You can create a new VIC wallet using **TomoWallet** mobile app for [iOS](https://itunes.apple.com/us/app/tomo-wallet/id1436476145?mt=8) or [the web version](https://wallet.tomochain.com/#/login). Under _Settings_ go to _Advanced Settings,_ here you can _Choose network_ and select `Viction TestNet` or `Viction` \[mainnet].
+You can create a new VIC wallet using **Viction Wallet** mobile app for [iOS](https://apps.apple.com/us/app/viction-wallet-by-coin98/id1436476145) or [the web version](https://wallet.tomochain.com/#/login). Under _Settings_ go to _Advanced Settings,_ here you can _Choose network_ and select `Viction TestNet` or `Viction` \[mainnet].
 
 Go to _Settings_ menu, select _Backup wallet_ and then **Continue**. Here you can see your wallet’s private key and the 12-word recovery phrase. **Write down the 12-word recovery phrase.**
 

@@ -73,11 +73,11 @@ No. Since Mainnet, VIC has become the native coin of the Viction blockchain.
 
 **Where can I store VIC? How can I send VIC to my wallet?**
 
-You can store VIC in TomoWallet, TrustWallet, MetaMask, MyEtherWallet, Ledger and Trezor and more wallets
+You can store VIC in Viction Wallet, TrustWallet, MetaMask, MyEtherWallet, Ledger and Trezor and more wallets
 
-We recommend to store VIC in TomoWallet.
+We recommend to store VIC in Viction Wallet.
 
-Please, read more details [here](broken-reference/)
+Please, read more details [here](../../general/how-to-connect-to-viction-network/viction-wallet/README.md)
 
 ### **Can I send VIC directly from my MyEtherWallet?**
 
@@ -94,9 +94,9 @@ The following is information used for configuring Metamask to connect to Viction
 
 Viction is now supported by MyEtherWallet. All you need to do is to choose `Network VIC`in the supported network list in MyEtherWallet.
 
-You can find the info about our Mainnet or Testnet [here](broken-reference/)
+You can find the info about our Mainnet or Testnet [here](../../../developer-guide/working-with-viction/README.md)
 
-Also, you can find out more detailed information about how to use different wallet types to connect to Viction Mainnet on [Connect your wallet](../../general/how-to-connect-to-viction-network/)
+Also, you can find out more detailed information about how to use different wallet types to connect to Viction Mainnet on [Connect your wallet](../../general/how-to-connect-to-viction-network/README.md)
 
 ### **Where can I buy VIC?**
 

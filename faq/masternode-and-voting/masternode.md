@@ -38,7 +38,7 @@ Masternode operators and Voters will receive rewards every epoch. An epoch is re
 
 ### **How can I check my rewards?**
 
-You can check your Masternode/staking rewards using TomoWallet. Alternatively you can use VicMaster or VicScan.
+You can check your Masternode/staking rewards using Viction Wallet. Alternatively you can use VicMaster or VicScan.
 
 ### **What rewards do Masternodes receive?**
 

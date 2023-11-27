@@ -83,7 +83,7 @@ npm install openzeppelin-solidity
 
 ### 2.1 Create a VIC wallet and save the Mnemonic <a href="#eb9e" id="eb9e"></a>
 
-Create a new VIC wallet using **TomoWallet** mobile app for [iOS](https://itunes.apple.com/us/app/tomo-wallet/id1436476145?mt=8) or [the web version](https://wallet.tomochain.com/#/login). Under _Settings_ go to _Advanced Settings._ Here _Choose network_ and select `Viction TestNet` or `Viction` \[mainnet].
+Create a new VIC wallet using **Viction Wallet** mobile app for [iOS](https://apps.apple.com/us/app/viction-wallet-by-coin98/id1436476145) or [the web version](https://wallet.tomochain.com/#/login). Under _Settings_ go to _Advanced Settings._ Here _Choose network_ and select `Viction TestNet` or `Viction` \[mainnet].
 
 Go to the _Settings_ menu, select _Backup wallet_ and then **Continue**. Here you can see your wallet’s private key and the 12-word recovery phrase. **Write down the 12-word recovery phrase.**
 
@@ -541,7 +541,7 @@ The conversion rate is `500`. So, if we send `20 VIC` we should receive `20 * 50
 
 Let’s now connect MetaMask to `Viction (testnet)`.
 
-1\. Click the menu with the “Main Ethereum Network” and select **Custom RPC**. Use the [Networks data from Viction](../developer-guide/working-with-viction/viction-testnet.md) (testnet) and click **Save**.
+1\. Click the menu with the “Main Ethereum Network” and select **Custom RPC**. Use the [Networks data from Viction](../general/how-to-connect-to-viction-network/metamask.md) (testnet) and click **Save**.
 
 ![](<../.gitbook/assets/image (15).png>)
 

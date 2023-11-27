@@ -91,7 +91,7 @@ The default Truffle directory structure contains a series of folders and files. 
 
 ### 3.1 Create a VIC wallet and save your Mnemonic <a href="#d296" id="d296"></a>
 
-You can create a new VIC wallet using **TomoWallet** mobile app for [iOS](https://itunes.apple.com/us/app/tomo-wallet/id1436476145?mt=8) or [the web version](https://wallet.tomochain.com/#/login). Under _Settings_ go to _Advanced Settings,_ here you can _Choose network_ and select `Viction TestNet` or `Viction` \[mainnet].
+You can create a new VIC wallet using **Viction Wallet** mobile app for [iOS](https://apps.apple.com/us/app/viction-wallet-by-coin98/id1436476145) or [the web version](https://wallet.tomochain.com/#/login). Under _Settings_ go to _Advanced Settings,_ here you can _Choose network_ and select `Viction TestNet` or `Viction` \[mainnet].
 
 Go to _Settings_ menu, select _Backup wallet_ and then **Continue**. Here you can see your wallet’s private key and the 12-word recovery phrase. **Write down the 12-word recovery phrase.**
 
@@ -489,7 +489,7 @@ Now we’re ready to use our Dapp!
 
 4\. Now we’re connected to the Ethereum network,with a brand new wallet with 0 ETH.
 
-5\. Let’s now connect MetaMask to Viction (testnet). Click the menu with the “Main Ethereum Network” and select **Custom RPC**. Use the[ Networks data from Viction](../developer-guide/working-with-viction/viction-testnet.md) (testnet) and click **Save**.
+5\. Let’s now connect MetaMask to Viction (testnet). Click the menu with the “Main Ethereum Network” and select **Custom RPC**. Use the[ Networks data from Viction](../general/how-to-connect-to-viction-network/metamask.md) (testnet) and click **Save**.
 
 ![](<../.gitbook/assets/image (52).png>)
 

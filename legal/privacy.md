@@ -14,7 +14,7 @@ By using our Services, you are accepting and consenting to the practices describ
 
 The Company values privacy and we make a concerted effort to minimize and, to the extent possible, eliminate the exposure of personal data during the use of our interface. Viction does not collect, hold, or store keys, account information, or passwords.
 
-To the extent we collect any personal information, this privacy policy (“Policy”) describes how the Company collects, uses, and shares personal information of people who use our websites (the “Site”), TomoWallet(sunset soon), VicScan, VicMaster, VicIssuer, VicStats, Viction Bridge and our other products (collectively, the “Services”).
+To the extent we collect any personal information, this privacy policy (“Policy”) describes how the Company collects, uses, and shares personal information of people who use our websites (the “Site”), Viction Wallet(sunset soon), VicScan, VicMaster, VicIssuer, VicStats, Viction Bridge and our other products (collectively, the “Services”).
 
 This Policy applies to anyone who accesses the Services. Please read the Policy carefully to understand our practices regarding your information and how we will treat it. By visiting the Site, App, and/or using the Services, you acknowledge that the collection, use, and sharing of your information will take place as described in this Policy.
 

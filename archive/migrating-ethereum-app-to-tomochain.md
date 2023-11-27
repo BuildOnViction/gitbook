@@ -169,7 +169,7 @@ Let’s get some faucet VIC from the [**faucet page**](https://faucet.testnet.to
 
 Connect MetaMask to Viction Testnet by following this [**guide**](https://github.com/BuildOnViction/docs/blob/game\_tutorials/get-started/wallet).
 
-You can even play the game with [**TomoWallet**](broken-reference) through our built-in Dapp Browser, which provides the best user experience for gamers.
+You can even play the game with [**Viction Wallet**](../../general/how-to-connect-to-viction-network/viction-wallet/README.md) through our built-in Dapp Browser, which provides the best user experience for gamers.
 
 And enjoy the game running on Viction and taste how fast and cheap transactions on Viction are.
 
