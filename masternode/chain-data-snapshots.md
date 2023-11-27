@@ -20,7 +20,7 @@ _Note: Ensure there is enough disk space for both the tar file AND its uncompres
 ```
 # Login as user that has access to tmn
 # Download Tomo's chaindata archive (make sure you have enough disk space available)
-wget -c https://chaindata.Viction.com/20190813.tar -P /tmp
+wget -c https://chaindata.tomochain.com/20190813.tar -P /tmp
 
 # Stop your node (for tmn users)
 tmn stop

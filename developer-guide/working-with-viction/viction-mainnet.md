@@ -5,7 +5,7 @@
 * Chain id: `88 or 0x58`
 * RPC endpoint: `https://rpc.viction.xyz`
 * Websocket endpoint: `wss://ws.Viction.com`
-* Metrics endpoint: `https://metrics.Viction.com`
+* Metrics endpoint: `https://metrics.tomochain.com`
 * HD derivation path: `m/44'/889'/0'/0/`
 * Consensus: POSV
 * Block finality: `>75%`
@@ -35,4 +35,4 @@ enode://c8f2f0643527d4efffb8cb10ef9b6da4310c5ac9f2e988a7f85363e81d42f1793f64a9aa
 
 `getty-site-pablo-auger-room-sos-blair-shin-whiz-delhi`
 
-Host: stats.Viction.com:443
+Host: stats.tomochain.com:443

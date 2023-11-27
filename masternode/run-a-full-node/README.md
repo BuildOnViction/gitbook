@@ -87,7 +87,7 @@ tmn start --name [YOUR_NODE_NAME] \
     --pkey [YOUR_COINBASE_PRIVATE_KEY]
 ```
 
-Once started, you should see your node on the [testnet stats page](https://stats.testnet.tomochain.com/) or the [mainnet stats page](https://stats.Viction.com/), depending on which net you are connecting to!
+Once started, you should see your node on the [testnet stats page](https://stats.testnet.tomochain.com/) or the [mainnet stats page](https://stats.tomochain.com/), depending on which net you are connecting to!
 
 Note: it can take up to one hour or more (depending on the blockchain data size) to properly sync the entire blockchain.
 
