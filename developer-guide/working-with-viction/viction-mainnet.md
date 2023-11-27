@@ -4,8 +4,8 @@
 
 * Chain id: `88 or 0x58`
 * RPC endpoint: `https://rpc.viction.xyz`
-* Websocket endpoint: `wss://ws.Viction.com`
-* Metrics endpoint: `https://metrics.tomochain.com`
+* Websocket endpoint: `wss://ws.viction.xyz`
+* Metrics endpoint: `https://metrics.viction.xyz`
 * HD derivation path: `m/44'/889'/0'/0/`
 * Consensus: POSV
 * Block finality: `>75%`
