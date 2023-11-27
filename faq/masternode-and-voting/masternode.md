@@ -133,7 +133,7 @@ Once you are a Masternode Candidate, you need the support of the Viction communi
 
 ### **Where can I find the latest Masternode guide or the instructions for setting up a Masternode?**
 
-Find more details about tmn [here](../../masternode/run-a-full-node/create-a-Viction-masternode.md)
+Find more details about tmn [here](../../masternode/run-a-full-node/create-a-viction-masternode.md)
 
 ### **What is the command to start a fullnode with 'tmn'?**
 
