@@ -16,11 +16,11 @@ Coin98 Super Wallet is available for download at:
 
 ## II. How to create and restore a wallet on the Coin98 Super Wallet
 
-#### Create a wallet for Viction on the Coin98 Super Wallet
+### Create a wallet for Viction on the Coin98 Super Wallet
 
 **Step 1:** Open Coin98 Super Wallet & click **Manage Wallets** on the home screen
 
-**Step 2:** Click the **add wallet icon** at the top right corner;
+**Step 2:** Click the **Add Wallet icon** at the top right corner;
 
 **Step 3:** Select wallet type: **Hot Wallet.** You can choose other wallet types depending on your desire, such as Social Wallet, Zen Card, Hardware Wallet, or Watch-only to observe the other wallets.&#x20;
 
@@ -45,7 +45,7 @@ Coin98 Super Wallet is available for download at:
 
 Once completed, the wallet will be displayed on the main interface. You can also access diverse features of Coin98 Super Wallet.
 
-#### Restore a wallet on the Coin98 Super Wallet
+### Restore a wallet on the Coin98 Super Wallet
 
 If you’ve already had a Viction wallet address, you can simply restore it on Coin98 Super Wallet by following these steps:
 
@@ -87,7 +87,7 @@ Note:
 
 ## III. How to send/ receive a token
 
-**How to send token**
+### **How to send a token**
 
 **Step 1:** Click **Send** on the Wallets interface.
 
@@ -99,13 +99,13 @@ Note:
 
 <figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
-**How to receive token**
+### **How to receive a token**
 
 **Step 1:** Select a coin/token on the main interface.
 
 **Step 2:** Click **Receive**.
 
-**Step 3:** Copy the wallet address to senders, then you are ready to receive the coin/ token to this wallet address.
+**Step 3:** Copy the wallet address to senders, and then you are ready to receive the coin/ token to this wallet address.
 
 <figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
