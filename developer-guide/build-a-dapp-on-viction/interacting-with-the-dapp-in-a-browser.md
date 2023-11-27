@@ -14,7 +14,7 @@ _Initiating MetaMask_
 
 4\. Now we’re connected to the Ethereum network, with a brand new wallet with 0 ETH.
 
-5\. Let’s now connect MetaMask to Viction (testnet). Click the menu with the “Main Ethereum Network” and select **Custom RPC**. Use the [Networks data from Viction](../../general/how-to-connect-to-Viction-network/metamask.md) (testnet) and click **Save**
+5\. Let’s now connect MetaMask to Viction (testnet). Click the menu with the “Main Ethereum Network” and select **Custom RPC**. Use the [Networks data from Viction](../../general/how-to-connect-to-viction-network/metamask.md) (testnet) and click **Save**
 
 ![](https://miro.medium.com/max/60/1\*Dm4qhGJOjnolRwxX-VN94w.png?q=20) ![](https://miro.medium.com/max/1424/1\*Dm4qhGJOjnolRwxX-VN94w.png)
 

@@ -96,7 +96,7 @@ Viction is now supported by MyEtherWallet. All you need to do is to choose `Netw
 
 You can find the info about our Mainnet or Testnet [here](broken-reference/)
 
-Also, you can find out more detailed information about how to use different wallet types to connect to Viction Mainnet on [Connect your wallet](../../general/how-to-connect-to-Viction-network/)
+Also, you can find out more detailed information about how to use different wallet types to connect to Viction Mainnet on [Connect your wallet](../../general/how-to-connect-to-viction-network/)
 
 ### **Where can I buy VIC?**
 

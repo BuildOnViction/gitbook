@@ -90,7 +90,7 @@ The minimum amount to stake is 100 VIC.
 
 ### **Which hardware-wallet can I use to vote?**
 
-You are able to use hardware wallets (Ledger, Trezor) with MyEtherWallet or Metamask. You can also directly [connect to the Viction Mainnet ](../../general/how-to-connect-to-Viction-network/)with Ledger/Trezor and vote on [VicMaster](https://vicmaster.xyz/).
+You are able to use hardware wallets (Ledger, Trezor) with MyEtherWallet or Metamask. You can also directly [connect to the Viction Mainnet ](../../general/how-to-connect-to-viction-network/)with Ledger/Trezor and vote on [VicMaster](https://vicmaster.xyz/).
 
 ### **Is it possible to re-invest the VIC earned and use it to continue voting?**
 

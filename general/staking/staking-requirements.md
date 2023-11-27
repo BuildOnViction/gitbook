@@ -10,7 +10,7 @@ description: Introduction to stake VIC on Masternodes.
 
 ### Introduction <a href="#introduction" id="introduction"></a>
 
-With a connected wallet, it's time to try voting for some Masternodes. If there is any trouble with connecting to the Viction network, go to [How to Connect to Viction Network](../how-to-connect-to-Viction-network/).
+With a connected wallet, it's time to try voting for some Masternodes. If there is any trouble with connecting to the Viction network, go to [How to Connect to Viction Network](../how-to-connect-to-viction-network/).
 
 ### How To Vote <a href="#how-to-vote" id="how-to-vote"></a>
 
@@ -18,7 +18,7 @@ Access our Governance Dapp, [VicMaster](https://vicmaster.xyz/), to start voting
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-Click the "Login" button. VicMaster natively supports multiple options to login including MetaMask, [Ledger](https://app.gitbook.com/@Viction/s/Viction-docs/general/how-to-connect-to-Viction-network/ledger), Trezor, and Private Key/Mnemonic. Select the appropriate option and log in.
+Click the "Login" button. VicMaster natively supports multiple options to login including MetaMask, [Ledger](https://app.gitbook.com/@Viction/s/Viction-docs/general/how-to-connect-to-viction-network/ledger), Trezor, and Private Key/Mnemonic. Select the appropriate option and log in.
 
 Once configured, vote for Masternodes by clicking on the `Vote` button.
 
