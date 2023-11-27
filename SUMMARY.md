@@ -18,6 +18,7 @@
   * [Staking](general/staking/README.md)
     * [Staking Requirements](general/staking/staking-requirements.md)
     * [Staking Rewards](general/staking/staking-rewards.md)
+    * [How to stake on Viction Wallet](general/staking/how-to-stake-on-viction-wallet.md)
 * [Developer Guide](developer-guide/README.md)
   * [Smart Contract Development](developer-guide/smart-contract-development/README.md)
     * [Solidity](developer-guide/smart-contract-development/solidity/README.md)
