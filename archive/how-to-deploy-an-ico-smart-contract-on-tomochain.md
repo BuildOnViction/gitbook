@@ -541,7 +541,7 @@ The conversion rate is `500`. So, if we send `20 VIC` we should receive `20 * 50
 
 Let’s now connect MetaMask to `Viction (testnet)`.
 
-1\. Click the menu with the “Main Ethereum Network” and select **Custom RPC**. Use the [Networks data from Viction](../developer-guide/working-with-Viction/) (testnet) and click **Save**.
+1\. Click the menu with the “Main Ethereum Network” and select **Custom RPC**. Use the [Networks data from Viction](../developer-guide/working-with-viction/viction-testnet.md) (testnet) and click **Save**.
 
 ![](<../.gitbook/assets/image (15).png>)
 

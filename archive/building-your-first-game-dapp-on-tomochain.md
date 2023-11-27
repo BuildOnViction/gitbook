@@ -489,7 +489,7 @@ Now we’re ready to use our Dapp!
 
 4\. Now we’re connected to the Ethereum network,with a brand new wallet with 0 ETH.
 
-5\. Let’s now connect MetaMask to Viction (testnet). Click the menu with the “Main Ethereum Network” and select **Custom RPC**. Use the[ Networks data from Viction](../developer-guide/working-with-Viction/Viction-testnet.md) (testnet) and click **Save**.
+5\. Let’s now connect MetaMask to Viction (testnet). Click the menu with the “Main Ethereum Network” and select **Custom RPC**. Use the[ Networks data from Viction](../developer-guide/working-with-viction/viction-testnet.md) (testnet) and click **Save**.
 
 ![](<../.gitbook/assets/image (52).png>)
 
