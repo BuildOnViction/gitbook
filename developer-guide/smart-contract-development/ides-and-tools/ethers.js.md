@@ -8,7 +8,7 @@ In this guide, you'll learn how to use the Ethers.js library to send a transacti
 
 ### Checking Prerequisites  <a href="#user-content-checking-prerequisites" id="user-content-checking-prerequisites"></a>
 
-To test out the examples in this guide on Viction [mainnet](../developer-guide/working-with-viction/viction-mainnet.md) or [testnet](developer-guide/working-with-viction/viction-testnet.md), you will need to have the corresponding RPC API endpoints and some native VIC tokens.
+To test out the examples in this guide on Viction [mainnet](../../developer-guide/working-with-viction/viction-mainnet.md) or [testnet](developer-guide/working-with-viction/viction-testnet.md), you will need to have the corresponding RPC API endpoints and some native VIC tokens.
 
 {% hint style="info" %}
 The examples in this guide assumes you have a MacOS or Ubuntu 18.04-based environment and will need to be adapted accordingly for Windows.
