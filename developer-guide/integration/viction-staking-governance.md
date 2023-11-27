@@ -1,6 +1,6 @@
 # Viction Staking Governance
 
-Masternodes and Voters' funds are locked and governed in the [Viction Validator smart contract](https:/vicscan.xyz/address/0x0000000000000000000000000000000000000088):
+Masternodes and Voters' funds are locked and governed in the [Viction Validator smart contract](https://vicscan.xyz/address/0x0000000000000000000000000000000000000088):
 
 * Smart Contract Code: [Viction Validator](https://github.com/BuildOnViction/tomomaster/blob/master/contracts/TomoValidator.sol)
 * Smart Contract ABI: [TomoValidatorAbi.json](https://raw.githubusercontent.com/Viction/tomomaster/master/abis/TomoValidatorAbi.json)
