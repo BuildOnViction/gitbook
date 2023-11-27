@@ -1,8 +1,8 @@
 ---
 description: >-
-  VIC and tokens issued on Viction are officially supported by the Ledger
-  Nano S hardware wallet. The following describes how to use Ledger Nano S to
-  connect to and use Viction Labs' services.
+  VIC and tokens issued on Viction are officially supported by the Ledger Nano S
+  hardware wallet. The following describes how to use Ledger Nano S to connect
+  to and use Viction Labs' services.
 ---
 
 # Ledger
@@ -48,23 +48,16 @@ VicMaster is the decentralized governance Dapp of Viction, allowing users to vot
 
 * Make sure the Ledger Nano S device is powered on, unlocked and the Viction Dapp is open
 * Plug the Ledger Nano S into your PC/Laptop
-* Go to [VicMaster](https://vicmaster.xyz/) using a U2F compatible browser
-* Click on Login button (top right)
+* Go to [VicMaster](https://vicmaster.xyz/) using a U2F-compatible browser
+* Click on the Login button (top right)
 * Select Ledger Wallet from the dropdown list
-* Choose m/44’/60’/0’/0 path if the Ledger Nano S has the latest firmware. Otherwise, use m/44’/889’/0’/0 path
+* Choose the m/44’/60’/0’/0 path if the Ledger Nano S has the latest firmware. Otherwise, use m/44’/889’/0’/0 path
 
-![](<../../.gitbook/assets/image (47).png>)
+<figure><img src="../../.gitbook/assets/Screenshot 2023-11-27 at 22.56.32.png" alt=""><figcaption></figcaption></figure>
 
 * Click on Save
 * Choose one of the addresses that you want to use
-
-![](<../../.gitbook/assets/image (7).png>)
-
 * VIC Balance (right column) should show next to addresses (the first address has 2 VIC as in the figure)
 * Click on Unlock your wallet
 
 **Note:** Now you can use Ledger Nano S and VicMaster to vote and/or apply to become a Masternode Candidate (please refer to [here](https://docs.viction.xyz/get-started/voting/) and [here](https://docs.viction.xyz/get-started/apply-node/) for how to vote and apply to become a Masternode).
-
-![](<../../.gitbook/assets/image (24).png>)
-
->
