@@ -135,4 +135,4 @@ To check the balance of a wallet address, you can use **VicScan**.
 
 **Mainnet:** [https:/vicscan.xyz/](https:/vicscan.xyz/)
 
-**Testnet:** [https://testnet.tomoscan.io/](https://testnet.tomoscan.io/)
+**Testnet:** [https://scan-ui-testnet.viction.xyz/](https://scan-ui-testnet.viction.xyz/)

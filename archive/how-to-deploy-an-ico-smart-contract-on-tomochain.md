@@ -119,7 +119,7 @@ Go to faucet and collect `60 VIC`. Now your wallet has enough balance to do ever
 
 To check the balance of a wallet address, use **VicScan**.
 
-**Testnet:** [https://testnet.tomoscan.io/](https://testnet.tomoscan.io/)
+**Testnet:** [https://scan-ui-testnet.viction.xyz/](https://scan-ui-testnet.viction.xyz/)
 
 **Mainnet:** [https:/vicscan.xyz/](https:/vicscan.xyz/)
 
@@ -497,7 +497,7 @@ Read carefully and **write down** the output text on the screen:
 
 ### 5.3 Check the deployment contracts <a href="#10d5" id="10d5"></a>
 
-If you want to verify that your contracts were deployed successfully, you can check on **VicScan** [testnet](https://testnet.tomoscan.io/) (or [mainnet](https:/vicscan.xyz/)). In the search field, type in the contract address you want to see.
+If you want to verify that your contracts were deployed successfully, you can check on **VicScan** [testnet](https://scan-ui-testnet.viction.xyz/) (or [mainnet](https:/vicscan.xyz/)). In the search field, type in the contract address you want to see.
 
 Here are the results of our migrations:
 
@@ -508,8 +508,8 @@ Here are the results of our migrations:
 
 **Viction testnet:**
 
-* Token: [0xd2e70e8386c9e3deca6583686a12f8da62b59969](https://testnet.tomoscan.io/address/0xd2e70e8386c9e3deca6583686a12f8da62b59969)
-* Crowdsale: [0xD102e777e893f30cb9630a32A9370ED6d575226B](https://scan.testnet.tomochain.com/address/0xD102e777e893f30cb9630a32A9370ED6d575226B)
+* Token: [0xd2e70e8386c9e3deca6583686a12f8da62b59969](https://scan-ui-testnet.viction.xyz/address/0xd2e70e8386c9e3deca6583686a12f8da62b59969)
+* Crowdsale: [0xD102e777e893f30cb9630a32A9370ED6d575226B](https://scan-ui-testnet.viction.xyz /address/0xD102e777e893f30cb9630a32A9370ED6d575226B)
 
 ![](<../.gitbook/assets/image-2-copy (3).png>)
 
@@ -569,9 +569,9 @@ We will now buy some `MyToken (MYT)` from the ICO Crowdsale contract.
 
 ![](<../.gitbook/assets/image (9) (1).png>)
 
-You can see the Crowdsale buy transaction. `20 VIC` were sent, and the contract sent `10'000 MYT` back to the buyer wallet. [Here is the transaction](https://scan.testnet.tomochain.com/txs/0xc35a3d487ca0a87b85b6c113ae7776ab70eb8ee3310490c772dc68cf830191ec) of this tutorial on **VicScan**.
+You can see the Crowdsale buy transaction. `20 VIC` were sent, and the contract sent `10'000 MYT` back to the buyer wallet. [Here is the transaction](https://scan-ui-testnet.viction.xyz /txs/0xc35a3d487ca0a87b85b6c113ae7776ab70eb8ee3310490c772dc68cf830191ec) of this tutorial on **VicScan**.
 
-Now you can visit the [Token Holders list](https://scan.testnet.tomochain.com/tokens/0xd2e70e8386c9e3deca6583686a12f8da62b59969#tokenHolders), and you will find two holders:
+Now you can visit the [Token Holders list](https://scan-ui-testnet.viction.xyz /tokens/0xd2e70e8386c9e3deca6583686a12f8da62b59969#tokenHolders), and you will find two holders:
 
 * The ICO/team: has `15'990'000 MYT`
 * Our buyer wallet: has `10'000 MYT`

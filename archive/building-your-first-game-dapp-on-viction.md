@@ -127,7 +127,7 @@ Go to faucet and collect `30 VIC`. Now your wallet has enough balance to do ever
 
 To check the balance of a wallet address, you can use **VicScan**.
 
-**Testnet:** [https://testnet.tomoscan.io/](https://testnet.tomoscan.io/)
+**Testnet:** [https://scan-ui-testnet.viction.xyz/](https://scan-ui-testnet.viction.xyz/)
 
 **Mainnet:** [https:/vicscan.xyz/](https:/vicscan.xyz/)
 
@@ -343,7 +343,7 @@ The contract address is:
 
 ### 6.4 Check the deployment transaction <a href="#0b1e" id="0b1e"></a>
 
-If you want to verify that your contract was deployed successfully, you can check on **VicScan** [testnet](https://testnet.tomoscan.io/) (or [mainnet](https:/vicscan.xyz/)). In the search field, type in the transaction ID for your new contract.
+If you want to verify that your contract was deployed successfully, you can check on **VicScan** [testnet](https://scan-ui-testnet.viction.xyz/) (or [mainnet](https:/vicscan.xyz/)). In the search field, type in the transaction ID for your new contract.
 
 You should see details about the transaction, including the block number where the transaction was secured.
 

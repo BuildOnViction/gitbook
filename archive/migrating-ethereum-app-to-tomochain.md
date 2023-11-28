@@ -161,7 +161,7 @@ This is the easiest step. We only need to change old smart contract address to n
 
 `ADDRESS_CONTRACT: “0xb7cEb47FbD0f6f98E16E681eb3933B7801a1ce43”`
 
-You can go to [**VicScan Testnet** ](https://testnet.tomoscan.io/)to verify the contract deployment.
+You can go to [**VicScan Testnet** ](https://scan-ui-testnet.viction.xyz/)to verify the contract deployment.
 
 ## Testing <a href="#b3ec" id="b3ec"></a>
 

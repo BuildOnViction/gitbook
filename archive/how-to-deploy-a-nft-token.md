@@ -436,7 +436,7 @@ Starting migrations...
 
 **Congratulations!** You have already deployed your non-fungible token (NFT) to Viction! The deployment fees were `32.14 VIC`.
 
-Read the output text on the screen. The NFT token [contract address](https://scan.testnet.tomochain.com/address/0x8B830F38b798B7b39808A059179f2c228209514C) is _(yours will be different)_:
+Read the output text on the screen. The NFT token [contract address](https://scan-ui-testnet.viction.xyz /address/0x8B830F38b798B7b39808A059179f2c228209514C) is _(yours will be different)_:
 
 ```
 0x8B830F38b798B7b39808A059179f2c228209514C
@@ -474,7 +474,7 @@ On the right you will see a dropdown list with the functions. Select `mint`. MEW
 
 ![](<../.gitbook/assets/image (11).png>)
 
-Here is [our contract address](https://scan.testnet.tomochain.com/address/0x8B830F38b798B7b39808A059179f2c228209514C), and the new `mint` transaction:
+Here is [our contract address](https://scan-ui-testnet.viction.xyz /address/0x8B830F38b798B7b39808A059179f2c228209514C), and the new `mint` transaction:
 
 ![](<../.gitbook/assets/image-2-copy (2).png>)
 

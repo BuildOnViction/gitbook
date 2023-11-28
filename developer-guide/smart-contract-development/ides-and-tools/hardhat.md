@@ -54,7 +54,7 @@ const config: HardhatUserConfig = {
     },
     // for testnet
     'tomo-testnet': {
-      url: 'https://rpc.testnet.tomochain.com',
+      url: 'https://rpc-testnet.viction.xyz',
       accounts: [process.env.PRIVATE_KEY as string],
     },
   },
@@ -168,7 +168,7 @@ Finally, ensure your wallet has enough fund to cover gas fee and run script with
 npx hardhat run scripts/deploy.ts --network tomo-testnet
 ```
 
-The contract will be deployed on the Viction testnet. You can view the deployment status and contract by using [VicScan](https://testnet.tomoscan.io/) and searching for the address returned by your deploy script. If you've deployed an exact copy of the token contract above, it will be verified, and you'll be able to read and write to the contract using the web interface.
+The contract will be deployed on the Viction testnet. You can view the deployment status and contract by using [VicScan](https://scan-ui-testnet.viction.xyz/) and searching for the address returned by your deploy script. If you've deployed an exact copy of the token contract above, it will be verified, and you'll be able to read and write to the contract using the web interface.
 
 ### Verify contract on VicScan
 
