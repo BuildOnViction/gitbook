@@ -73,7 +73,7 @@ docker run -d --name masternode \
 version: "3.4"
 services:
   masternode:
-    image: Viction/node:stable
+    image: tomochain/node:stable
     environment:
       IDENTITY: $MASTERNODE_NAME
       PRIVATE_KEY: $MASTERNODE_PK
