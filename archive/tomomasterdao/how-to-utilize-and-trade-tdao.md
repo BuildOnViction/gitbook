@@ -6,12 +6,12 @@ The goal of tDAO is to allow users to have a say in funding decisions, in which 
 
 * Relevant info:
   * [Voting and outcome](governance-model/voting-and-outcome.md)
-  * [Tokenomics](https://github.com/DucDuongCoin98/Viction-Official/blob/main/tomomasterdao/Coin98/Gitbook/Viction-Official/tomomasterdao/tokenomics.md)
+  * [Tokenomics](../../tomomasterdao/Coin98/Gitbook/Viction-Official/tomomasterdao/tokenomics.md)
 
 tDAO is tradable on LuaSwap, Viction's main DEX. tDAO is _**only available on the Viction network**_, so please check you have the right network connection before making a swap on-chain, as well as _**$VIC in your wallet as gas fee for the transaction**_.
 
-The instruction to make a sway on LuaSwap can be found [here](https://github.com/DucDuongCoin98/Viction-Official/blob/main/tomomasterdao/broken-reference/README.md). Please make sure to choose $tDAO as the token you want to swap to.
+The instruction to make a sway on LuaSwap can be found [here](../../tomomasterdao/broken-reference/). Please make sure to choose $tDAO as the token you want to swap to.
 
 <figure><img src="../../.gitbook/assets/Screen Shot 2023-04-03 at 5.23.54 PM.png" alt=""><figcaption><p>LuaSwap interface for token swapping</p></figcaption></figure>
 
-The Token contract for tDAO is [0x4EaafA85bDBe9B02930926C594F83e62B036B1be](https://https/vicscan.xyz/token/0x4EaafA85bDBe9B02930926C594F83e62B036B1be)
+The Token contract for tDAO is [0x4EaafA85bDBe9B02930926C594F83e62B036B1be](https:/vicscan.xyz/token/0x4EaafA85bDBe9B02930926C594F83e62B036B1be)

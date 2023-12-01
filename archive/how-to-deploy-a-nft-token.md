@@ -112,7 +112,7 @@ npm install openzeppelin-solidity
 
 ## 2. Preparing your VIC wallet <a href="#ef52" id="ef52"></a>
 
-[Create a VIC wallet](https://github.com/DucDuongCoin98/Viction-Official/blob/main/archive/broken-reference/README.md). Then grab a few tokens:
+[Create a VIC wallet](broken-reference). Then grab a few tokens:
 
 * `Viction (testnet)`: Get [free tokens from faucet](https://faucet.testnet.tomochain.com/) (grab \~60 VIC)
 * `Viction (mainnet)`: You will need real VIC from exchanges
@@ -212,7 +212,7 @@ npm install truffle-hdwallet-provider
 
 2\. Open `truffle.js` file (`truffle-config.js` on Windows). Here the migration settings can be edited: networks, chain IDs, gas... You have multiple networks to migrate your ICO, you can deploy: locally, `ganache`, public `Ropsten (ETH)` testnet, `Viction (testnet)`, `Viction (Mainnet)`, etc…
 
-Both Testnet and Mainnet **network configurations** are described in [the official Viction documentation — Networks.](https://github.com/DucDuongCoin98/Viction-Official/blob/main/developer-guide/working-with-Viction/README.md) We need the `RPC endpoint`, the `Chain id` and the `HD derivation path`.
+Both Testnet and Mainnet **network configurations** are described in [the official Viction documentation — Networks.](../developer-guide/working-with-Viction/) We need the `RPC endpoint`, the `Chain id` and the `HD derivation path`.
 
 Replace the `truffle.js` file with this new content:
 
@@ -436,13 +436,13 @@ Starting migrations...
 
 **Congratulations!** You have already deployed your non-fungible token (NFT) to Viction! The deployment fees were `32.14 VIC`.
 
-Read the output text on the screen. The NFT token \[contract address]\(https://scan-ui-testnet.viction.xyz /address/0x8B830F38b798B7b39808A059179f2c228209514C) is _(yours will be different)_:
+Read the output text on the screen. The NFT token [contract address](https://scan-ui-testnet.viction.xyz /address/0x8B830F38b798B7b39808A059179f2c228209514C) is _(yours will be different)_:
 
 ```
 0x8B830F38b798B7b39808A059179f2c228209514C
 ```
 
-> **⚠️ Note:** Viction’s smart contract[ **creation fee**](https://github.com/DucDuongCoin98/Viction-Official/blob/main/developer-guide/working-with-Viction/README.md)**:** gas price 10000 Gwei, gas limit >= 1000000
+> **⚠️ Note:** Viction’s smart contract[ **creation fee**](../developer-guide/working-with-Viction/)**:** gas price 10000 Gwei, gas limit >= 1000000
 
 ### \*\*\* Troubleshooting \*\*\* <a href="#f097" id="f097"></a>
 
@@ -474,7 +474,7 @@ On the right you will see a dropdown list with the functions. Select `mint`. MEW
 
 ![](<../.gitbook/assets/image (11).png>)
 
-Here is \[our contract address]\(https://scan-ui-testnet.viction.xyz /address/0x8B830F38b798B7b39808A059179f2c228209514C), and the new `mint` transaction:
+Here is [our contract address](https://scan-ui-testnet.viction.xyz /address/0x8B830F38b798B7b39808A059179f2c228209514C), and the new `mint` transaction:
 
 ![](<../.gitbook/assets/image-2-copy (2).png>)
 

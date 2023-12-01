@@ -1,7 +1,7 @@
 # General
 
-{% content-ref url="https://github.com/DucDuongCoin98/Viction-Official/blob/main/faq/general/Viction.md" %}
-[https://github.com/DucDuongCoin98/Viction-Official/blob/main/faq/general/Viction.md](https://github.com/DucDuongCoin98/Viction-Official/blob/main/faq/general/Viction.md)
+{% content-ref url="Viction.md" %}
+[Viction.md](Viction.md)
 {% endcontent-ref %}
 
 {% content-ref url="ecosystem.md" %}

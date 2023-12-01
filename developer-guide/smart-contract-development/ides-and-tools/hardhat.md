@@ -197,8 +197,8 @@ const config: HardhatUserConfig = {
         network: "Viction",
         chainId: 88, // for mainnet
         urls: {
-          apiURL: "https:/www.vicscan.xyz/api/contract/hardhat/verify", // for mainnet
-          browserURL: "https:/vicscan.xyz", // for mainnet
+          apiURL: "https://www.vicscan.xyz/api/contract/hardhat/verify", // for mainnet
+          browserURL: "https://vicscan.xyz", // for mainnet
 
         }
       }
