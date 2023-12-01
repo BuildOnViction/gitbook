@@ -213,8 +213,12 @@ It is recommended that the contract be deployed and verified using several files
 
 Because verifying contracts requires compiling the source code to bytecode and comparing it to the bytecode on onchain, occasionally the source code might be a large file size, causing the compilation to take longer than usual.&#x20;
 
-It is strongly advised that those source code files be flattened into numerous files with less than 500 lines of code in each file to ensure performance and stability.&#x20;
+It is strongly advised that those source code files be flattened into numerous files with less than 1MB each file to ensure performance and stability.&#x20;
 
-If the contract has previously been distributed in the single file format, but the verification procedure has failed. It is recommended that you re-deploy the contract with different file formats and continue the verification procedure.
+In the event the contract has previously been deployed in the single file format, but the verification procedure has failed. It is recommended that you re-deploy the contract with different file formats and continue the verification procedure.
 
-If you are still unable to verify the contract after several attempts, please upload your contract source code to Github and contact us for assistance.
+
+
+{% hint style="info" %}
+If you are still unable to verify the contract after several attempts, please upload your contract source code along with the compliation configuration to **Github** and **contact us** for assistance.
+{% endhint %}
