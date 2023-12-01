@@ -15,11 +15,11 @@ description: >-
 {% endcontent-ref %}
 
 {% content-ref url="build-a-dapp-on-viction/" %}
-[building-a-dapp-on-Viction](build-a-dapp-on-viction/)
+[build-a-dapp-on-viction](build-a-dapp-on-viction/)
 {% endcontent-ref %}
 
 {% content-ref url="working-with-viction/" %}
-[working-with-Viction](working-with-viction/)
+[working-with-viction](working-with-viction/)
 {% endcontent-ref %}
 
 {% content-ref url="integration/" %}

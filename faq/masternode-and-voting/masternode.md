@@ -129,8 +129,6 @@ Setting up a masternode candidate on a weaker machine might result in poor perfo
 
 Once you are a Masternode Candidate, you need the support of the Viction community in the form of votes. The top 150 most voted Candidates every period, called an epoch (900 blocks of 2-second block-time), will be promoted to Masternodes. This list will change dynamically every epoch. Only the 150 Masternodes elected will be able to sign blocks and will receive rewards in the form of VIC.
 
-
-
 ### **Where can I find the latest Masternode guide or the instructions for setting up a Masternode?**
 
 Find more details about tmn [here](../../masternode/run-a-full-node/create-a-viction-masternode.md)

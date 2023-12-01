@@ -1,7 +1,7 @@
 ---
 description: >-
-  This shows useful CLI commands for developers to work with the Viction
-  client tomo.
+  This shows useful CLI commands for developers to work with the Viction client
+  tomo.
 ---
 
 # CLI Commands

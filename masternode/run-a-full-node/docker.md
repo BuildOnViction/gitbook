@@ -29,7 +29,7 @@ This image runs the [Viction go client](https://github.com/BuildOnViction/tomoch
 | `VERBOSITY`     | False    | 3               | `4`                                        | The level of logging (default one should be enough)                                                           |
 | `NETWORK_ID`    | False    | 89              | `88`                                       | The network id of the join your node is joining. Find them [here](https://docs.viction.xyz/general/networks/) |
 | `WS_SECRET`     | False    | None            | `d$M4J4\5gLAz%Zjn>%`                       | The password to send data to the stats website                                                                |
-| `NETSTATS_HOST` | False    | netstats-server | `https://stats.tomochain.com`                | The stats website to report to, regarding to your environment                                                 |
+| `NETSTATS_HOST` | False    | netstats-server | `https://stats.tomochain.com`              | The stats website to report to, regarding to your environment                                                 |
 | `NETSTATS_PORT` | False    | 3000            | `443`                                      | The port used by the stats website (usually 443)                                                              |
 | `ANNOUNCE_TXS`  | False    | None            | `True`                                     | Enable reporting transactions via RPC/WS                                                                      |
 

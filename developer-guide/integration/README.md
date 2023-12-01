@@ -9,7 +9,7 @@ description: 'Viction Integration: A Step-By-Step Guide'
 {% endcontent-ref %}
 
 {% content-ref url="viction-staking-governance.md" %}
-[Viction-staking-governance.md](viction-staking-governance.md)
+[viction-staking-governance.md](viction-staking-governance.md)
 {% endcontent-ref %}
 
 {% content-ref url="vic-zerogas-integration.md" %}

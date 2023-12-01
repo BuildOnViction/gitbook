@@ -1,7 +1,7 @@
 ---
 description: >-
-  This section will guide you through deploying a smart contract on the
-  Viction using Hardhat.
+  This section will guide you through deploying a smart contract on the Viction
+  using Hardhat.
 ---
 
 # Hardhat
@@ -197,8 +197,8 @@ const config: HardhatUserConfig = {
         network: "Viction",
         chainId: 88, // for mainnet
         urls: {
-          apiURL: "https:/vicscan.xyz/api/contract/hardhat/verify", // for mainnet
-          browserURL: "https:/vicscan.xyz", // for mainnet
+          apiURL: "https://www.vicscan.xyz/api/contract/hardhat/verify", // for mainnet
+          browserURL: "https://vicscan.xyz", // for mainnet
 
         }
       }
@@ -206,3 +206,19 @@ const config: HardhatUserConfig = {
   }
 };
 ```
+
+### Tips to verify contracts
+
+It is recommended that the contract be deployed and verified using several files rather than a single file to let the verification process go more smoothly using the hardhat plugin.&#x20;
+
+Because verifying contracts requires compiling the source code to bytecode and comparing it to the bytecode on onchain, occasionally the source code might be a large file size, causing the compilation to take longer than usual.&#x20;
+
+It is strongly advised that those source code files be flattened into numerous files with less than 1MB each file to ensure performance and stability.&#x20;
+
+In the event the contract has previously been deployed in the single file format, but the verification procedure has failed. It is recommended that you re-deploy the contract with different file formats and continue the verification procedure.
+
+
+
+{% hint style="info" %}
+If you are still unable to verify the contract after several attempts, please upload your contract source code along with the compliation configuration to **Github** and **contact us** for assistance.
+{% endhint %}

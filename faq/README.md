@@ -1,7 +1,5 @@
 ---
-description: >-
-  The most frequently asked questions about Viction products and its
-  ecosystem.
+description: The most frequently asked questions about Viction products and its ecosystem.
 ---
 
 # FAQ

@@ -42,7 +42,7 @@ cd hardhat-boilerplate
 npm install
 ```
 
-### **Front End App**&#x20;
+### **Front End App**
 
 In `frontend` you'll find a simple app that allows the user to do two things:
 

@@ -121,4 +121,4 @@ trc25.methods.transfer(to, '500000000000000000000').send({
 
 ### Checking VIC ZeroGas <a href="#checking-VIC ZeroGas" id="checking-VIC ZeroGas"></a>
 
-Call `getTokenCapacity` to [0x8c0faeb5c6bed2129b8674f262fd45c4e9468bee](https:/vicscan.xyz/address/0x8c0faeb5c6bed2129b8674f262fd45c4e9468bee). If the return value > 0, the token has successfully been enabled by the VIC ZeroGas protocol.
+Call `getTokenCapacity` to [0x8c0faeb5c6bed2129b8674f262fd45c4e9468bee](https://vicscan.xyz/address/0x8c0faeb5c6bed2129b8674f262fd45c4e9468bee). If the return value > 0, the token has successfully been enabled by the VIC ZeroGas protocol.

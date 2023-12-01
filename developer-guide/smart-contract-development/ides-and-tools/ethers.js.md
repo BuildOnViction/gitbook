@@ -6,15 +6,15 @@ The [Ethers.js](https://docs.ethers.org/) library provides a set of tools to int
 
 In this guide, you'll learn how to use the Ethers.js library to send a transaction and deploy a contract on Viction.
 
-### Checking Prerequisites  <a href="#user-content-checking-prerequisites" id="user-content-checking-prerequisites"></a>
+### Checking Prerequisites <a href="#user-content-checking-prerequisites" id="user-content-checking-prerequisites"></a>
 
-To test out the examples in this guide on Viction [mainnet](../../../developer-guide/working-with-viction/viction-mainnet.md) or [testnet](../../../developer-guide/working-with-viction/viction-testnet.md), you will need to have the corresponding RPC API endpoints and some native VIC tokens.
+To test out the examples in this guide on Viction [mainnet](../../working-with-viction/viction-mainnet.md) or [testnet](../../working-with-viction/viction-testnet.md), you will need to have the corresponding RPC API endpoints and some native VIC tokens.
 
 {% hint style="info" %}
 The examples in this guide assumes you have a MacOS or Ubuntu 18.04-based environment and will need to be adapted accordingly for Windows.
 {% endhint %}
 
-### Installing Ethers.js  <a href="#user-content-install-ethersjs" id="user-content-install-ethersjs"></a>
+### Installing Ethers.js <a href="#user-content-install-ethersjs" id="user-content-install-ethersjs"></a>
 
 To get started, you'll need to start a basic JavaScript project. First, create a directory to store all of the files you'll be creating throughout this guide and initialize the project with the following command:
 
@@ -36,7 +36,7 @@ yarn add ethers solc@0.8.0
 {% endtab %}
 {% endtabs %}
 
-### Setting up the Ethers Provider  <a href="#user-content-setting-up-the-ethers-provider" id="user-content-setting-up-the-ethers-provider"></a>
+### Setting up the Ethers Provider <a href="#user-content-setting-up-the-ethers-provider" id="user-content-setting-up-the-ethers-provider"></a>
 
 Throughout this guide, you'll be creating a bunch of scripts that provide different functionality such as sending a transaction, deploying a contract, and interacting with a deployed contract. In most of these scripts you'll need to create an [Ethers provider](https://docs.ethers.org/v6/api/providers/) to interact with the network.
 
@@ -67,13 +67,13 @@ const provider = new ethers.JsonRpcProvider(providerRPC.mainnet.rpc, {
 
 Save this code snippet as you'll need it for the scripts that are used in the following sections.
 
-### Send a Transaction  <a href="#user-content-send-a-transaction" id="user-content-send-a-transaction"></a>
+### Send a Transaction <a href="#user-content-send-a-transaction" id="user-content-send-a-transaction"></a>
 
 During this section, you'll be creating a couple of scripts. The first one will be to check the balances of your accounts before trying to send a transaction. The second script will actually send the transaction.
 
 You can also use the balance script to check the account balances after the transaction has been sent.
 
-#### **Check Balances Script**&#x20;
+#### **Check Balances Script**
 
 You'll only need one file to check the balances of both addresses before and after the transaction is sent. To get started, you can create a `balances.js` file by running:
 
@@ -135,7 +135,7 @@ node balances.js
 
 If successful, the balances for the origin and receiving address will be displayed in your terminal.
 
-#### **Send Transaction Script**&#x20;
+#### **Send Transaction Script**
 
 You'll only need one file for executing a transaction between accounts. For this example, you'll be transferring 1 VIC token from an origin address (from which you hold the private key) to another address. To get started, you can create a `transaction.js` file by running:
 
@@ -248,7 +248,7 @@ The `constructor` function, which runs when the contract is deployed, sets the i
 This contract is a simple example for illustration purposes only and does not handle values wrapping around.
 {% endhint %}
 
-#### **Compile Contract Script**&#x20;
+#### **Compile Contract Script**
 
 In this section, you'll create a script that uses the Solidity compiler to output the bytecode and interface (ABI) for the `Incrementer.sol` contract. To get started, you can create a `compile.js` file by running:
 
@@ -296,7 +296,7 @@ const contractFile = tempFile.contracts['Incrementer.sol']['Incrementer'];
 module.exports = contractFile;
 ```
 
-#### **Deploy Contract Script**&#x20;
+#### **Deploy Contract Script**
 
 With the script for compiling the `Incrementer.sol` contract in place, you can then use the results to send a signed transaction that deploys it. To do so, you can create a file for the deployment script called `deploy.js`:
 
@@ -437,7 +437,7 @@ node get.js
 
 If successful, the value will be displayed in the terminal.
 
-### **Interact with Contract (Send Methods)**&#x20;
+### **Interact with Contract (Send Methods)**
 
 Send methods are the type of interaction that modify the contract's storage (change variables), meaning a transaction needs to be signed and sent. In this section, you'll create two scripts: one to increment and one to reset the incrementer. To get started, you can create a file for each script and name them `increment.js` and `reset.js`:
 

@@ -133,6 +133,6 @@ Go to faucet and collect `30 VIC`. Now your wallet has enough balance to do ever
 
 To check the balance of a wallet address, you can use **VicScan**.
 
-**Mainnet:** [https:/vicscan.xyz/](https:/vicscan.xyz/)
+**Mainnet:** [https://vicscan.xyz/](https://vicscan.xyz/)
 
 **Testnet:** [https://scan-ui-testnet.viction.xyz/](https://scan-ui-testnet.viction.xyz/)

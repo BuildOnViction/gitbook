@@ -22,7 +22,7 @@ Coin98 Super Wallet is available for download at:
 
 **Step 2:** Click the **Add Wallet icon** at the top right corner;
 
-**Step 3:** Select wallet type: **Hot Wallet.** You can choose other wallet types depending on your desire, such as Social Wallet, Zen Card, Hardware Wallet, or Watch-only to observe the other wallets.&#x20;
+**Step 3:** Select wallet type: **Hot Wallet.** You can choose other wallet types depending on your desire, such as Social Wallet, Zen Card, Hardware Wallet, or Watch-only to observe the other wallets.
 
 <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
@@ -93,7 +93,7 @@ Note:
 
 **Step 2:** Place an amount of VIC you want to send out
 
-**Step 3:** Fill the wallet address and send a message to the recipient (if any).&#x20;
+**Step 3:** Fill the wallet address and send a message to the recipient (if any).
 
 **Step 4:** Click **Slide to Send** to finish the process.
 

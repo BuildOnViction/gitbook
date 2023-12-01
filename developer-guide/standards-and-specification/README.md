@@ -23,7 +23,7 @@ Fungible tokens are interchangeable and can be divided into smaller token units 
 | **Divisibility**                                | **Divisible**            | **Non-Divisible** |
 | **Technical requirements for Dapp integration** | **Moderate**             | **Moderate**      |
 | **Technical requirements for exchange listing** | **Moderate**             | **N/A**           |
-| **Transaction Fee**                             | **In Transaction Token** | **In VIC**       |
+| **Transaction Fee**                             | **In Transaction Token** | **In VIC**        |
 
 ### **VRC25 - Gas-less transaction experience**
 
@@ -36,9 +36,9 @@ VRC25 also have an expanded use to enable any smart-contract to have transaction
 Non-fungible tokens (NFTs) are all distinct and special. Every token is rare, with unique characteristics, its own metadata and special attributes. Most of the time when people think about NFT, they refer to the successful CryptoKitties game as the standard for crypto-collectibles. However, there are many other applications for VRC725 tokens.
 
 {% content-ref url="vrc25-specification.md" %}
-[trc25-specification.md](vrc25-specification.md)
+[vrc25-specification.md](vrc25-specification.md)
 {% endcontent-ref %}
 
 {% content-ref url="vrc725-specification.md" %}
-[trc725-specification.md](vrc725-specification.md)
+[vrc725-specification.md](vrc725-specification.md)
 {% endcontent-ref %}
