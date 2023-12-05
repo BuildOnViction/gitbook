@@ -7,7 +7,7 @@ description: >-
 
 # Docker
 
-To achieve that, you just need to run our `Viction/node` docker image.
+To achieve that, you just need to run our `tomochain/node` docker image.
 
 This image runs the [Viction go client](https://github.com/BuildOnViction/tomochain) with some automation added on top.
 
@@ -73,7 +73,7 @@ docker run -d --name masternode \
 version: "3.4"
 services:
   masternode:
-    image: Viction/node:stable
+    image: tomochain/node:stable
     environment:
       IDENTITY: $MASTERNODE_NAME
       PRIVATE_KEY: $MASTERNODE_PK
