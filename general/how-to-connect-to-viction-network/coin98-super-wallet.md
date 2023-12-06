@@ -24,7 +24,7 @@ Coin98 Super Wallet is available for download at:
 
 **Step 3:** Select wallet type: **Hot Wallet.** You can choose other wallet types depending on your desire, such as Social Wallet, Zen Card, Hardware Wallet, or Watch-only to observe the other wallets.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 4:** Select MultiChain or Viction → Then click **Create**
 
@@ -41,7 +41,7 @@ Coin98 Super Wallet is available for download at:
 * Read the warnings carefully, then select three checkboxes to confirm your awareness of the risks when losing keys.
 * Click **Create Wallet** to complete.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 Once completed, the wallet will be displayed on the main interface. You can also access diverse features of Coin98 Super Wallet.
 

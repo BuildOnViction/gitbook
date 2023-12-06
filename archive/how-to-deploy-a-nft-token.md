@@ -112,7 +112,7 @@ npm install openzeppelin-solidity
 
 ## 2. Preparing your VIC wallet <a href="#ef52" id="ef52"></a>
 
-[Create a VIC wallet](broken-reference). Then grab a few tokens:
+[Create a VIC wallet](broken-reference/). Then grab a few tokens:
 
 * `Viction (testnet)`: Get [free tokens from faucet](https://faucet.testnet.tomochain.com/) (grab \~60 VIC)
 * `Viction (mainnet)`: You will need real VIC from exchanges
@@ -316,7 +316,7 @@ ganache-cli -p 8545
 
 `Ganache` will start running, listening on port `8545`. Automatically you will have 10 available wallets with their private keys and `100 ETH` each. You can use them to test your smart contracts.
 
-![](<../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (4) (1).png>)
 
 ## 5. Adding Tests <a href="#9c8f" id="9c8f"></a>
 
@@ -436,7 +436,7 @@ Starting migrations...
 
 **Congratulations!** You have already deployed your non-fungible token (NFT) to Viction! The deployment fees were `32.14 VIC`.
 
-Read the output text on the screen. The NFT token [contract address](https://scan-ui-testnet.viction.xyz /address/0x8B830F38b798B7b39808A059179f2c228209514C) is _(yours will be different)_:
+Read the output text on the screen. The NFT token \[contract address]\(https://scan-ui-testnet.viction.xyz /address/0x8B830F38b798B7b39808A059179f2c228209514C) is _(yours will be different)_:
 
 ```
 0x8B830F38b798B7b39808A059179f2c228209514C
@@ -474,7 +474,7 @@ On the right you will see a dropdown list with the functions. Select `mint`. MEW
 
 ![](<../.gitbook/assets/image (11).png>)
 
-Here is [our contract address](https://scan-ui-testnet.viction.xyz /address/0x8B830F38b798B7b39808A059179f2c228209514C), and the new `mint` transaction:
+Here is \[our contract address]\(https://scan-ui-testnet.viction.xyz /address/0x8B830F38b798B7b39808A059179f2c228209514C), and the new `mint` transaction:
 
 ![](<../.gitbook/assets/image-2-copy (2).png>)
 
@@ -486,7 +486,7 @@ In `Ethereum (Ropsten)`, the Etherscan page with [our migrated contract](https:/
 
 ![](<../.gitbook/assets/image (8).png>)
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (1).png>)
 
 ## What’s next? <a href="#2883" id="2883"></a>
 
