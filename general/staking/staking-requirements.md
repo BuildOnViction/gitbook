@@ -16,7 +16,7 @@ With a connected wallet, it's time to try voting for some Masternodes. If there 
 
 Access our Governance Dapp, [VicMaster](https://vicmaster.xyz/), to start voting for Masternodes.
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Click the "Login" button. VicMaster natively supports multiple options to login including MetaMask, [Ledger](https://app.gitbook.com/@Viction/s/Viction-docs/general/how-to-connect-to-viction-network/ledger), Trezor, and Private Key/Mnemonic. Select the appropriate option and log in.
 

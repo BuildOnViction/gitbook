@@ -8,11 +8,11 @@ Allow users to send a chosen token amount to a specific wallet address.
 
 **Step 2:** Click **Send**, then select a specific token
 
-<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 **Step 3:** Input the token amount then click **Next**
 
-<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 _Notes_:
 
@@ -27,15 +27,15 @@ _Notes_:
 
 → Then click **Review**
 
-<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 5:** Click **Confirm** to confirm transaction
 
-<figure><img src="../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 After the transaction has been finalized, the sender will be redirected to a transaction details page, and the recipient will get a message that they have received the assets.
 
-<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### How to Receive a token? <a href="#how-to-receive-token" id="how-to-receive-token"></a>
 

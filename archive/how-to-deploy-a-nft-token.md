@@ -316,7 +316,7 @@ ganache-cli -p 8545
 
 `Ganache` will start running, listening on port `8545`. Automatically you will have 10 available wallets with their private keys and `100 ETH` each. You can use them to test your smart contracts.
 
-![](<../.gitbook/assets/image (4) (1).png>)
+![](<../.gitbook/assets/image (4) (1) (1).png>)
 
 ## 5. Adding Tests <a href="#9c8f" id="9c8f"></a>
 
@@ -472,7 +472,7 @@ In MyEtherWallet, under menu `Contract` > `Interact with Contract` two things ar
 
 On the right you will see a dropdown list with the functions. Select `mint`. MEW will show two fields: `outer` and `inner`. Input two colors, like `#ff0000`or `#0000ff` and click the button **Write**. Confirm with **MetaMask**.
 
-![](<../.gitbook/assets/image (11).png>)
+![](<../.gitbook/assets/image (11) (1).png>)
 
 Here is \[our contract address]\(https://scan-ui-testnet.viction.xyz /address/0x8B830F38b798B7b39808A059179f2c228209514C), and the new `mint` transaction:
 
@@ -484,9 +484,9 @@ You can use MEW to _**Write**_ and to _**Read**_ functions, like `getGradient`! 
 In `Ethereum (Ropsten)`, the Etherscan page with [our migrated contract](https://ropsten.etherscan.io/address/0x22fb8a49811d33d34be96c82b3937b252e78a8d5) will **change** after the first token is minted. A new link will be displayed now to track the ERC721 token `GRAD`.
 {% endhint %}
 
-![](<../.gitbook/assets/image (8).png>)
+![](<../.gitbook/assets/image (8) (1).png>)
 
-![](<../.gitbook/assets/image (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (1).png>)
 
 ## What’s next? <a href="#2883" id="2883"></a>
 
@@ -497,7 +497,7 @@ A few suggestions to continue from here:
 * You can have some buttons to interact with the tokens (buy, sell, change, transfer, change attributes/colors, etc…)
 * You can iterate on this basic code and create a new **CryptoKitties** game :)
 
-![](<../.gitbook/assets/image (16).png>)
+![](<../.gitbook/assets/image (16) (1).png>)
 
 **Congratulations!** You have learned about non-fungible tokens, use-cases of NFTs and how to deploy NFT tokens on Viction.
 
