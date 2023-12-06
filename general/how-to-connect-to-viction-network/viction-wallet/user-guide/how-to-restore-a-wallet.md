@@ -1,12 +1,8 @@
-# Restore wallet
+# How to restore a wallet?
 
-### How to restore a wallet?
+Users can import their existing wallets into Viction Wallet to enjoy its features.
 
-Restore a wallet is a function to help users import their wallets into Viction Wallet.
-
-This approach is mostly used for users who already had their own wallets.
-
-**Step 1:** Access to Viction Wallet;
+**Step 1:** Access Viction Wallet;
 
 **Step 2:** Click the wallet section at the top left corner, then click the add wallet icon on the top right corner;
 
@@ -14,7 +10,7 @@ This approach is mostly used for users who already had their own wallets.
 
 <figure><img src="../../../../.gitbook/assets/image (18).png" alt="" width="375"><figcaption></figcaption></figure>
 
-**Step 3:** Select **Passphrase or Private key** option to restore at the Import wallet section
+**Step 3:** Select **Passphrase or Private key** option to restore your wallet
 
 <figure><img src="../../../../.gitbook/assets/image (29).png" alt="" width="375"><figcaption></figcaption></figure>
 
