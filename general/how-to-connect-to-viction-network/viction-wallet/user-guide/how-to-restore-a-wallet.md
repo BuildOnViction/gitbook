@@ -6,9 +6,15 @@ Users can import their existing wallets into Viction Wallet to enjoy its feature
 
 **Step 2:** Click the wallet section at the top left corner, then click the add wallet icon on the top right corner;
 
-<figure><img src="../../../../.gitbook/assets/image (20).png" alt="" width="375"><figcaption></figcaption></figure>
+<div>
 
-<figure><img src="../../../../.gitbook/assets/image (18).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (110).png" alt="" width="375"><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../../../.gitbook/assets/image (111).png" alt="" width="375"><figcaption></figcaption></figure>
+
+</div>
 
 **Step 3:** Select **Passphrase or Private key** option to restore your wallet
 

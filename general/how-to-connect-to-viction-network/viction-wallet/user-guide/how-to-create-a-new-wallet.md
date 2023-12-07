@@ -6,7 +6,15 @@
 
 **Step 2:** Click on the Wallet section at the top left corner, then click the Add Wallet icon on the top left corner;
 
-<figure><img src="../../../../.gitbook/assets/image (48).png" alt="" width="192"><figcaption></figcaption></figure>
+<div>
+
+<figure><img src="../../../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../../../.gitbook/assets/image (109).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 <figure><img src="../../../../.gitbook/assets/image (49).png" alt="" width="192"><figcaption></figcaption></figure>
 

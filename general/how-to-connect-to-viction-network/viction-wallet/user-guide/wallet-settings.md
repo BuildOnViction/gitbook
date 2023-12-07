@@ -17,9 +17,15 @@ Allows users to change profile
 
 **Step 4:** After changing the information, click **Save** to complete the process
 
-<figure><img src="../../../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
+<div>
 
-<figure><img src="../../../../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (85).png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../../../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ## How to Backup Passphrase? <a href="#how-to-backup-passphrase" id="how-to-backup-passphrase"></a>
 
@@ -40,11 +46,19 @@ However, PassPhrase and Private key can be revealed by following the steps below
 
 **Step 4**: Click **Backup** to reveal the Private Key and Passphrase of the wallet
 
-<figure><img src="../../../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
+<div>
 
-<figure><img src="../../../../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (87).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (66).png" alt="" width="360"><figcaption></figcaption></figure>
+ 
+
+<figure><img src="../../../../.gitbook/assets/image (88).png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../../../.gitbook/assets/image (89).png" alt="" width="360"><figcaption></figcaption></figure>
+
+</div>
 
 ## How to Revoke Connection? <a href="#how-to-revoke-connection" id="how-to-revoke-connection"></a>
 
@@ -60,9 +74,15 @@ We’ve developed the “Revoke Connection” feature to make sure that the conn
 
 **Step 4:** Click **Revoke** to complete the process
 
+<div>
+
 <figure><img src="../../../../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
+ 
+
+<figure><img src="../../../../.gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ## How to Remove wallet? <a href="#how-to-remove-wallet" id="how-to-remove-wallet"></a>
 
@@ -74,9 +94,17 @@ Allows users to remove their wallet from Viction wallet
 
 **Step 3:** Click **Remove Wallet,** then click **Remove** on confirmation popup to complete the process
 
+
+
+<div>
+
 <figure><img src="../../../../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
+ 
+
+<figure><img src="../../../../.gitbook/assets/image (106).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ## How to view wallet address? <a href="#how-to-view-wallet-address" id="how-to-view-wallet-address"></a>
 
@@ -86,8 +114,12 @@ Allows users to remove their wallet from Viction wallet
 
 **Step 3**: Click on **QR icon** on the top left of the screen
 
+<div>
+
 <figure><img src="../../../../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
 
-&#x20;
+ 
 
-<figure><img src="../../../../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (107).png" alt=""><figcaption></figcaption></figure>
+
+</div>
