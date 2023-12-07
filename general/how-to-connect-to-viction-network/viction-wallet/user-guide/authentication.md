@@ -38,6 +38,6 @@ To increase security, you can lock the wallet when not in use, or the wallet wil
 
 **Step 2:** Input **Password**
 
-**Step 3:** Click **Unlock Wallet** to access Viction
+<figure><img src="../../../../.gitbook/assets/image (2).png" alt="" width="375"><figcaption></figcaption></figure>
 
-\
+**Step 3:** Click **Unlock Wallet** to access Viction

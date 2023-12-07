@@ -12,7 +12,7 @@ Allow users to send a chosen token amount to a specific wallet address.
 
 **Step 3:** Input the token amount then click **Next**
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 _Notes_:
 
@@ -27,11 +27,11 @@ _Notes_:
 
 → Then click **Review**
 
-<figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 5:** Click **Confirm** to confirm transaction
 
-<figure><img src="../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 After the transaction has been finalized, the sender will be redirected to a transaction details page, and the recipient will get a message that they have received the assets.
 
