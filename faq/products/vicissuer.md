@@ -6,6 +6,12 @@ description: >-
 
 # VicIssuer
 
+
+
+{% hint style="warning" %}
+VicIssuer is temporarily unavailable as it is actively working to upgrade the feature so that users may issue tokens using the VRC25 standard. Once the process is completed, all services will be restored. Thank you for being patient.
+{% endhint %}
+
 Below are the most important features of [VicIssuer](https://issuer.viction.xyz/) that have made it a revolutionary tool:
 
 * **User-Friendly Interface:** Issue a VRC20 or VRC21 token in only a few steps.
