@@ -8,7 +8,7 @@ TERMS OF SERVICE
 
 Last Revision Date: **December 06, 2023**
 
-&#x20;1\.          Introduction
+## Introduction
 
 This Terms of Service (“Terms”) is a binding contract between you, an individual user or site visitor, whether personally or on behalf of an entity (“user”, “you”, “your”) and Tomo Foundation (the “Foundation”, “we”, “us”, or “our”) concerning use of the Foundation’s Service  (the “Service”), including the https://www.viction.xyz/ website as well as any other media form, media channel, or mobile website related, linked, or otherwise connected thereto (collectively, the “Site”). Currently, the Foundation maintains and operates https://www.viction.xyz/ as a portal for news, information, and updates about the Viction blockchain (formerly Tomochain) (the “Viction Blockchain”) and the Viction ecosystem. For the avoidance of doubt, the Foundation does not control Viction Blockchain and cannot control activity and data on Viction Blockchain, the activities of persons who develop and/or use applications on Viction Blockchain, the validation of transactions on Viction Blockchain, or the use of Viction Blockchain. Viction Blockchain is an open-source protocol that is maintained and processed by Viction Blockchain validators across the globe.
 
@@ -26,7 +26,7 @@ Supplemental terms and conditions or documents that may be posted on the Site fr
 
 &#x20;
 
-2\.          User Eligibility
+## User Eligibility
 
 The Service is intended for users who are at least 18 years old. You agree that by using the Site and the Service  you are at least 18 years of age and be able to form legally binding contracts. Persons under the age of 18 are not permitted to access or use the Site and/or the Service;
 
@@ -36,9 +36,7 @@ The information and features provided on the Site or by the Service are not inte
 
 &#x20;
 
-3\.          Accessing the Site
-
-&#x20;
+## Accessing the Siteite
 
 We reserve the right to withdraw or amend the Site, and any service or material we provide on the Site, in our sole discretion without notice. We do not guarantee that our Site or any content on it will always be available or be interrupted. We will not be liable if for any reason all or any part of the Site is unavailable at any time or for any period. From time to time, we may restrict access to some parts of the Site, or the entire Site, to users.
 
@@ -46,11 +44,8 @@ We reserve the right to withdraw or amend the Site, and any service or material 
 
 You are responsible for:
 
-&#x20;
-
-●      Making all arrangements necessary for you to have access to the Site; and
-
-●      Ensuring that all persons who access the Site through your internet connection are aware of these Terms and comply with them.
+* Making all arrangements necessary for you to have access to the Site; and
+* Ensuring that all persons who access the Site through your internet connection are aware of these Terms and comply with them.
 
 To access the Site or some of the Service it offers, you may be asked to provide certain registration details or other information. It is a condition of your use of the Site that all the information you provide on the Site is correct, current, and complete. You agree that all information you provide to use the Site, including, but not limited to, using any interactive features on the Site, is governed by our Privacy Policy(https://docs.viction.xyz/legal/privacy), and you consent to all actions we may take with respect to your information that are consistent with our Privacy Policy(https://docs.viction.xyz/legal/privacy).
 
@@ -58,11 +53,7 @@ To access the Site or some of the Service it offers, you may be asked to provide
 
 You should use particular caution when inputting personal information onto the Site on a public or shared computer so that others are not able to view or record your personal information.
 
-&#x20;
-
-4\.          License Granted            &#x20;
-
-&#x20;
+## &#x20;License Granted      &#x20;
 
 The Service is licensed, not sold, to you for use only under these Terms, subject to your complete and ongoing compliance with the terms and conditions of the Terms. As a user of the Service, we grant you a limited, personal, non-commercial, non-exclusive, non-transferable, and revocable license to use our Service solely for your own use.
 
@@ -76,7 +67,9 @@ WITHOUT LIMITING ANY OTHER PROVISION OF THESE TERMS, WE RESERVE THE RIGHT TO, IN
 
 &#x20;
 
-5\.          Prohibited Activities
+
+
+## Prohibited Activities
 
 You may not access or use the Service for any purpose other than that for which we make the Service available. The Service may not be used in connection with any commercial endeavors except those that are specifically endorsed or approved by us.
 
@@ -86,119 +79,49 @@ As a user of the Service, you agree not to:
 
 &#x20;
 
-●      Systematically retrieve data or other content from the Service to create or compile, directly or indirectly, a collection, compilation, database, or directory without written permission from us.
+* Systematically retrieve data or other content from the Service to create or compile, directly or indirectly, a collection, compilation, database, or directory without written permission from us.
+* &#x20;Make any unauthorized use of the Service, including collecting usernames and/or email addresses of users by electronic or other means for the purpose of sending unsolicited email, or creating user accounts by automated means or under false pretenses.
+* Circumvent, disable, or otherwise interfere with security-related features of the Service, including features that prevent or restrict the use or copying of any content or enforce limitations on the use of the Service and/or the content contained therein.
+* Engage in unauthorized framing of or linking to the Site.
+* Trick, defraud, or mislead us and other users, especially in any attempt to learn sensitive account information such as user passwords.
+* Make improper use of our support services or submit false reports of abuse or misconduct.
+* Engage in any automated use of the system, such as using scripts to send comments or messages, or using any data mining, robots, or similar data gathering and extraction tools.
+* Interfere with, disrupt, or create an undue burden on the Site or the networks or services connected to the Site.
+* &#x20;Attempt to impersonate another user or person.
+* &#x20; Use any information obtained from the Site in order to harass, abuse, or harm another person.
+* &#x20;Use the Service as part of any effort to compete with us or otherwise use the Service and/or the content for any revenue-generating endeavor or commercial enterprise.
+* Decipher, decompile, disassemble, or reverse engineer any of the software comprising or in any way making up a part of the Site.
+* Harass, annoy, intimidate, or threaten any of our employees or agents engaged in providing any portion of the Service to you.
+* Attempt to bypass any measures of the Site designed to prevent or restrict access to the Site, or any portion of the Site.
+* &#x20;Delete the copyright or other proprietary rights notice from any content.
+* &#x20;Copy or adapt the Site’s software, including but not limited to Flash, PHP, HTML, JavaScript, or other code.
+* Upload or transmit (or attempt to upload or to transmit) viruses, Trojan horses, or other material, including excessive use of capital letters and spamming (continuous posting of repetitive text), that interferes with any party’s uninterrupted use and enjoyment of the Service or modifies, impairs, disrupts, alters, or interferes with the use, features, functions, operation, or maintenance of the Service.
+* Except as may be the result of standard search engine or internet browser usage, use, launch, develop, or distribute any automated system, including without limitation, any spider, robot, cheat utility, scraper, or offline reader that accesses the Site, or using or launching any unauthorized script or other software.
+* &#x20;  Disparage, tarnish, distribute hate speech/explicit content or otherwise harm, in our opinion, us, the Service and/or other users of the Service.
+* &#x20;Copy, reproduce, distribute, publicly perform or publicly display all or portions of our Service, except as expressly permitted by us or our licensors.
+* Modify our Service, remove any proprietary rights notices or markings, or otherwise make any derivative works based upon our Service.
+* &#x20; Infringe any patent, trademark, trade secret, copyright or other intellectual or proprietary right of the Foundation or any third party.
+* Use the Service in a manner inconsistent with any applicable laws or regulations.
 
 &#x20;
 
-●      Make any unauthorized use of the Service, including collecting usernames and/or email addresses of users by electronic or other means for the purpose of sending unsolicited email, or creating user accounts by automated means or under false pretenses.
-
-&#x20;
-
-●      Circumvent, disable, or otherwise interfere with security-related features of the Service, including features that prevent or restrict the use or copying of any content or enforce limitations on the use of the Service and/or the content contained therein.
-
-&#x20;
-
-●      Engage in unauthorized framing of or linking to the Site.
-
-&#x20;
-
-●      Trick, defraud, or mislead us and other users, especially in any attempt to learn sensitive account information such as user passwords.
-
-&#x20;
-
-●      Make improper use of our support services or submit false reports of abuse or misconduct.
-
-&#x20;
-
-●      Engage in any automated use of the system, such as using scripts to send comments or messages, or using any data mining, robots, or similar data gathering and extraction tools.
-
-&#x20;
-
-●      Interfere with, disrupt, or create an undue burden on the Site or the networks or services connected to the Site.
-
-&#x20;
-
-●      Attempt to impersonate another user or person.
-
-&#x20;
-
-●      Use any information obtained from the Site in order to harass, abuse, or harm another person.
-
-&#x20;
-
-●      Use the Service as part of any effort to compete with us or otherwise use the Service and/or the content for any revenue-generating endeavor or commercial enterprise.
-
-&#x20;
-
-●      Decipher, decompile, disassemble, or reverse engineer any of the software comprising or in any way making up a part of the Site.
-
-&#x20;
-
-●      Harass, annoy, intimidate, or threaten any of our employees or agents engaged in providing any portion of the Service to you.
-
-&#x20;
-
-●      Attempt to bypass any measures of the Site designed to prevent or restrict access to the Site, or any portion of the Site.
-
-&#x20;
-
-●      Delete the copyright or other proprietary rights notice from any content.
-
-&#x20;
-
-●      Copy or adapt the Site’s software, including but not limited to Flash, PHP, HTML, JavaScript, or other code.
-
-&#x20;
-
-●      Upload or transmit (or attempt to upload or to transmit) viruses, Trojan horses, or other material, including excessive use of capital letters and spamming (continuous posting of repetitive text), that interferes with any party’s uninterrupted use and enjoyment of the Service or modifies, impairs, disrupts, alters, or interferes with the use, features, functions, operation, or maintenance of the Service.
-
-&#x20;
-
-●      Except as may be the result of standard search engine or internet browser usage, use, launch, develop, or distribute any automated system, including without limitation, any spider, robot, cheat utility, scraper, or offline reader that accesses the Site, or using or launching any unauthorized script or other software.
-
-&#x20;
-
-●      Disparage, tarnish, distribute hate speech/explicit content or otherwise harm, in our opinion, us, the Service and/or other users of the Service.
-
-&#x20;
-
-●      Copy, reproduce, distribute, publicly perform or publicly display all or portions of our Service, except as expressly permitted by us or our licensors.
-
-&#x20;
-
-●      Modify our Service, remove any proprietary rights notices or markings, or otherwise make any derivative works based upon our Service.
-
-&#x20;
-
-●      Infringe any patent, trademark, trade secret, copyright or other intellectual or proprietary right of the Foundation or any third party.
-
-&#x20;
-
-●      Use the Service in a manner inconsistent with any applicable laws or regulations.
-
-&#x20;
-
-6\.          Disclaimers
+## Disclaimers
 
 THE SITE AND THE SERVICE ARE PROVIDED ON AN “AS-IS” AND “AS-AVAILABLE” BASIS. TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE FOUNDATION WILL NOT BE LIABLE FOR ANY DAMAGES OF ANY KIND ARISING FROM THE USE OF THE SITE OR THE SERVICE, INCLUDING, BUT NOT LIMITED TO INDIRECT, INCIDENTAL, PUNITIVE, EXEMPLARY, SPECIAL OR CONSEQUENTIAL DAMAGES, EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. YOU AGREE THAT YOUR USE OF THE SITE AND THE SERVICE WILL BE AT YOUR SOLE RISK. THE FOUNDATION IS NOT RESPONSIBLE FOR ANY DAMAGES OR LOSSES THAT RESULT FROM YOUR USE OF THE SERVICE, INCLUDING, BUT NOT LIMITED TO, YOUR USE OR INABILITY TO USE THE SERVICE; ANY CHANGES TO OR INACCESSIBILITY OR TERMINATION OF THE SERVICE; ANY DELAY, FAILURE, UNAUTHORIZED ACCESS TO, OR ALTERATION OF ANY TRANSMISSION OR DATA; ANY TRANSACTION OR AGREEMENT ENTERED INTO THROUGH THE SERVICE; ANY ACTIVITIES OR COMMUNICATIONS OF THIRD PARTIES; OR ANY DATA OR MATERIAL FROM A THIRD PERSON ACCESSED ON OR THROUGH THE SITE. WE MAKE NO WARRANTIES OR REPRESENTATIONS ABOUT THE ACCURACY OR COMPLETENESS OF THE SITE’S CONTENT OR THE CONTENT OF ANY WEBSITES LINKED TO THE SITE AND WE WILL ASSUME NO LIABILITY OR RESPONSIBILITY FOR ANY (1) ERRORS, MISTAKES, OR INACCURACIES OF CONTENT AND MATERIALS, (2) PERSONAL INJURY OR PROPERTY DAMAGE, OF ANY NATURE WHATSOEVER, RESULTING FROM YOUR ACCESS TO AND USE OF THE SITE OR SERVICE, (3) ANY UNAUTHORIZED ACCESS TO OR USE OF OUR SECURE SERVERS AND/OR ANY AND ALL PERSONAL INFORMATION AND/OR FINANCIAL INFORMATION STORED THEREIN, (4) ANY INTERRUPTION OR CESSATION OF TRANSMISSION TO OR FROM THE SITE, (5) ANY BUGS, VIRUSES, TROJAN HORSES, OR THE LIKE WHICH MAY BE TRANSMITTED TO OR THROUGH THE SITE BY ANY THIRD PARTY, AND/OR (6) ANY ERRORS OR OMISSIONS IN ANY CONTENT AND MATERIALS OR FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE OF ANY CONTENT POSTED, TRANSMITTED, OR OTHERWISE MADE AVAILABLE VIA THE SITE.
 
 &#x20;
 
-7\.          Third Party Products
+## Third Party Products
 
 In addition to the Service  offered by the Foundation, this Site may advertise, offer, and make available information, products or Service  provided by third parties, including third party links to other websites (collectively, the “Third Party Products”). Third Party Products are governed by separate agreements or licenses with those third parties. We offer no guarantees and assumes no responsibility or liability of any type with respect to the Third-Party Products, including, without limitation, any liability resulting from the availability of, or any content located on or through such third-party sites and services, and any incompatibility between Third Party Products and the products and the Service provided by the Foundation. You agree that you will not hold us responsible or liable with respect to the Third-Party Products or seek to do so.
 
-&#x20;
-
-8\.          IP rights of the Foundation
-
-&#x20;
+## IP rights of the Foundation
 
 Unless otherwise indicated, the Site is our proprietary property and all source code, databases, functionality, software, website designs, information, audio, video, text, photographs, and graphics (excluding Third Party Content (as defined below)) on the Site (collectively, the “Content”) and the trademarks, service marks, and logos contained therein (the “Marks”) are owned or controlled by us or licensed to us, and are protected by copyright, trademark and other intellectual property laws and international conventions. You are not permitted to use the Marks without the prior written consent of the owner of the Marks. Except as expressly provided herein, the Foundation and its licensors do not grant any express or implied license to the Site, the Content, or the Service. You agree not to copy, reproduce, aggregate, republish, download, post, display, transmit, modify, rent, lease, loan, sell, assign, distribute, license, sublicense, sell, reverse engineer, create derivative works based on, or otherwise exploit for any commercial purposes whatsoever, the Site, the Content, or the Service without our express prior written permission. Certain sections of the Site feature content of Third-Party Products owned by third party creators or associated rightsholders of that content (the “Third Party Content”). Third Party Content is protected by copyright or other proprietary laws and is for display and demonstration purposes only.
 
-&#x20;
 
-9\.          IP rights of users
+
+## IP rights of users
 
 We may provide you with the opportunity to create, submit, post, display, transmit, perform, publish, distribute, or broadcast content and materials to us or on the Site, including but not limited to text, writings, video, audio, photographs, graphics, comments, suggestions, or personal information or other material (collectively, “Contributions”). Contributions may be viewable by other users of the Site and through third party websites. As such, any Contributions you transmit may be treated in accordance with the Privacy Policy. When you create or make available any Contributions, you thereby represent and warrant that:
 
@@ -224,13 +147,11 @@ We do not assert any ownership over your Contributions. You retain full ownershi
 
 &#x20;
 
-10\.       Privacy Policy Statement
+## Privacy Policy Statement
 
-Please refer to our Privacy Policy(https://docs.viction.xyz/legal/privacy) for information about how we collect, use, share and otherwise process information about you.
+Please refer to our Privacy Policy(https://docs.viction.xyz/legal/privacy) for information about how we collect, use, share and otherwise process information about you.&#x20;
 
-&#x20;
-
-11\.       Indemnification
+## Indemnifications
 
 You agree to defend, release, indemnify, and hold the Foundation, its subsidiaries and affiliates (collectively, the “Foundation Parties”), including all of our and Foundation Parties’ respective officers, directors, agents, partners, employees, contractors, successors and assigns harmless from and against any loss, damage, liability, claim, or demand, including reasonable attorneys’ fees and expenses, made by any third party due to or arising out of: (1) your access to or use of the Site; (2) any Contributions you submit to Company or transmit through the Site (including, without limitation, any content or computer viruses), (3) your breach of these Terms; (4) any breach of your representations and warranties set forth in these Terms; (5) your violation of the rights of a third party, including but not limited to intellectual property rights; or (6) any overt harmful act toward any other user of the Site with whom you connected via the Site. Notwithstanding the foregoing, we reserve the right, at your expense, to assume the exclusive defense and control of any matter for which you are required to indemnify us, and you agree to cooperate, at your expense, with our defense of such claims. We will use reasonable efforts to notify you of any such claim, action, or proceeding which is subject to this indemnification upon becoming aware of it.
 
@@ -240,15 +161,13 @@ You agree to defend, release, indemnify, and hold the Foundation, its subsidiari
 
 In no event will the Foundation Parties or their respective officers, directors, shareholders, employees, sub-contractors, affiliates or agents be liable to you or any third party for any direct, indirect, consequential, exemplary, statutory, incidental, special, or punitive damages, including lost profit, lost revenue, loss of data, costs, expenses and payments, either in tort (including negligence), contract, or other damages, in any other form, arising from, or in connection with, your use of the Site, the inability to use the Site, the Site features, marketing of the Site or the Site features, or any form of failure, error, or breakdown in use of the Site, from any fault, or error made by the Foundation Parties, or from your reliance on content available on the Site, or from any communication through the Site, or with other users on the Site, or from any denial or cancellation of your user account, or from retention, deletion, disclosure and any other use or loss of your content on the Site, even if the Foundation Parties have been advised of the possibility of such damages. Notwithstanding anything to the contrary contained herein, the Foundation Parties’ aggregate liability to you for any cause whatsoever and regardless of the form of the action, will at all times be limited to U.S$100. Certain international laws do not allow limitations on implied warranties or the exclusion or limitation of certain damages. If these laws apply to you, some or all of the above disclaimers or limitations may not apply to you, and you may have additional rights.
 
-&#x20;
-
-13\.       Governing Law
+## Governing Law
 
 These Terms and your access to and use of the Service shall be governed by and construed and enforced in accordance with the laws of Saint Vincent and the Grenadines without [giving](https://www.lawinsider.com/clause/giving) [effect](https://www.lawinsider.com/clause/effect) to the [conflict of laws](https://www.lawinsider.com/clause/conflict-of-laws) [principles](https://www.lawinsider.com/clause/principles) thereof.
 
-&#x20;
 
-14\.       Dispute Resolution
+
+## Dispute Resolution
 
 We want to address your concerns without needing a formal legal case. Before filing a claim against the Foundation Parties, you agree to contact us and attempt to resolve the claim informally by sending a written notice of your claim by email at \<support@viction.xyz>. The notice must (a) include your name, residence address, email address, and telephone number; (b) describe the nature and basis of the claim; and (c) set forth the specific relief sought. Our notice to you will be sent to the email address associated with your online account and will contain the information described above. If we can’t resolve matters within thirty (30) days after any notice is sent, either party may initiate a formal proceeding.
 
@@ -266,7 +185,7 @@ If any portion of this section is found to be unenforceable or unlawful for any 
 
 &#x20;
 
-15\.       Termination
+## Termination
 
 Notwithstanding the foregoing, we may suspend or terminate your access to the Service at any time in connection with any transaction as required by applicable law, any governmental authority, or if we in our sole and reasonable discretion determine you are violating these Term or the terms of any third-party service provider at our sole discretion, at any time and without notice to you. Such suspension or termination shall not constitute a breach of these Terms by Foundation Parties. In accordance with its anti-money laundering, anti-terrorism, anti-fraud, and other compliance policies and practices, we may impose reasonable limitations and controls on the ability of you or any beneficiary to utilize the Service. Such limitations may include where good cause exists, rejecting transaction requests, freezing funds, or otherwise restricting you from using the Service.
 
@@ -274,15 +193,19 @@ Upon any termination, discontinuation or cancellation of the Services, the follo
 
 &#x20;
 
-16\.       Severability
+## Severability
 
 If any term, clause, or provision of these Terms is held invalid or unenforceable, then that term, clause, or provision will be severable from these Terms and will not affect the validity or enforceability of any remaining part of that term, clause, or provision, or any other term, clause, or provision of these Terms.
 
-17\.       Injunctive Relief
+
+
+## Injunctive Relief
 
 You agree that a breach of these Terms will cause irreparable injury to the Foundation for which monetary damages would not be an adequate remedy and the Foundation shall be entitled to equitable relief in addition to any remedies it may have hereunder or at law without a bond, other security, or proof of damages.
 
-18\.       Miscellaneous
+
+
+## Miscellaneous
 
 These Terms constitute the entire agreement between you and the Foundation relating to your access to and use of the Service. These Terms, and any rights and licenses granted hereunder, may not be transferred or assigned by you without the prior written consent of the Foundation, and the Foundation’ failure to assert any right or provision under these Terms shall not constitute a waiver of such right or provision. No waiver by either party of any breach or default hereunder shall be deemed to be a waiver of any preceding or subsequent breach or default. The section headings used herein are for reference only and shall not be read to have any legal effect.
 
