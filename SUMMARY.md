@@ -92,7 +92,6 @@
 * [Legal](legal/README.md)
   * [Terms of Use](legal/terms-of-use.md)
   * [Privacy Policy](legal/privacy.md)
-  * [Legal Opinion](https://viction.xyz/files/Viction-legal-opinion.pdf)
 * [Archive](archive/README.md)
   * [How to Deploy a VRC25 Token on Viction](archive/how-to-deploy-a-trc25-token-on-viction.md)
   * [How to deploy an ICO smart contract on Viction](archive/how-to-deploy-an-ico-smart-contract-on-viction.md)
