@@ -16,8 +16,6 @@
 
 </div>
 
-<figure><img src="../../../../.gitbook/assets/image (49).png" alt="" width="192"><figcaption></figcaption></figure>
-
 
 
 **Step 3**: Click **Create a new wallet** to initiate a new wallet
