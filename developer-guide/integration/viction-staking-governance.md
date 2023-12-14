@@ -3,7 +3,7 @@
 Masternodes and Voters' funds are locked and governed in the [Viction Validator smart contract](https://vicscan.xyz/address/0x0000000000000000000000000000000000000088):
 
 * Smart Contract Code: [Viction Validator](https://github.com/BuildOnViction/tomomaster/blob/master/contracts/TomoValidator.sol)
-* Smart Contract ABI: [TomoValidatorAbi.json](https://raw.githubusercontent.com/Viction/tomomaster/master/abis/TomoValidatorAbi.json)
+* Smart Contract ABI: [VicValidatorAbi.json](https://raw.githubusercontent.com/Viction/tomomaster/master/abis/VicValidatorAbi.json)
 
 Viction Validator Smart Contract Interface:
 
@@ -74,13 +74,13 @@ web3.eth.defaultAccount = owner
 ### Init Web3 Viction Validator Contract <a href="#init-web3-Viction-validator-contract" id="init-web3-Viction-validator-contract"></a>
 
 ```javascript
-const validatorAbi = require('./TomoValidatorAbi.json')
+const validatorAbi = require('./VicValidatorAbi.json')
 const address = '0x0000000000000000000000000000000000000088'
 const validator = new web3.eth.Contract(validatorAbi,
         address, {gasPrice: 250000000, gas: 2000000 })
 ```
 
-Note: you can get TomoValidatorAbi.json [here](https://raw.githubusercontent.com/Viction/tomomaster/master/abis/TomoValidatorAbi.json)
+Note: you can get VicValidatorAbi.json [here](https://raw.githubusercontent.com/Viction/tomomaster/master/abis/VicValidatorAbi.json)
 
 ### Propose/Apply a Candidate <a href="#proposeapply-a-candidate" id="proposeapply-a-candidate"></a>
 
