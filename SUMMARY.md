@@ -55,6 +55,7 @@
   * [Working with Viction](developer-guide/working-with-viction/README.md)
     * [Viction Mainnet](developer-guide/working-with-viction/viction-mainnet.md)
     * [Viction Testnet](developer-guide/working-with-viction/viction-testnet.md)
+    * [New Viction Testnet](developer-guide/working-with-viction/viction-testnet-1.md)
     * [CLI Commands](developer-guide/working-with-viction/cli-commands.md)
     * [Viction Private Testnet Setup](developer-guide/working-with-viction/viction-private-testnet-setup.md)
 * [Masternode](masternode/README.md)
