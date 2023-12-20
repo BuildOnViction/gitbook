@@ -6,7 +6,7 @@ We have developed the “Add Custom Token“ feature for users to input some new
 
 **Step 1:** On home screen, click **Add Custom Token**
 
-<figure><img src="../../../../.gitbook/assets/image (81).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (108).png" alt=""><figcaption></figcaption></figure>
 
 **Step 2:** Input information in the following fields:
 
@@ -25,4 +25,4 @@ If it is in the token data file or not:
 
 **Step 3:** Then click **Add** to complete the process
 
-<figure><img src="../../../../.gitbook/assets/image (82).png" alt="" width="360"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (109).png" alt="" width="360"><figcaption></figcaption></figure>

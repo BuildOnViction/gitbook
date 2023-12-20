@@ -6,13 +6,13 @@ The “Manage Tokens” feature allows users to hide or show tokens in their wal
 
 **Step 1:** On the home screen, click the custom icon
 
-<figure><img src="../../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 **Step 2:** Turn on the toggle to hide the token or Turn off the toggle to show the token
 
 * You can click **Hide All** to hide all token or **Show All** to show all token
 
-<figure><img src="../../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 After hiding the token → that token at the Token tab will disappear
 
@@ -26,6 +26,6 @@ You can remove a custom token by following the steps below:
 
 **Step 2:** Click **X** icon on the left corner token logo to remove the custom token
 
-<figure><img src="../../../../.gitbook/assets/image (14).png" alt="" width="360"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (17).png" alt="" width="360"><figcaption></figcaption></figure>
 
 After removing the custom token → that token at the Token tab will disappear.

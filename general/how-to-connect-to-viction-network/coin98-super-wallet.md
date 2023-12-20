@@ -24,7 +24,7 @@ Coin98 Super Wallet is available for download at:
 
 **Step 3:** Select wallet type: **Hot Wallet.** You can choose other wallet types depending on your desire, such as Social Wallet, Zen Card, Hardware Wallet, or Watch-only to observe the other wallets.
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
 **Step 4:** Select MultiChain or Viction → Then click **Create**
 
@@ -41,7 +41,7 @@ Coin98 Super Wallet is available for download at:
 * Read the warnings carefully, then select three checkboxes to confirm your awareness of the risks when losing keys.
 * Click **Create Wallet** to complete.
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
 
 Once completed, the wallet will be displayed on the main interface. You can also access diverse features of Coin98 Super Wallet.
 
@@ -57,7 +57,7 @@ If you’ve already had a Viction wallet address, you can simply restore it on C
 
 **Step 4:** Name the wallet and enter the saved Seed Phrase to restore. Click **Restore.**
 
-<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
 
 ## III. How to add a custom Network on Coin98 Super Wallet
 
@@ -83,7 +83,7 @@ Note:
 
 **Step 4:** Click **Create** to complete the process.
 
-<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
 ## III. How to send/ receive a token
 
@@ -97,7 +97,7 @@ Note:
 
 **Step 4:** Click **Slide to Send** to finish the process.
 
-<figure><img src="../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 
 ### **How to receive a token**
 
@@ -107,6 +107,6 @@ Note:
 
 **Step 3:** Copy the wallet address to senders, and then you are ready to receive the coin/ token to this wallet address.
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
 
 And that’s it! You should now see your wallet, ready to send and receive funds.

@@ -316,7 +316,7 @@ ganache-cli -p 8545
 
 `Ganache` will start running, listening on port `8545`. Automatically you will have 10 available wallets with their private keys and `100 ETH` each. You can use them to test your smart contracts.
 
-![](<../.gitbook/assets/image (4) (1) (1).png>)
+![](<../.gitbook/assets/image (4) (1).png>)
 
 ## 5. Adding Tests <a href="#9c8f" id="9c8f"></a>
 
@@ -486,7 +486,7 @@ In `Ethereum (Ropsten)`, the Etherscan page with [our migrated contract](https:/
 
 ![](<../.gitbook/assets/image (8) (1).png>)
 
-![](<../.gitbook/assets/image (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1).png>)
 
 ## What’s next? <a href="#2883" id="2883"></a>
 

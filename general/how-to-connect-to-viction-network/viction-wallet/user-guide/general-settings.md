@@ -10,15 +10,15 @@ We have developed the “Wallet Settings” feature for users to change themes, 
 
 <div>
 
-<figure><img src="../../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../../../../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../../../../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (130).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -32,11 +32,11 @@ We have developed the “Wallet Settings” feature for users to change themes, 
 
 <div>
 
-<figure><img src="../../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../../../../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (131).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -44,4 +44,4 @@ We have developed the “Wallet Settings” feature for users to change themes, 
 
 **Step 4:** Input new password and confirm new password then click **Confirm** to change new password
 
-<figure><img src="../../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>

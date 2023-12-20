@@ -10,7 +10,7 @@ To ensure the security and privacy of your account, when installing the Viction 
 
 → You will be redirected to the setup password process
 
-<figure><img src="../../../../.gitbook/assets/image (37).png" alt="" width="286"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (64).png" alt="" width="286"><figcaption></figcaption></figure>
 
 **Step 3:** Input **Password** and **Confirm Password** fields
 
@@ -18,7 +18,7 @@ To ensure the security and privacy of your account, when installing the Viction 
 
 **Step 5:** Click **Create Password** to create a password and redirect to the respective process you selected
 
-<figure><img src="../../../../.gitbook/assets/image (38).png" alt="" width="281"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (65).png" alt="" width="281"><figcaption></figcaption></figure>
 
 ### How to Lock Wallet? <a href="#how-to-lock-wallet" id="how-to-lock-wallet"></a>
 
@@ -28,7 +28,7 @@ To increase security, you can lock the wallet when not in use, or the wallet wil
 
 **Step 2:** At the home screen, click the Lock icon&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (39).png" alt="" width="360"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (66).png" alt="" width="360"><figcaption></figcaption></figure>
 
 → After the wallet is locked, you will be redirected to the Unlock Wallet screen.
 

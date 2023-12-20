@@ -19,11 +19,11 @@ Allows users to change profile
 
 <div>
 
-<figure><img src="../../../../.gitbook/assets/image (85).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../../../../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -48,15 +48,15 @@ However, PassPhrase and Private key can be revealed by following the steps below
 
 <div>
 
-<figure><img src="../../../../.gitbook/assets/image (87).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (118).png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../../../../.gitbook/assets/image (88).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (119).png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../../../../.gitbook/assets/image (89).png" alt="" width="360"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (120).png" alt="" width="360"><figcaption></figcaption></figure>
 
 </div>
 
@@ -76,11 +76,11 @@ We’ve developed the “Revoke Connection” feature to make sure that the conn
 
 <div>
 
-<figure><img src="../../../../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../../../../.gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (123).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -98,11 +98,11 @@ Allows users to remove their wallet from Viction wallet
 
 <div>
 
-<figure><img src="../../../../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (91).png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../../../../.gitbook/assets/image (106).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (124).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -116,10 +116,10 @@ Allows users to remove their wallet from Viction wallet
 
 <div>
 
-<figure><img src="../../../../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (106).png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../../../../.gitbook/assets/image (107).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure>
 
 </div>
