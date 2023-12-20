@@ -48,14 +48,14 @@ VIC Issuer is **temporarily unavailable** for upgrading to support the VRC25 Iss
 ### Bootnodes
 
 ```
-enode://ba966140e161ad416a7bd7c75dc695e0a41232723e2b19cbbf651883ef5e8f2528801b17b9d63152814d219a58a4fcc3e3c877486e64057523f6714092348efa@51.159.20.13:30301
+enode://0f41c53da72e07e3514efd7ce9e3f758acc2066d8ae66955e540620f7108fff91f8ebdc734b89dca14db2a70cdaf8c957579ec94e3dfdfe91b2923272f1cc099@13.214.64.64:30601
 ```
 
 ### Stats websocket secret
 
 `bgfmsp2r7TgIYA2HW48SkBQE6L4CUc`
 
-Host: wss://stats.testnet.tomochain.com:443
+Host: wss://stats-testnet.viction.xyz:443
 
 ### For developers
 
