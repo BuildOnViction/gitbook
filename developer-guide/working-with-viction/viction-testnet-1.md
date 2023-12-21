@@ -13,7 +13,7 @@ description: >-
 ### Specifications
 
 * **ChainID**: `89`
-* **RPC endpoint**:  `htpps://rpc-testnet.viction.xyz`
+* **RPC endpoint**:  `https://rpc-testnet.viction.xyz`
 * **Websocket endpoint**: `wss://ws-testnet.viction.xyz`
 * **HD derivation path**: `m/44'/889'/0'/0/`
 * **Consensus**: POSV
@@ -27,7 +27,7 @@ description: >-
 
 [`https://stats-testnet.viction.xyz/`](https://stats-testnet.viction.xyz/)
 
-#### Blocke Explorer
+#### Block Explorer
 
 [`https://testnet.vicscan.xyz`](https://testnet.vicscan.xyz)
 
