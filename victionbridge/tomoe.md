@@ -33,15 +33,15 @@ First, you need to install or update Coin98 Super App to the latest version:
 * iOS:[ https://ios.coin98.com](https://ios.coin98.com/)
 * Android:[ https://android.coin98.com](https://android.coin98.com/)
 
-Step 1: Open Coin98 Super App, then select Swap --> choose SpaceGate (Multi-chain).
+**Step 1:** Open Coin98 Super App, then select Swap --> choose SpaceGate (Multi-chain).
 
-Step 2: Choose TOMOE on Ethereum; and VIC on Viction and corresponding wallets.
+**Step 2:** Choose TOMOE on Ethereum; and VIC on Viction and corresponding wallets.
 
 <figure><img src="https://lh7-us.googleusercontent.com/Nc0xchLkr4Zew8MZMgsKneS3BqI15AjYP3lq8ZMGnJpIIi9JXaFZ41J7v_rJ1hz67fP93xwzqzhonklsWElAJua2-zRYZFLxVzv_xiZ9RnLtiR08s9ljlTjLifWj-VXjN6yHYTeNLAR-pib1dgi0dR0" alt=""><figcaption></figcaption></figure>
 
-Step 3: Input (or scroll) the amount you want to convert. Then, click Convert.
+**Step 3:** Input (or scroll) the amount you want to convert. Then, click Convert.
 
-Step 4: Review your order on the Confirmation popup --> If you agree, select Done to execute the transaction.
+**Step 4:** Review your order on the Confirmation popup --> If you agree, select Done to execute the transaction.
 
 When the order is completed successfully, you can check again in the Convert History section or return to the main screen of your Wallet tab to see the balance of VIC
 
@@ -49,18 +49,18 @@ When the order is completed successfully, you can check again in the Convert His
 
 Firstly, you have to install the Coin98 Extension by following the guide [here](https://docs.coin98.com/products/coin98-super-wallet/extension/beginners-guide/install-extension).
 
-Step 1: Open Coin98 Extension → Select the Swap icon in the bottom navigation bar;
+**Step 1:** Open Coin98 Extension → Select the Swap icon in the bottom navigation bar;
 
-Step 2: Choose SpaceGate;\
+**Step 2:** Choose SpaceGate;\
 
 
 <figure><img src="https://lh7-us.googleusercontent.com/AtRkuvcsjgmI1GxMIxA5dxEXH5VAysk1XCImYvCLqAFy9CdDJVLOOTnaUfeQhQCZ7jDfqd8USF2r443a6ZqobPjwDnhSMJ76mt-cy6VJCuczsYzfdjcZa_MpxvrYuGJv2Ivww0WfcO6lKdH-LP8XOv8" alt=""><figcaption></figcaption></figure>
 
-Step 3: Choose a token/coin, blockchains & corresponding wallets.
+**Step 3:** Choose a token/coin, blockchains & corresponding wallets.
 
-Step 4: Input (or scroll) the number of coins/tokens you want to convert. Then, click Convert.
+**Step 4:** Input (or scroll) the number of coins/tokens you want to convert. Then, click Convert.
 
-Step 5: Review your order on the Confirmation popup--> If you agree, select **Confirm** to execute your order.
+**Step 5:** Review your order on the Confirmation popup--> If you agree, select **Confirm** to execute your order.
 
 <figure><img src="https://lh7-us.googleusercontent.com/Ef_6Rc5ReMw7tuBsldWFvHVvc6qr2H1Tk9qmcdy9HR8t3BfqomWD4VayakwBVpZytKvu9maStjkv_1as3emlGTmZdKazxgdZlCnmN_bpTwv7_OkBKvd3UaRqEmk00VGuLGTh2vriaKQLZt30m6pWHFg" alt=""><figcaption></figcaption></figure>
 
