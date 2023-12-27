@@ -232,7 +232,7 @@ const config: HardhatUserConfig = {
     customChains: [
       {
         network: "victiontestnet",
-        chainId: 89, // for mainnet
+        chainId: 89, // for testnet
         urls: {
           apiURL: "https://scan-api-testnet.viction.xyz/api/contract/hardhat/verify", // for testnet
           browserURL: "https://www.testnet.vicscan.xyz", // for testnet
