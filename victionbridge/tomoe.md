@@ -62,6 +62,4 @@ Firstly, you have to install the Coin98 Extension by following the guide [here](
 
 **Step 5:** Review your order on the Confirmation popup--> If you agree, select **Confirm** to execute your order.
 
-<figure><img src="https://lh7-us.googleusercontent.com/Ef_6Rc5ReMw7tuBsldWFvHVvc6qr2H1Tk9qmcdy9HR8t3BfqomWD4VayakwBVpZytKvu9maStjkv_1as3emlGTmZdKazxgdZlCnmN_bpTwv7_OkBKvd3UaRqEmk00VGuLGTh2vriaKQLZt30m6pWHFg" alt=""><figcaption></figcaption></figure>
-
-\
+<figure><img src="../.gitbook/assets/Screenshot 2023-12-28 at 11.54.20.png" alt=""><figcaption></figcaption></figure>
