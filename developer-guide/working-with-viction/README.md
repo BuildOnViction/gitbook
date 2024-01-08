@@ -4,8 +4,8 @@
 [viction-mainnet.md](viction-mainnet.md)
 {% endcontent-ref %}
 
-{% content-ref url="viction-testnet.md" %}
-[viction-testnet.md](viction-testnet.md)
+{% content-ref url="../../archive/viction-testnet.md" %}
+[viction-testnet.md](../../archive/viction-testnet.md)
 {% endcontent-ref %}
 
 {% content-ref url="cli-commands.md" %}

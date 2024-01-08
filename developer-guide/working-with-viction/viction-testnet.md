@@ -6,31 +6,52 @@ description: >-
 
 # Viction Testnet
 
-{% hint style="warning" %}
-**Disclaimer**: We are in the process of transitioning; the new test-net end-points will be ready in the following weeks. You can, however, continue to utilize the following URLs to carry on the testing.
-{% endhint %}
-
 ### Specifications
 
-* Chain id: `89`
-* RPC endpoint: `https://rpc.testnet.tomochain.com`
-* Websocket endpoint: `wss://ws.testnet.tomochain.com`
-* Metrics endpoint: `https://metrics.testnet.tomochain.com`
-* HD derivation path: `m/44'/889'/0'/0/`
-* Consensus: POSV
-* Block finality: `>75%`
-* Consensus nodes: up to 150 (masternodes)
-* Solidity Compiler version: < 0.6.6
+* **ChainID**: `89`
+* **RPC endpoint**:  `https://rpc-testnet.viction.xyz`
+* **Websocket endpoint**: `wss://ws-testnet.viction.xyz`
+* **HD derivation path**: `m/44'/889'/0'/0/`
+* **Consensus**: POSV
+* **Block finality**: `>75%`
+* **Consensus nodes**: up to 150 (masternodes)
+* **Solidity Compiler version**: <= 0.8.17
 
 ### Useful links
 
-* [Status page](https://stats.testnet.tomochain.com/)
-* [VicScan](https://testnet.tomoscan.io/) (Block explorer)
-* [VicMaster](https://master.testnet.tomochain.com/) (Governance Dapp)
-* [Faucet](https://faucet.testnet.tomochain.com/) (To request testnet VIC)
-* [VicIssuer](https://issuer.testnet.tomochain.com/) ([Dashboard](https://medium.com/Viction/how-to-deploy-a-trc-21-token-on-Viction-in-a-few-clicks-d0290f918b9a) to issue your token)
-* \[VicMaster smart contract]\(https://testnet.tomoscan.io/address/0x0000000000000000000000000000000000000088) (for staking and applying a new masternode)
-* Wrapped Tokens: \[USDT]\(https://testnet.tomoscan.io/address/0xc7ecCc9da22aBAAf9cfe311BFD9a55437eA05c2c), \[ETH]\(https://testnet.tomoscan.io/address/0xf55F13Fde623c00d6b0C7bfc6557735040aA6a08), \[BTC]\(https://testnet.tomoscan.io/address/0x11c2cAF973db997b8a9b5689b33962E1AedEA968)
+#### Stats page
+
+[`https://stats-testnet.viction.xyz/`](https://stats-testnet.viction.xyz/)
+
+#### Block Explorer
+
+[`https://testnet.vicscan.xyz`](https://testnet.vicscan.xyz)
+
+#### Governance Dapp
+
+[`https://master-testnet.viction.xyz/`](https://master-testnet.viction.xyz/)
+
+**VICMaster Smart Contract**: for staking and applying a new masternode [`https://testnet.vicscan.xyz/address/0x0000000000000000000000000000000000000088`](https://testnet.vicscan.xyz/address/0x0000000000000000000000000000000000000088)
+
+#### Faucet
+
+[`https://faucet-testnet.viction.xyz`](https://faucet-testnet.viction.xyz)
+
+#### VIC Issuer
+
+VIC Issuer is **temporarily unavailable** for upgrading to support the VRC25 Issuer
+
+### Bootnodes
+
+```
+enode://0f41c53da72e07e3514efd7ce9e3f758acc2066d8ae66955e540620f7108fff91f8ebdc734b89dca14db2a70cdaf8c957579ec94e3dfdfe91b2923272f1cc099@13.214.64.64:30601
+```
+
+### Stats websocket secret
+
+`bgfmsp2r7TgIYA2HW48SkBQE6L4CUc`
+
+Host: wss://stats-testnet.viction.xyz:443
 
 ### For developers
 
@@ -40,14 +61,4 @@ Testnet is the best way to test smart contracts. Configure the deployment tool (
 
 The Testnet is the exact same ecosystem as that on the actual Mainnet.
 
-### Bootnodes
-
-```
-enode://ba966140e161ad416a7bd7c75dc695e0a41232723e2b19cbbf651883ef5e8f2528801b17b9d63152814d219a58a4fcc3e3c877486e64057523f6714092348efa@51.159.20.13:30301
-```
-
-### Stats websocket secret
-
-`bgfmsp2r7TgIYA2HW48SkBQE6L4CUc`
-
-Host: wss://stats.testnet.tomochain.com:443
+###
