@@ -2,10 +2,9 @@
 
 ### Specifications
 
-* Chain id: `88 or 0x58`
+* Chain ID: `88 or 0x58`
 * RPC endpoint: `https://rpc.viction.xyz`
 * Websocket endpoint: `wss://ws.viction.xyz`
-* Metrics endpoint: `https://metrics.viction.xyz`
 * HD derivation path: `m/44'/889'/0'/0/`
 * Consensus: POSV
 * Block finality: `>75%`
@@ -13,6 +12,16 @@
 * Genesis block date: `December 14th, 2018`
 * Transaction fee: gas price 0.25 Gwei
 * Solidity Compiler version: < 0.6.6
+
+### Other RPCs
+
+RockX: [https://access.rockx.com/product/viction-blockchain-api-for-web3-builders](https://access.rockx.com/product/viction-blockchain-api-for-web3-builders)
+
+NOWNodes: [https://nownodes.io/nodes/tomochain-tomo](https://nownodes.io/nodes/tomochain-tomo)
+
+BlockPi: [https://blockpi.io/viction](https://blockpi.io/viction)
+
+Provalidator:  [https://nodereal.io/api-marketplace/tomochain-rpc](https://nodereal.io/api-marketplace/tomochain-rpc)
 
 ### Useful links
 
