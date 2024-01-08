@@ -13,7 +13,7 @@
 * Transaction fee: gas price 0.25 Gwei
 * Solidity Compiler version: < 0.6.6
 
-### Other RPCs
+### Other RPC Providers
 
 RockX: [https://access.rockx.com/product/viction-blockchain-api-for-web3-builders](https://access.rockx.com/product/viction-blockchain-api-for-web3-builders)
 
