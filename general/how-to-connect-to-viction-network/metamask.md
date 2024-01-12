@@ -12,10 +12,10 @@ First install the[ MetaMask Extension](https://metamask.io/) on Chrome or Brave 
 
 **Step 2:** When the Settings screen pops up, scroll down to New Network and click Show Advanced Options. Enter the following information, then Save:
 
-| <p><br></p>        | Mainnet                 | Testnet                             |
-| ------------------ | ----------------------- | ----------------------------------- |
-| New RPC URL        | https://rpc.viction.xyz | https://rpc.testnet.tomochain.com   |
-| ChainID            | 88 or 0x58              | 89                                  |
-| Symbol             | VIC                     | VIC                                 |
-| Nickname           | Viction                 | Viction Testnet                     |
-| Block Explorer URL | https:/vicscan.xyz      | https://testnet.tomoscan.io         |
+| <p><br></p>        | Mainnet                 | Testnet                         |
+| ------------------ | ----------------------- | ------------------------------- |
+| New RPC URL        | https://rpc.viction.xyz | https://rpc-testnet.viction.xyz |
+| ChainID            | 88 or 0x58              | 89                              |
+| Symbol             | VIC                     | VIC                             |
+| Nickname           | Viction                 | Viction Testnet                 |
+| Block Explorer URL | https:/vicscan.xyz      | https://testnet.vicscan.xyz     |
