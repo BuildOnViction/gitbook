@@ -6,7 +6,24 @@ description: >-
 
 # Chain Data Snapshots
 
-Please find the latest snapshot here: [https://tomotools.com/](https://tomotools.com/)
+Please find the most recent snapshot using the following links, since they are snapshot weekly on Friday.
+
+TomoX**:** `https://snapshot.viction.xyz/TOMOX_DATA.tar`
+
+Chain Data: `https://snapshot.viction.xyz/CHAIN_DATA.tar`
+
+\
+**Checksum SHA1 for verification if needed**
+
+TomoX**:**&#x20;
+
+`https://snapshot.viction.xyz/TOMOX_DATA.tar.sha1`
+
+Chain Data**:**&#x20;
+
+`https://snapshot.viction.xyz/CHAIN_DATA.tar.sha1`
+
+
 
 The following commands are step by step instructions for Viction Masternode operators that can be used for two major use-cases:
 
@@ -19,8 +36,8 @@ _Note: Ensure there is enough disk space for both the tar file AND its uncompres
 
 ```
 # Login as user that has access to tmn
-# Download Tomo's chaindata archive (make sure you have enough disk space available)
-wget -c https://chaindata.tomochain.com/20190813.tar -P /tmp
+# Download viction's chaindata archive (make sure you have enough disk space available)
+wget -c https://snapshot.viction.xyz/CHAIN_DATA.tar -P /tmp
 
 # Stop your node (for tmn users)
 tmn stop
@@ -38,7 +55,7 @@ docker volume ls
 
 # Extract the data
 cd /tmp
-sudo tar xvC /var/lib/docker/volumes/NAME_OF_YOUR_VOLUME/_data/data/tomo/ -f 20190813.tar
+sudo tar xvC /var/lib/docker/volumes/NAME_OF_YOUR_VOLUME/_data/data/tomo/ -f CHAIN_DATA.tar
 
 # Start your node back(for tmn users)
 tmn start
@@ -55,5 +72,5 @@ rm /tmp/20190813.tar
 In case you can not wait for the extraction finish, you can run it in the background
 
 ```
-nohup tar xvC /var/lib/docker/volumes/NAME_OF_YOUR_VOLUME/_data/data/tomo/ -f 20190813.tar &
+nohup tar xvC /var/lib/docker/volumes/NAME_OF_YOUR_VOLUME/_data/data/tomo/ -f CHAIN_DATA.tar &
 ```
