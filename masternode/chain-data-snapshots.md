@@ -18,12 +18,13 @@ We also have checksum information to verify downloaded files are correct.
 
 This example demonstrates how to use the snapshot files with the assumption that the node has been stopped and node data is stored at the following path: `/var/lib/docker/volumes/viction_mainnet/_data/data`
 
-<pre class="language-bash"><code class="lang-bash"><strong># set dir
-</strong>VIC_DATA_DIR="/var/lib/docker/volumes/viction_mainnet/_data/data"
+```bash
+# set dir
+VIC_DATA_DIR="/var/lib/docker/volumes/viction_mainnet/_data/data"
 TMP_DIR="/tmp"
-<strong>
-</strong><strong># download the files to /tmp folder
-</strong>wget -c https://snapshot.viction.xyz/TOMOX_DATA.tar -O $TMP_DIR/TOMOX_DATA.tar
+
+# download the files to /tmp folder
+wget -c https://snapshot.viction.xyz/TOMOX_DATA.tar -O $TMP_DIR/TOMOX_DATA.tar
 wget -c https://snapshot.viction.xyz/CHAIN_DATA.tar -O $TMP_DIR/CHAIN_DATA.tar
 
 # remove existing data
@@ -32,12 +33,12 @@ rm -r $VIC_DATA_DIR/tomo
 
 # create new dir for extraction
 mkdir -p $VIC_DATA_DIR/tomox
-<strong>mkdir -p $VIC_DATA_DIR/tomo/chaindata
-</strong>
+mkdir -p $VIC_DATA_DIR/tomo/chaindata
+
 # extract the file
 tar xvf $TMP_DIR/TOMOX_DATA.tar -C $VIC_DATA_DIR/tomox
 tar xvf $TMP_DIR/CHAIN_DATA.tar -C $VIC_DATA_DIR/tomo/chaindata
-</code></pre>
+```
 
 ### **Notes**
 
@@ -49,6 +50,7 @@ tar xvf $TMP_DIR/CHAIN_DATA.tar -C $VIC_DATA_DIR/tomo/chaindata
 wget -bqc https://snapshot.viction.xyz/CHAIN_DATA.tar -O $TMP_DIR/CHAIN_DATA.tar
 ```
 
-<pre class="language-bash"><code class="lang-bash"># extract the file
-<strong>nohup tar xvf $TMP_DIR/CHAIN_DATA.tar -C $VIC_DATA_DIR/tomo/chaindata &#x26;
-</strong></code></pre>
+```bash
+# extract the file
+nohup tar xvf $TMP_DIR/CHAIN_DATA.tar -C $VIC_DATA_DIR/tomo/chaindata &
+```
