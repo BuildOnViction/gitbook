@@ -1,76 +1,54 @@
----
-description: >-
-  A snapshot is a recording of the state of a blockchain at a particular block
-  height.
----
-
 # Chain Data Snapshots
 
-Please find the most recent snapshot using the following links, since they are snapshot weekly on Friday.
+### Overview
 
-TomoX**:** `https://snapshot.viction.xyz/TOMOX_DATA.tar`
+For a node to join the network and work with other nodes, it must sync data with other nodes first. Overtime, the data to be synchronized will increased and the process will take several days to weeks, even months.
 
-Chain Data: `https://snapshot.viction.xyz/CHAIN_DATA.tar`
+To help node operators to catchup with network quickly, we create a snapshot for Viction mainnet every Friday. The snapshot consists of 2 parts that must be downloaded and extracted for a node to synchronize properly.
 
-\
-**Checksum SHA1 for verification if needed**
+* TomoX**:** `https://snapshot.viction.xyz/TOMOX_DATA.tar`
+* Chain Data: `https://snapshot.viction.xyz/CHAIN_DATA.tar`
 
-TomoX**:**&#x20;
+We also have checksum information to verify downloaded files are correct.
 
-`https://snapshot.viction.xyz/TOMOX_DATA.tar.sha1`
+* TomoX**:** `https://snapshot.viction.xyz/TOMOX_DATA.tar.sha1`
+* Chain Data**:** `https://snapshot.viction.xyz/CHAIN_DATA.tar.sha1`
 
-Chain Data**:**&#x20;
+### Example
 
-`https://snapshot.viction.xyz/CHAIN_DATA.tar.sha1`
+This example demonstrates how to use the snapshot files with the assumption that the node has been stopped and node data is stored at the following path: `/var/lib/docker/volumes/viction_mainnet/_data/data`
 
+<pre class="language-bash"><code class="lang-bash"><strong># set dir
+</strong>VIC_DATA_DIR="/var/lib/docker/volumes/viction_mainnet/_data/data"
+TMP_DIR="/tmp"
+<strong>
+</strong><strong># download the files to /tmp folder
+</strong>wget -c https://snapshot.viction.xyz/TOMOX_DATA.tar -O $TMP_DIR/TOMOX_DATA.tar
+wget -c https://snapshot.viction.xyz/CHAIN_DATA.tar -O $TMP_DIR/CHAIN_DATA.tar
 
+# remove existing data
+rm -r $VIC_DATA_DIR/tomox
+rm -r $VIC_DATA_DIR/tomo
 
-The following commands are step by step instructions for Viction Masternode operators that can be used for two major use-cases:
+# create new dir for extraction
+mkdir -p $VIC_DATA_DIR/tomox
+<strong>mkdir -p $VIC_DATA_DIR/tomo/chaindata
+</strong>
+# extract the file
+tar xvf $TMP_DIR/TOMOX_DATA.tar -C $VIC_DATA_DIR/tomox
+tar xvf $TMP_DIR/CHAIN_DATA.tar -C $VIC_DATA_DIR/tomo/chaindata
+</code></pre>
 
-1. Fixing nodes that are stuck; evidenced by a node that stays on a block and doesn't progress
-2. Jumpstarting a newly setup Masternode; avoid waiting a week for synchronization
+### **Notes**
 
-Basically, a compressed version of the last-known "good" chaindata is downloaded. This comes from Viction on a weekly basis. Remove the node's old data and update it with the newly downloaded data. Finally, restart the sync-process from this known-good checkpoint.
+* At the time of this writing, the size of the snapshot files are nearly 800GB, please make sure that you have enough free space to store the files and the extracted contents.
+* The file CHAIN\_DATA.tar is over 750GB at the time of writing and will take a long time to download and extract. You can use the following command to perform those operations in background:
 
-_Note: Ensure there is enough disk space for both the tar file AND its uncompressed contents. Double the space or more._
-
-```
-# Login as user that has access to tmn
-# Download viction's chaindata archive (make sure you have enough disk space available)
-wget -c https://snapshot.viction.xyz/CHAIN_DATA.tar -P /tmp
-
-# Stop your node (for tmn users)
-tmn stop
-# or in the node folder (for docker-compose users)
-docker-compose stop
-
-# Find the name of your volume
-docker volume ls
-
-# Remove your node old data
-sudo rm -rf /var/lib/docker/volumes/NAME_OF_YOUR_VOLUME/_data/data/tomo/chaindata
-
-# Find the name of your volume
-docker volume ls
-
-# Extract the data
-cd /tmp
-sudo tar xvC /var/lib/docker/volumes/NAME_OF_YOUR_VOLUME/_data/data/tomo/ -f CHAIN_DATA.tar
-
-# Start your node back(for tmn users)
-tmn start
-# or in the node folder (for docker-compose users)
-docker-compose start
-
-# If you're really running out of space, remove the tar file
-# keeping it might be a good idea if you get stuck further before a new snapshot is released
-rm /tmp/20190813.tar
+```bash
+# download the file
+wget -bqc https://snapshot.viction.xyz/CHAIN_DATA.tar -O $TMP_DIR/CHAIN_DATA.tar
 ```
 
-**Tip: extract the data in background**
-
-In case you can not wait for the extraction finish, you can run it in the background
-
-```
-nohup tar xvC /var/lib/docker/volumes/NAME_OF_YOUR_VOLUME/_data/data/tomo/ -f CHAIN_DATA.tar &
-```
+<pre class="language-bash"><code class="lang-bash"># extract the file
+<strong>nohup tar xvf $TMP_DIR/CHAIN_DATA.tar -C $VIC_DATA_DIR/tomo/chaindata &#x26;
+</strong></code></pre>
