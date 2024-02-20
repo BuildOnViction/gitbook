@@ -64,7 +64,7 @@ docker run -d --name masternode \
   -p 30303:30303 \
   -p 30303:30303/udp \
   -v chaindata:/Viction/data \
-  Viction/node:stable
+  tomochain/node:stable
 ```
 
 `docker-compose.yml`
