@@ -25,7 +25,7 @@ The owner of VRC25 token must call `apply` function of `VRC25Issuer` contract at
 
 ### How to apply (testnet)
 
-If your **test token** is deployed to the **testnet**, you also still can call the apply function of VRC25Issuer contract at the same address: [https://testnet.vicscan.xyz/address/0x8c0faeb5c6bed2129b8674f262fd45c4e9468bee](https://testnet.vicscan.xyz/address/0x8c0faeb5c6bed2129b8674f262fd45c4e9468bee)
+The owner of VRC25 token must call `apply` function of `VRC25Issuer` contract at [https://testnet.vicscan.xyz/address/0x8c0faeb5c6bed2129b8674f262fd45c4e9468bee](https://testnet.vicscan.xyz/address/0x8c0faeb5c6bed2129b8674f262fd45c4e9468bee)
 
 The VIC testnet token can be found via faucet:  [https://faucet-testnet.viction.xyz/](https://faucet-testnet.viction.xyz/)
 
