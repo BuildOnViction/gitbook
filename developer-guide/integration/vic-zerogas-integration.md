@@ -29,7 +29,7 @@ If your **test token** is deployed to the **testnet**, you also still can call t
 
 The VIC testnet token can be found via faucet:  [https://faucet-testnet.viction.xyz/](https://faucet-testnet.viction.xyz/)
 
-The VicIssuer testnet: [https://issuer-testnet.viction.xyz/](https://issuer-testnet.viction.xyz/)
+The VICIssuer testnet: [https://issuer-testnet.viction.xyz/](https://issuer-testnet.viction.xyz/)
 
 
 
