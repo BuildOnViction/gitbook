@@ -39,7 +39,7 @@ description: >-
 
 #### VIC Issuer
 
-VIC Issuer is **temporarily unavailable** for upgrading to support the VRC25 Issuer
+[`https://issuer-testnet.viction.xyz/`](https://issuer-testnet.viction.xyz/)
 
 ### Bootnodes
 
