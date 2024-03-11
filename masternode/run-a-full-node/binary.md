@@ -31,7 +31,7 @@ cd $GOPATH/src/github.com/Viction/
 * Download source code and build
 
 ```
-git clone https://github.com/BuildOnViction/Viction.git Viction
+git clone https://github.com/BuildOnViction/tomochain.git Viction
 cd Viction
 ```
 
@@ -56,7 +56,7 @@ alias tomo=$GOPATH/src/github.com/Viction/Viction/build/bin/tomo
 
 **Download Viction binary from Github release page**
 
-Download tomo binary from our [releases page](https://github.com/BuildOnViction/Viction/releases)
+Download tomo binary from our [releases page](https://github.com/BuildOnViction/tomochain/releases)
 
 ```
 alias tomo=path/to/tomo/binary
@@ -73,13 +73,13 @@ export GENESIS_PATH=path/to/genesis.json
 * Testnet
 
 ```
-curl -L https://raw.githubusercontent.com/Viction/Viction/master/genesis/testnet.json -o $GENESIS_PATH
+curl -L https://raw.githubusercontent.com/buildonViction/tomochain/master/genesis/testnet.json -o $GENESIS_PATH
 ```
 
 * Mainnet
 
 ```
-curl -L https://raw.githubusercontent.com/Viction/Viction/master/genesis/mainnet.json -o $GENESIS_PATH
+curl -L https://raw.githubusercontent.com/buildonViction/tomochain/master/genesis/mainnet.json -o $GENESIS_PATH
 ```
 
 ### Create datadir <a href="#create-datadir" id="create-datadir"></a>
@@ -217,10 +217,10 @@ tomo --help
 
 ### See your node on stats page <a href="#see-your-node-on-stats-page" id="see-your-node-on-stats-page"></a>
 
-* Testnet: [https://stats.testnet.tomochain.com](https://stats.testnet.tomochain.com/)
-* Mainnet: [https://stats.tomochain.com](http://stats.tomochain.com/)
+* Testnet: [https://stats-testnet.viction.xyz/](https://stats-testnet.viction.xyz/)
+* Mainnet: [https://stats.viction.xyz/](https://stats.viction.xyz/)
 
-### Troubleshoot <a href="#troubleshoot" id="troubleshoot"></a>
+### Troubleshooting <a href="#troubleshoot" id="troubleshoot"></a>
 
 If your node seems run smooth with no error logs but still get slash frequently. You need to check system time on your node, your system time have to be synced from NTP server
 
