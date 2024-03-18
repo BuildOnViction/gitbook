@@ -17,11 +17,11 @@
 
 RockX: [https://access.rockx.com/product/viction-blockchain-api-for-web3-builders](https://access.rockx.com/product/viction-blockchain-api-for-web3-builders)
 
-NOWNodes: [https://nownodes.io/nodes/tomochain-tomo](https://nownodes.io/nodes/tomochain-tomo)
+NOWNodes: [https://nownodes.io/nodes/viction-vic](https://nownodes.io/nodes/viction-vic)
 
 BlockPi: [https://blockpi.io/viction](https://blockpi.io/viction)
 
-Provalidator:  [https://nodereal.io/api-marketplace/tomochain-rpc](https://nodereal.io/api-marketplace/tomochain-rpc)
+Provalidator:  [ https://nodereal.io/api-marketplace/viction-rpc](https://nodereal.io/api-marketplace/viction-rpc)
 
 ### Useful links
 
