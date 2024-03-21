@@ -9,7 +9,9 @@ description: Here are the base requirements for running a Masternode Candidate.
 * Directly facing internet
 * 16 cores CPU
 * 32GB of RAM
-* SSD storage
+* SSD storage for chain data ([https://docs.viction.xyz/masternode/chain-data-snapshots](https://docs.viction.xyz/masternode/chain-data-snapshots))
+  * Minimum requirement: 1TB
+  * Recommended requirement: 2TB or above
 
 {% hint style="info" %}
 Note
