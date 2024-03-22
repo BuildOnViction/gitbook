@@ -58,7 +58,7 @@ docker run -d --name masternode \
   -e IDENTITY=$MASTERNODE_NAME \
   -e PRIVATE_KEY=$MASTERNODE_PK \
   -e BOOTNODES=$BOOTNODES \
-  -e NETSTATS_HOST=stats.tomochain.com \
+  -e NETSTATS_HOST=stats.viction.xyz \
   -e NETSTATS_PORT=443 \
   -e WS_SECRET=$STATS_WS_SECRET \
   -p 30303:30303 \
@@ -78,7 +78,7 @@ services:
       IDENTITY: $MASTERNODE_NAME
       PRIVATE_KEY: $MASTERNODE_PK
       BOOTNODES: $BOOTNODES
-      NETSTATS_HOST: stats.tomochain.com
+      NETSTATS_HOST: stats.viction.xyz
       NETSTATS_PORT: 443
       WS_SECRET: $STATS_WS_SECRET
     ports:
