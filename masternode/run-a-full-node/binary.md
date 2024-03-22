@@ -10,7 +10,7 @@ description: >-
 
 * Reference: https://golang.org/doc/install
 * Set environment variables
-* Supports Go 1.10, 1.11, 1.12
+* Supports Go 1.19+
 
 ```
 export GOROOT=$HOME/usr/local/go
