@@ -1058,8 +1058,8 @@ contract TestNFT is VRC725Enumerable {
 
 Source: [TestNFT.sol](https://github.com/BuildOnViction/vrc725/blob/main/contracts/tests/TestNFT.sol)
 
-### **Enable gas-less transaction**
+### **Enable zero-gas transaction**
 
-VRC725 is not required to apply for VictionZ. Free-gas operation will be applied through TransferHelper ([click here for example](https://github.com/BuildOnViction/vrc725/blob/main/contracts/helpers/VRC725Helper.sol)) which is integrated VRC25.
+VRC725 is not required to apply for VictionZ. Zero-gas operation will be applied through TransferHelper ([click here for example](https://github.com/BuildOnViction/vrc725/blob/main/contracts/helpers/VRC725Helper.sol)) which is integrated VRC25.
 
-In the case you need to apply for VictionZ to support more free-gas operations in your token, VRC725 is still compatible with VictionZ. Please refer to [VIC ZeroGas](../integration/vic-zerogas-integration.md) page for instruction.
+In the case you need to apply for VictionZ to support more Zero-gas operations in your token, VRC725 is still compatible with VictionZ. Please refer to [VIC ZeroGas](../integration/vic-zerogas-integration.md) page for instruction.
