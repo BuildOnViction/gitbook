@@ -1,14 +1,14 @@
 ---
 description: >-
   VicIssuer provides a friendly user interface and back-end mechanism to issue
-  VRC20 & VRC25 tokens in only a few steps.
+  VRC20(deprecated) & VRC25 tokens in only a few steps.
 ---
 
 # VicIssuer
 
 Below are the most important features of [VicIssuer](https://issuer.viction.xyz/) that have made it a revolutionary tool:
 
-* **User-Friendly Interface:** Issue a VRC20 or VRC25 token in only a few steps.
+* **User-Friendly Interface:** Issue a VRC20(deprecated) or VRC25 token in only a few steps.
 * **No Coding Experience Required:** No prerequisite knowledge about smart contract programming is needed.
 * **Token Customization Options:** Customize the token supply, token name, and minimum transaction fee through VicIssuer’s dashboard.
 
@@ -16,17 +16,17 @@ Below are the most important features of [VicIssuer](https://issuer.viction.xyz/
 
 Before issuing your token on Viction, make sure you are aware of the available token types and the differences between them.
 
-**VRC20:** VRC20 is an equivalent token standard of ERC20 built on top of the Viction blockchain. VRC20 token holders would need to hold a small amount of VIC to cover extremely low transaction fees.
+**VRC20(deprecated):** VRC20 is an equivalent token standard of ERC20 built on top of the Viction blockchain. VRC20 token holders would need to hold a small amount of VIC to cover extremely low transaction fees.
 
 **VRC25:** VRC25 creates a frictionless experience for non-crypto users by allowing token holders to pay transaction fees by the token itself without having to hold any VIC in their wallet.
 
 **Comparison Table**
 
-|                                                 |    **VRC20**   |                                        **VRC25**                                        |
-| ----------------------------------------------- | :------------: | :-------------------------------------------------------------------------------------: |
-| **Technical Requirements for Dapp Integration** |     **Low**    |                                       **Moderate**                                      |
-| **Technical Requirements for Exchange Listing** |     **Low**    |                                       **Moderate**                                      |
-| **Transaction Fees**                            | **Native VIC** | <p><strong>By token itself</strong></p><p><strong>(no need for native VIC)</strong></p> |
+|                                                 | **VRC20 (deprecated)** |                                        **VRC25**                                        |
+| ----------------------------------------------- | :--------------------: | :-------------------------------------------------------------------------------------: |
+| **Technical Requirements for Dapp Integration** |         **Low**        |                                       **Moderate**                                      |
+| **Technical Requirements for Exchange Listing** |         **Low**        |                                       **Moderate**                                      |
+| **Transaction Fees**                            |     **Native VIC**     | <p><strong>By token itself</strong></p><p><strong>(no need for native VIC)</strong></p> |
 
 ### ISSUE
 
@@ -38,11 +38,11 @@ Before issuing your token on Viction, make sure you are aware of the available t
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-11-26 at 00.44.53.png" alt=""><figcaption></figcaption></figure>
 
-**Step 3:** Fill out the token information including Token Name, Token Symbol, Token Supply, Decimals, Token Type (VRC20 or VRC25), and whether or not it’s reissuable.
+**Step 3:** Fill out the token information including Token Name, Token Symbol, Token Supply, Decimals, Token Type VRC20(deprecated) or VRC25, and whether or not it’s reissuable.
 
 * The symbol of the token contract is the symbol by which the token contract should be known, for example, “MYT”. It is broadly equivalent to a stock ticker and limited to 5 characters in length.
 * Decimals refer to how divisible a token can be, from 0 (not at all divisible) to 18 (pretty much continuous) and even higher if required. Technically speaking, the decimal value is the number of digits that come after the decimal place when displaying token values on-screen.
-* Make sure to check out the differences between reissuable/ non-reissuable tokens, and VRC20/ VRC25 tokens by hovering on the information icon and clicking on the “Differences?” link.
+* Make sure to check out the differences between reissuable/ non-reissuable tokens, and VRC20(deprecated)/ VRC25 tokens by hovering on the information icon and clicking on the “Differences?” link.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-11-26 at 00.50.40.png" alt=""><figcaption></figcaption></figure>
 
