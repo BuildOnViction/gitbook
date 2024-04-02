@@ -30,7 +30,7 @@ On the top right corner, click on "Become a Candidate".
 
 Enter the amount of VIC you want to deposit (minimum 50,000).
 
-Enter your coinbase address. This is the address of the account that your Masternode is using. If your are running your node with `tmn`, you can simply run `tmn inspect` to get it.
+Enter your [coinbase address](https://docs.viction.xyz/faq/masternode-and-voting/masternode#what-is-the-coinbase-address). This is the address of the account that your Masternode is using. If your are running your node with `tmn`, you can simply run `tmn inspect` to get it.
 
 {% hint style="warning" %}
 Important note:

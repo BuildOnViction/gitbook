@@ -155,6 +155,12 @@ It is recommended for security reasons. You can create your wallet from wherever
 
 We recommend using two addresses when running your nodes. The public address or 'coinbase address' will only receive transaction fees. The private address is from where you make the initial 50K VIC deposit and where the block rewards will be collected.
 
+{% hint style="info" %}
+In short, we need to have 2 wallet addresses. **The Wallet address A** is used for signing the block in the full node which had been already set up. **The Wallet address B** contains 50k VIC to login to **VIC Master** & stake that amount to propose the full node to become master node. We will input the **wallet address A** to the **coinbase address** field in the "**Become a candidate"** pop-up
+{% endhint %}
+
+
+
 ### **I noticed that we need another wallet for the Masternode with a different mnemonic. Assume we use a hardware wallet, we would need another hardware wallet with a different mnemonic?**
 
 It is recommended to use a separate empty account for your Masternode as it only receives transactions fees - what we call public or 'coinbase address' on the documentation.
