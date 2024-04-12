@@ -11,7 +11,7 @@ description: >-
 * **ChainID**: `89`
 * **RPC endpoint**:  `https://rpc-testnet.viction.xyz`
 * **Websocket endpoint**: `wss://ws-testnet.viction.xyz`
-* **HD derivation path**: `m/44'/889'/0'/0/`
+* **HD derivation path**: `m/44'/60'/0'/0/`
 * **Consensus**: POSV
 * **Block finality**: `>75%`
 * **Consensus nodes**: up to 150 (masternodes)

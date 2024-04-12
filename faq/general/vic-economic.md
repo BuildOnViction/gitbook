@@ -94,7 +94,7 @@ The following is information used for configuring Metamask to connect to Viction
 
 Viction is now supported by MyEtherWallet. All you need to do is to choose `Network VIC`in the supported network list in MyEtherWallet.
 
-You can find the info about our Mainnet or Testnet [here](../../developer-guide/working-with-viction/)
+You can find the info about our Mainnet or Testnet [here](../../developer-guide/deploy-on-viction/)
 
 Also, you can find out more detailed information about how to use different wallet types to connect to Viction Mainnet on [Connect your wallet](../../general/how-to-connect-to-viction-network/)
 

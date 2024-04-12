@@ -5,7 +5,7 @@
 * Chain ID: `88 or 0x58`
 * RPC endpoint: `https://rpc.viction.xyz`
 * Websocket endpoint: `wss://ws.viction.xyz`
-* HD derivation path: `m/44'/889'/0'/0/`
+* HD derivation path: `m/44'/60'/0'/0/`
 * Consensus: POSV
 * Block finality: `>75%`
 * Consensus nodes: up to 150 (masternodes)

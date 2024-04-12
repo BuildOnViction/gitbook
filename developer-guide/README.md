@@ -18,8 +18,8 @@ description: >-
 [build-a-dapp-on-viction](build-a-dapp-on-viction/)
 {% endcontent-ref %}
 
-{% content-ref url="working-with-viction/" %}
-[working-with-viction](working-with-viction/)
+{% content-ref url="deploy-on-viction/" %}
+[deploy-on-viction](deploy-on-viction/)
 {% endcontent-ref %}
 
 {% content-ref url="integration/" %}

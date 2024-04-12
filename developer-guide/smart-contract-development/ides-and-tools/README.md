@@ -4,8 +4,8 @@
 [remix.md](remix.md)
 {% endcontent-ref %}
 
-{% content-ref url="hardhat.md" %}
-[hardhat.md](hardhat.md)
+{% content-ref url="../smart-contract-verification/hardhat.md" %}
+[hardhat.md](../smart-contract-verification/hardhat.md)
 {% endcontent-ref %}
 
 {% content-ref url="ethers.js.md" %}
