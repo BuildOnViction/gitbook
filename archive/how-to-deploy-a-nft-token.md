@@ -30,7 +30,7 @@ ERC721 is a free, open standard that describes how to build non-fungible or uniq
 
 Some high demand non-fungible tokens are applications like [CryptoKitties](https://www.cryptokitties.co/), [Decentraland](https://decentraland.org/), [CryptoPunks](https://www.larvalabs.com/cryptopunks), and many [others](https://etherscan.io/tokens-nft).
 
-### CryptoKitties <a href="#25ec" id="25ec"></a>
+### CryptoKitties <a href="#id-25ec" id="id-25ec"></a>
 
 At the end of 2017, NFTs made a remarkable entrance in the blockchain world with the success of **CryptoKitties.** Each one is a unique collectible item, with its own serial number, which can be compared to its DNA card. This unleashed an unprecedented interest for NFTs, that went so far as to clog the Ethereum network. **The CryptoKitties market alone generated $12 million dollars in two weeks after its launch, and over $25 million in total**. Some rare cryptokitties were even [sold for 600 ETH ($170,000)](https://thenextweb.com/hardfork/2018/09/05/most-expensive-cryptokitty/).
 
@@ -38,7 +38,7 @@ At the end of 2017, NFTs made a remarkable entrance in the blockchain world with
 
 ![](<../.gitbook/assets/image (60).png>)
 
-### Crypto Item Standard (ERC-1155) <a href="#4a98" id="4a98"></a>
+### Crypto Item Standard (ERC-1155) <a href="#id-4a98" id="id-4a98"></a>
 
 One step further in the non-fungible token space is the ERC-1155 Standard proposed by the [**Enjin team**](https://enjincoin.io/)**,** also known as the “Crypto Item Standard”. This is an improved version of ERC-721 which will actually be suitable for platforms where there are tens of thousands of digital items and goods.
 
@@ -46,7 +46,7 @@ Online games can have up to 100,000 different digital items. The current problem
 
 [ERC-1155 standard](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) combines ERC-20 and ERC-721 tokens in its smart contract. Each token is saved in the contract with a minimal set of data that distinguishes it from others. This allows for the creation of bigger collections which contain multiple different items.
 
-## Use-cases of Non-Fungible Tokens (NFT) <a href="#2194" id="2194"></a>
+## Use-cases of Non-Fungible Tokens (NFT) <a href="#id-2194" id="id-2194"></a>
 
 Most of the time when people think about ERC-721 or NFT, they refer to the most notably successful [CryptoKitties](https://medium.com/u/c8b1419b5d28?source=post\_page-----fe476a68594d----------------------). But there are many other usability applications for NFT contracts:
 
@@ -75,7 +75,7 @@ The assets that your ERC721 tokens (NFT) represent will influence some of the de
 
 For example, in [CryptoKitties](https://www.cryptokitties.co/), players are able to “breed” their Kitties, which creates new Kitties (tokens). However, if your ERC721 token represents something more tangible, like concert tickets, you may not want token holders to be able to create more tokens. In some cases, you may even want token holders to be able to “burn” their tokens, effectively destroying them.
 
-### Let’s Start the NFT Tutorial <a href="#9d55" id="9d55"></a>
+### Let’s Start the NFT Tutorial <a href="#id-9d55" id="id-9d55"></a>
 
 We will now implement an NFT collectible token, like CryptoKitties but with simpler logic.
 
@@ -83,7 +83,7 @@ You’ll learn **how to create non fungible tokens**, how to **write tests** for
 
 We’ll build non-fungible collectibles: [**gradient tokens**](https://github.com/satansdeer/gradient-token). Every token will be represented as a unique [CSS](https://en.wikipedia.org/wiki/Cascading\_Style\_Sheets) gradient and will look somewhat like this:
 
-## 0. Prerequisites <a href="#46e0" id="46e0"></a>
+## 0. Prerequisites <a href="#id-46e0" id="id-46e0"></a>
 
 The first prerequisites you should have:
 
@@ -94,7 +94,7 @@ The first prerequisites you should have:
 npm install -g truffle
 ```
 
-## 1. Creating a new project <a href="#42fc" id="42fc"></a>
+## 1. Creating a new project <a href="#id-42fc" id="id-42fc"></a>
 
 Create a new directory and move inside it. Then start a new `Truffle`project:
 
@@ -181,9 +181,9 @@ You can see the functions to use in OpenZeppelin ERC721 [here](https://docs.open
 
 You can find another [ERC721 smart contract **example** by OpenZeppelin here](https://docs.openzeppelin.org/docs/learn-about-tokens.html#erc721).
 
-## 4. Config Migrations <a href="#4ff2" id="4ff2"></a>
+## 4. Config Migrations <a href="#id-4ff2" id="id-4ff2"></a>
 
-### 4.1 Create the migration scripts <a href="#18e6" id="18e6"></a>
+### 4.1 Create the migration scripts <a href="#id-18e6" id="id-18e6"></a>
 
 In the **`migrations/`** directory, create a new file called **`2_deploy_contracts.js`** and copy the following:
 
@@ -318,7 +318,7 @@ ganache-cli -p 8545
 
 ![](<../.gitbook/assets/image (4) (1).png>)
 
-## 5. Adding Tests <a href="#9c8f" id="9c8f"></a>
+## 5. Adding Tests <a href="#id-9c8f" id="id-9c8f"></a>
 
 We will add now tests to check our smart contracts.
 
@@ -350,7 +350,7 @@ truffle test
 
 The test should **pass**. This means that the smart contract **works correctly** and it did successfully what it was expected to do.
 
-### Adding more tests <a href="#1f31" id="1f31"></a>
+### Adding more tests <a href="#id-1f31" id="id-1f31"></a>
 
 Every NFT token will have a unique ID. The first minted token has `ID: 0`, the second one has `ID: 1`, and on and on…
 
@@ -449,7 +449,7 @@ Read the output text on the screen. The NFT token \[contract address]\(https://s
 * **Error: `smart contract creation cost is under allowance`**. \*\*Why?\*\*Increasing transaction fees for smart contract creation is one of the ways Viction offers to defend against spamming attacks. **Solution:** edit `truffle.js` and add more gas/gasPrice to deploy.
 * **Error: `insufficient funds for gas * price + value`. Why?** You don’t have enough tokens in your wallet for gas fees. **Solution:** you need more funds in your wallet to deploy, go to [faucet](https://faucet.testnet.tomochain.com/) and get more tokens.
 
-## **7. Interacting with the smart contract** <a href="#4ecf" id="4ecf"></a>
+## **7. Interacting with the smart contract** <a href="#id-4ecf" id="id-4ecf"></a>
 
 ### **7.1 Minting new Tokens** <a href="#ad83" id="ad83"></a>
 
@@ -486,9 +486,9 @@ In `Ethereum (Ropsten)`, the Etherscan page with [our migrated contract](https:/
 
 ![](<../.gitbook/assets/image (8) (1).png>)
 
-![](<../.gitbook/assets/image (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (1).png>)
 
-## What’s next? <a href="#2883" id="2883"></a>
+## What’s next? <a href="#id-2883" id="id-2883"></a>
 
 A few suggestions to continue from here:
 
@@ -501,6 +501,6 @@ A few suggestions to continue from here:
 
 **Congratulations!** You have learned about non-fungible tokens, use-cases of NFTs and how to deploy NFT tokens on Viction.
 
-### Source Code <a href="#04a2" id="04a2"></a>
+### Source Code <a href="#id-04a2" id="id-04a2"></a>
 
 The source code for this tutorial is available on [Github](https://github.com/DuqueKarl/NFTGradientToken).
