@@ -1,6 +1,8 @@
 # Spacegate
 
-SpaceGate supports users in converting token assets across blockchains. The supported assets on SpaceGate include VIC (Viction),  C98 (Coin98) , SAROS (Saros), offering the following routes:
+SpaceGate supports users in converting token assets across blockchains. Especially from TOMOE (Ethereum) to VIC (Viction. You can read about TOMOE in section below.
+
+Besides TOMOE, other tokens that are also supported on Spacegate are C98 (Coin98) , SAROS (Saros), offering the following routes:
 
 * **TOMOE (Ethereum) -> VIC(Viction)**
 * **C98 (SPL) <> C98 (BEP20) <> C98 (ERC20) <> C98 (SPL)**
@@ -20,3 +22,4 @@ SpaceGate supports users in converting token assets across blockchains. The supp
 Kindly refer to the detailed guide on how to swap on Spacegate below:
 
 {% embed url="https://docs.coin98.com/products/spacegate/convert-tokens" %}
+
