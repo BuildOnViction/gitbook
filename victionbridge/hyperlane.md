@@ -13,27 +13,28 @@
 
 
 **Step 1:** Access [Hyperlane Nexus](https://www.usenexus.org/)
-
-
+<figure><img src="../.gitbook/assets/hyper_image_1.png" alt="Hyperlane main page"><figcaption></figcaption></figure>
 
 **Step 2:** Connect Your Wallet&#x20;
 
 Click on the **Connect Wallet** button and choose your preferred wallet provider from the available options. Follow the on-screen instructions to complete the connection.
-
+<figure><img src="../.gitbook/assets/hyper-connect-wallet.png" alt=""><figcaption></figcaption></figure>
 
 
 **Step 3:** Select Transfer Options&#x20;
 
 * **Source Chain**: This should be pre-filled as **Ethereum** since you're bridging from the Ethereum mainnet.&#x20;
 * **Destination Chain**: Select **Viction** from the dropdown menu.
+<figure><img src="../.gitbook/assets/hyper-select-chain.png" alt=""><figcaption></figcaption></figure>
 
 **Step 4:** Choose Your Token&#x20;
 
 In the **Token** section, choose the specific token you want to bridge to Viction (e.g., ETH, USDC, USDT).
+<figure><img src="../.gitbook/assets/hyper-change-token.png" alt=""><figcaption></figcaption></figure>
 
 **Step 5:** Enter Transfer Amount&#x20;
-
 Enter the amount of the chosen token you want to transfer to Viction.
+<figure><img src="../.gitbook/assets/hyper-token-amount.png" alt=""><figcaption></figcaption></figure>
 
 **Step 6:** Initiate the Bridge Transaction&#x20;
 
