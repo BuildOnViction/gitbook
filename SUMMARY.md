@@ -93,6 +93,7 @@
   * [Terms of Use](legal/terms-of-use.md)
   * [Privacy Policy](legal/privacy.md)
 * [Archive](archive/README.md)
+  * [TOMOE](archive/TOMOE.md)
   * [How to Deploy a VRC25 Token on Viction](archive/how-to-deploy-a-trc25-token-on-viction.md)
   * [How to deploy an ICO smart contract on Viction](archive/how-to-deploy-an-ico-smart-contract-on-viction.md)
   * [How to deploy an NFT token](archive/how-to-deploy-a-nft-token.md)

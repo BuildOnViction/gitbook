@@ -23,3 +23,18 @@ Kindly refer to the detailed guide on how to swap on Spacegate below:
 
 {% embed url="https://docs.coin98.com/products/spacegate/convert-tokens" %}
 
+## What is TOMOE?
+
+VIC-wrapped ETH, called TOMOE, is an ERC20 token hosted on the Ethereum blockchain and backed by an equal amount of native VIC (on the Viction blockchain). One TOMOE is worth the same as one native VIC at any given moment.
+
+{% hint style="info" %}
+TOMOE Contract Address
+
+[0x05d3606d5c81eb9b7b18530995ec9b29da05faba](https://etherscan.io/address/0x05d3606d5c81eb9b7b18530995ec9b29da05faba)
+{% endhint %}
+
+**What’s the difference between TOMOE & VIC?**
+
+* VIC is the native token used on the Viction network.
+* TOMOE is an ERC20 token hosted on the Ethereum network. TOMOE represents 1:1 value with VIC.
+* To have a well-rounded DeFi experience on Viction, you are highly recommended to convert TOMOE > VIC.
