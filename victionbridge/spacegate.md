@@ -1,6 +1,6 @@
 # Spacegate
 
-SpaceGate supports users in converting token assets across blockchains. Especially from TOMOE (Ethereum) to VIC (Viction. You can read about TOMOE in section below.
+SpaceGate supports users in converting token assets across blockchains. Especially from **TOMOE (Ethereum) -> VIC (Viction)**. You can read about TOMOE in section below.
 
 Besides TOMOE, other tokens that are also supported on Spacegate are C98 (Coin98) , SAROS (Saros), offering the following routes:
 
