@@ -57,9 +57,11 @@ Once the transaction is complete, your chosen token will be available in your Vi
 {% hint style="info" %}
 **Important Considerations:**
 
-* **Network Fees:** You'll incur gas fees on the Ethereum network for initiating the bridge transaction. Additionally, there might be minimal fees on the Viction network upon receiving the tokens.
+* **Network Fees:** You'll incur gas fees on the Ethereum network for initiating the bridge transaction. Additionally, there might be minimal fees on the Viction network upon receiving the tokens. 
+* **Bridge Fees:** Although the gas fee of Viction is relatively small, the bridge fee (charged by Hyperlane) could be significant.
 * **Supported Tokens:** Currently, Hyperlane Nexus on Viction supports ETH, USDC, and USDT. Double-check if the token you desire is included before proceeding.
 * **Transaction Approval:** Always review the transaction details thoroughly before approving it in your wallet.
+* **Token Utilities:** The utility of bridged tokens (ETH, USDT, USDC,...) are still under development, ensure you have researched and a clear usage purpose of the bridged tokens in mind before doing bridge.
 {% endhint %}
 
 By following these steps, you can leverage Hyperlane Nexus to seamlessly bridge your assets from Ethereum to the Viction blockchain and explore the exciting opportunities it offers.
