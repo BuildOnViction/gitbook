@@ -69,7 +69,7 @@
   * [Viction Slashing Mechanism](masternode/viction-slashing-mechanism.md)
   * [Chain Data Snapshots](masternode/chain-data-snapshots.md)
 * [Viction Bridge](victionbridge/README.md)
-  * [Spacegate](victionbridge/tomoe.md)
+  * [Spacegate](victionbridge/spacegate.md)
   * [Arken Bridge](victionbridge/arken-bridge.md)
   * [Hyperlane](victionbridge/hyperlane.md)
 * [FAQ](faq/README.md)
