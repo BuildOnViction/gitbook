@@ -1,4 +1,4 @@
-# Hyperlane
+# Hyperlane NEXUS
 
 ## **How to Bridge your Assets to Viction using Hyperlane NEXUS**
 
