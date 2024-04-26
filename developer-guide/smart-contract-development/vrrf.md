@@ -38,7 +38,7 @@ Responsibilities and resources are distributed at random. For instance, customer
 
 ## Cost
 
-At Viction, we believed that the VRRF should be free and accessible to everyone. So, any user may utilize this feature to construct what they want while enjoying a frictionless journey to Web3.
+At Viction, we believed that the VRRF should be **free** and **accessible** to everyone. So, any user may utilize this feature to construct what they want while enjoying a frictionless journey to Web3.
 
 ## Security Considerations
 
