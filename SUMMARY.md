@@ -40,6 +40,7 @@
       * [thirdweb CLI](developer-guide/smart-contract-development/ides-and-tools/thirdweb-cli.md)
     * [Smart Contract Verification](developer-guide/smart-contract-development/smart-contract-verification/README.md)
       * [Hardhat](developer-guide/smart-contract-development/smart-contract-verification/hardhat.md)
+    * [VRRF](developer-guide/smart-contract-development/vrrf.md)
   * [Standards & Specification](developer-guide/standards-and-specification/README.md)
     * [VRC25 Specification](developer-guide/standards-and-specification/vrc25-specification.md)
     * [VRC725 Specification](developer-guide/standards-and-specification/vrc725-specification.md)
