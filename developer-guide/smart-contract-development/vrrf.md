@@ -6,6 +6,10 @@ description: >-
 
 # VRRF
 
+{% hint style="info" %}
+This feature will be **available** **soon** as it is under testing phase
+{% endhint %}
+
 ## Get Started
 
 Viction VRRF, which stands for Verifiable Relatively Random Function, is a random number generator that is both verifiable and provably fair. It gives smart contracts the ability to interact with random values without compromising their usefulness or security.
