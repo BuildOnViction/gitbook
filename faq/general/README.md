@@ -1,7 +1,7 @@
 # General
 
-{% content-ref url="Viction.md" %}
-[Viction.md](Viction.md)
+{% content-ref url="https://github.com/hieuvq98/gitbook/blob/main/faq/general/Viction.md" %}
+[https://github.com/hieuvq98/gitbook/blob/main/faq/general/Viction.md](https://github.com/hieuvq98/gitbook/blob/main/faq/general/Viction.md)
 {% endcontent-ref %}
 
 {% content-ref url="ecosystem.md" %}

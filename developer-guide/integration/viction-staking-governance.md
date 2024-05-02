@@ -55,7 +55,7 @@ const web3 = new Web3('https://rpc.viction.xyz')
 const chainId = 88
 ```
 
-For testnet/mainnet details, you can get network information [here](../working-with-Viction)
+For testnet/mainnet details, you can get network information [here](https://github.com/hieuvq98/gitbook/blob/main/developer-guide/working-with-Viction/README.md)
 
 ### Unlock Wallet <a href="#unlock-wallet" id="unlock-wallet"></a>
 
@@ -71,7 +71,7 @@ web3.eth.accounts.wallet.add(account)
 web3.eth.defaultAccount = owner
 ```
 
-### Init Web3 Viction Validator Contract <a href="#init-web3-Viction-validator-contract" id="init-web3-Viction-validator-contract"></a>
+### Init Web3 Viction Validator Contract <a href="#init-web3-viction-validator-contract" id="init-web3-viction-validator-contract"></a>
 
 ```javascript
 const validatorAbi = require('./TomoValidatorAbi.json')

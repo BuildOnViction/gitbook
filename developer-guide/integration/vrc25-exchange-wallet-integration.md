@@ -38,7 +38,7 @@ Follow the steps below to interact with the smart contract by using the Web3 lib
 
 As a first step, we need to initialize a Web3 provider by connecting to Viction Full node RPC endpoint.
 
-Look at the [Viction Networks](../working-with-Viction) page to get more information of the Viction Testnet/Mainnet RPC network.
+Look at the [Viction Networks](https://github.com/hieuvq98/gitbook/blob/main/developer-guide/working-with-Viction/README.md) page to get more information of the Viction Testnet/Mainnet RPC network.
 
 ```javascript
 const Web3 = require('web3')
@@ -119,6 +119,6 @@ trc25.methods.transfer(to, '500000000000000000000').send({
 }).catch(e => console.log(e))
 ```
 
-### Checking VIC ZeroGas <a href="#checking-VIC ZeroGas" id="checking-VIC ZeroGas"></a>
+### Checking VIC ZeroGas <a href="#checking-vic-zerogas" id="checking-vic-zerogas"></a>
 
 Call `getTokenCapacity` to [0x8c0faeb5c6bed2129b8674f262fd45c4e9468bee](https://vicscan.xyz/address/0x8c0faeb5c6bed2129b8674f262fd45c4e9468bee). If the return value > 0, the token has successfully been enabled by the VIC ZeroGas protocol.
