@@ -100,4 +100,24 @@ Also, you can find out more detailed information about how to use different wall
 
 ### **Where can I buy VIC?**
 
-You can trade VIC on various exchanges. Take a look in the ["Exchanges" section under Ecosystem Tab](https://viction.xyz/ecosystem/) on our main website.
+You can trade VIC on various exchanges. Please refer to the information below:
+
+| Exchanges                  | Trading Pair | Link                                                                                                                                                                     |
+| -------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Binance                    | VIC/USDT     | [https://www.binance.com/en/trade/VIC\_USDT](https://www.binance.com/en/trade/VIC\_USDT?ref=37754157\&type=spot)                                                         |
+| Binance                    | VIC/BTC      | [https://www.binance.com/en/trade/VIC\_BTC](https://www.binance.com/en/trade/VIC\_BTC?ref=37754157)                                                                      |
+| HTX                        | VIC/USDT     | [https://www.huobi.com/en-us/exchange/vic\_usdt](https://www.huobi.com/en-us/exchange/vic\_usdt?invite\_code=d8c53)                                                      |
+| Biconomy                   | VIC/USDT     | [https://www.biconomy.com/exchange/VIC\_USDT](https://www.biconomy.com/exchange/VIC\_USDT)                                                                               |
+| MEXC                       | VIC/USDT     | [https://www.mexc.com/exchange/VIC\_USDT](https://www.mexc.com/exchange/VIC\_USDT?inviteCode=1498J)                                                                      |
+| BingX                      | VIC/USDT     | [https://bingx.com/en-us/spot/VICUSDT?ch=cgk\_organic](https://bingx.com/en-us/spot/VICUSDT?ch=cgk\_organic)                                                             |
+| Bitget                     | VIC/USDT     | [https://www.bitget.com/spot/VICUSDT?channelCode=42xn\&vipCode=sq59\&languageType=0](https://www.bitget.com/spot/VICUSDT?channelCode=42xn\&vipCode=sq59\&languageType=0) |
+| BTSE                       | VIC/USDT     | [https://www.btse.com/en/trading/VIC-USDT](https://www.btse.com/en/trading/VIC-USDT?ref%3Fc=LYkWpB)                                                                      |
+| [Gate.io](http://gate.io/) | VIC/USDT     | [https://gate.io/trade/VIC\_USDT](https://gate.io/trade/VIC\_USDT?ref=3018394)                                                                                           |
+| Bitmart                    | VIC/USDT     | [https://www.bitmart.com/trade/en?symbol=$VIC\_USDT\&r=PjkAFy](https://www.bitmart.com/trade/en?symbol=$VIC\_USDT\&r=PjkAFy)                                             |
+| Bybit                      | VIC/USDT     | [https://www.bybit.com/trade/spot/VIC/USDT/](https://www.bybit.com/trade/spot/VIC/USDT/?affiliate\_id=9763)                                                              |
+| WOO X                      | VIC/USDT     | [https://x.woo.org/en/trade/VIC\_USDT](https://x.woo.org/en/trade/VIC\_USDT)                                                                                             |
+| StealthEX                  | VIC/USDT     | [https://stealthex.io/exchange/new/](https://stealthex.io/exchange/new/)                                                                                                 |
+| Aliniex                    | VIC/VND      | [https://aliniex.com/mua-ban/vic](https://aliniex.com/mua-ban/vic)                                                                                                       |
+| Giottus                    | VIC/USDT     | [https://www.giottus.com/](https://www.giottus.com/)                                                                                                                     |
+| Lbank                      | VIC/USDT     | [https://www.lbank.com/trade/viction\_usdt](https://www.lbank.com/trade/viction\_usdt)                                                                                   |
+| SimpleSwap                 | VIC/USDT     | [https://simpleswap.io/](https://simpleswap.io/)                                                                                                                         |
