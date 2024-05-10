@@ -6,7 +6,9 @@ description: >-
 
 # How to Vote for Viction Saigon Network Upgrade Proposal
 
-## For those using Mobile to vote
+## I. Vote guidance
+
+### For those using Mobile to vote
 
 Here, we will utilize the Coin98 Super Wallet for voting. If you don't have the wallet used for voting on Coin98 Super Wallet, you can follow these steps:
 
@@ -31,11 +33,14 @@ After you already have your wallet on Coin98 Super Wallet, you can access the pr
 
 **Step 7:** Scroll down to the **Cast Your Vote** section. Give your vote by clicking **Agree** or **Disagree** according to your preference.
 
+* Agree:  means saying “Yes" to the proposal&#x20;
+* Disagree: means saying “No" to the proposal
+
 **Step 8**: Click **Vote** and wait a moment for the process to complete.
 
-<figure><img src="../.gitbook/assets/image (134).png" alt="" width="296"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screen Shot 2024-05-10 at 13.40.56.png" alt=""><figcaption></figcaption></figure>
 
-## For those using PC to vote
+### For those using PC to vote
 
 **Step 1:** Access https://gov.viction.xyz/
 
@@ -54,3 +59,15 @@ After connecting successfully, read the proposal carefully and check your voting
 **Step 6:** Click **Vote** and wait a moment for the process to complete
 
 <figure><img src="https://lh7-us.googleusercontent.com/AzfwOra-uJ7sn7UtD_C31zU0frv2EVA1xmGtNkxKP2fteXWBnLVEj7nBi3R-bMbWJhUdgzGs3BoPhr6Rc_e8yS-sQhyl7TrKRxMOja9Ki0ENjJ53IeFitb9NCKoXQaPi9DyJ0ayWj8D7F_1zJMEF87U" alt=""><figcaption></figcaption></figure>
+
+## II. Retract vote guidance
+
+If you want to change your vote and wish to retract it, you can follow these steps:
+
+**Step 1**: Move to the Cast Your Vote section
+
+**Step 2:** Click **Retract vote** & Confirm the Signature request
+
+Now you’ve retracted the vote successfully.
+
+<figure><img src="../.gitbook/assets/Screen Shot 2024-05-10 at 13.40.43.png" alt=""><figcaption></figcaption></figure>
