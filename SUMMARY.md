@@ -89,6 +89,7 @@
     * [VicStats](faq/products/tomostats.md)
     * [VicIssuer](faq/products/vicissuer.md)
     * [Viction Wallet](faq/products/viction-wallet.md)
+  * [How to Vote for Viction Saigon Network Upgrade Proposal](faq/how-to-vote-for-viction-saigon-network-upgrade-proposal.md)
 * [Whitepaper and Research](whitepaper-and-research.md)
 * [Legal](legal/README.md)
   * [Terms of Use](legal/terms-of-use.md)
