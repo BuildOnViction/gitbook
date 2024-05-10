@@ -12,7 +12,7 @@ Here, we will utilize the Coin98 Super Wallet for voting. If you don't have the 
 
 **Step 1:** Download and set up your Coin98 Super Wallet [here](https://docs.coin98.com/products/coin98-super-wallet/mobile/beginners-guide/how-to-download-install)
 
-**Step 2**: Restore your wallet using the Seed Phrase or Private Key.
+**Step 2**: Restore your wallet using the Seed Phrase or Private Key. You can refer to the detailed instructions[ here](https://docs.coin98.com/products/coin98-super-wallet/switch-to-coin98-wallet/multi-chain-wallet)
 
 <figure><img src="https://lh7-us.googleusercontent.com/PrVUGmhVTwtcAVZrB25sJ7CLCsH443Nx7pNaJYgvqw3DVV_WAYPaoyvXUGxZOlREhpRPsPPsY_WpuOqdLyrGzhuKGW-Kq-xJ8_GQjMrjLhmivzi_QdEVZ9duFnX17zaeoVaCBYCJEawy0QCqVASAUZ4" alt=""><figcaption></figcaption></figure>
 
@@ -31,7 +31,7 @@ After you already have your wallet on Coin98 Super Wallet, you can access the pr
 
 **Step 7:** Scroll down to the **Cast Your Vote** section. Give your vote by clicking **Agree** or **Disagree** according to your preference.
 
-**Step 8**: Click **Vote** to complete the process.
+**Step 8**: Click **Vote** and wait a moment for the process to complete.
 
 <figure><img src="https://lh7-us.googleusercontent.com/ksQF5qL4MFAZhc4fC-wcLyedaTM0A8eJUT48ifJxWsc5TLK3jSQll9iepT0bSeLGJdX7b_aL3E-cVxUHWPXA4vkKdeGfDp5oSXkkA9u8Uf5tkze46smVwBFG9uF38adthzgjow-rPMQpBgAl0mintA8" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -51,6 +51,6 @@ After connecting successfully, read the proposal carefully and check your voting
 
 **Step 4:** Give your vote by clicking **Agree** or **Disagree** according to your preference.
 
-**Step 6:** Click **Vote** to complete the process.
+**Step 6:** Click **Vote** and wait a moment for the process to complete
 
 <figure><img src="https://lh7-us.googleusercontent.com/AzfwOra-uJ7sn7UtD_C31zU0frv2EVA1xmGtNkxKP2fteXWBnLVEj7nBi3R-bMbWJhUdgzGs3BoPhr6Rc_e8yS-sQhyl7TrKRxMOja9Ki0ENjJ53IeFitb9NCKoXQaPi9DyJ0ayWj8D7F_1zJMEF87U" alt=""><figcaption></figcaption></figure>
