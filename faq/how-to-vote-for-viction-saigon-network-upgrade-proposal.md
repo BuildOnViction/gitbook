@@ -33,7 +33,7 @@ After you already have your wallet on Coin98 Super Wallet, you can access the pr
 
 **Step 8**: Click **Vote** and wait a moment for the process to complete.
 
-<figure><img src="https://lh7-us.googleusercontent.com/ksQF5qL4MFAZhc4fC-wcLyedaTM0A8eJUT48ifJxWsc5TLK3jSQll9iepT0bSeLGJdX7b_aL3E-cVxUHWPXA4vkKdeGfDp5oSXkkA9u8Uf5tkze46smVwBFG9uF38adthzgjow-rPMQpBgAl0mintA8" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (134).png" alt="" width="296"><figcaption></figcaption></figure>
 
 ## For those using PC to vote
 
