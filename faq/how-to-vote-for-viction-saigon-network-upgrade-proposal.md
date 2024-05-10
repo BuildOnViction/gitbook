@@ -56,6 +56,9 @@ After connecting successfully, read the proposal carefully and check your voting
 
 **Step 4:** Give your vote by clicking **Agree** or **Disagree** according to your preference.
 
+* Agree:  means saying “Yes" to the proposal&#x20;
+* Disagree: means saying “No" to the proposal
+
 **Step 6:** Click **Vote** and wait a moment for the process to complete
 
 <figure><img src="https://lh7-us.googleusercontent.com/AzfwOra-uJ7sn7UtD_C31zU0frv2EVA1xmGtNkxKP2fteXWBnLVEj7nBi3R-bMbWJhUdgzGs3BoPhr6Rc_e8yS-sQhyl7TrKRxMOja9Ki0ENjJ53IeFitb9NCKoXQaPi9DyJ0ayWj8D7F_1zJMEF87U" alt=""><figcaption></figcaption></figure>
