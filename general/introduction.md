@@ -4,7 +4,7 @@ Viction is a people-centric blockchain, offering zero-gas transactions and enhan
 
 With a network of 150 masternodes utilizing Proof-of-Stake (PoS) consensus, Viction touts its scalability and stability. It employs advanced techniques like double validation, smart contract staking, and proper randomization to enhance security and chain finality. Viction supports all EVM-compatible smart contracts, protocols, and atomic cross-chain token transfers.
 
-Viction is driven by a mission to build a decentralized platform that empowers humanity to connect, collaborate, and create without limitations, envisioning a world where transparency, accessibility, and growth thrive. That’s why we introduced Viction World Wide Chain.&#x20;
+Viction is driven by a mission to build a decentralized platform that empowers humanity to connect, collaborate, and create without limitations, envisioning a world where transparency, accessibility, and growth thrive. That’s why we introduced **Viction World Wide Chain**.&#x20;
 
 Viction World Wide Chain provides a novel solution, representing a network of app chains that operate concurrently, anchored by a common settlement on Viction. These fractal-like chains are interconnected through Viction World Wide Chain Protocol (WWCP), allowing for fluid asset and data transfer within these chains, and establishing a foundation for extensive scalability and a myriad of decentralized applications.
 
