@@ -16,8 +16,18 @@ The Viction blockchain allows web3 builders to build high-performance, and featu
 
 Viction network is built on a performance layer that achieves high transaction speeds without compromising decentralization. Proof of Stake Voting (PoSV) consensus gives an incentive to all Viction token-holders to play an active part in staking across a network of 150 high-quality Masternodes, and to monitor their performance and governance actively. The staking-governance Dapp, [VicMaster](https://www.vicmaster.xyz/), is recognized as one of the leading staking platforms in the industry.
 
-In [the technical paper](https://viction.xyz/files/technical-whitepaper-1.0.pdf), Viction proposes the Proof-of-Stake Voting (PoSV) consensus, which is a PoS-based blockchain protocol with a fair voting mechanism, rigorous security guarantees, and uniform probability eventuality. The consensus has the following key novelties:
+Viction runs on the Proof-of-Stake Voting (PoSV) consensus, which is a PoS-based blockchain protocol with a fair voting mechanism, rigorous security guarantees, and uniform probability eventuality. The consensus has the following key novelties:
 
 * Double Validation to strengthen security and reduce the risk of a blockchain fork
 * Randomization provides security, and prevents handshaking attacks
 * Fast confirmation time and efficient checkpoints for finality
+
+Recently, Viction introduced Viction World Wide Chain, which is a new framework to empower appchains' economy. This approach allows for fluid asset and data transfer within app chains, and establishes a foundation for extensive scalability and a myriad of decentralized applications.
+
+The interchain connectivity is facilitated by Viction World Wide Chain Protocol (WWCP) - a set of smart contracts on the mainnet that manage asset transfer and message relay between appchains. Assets on Viction World Wide Chain are unified under a shared bridge contract, simplifying liquidity management and enabling seamless transactions across the ecosystem.
+
+Powering the Viction World Wide Chain is the Viction Data Availability (Viction DA). This innovation promises to revolutionize the blockchain space by boosting scalability, flexibility, and interoperability, paving the way for Web3 builders to build blockchain applications primed for global uptake.
+
+Viction DA effortlessly manages data across different Appchains, ensuring verification happens quickly without slowing down the systems. This means faster transactions and top-notch security to keep your data protected.
+
+Moreover, the seamless integration of Viction DA with other rollup stacks facilitates fluid data communications and transfers, boosting shared liquidity and empowering developers with the confidence to innovate within the Viction World Wide Chain network. This strong infrastructure not only propels the growth of the Viction World Wide Chain but also cultivates a dynamic ecosystem where developers can innovate confidently and users benefit from a broader range of secure, interconnected applications.

@@ -13,16 +13,14 @@ We are also working with some third parties with which we signed a non-disclosur
 If you need support, please contact us on one of these platforms:
 
 * Bugs or technical contributions: [GitHub (https://github.com/BuildOnViction)](https://github.com/BuildOnViction)
-* General discussion regarding our blockchain: [Telegram (https://t.me/Viction)](https://t.me/Viction)
+* General discussion regarding our blockchain: [Discord (viction.link/discord)](https://viction.link/discord)
 
 ### **Which are Viction's official channels for communication and information?**
 
 You can keep in touch with our latest news here:
 
-1. Twitter: [https://twitter.com/VictionANN](https://twitter.com/VictionANN)
-2. Telegram Announcements: [https://t.me/VictionChannel](https://t.me/VictionChannel)
-3. Facebook: [https://www.facebook.com/Victionofficial](https://www.facebook.com/Victionofficial)
+1. Twitter: [https://twitter.com/BuildOnViction ](https://twitter.com/BuildOnViction)
+2. Telegram Announcements: [https://t.me/buildonviction ](https://t.me/buildonviction)
+3. Blog: [https://blog.viction.xyz/ ](https://blog.viction.xyz/)
 4. Website: [https://viction.xyz](https://viction.xyz/)
-5. Medium: [https://medium.com/Viction](https://medium.com/Viction)
-6. Reddit: [https://www.reddit.com/r/Viction/](https://www.reddit.com/r/Viction/)
-7. LinkedIn: [https://www.linkedin.com/company/Viction/](https://www.linkedin.com/company/Viction/)
+5. LinkedIn: [https://www.linkedin.com/company/buildonviction/ ](https://www.linkedin.com/company/buildonviction/)

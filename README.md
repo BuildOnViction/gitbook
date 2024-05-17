@@ -13,10 +13,9 @@ description: >-
 
 | **Documentation**                                     | Description                                                                      |
 | ----------------------------------------------------- | -------------------------------------------------------------------------------- |
-| [General](general/)                                   | Guidelines for getting started with Viction                                      |
-| [Developer Guide](developer-guide/)                   | Guides to build Dapps and services using Viction                                 |
+| [General](general/)                                   | Guidelines for getting started with Viction and Viction World Wide Chain         |
+| [Developer Guide](developer-guide/)                   | Guides to build Dapps and services using Viction and Viction World Wide Chain    |
 | [Masternode](masternode/)                             | Step-by-step guide on how to run and vote for Masternodes                        |
-| [TomoMasterDAO](archive/tomomasterdao/)               | This document explains how TomoMasterDAO operates                                |
 | [APIs](https://buildonviction.github.io/rpc-swagger/) | This document explains how to use Viction APIs                                   |
 | [FAQ](faq/)                                           | Frequently asked questions about Viction                                         |
 | [Whitepaper and Research](whitepaper-and-research.md) | Official Whitepaper documents and research papers on new technology developments |
