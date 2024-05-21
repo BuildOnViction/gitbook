@@ -1,45 +1,75 @@
 ---
 description: >-
   Viction VRRF, which stands for Verifiable Relatively Random Function, is a
-  random number generator that is both verifiable and provably fair.
+  pseudo-random number generator that is both verifiable and provably fair.
 ---
 
 # VRRF
 
-{% hint style="info" %}
-This feature will be **available** **soon** as it is under testing phase
-{% endhint %}
-
 ## Get Started
 
-Viction VRRF, which stands for Verifiable Relatively Random Function, is a random number generator that is both verifiable and provably fair. It gives smart contracts the ability to interact with random values without compromising their usefulness or security.
+In decentralized blockchain, random number generator (RNG) is essential recipe in developing application, especially in gaming application. Verifiable Random Function (VRF) in the recent years become a familiar concept for smart contract developers. In an effort to create a lightweight solution for smart contract developers to get random numbers, Viction Team is pleased to intro VRRF, a pseudo-random number generator.
 
+With simplicity in mind, VRRF is designed as pseudo-random number generator, which is not perfect in term of probability distribution, but still extremely hard to be manipulated. In exchange for the absent of true random, VRRF enable calling smart-contracts to get random number with lighting fast speed and within one transaction only.
 
+VRRF is an ideal solution for application that isn't too strict on probability distribution but still want to have a manipulation-resistant number to use as source of random number for the application itself. All the processes are fully on-chain and simple APIs make it easier to integration into any application.
 
-Viction VRRF creates a random value and cryptographic verification of how those values were obtained for each and every request that is performed. Prior to any consuming apps being able to use the evidence, it is first published and confirmed on the blockchain. Because of this procedure, the outcomes are protected from being modified or controlled by any one party, including oracle operators, miners, users, or creators of smart contracts.
+## Features
 
-\
-**Verifiable**: The random number that is created by a VRRF may be verified by anybody without any difficulty. The only thing that is required of them is to examine the evidence and make sure that the hash production is accurate.
+VRRF creates a pseudo-random number based on mathematical and cryptographic techniques. Every request call to VRRF and its result will be processed and stored by the blockchain. Therefore, they are protected from being modified or controlled by any one party, including oracle operators, miners, users, or creators of smart contracts.
 
-**Relatively**: As a consequence of the VRRF's usage of a portion of the output from the previous hash as an input for the subsequent request, the subsequent outcome will be unexpected; nonetheless, it will still guarantee that the correct outcome is going to be obtained.
+**Verifiable**: The random number created by VRRF is deterministic, with the same set of inputs, will result in the same output.
 
-**Random**: The output of a VRRF is completely random (uniformly dispersed) to anybody who does not know the seed or private key, and it does not follow any pattern.
+**Relatively**: This is where VRRF is different from other VRF solution. VRRF makes use of parts of previous result combined with many on-chain parameters and user inputted salt to feed into the random function. Because of this characteristic, _the order of calling VRRF in block can make the output more unpredictable_.
 
-**Function**: A mathematical technique is used by VRRF to generate both the random number and a proof that certifies the number's validity. This is the algorithm's function.&#x20;
+**Random**: The output of VRRF is presoudo-random and manipulation resistant number. With the length of 256-bit, it's sufficient for most applications' needs.
+
+**Function**: At its heart is the function that utilized mathematical and cryptography techniques generate the random number.
+
+## APIs
+
+To integrate with VRRF, you will need to call to either `newSeed(bytes32 salt)` or `newSeedN(bytes32 slot, bytes32 salt)` function. Both of them return a 256-bit number, which is large enough to serve any application the developers may want.
+
+<pre class="language-solidity"><code class="lang-solidity"><strong>interface IVRRF {
+</strong>  /***
+   * @notice Get pseudo-random number base on provided seed using default slot
+   * @param salt Random data as an additional input to make thing more unpredictable 
+   */
+  function newSeed(bytes32 salt) external returns(bytes32);
+  
+  /***
+   * @notice Get pseudo-random number base on provided seed using custom slot for
+   * @param slot Slot number to use as source of random 
+   * @param salt Random data as an additional input to make thing more unpredictable
+   */
+  function newSeedN(bytes32 slot, bytes32 salt) external returns(bytes32);
+}
+</code></pre>
+
+The API is available at the following address in Viction:
+
+{% hint style="info" %}
+The official address on Viction Mainnet and Testnet is coming soon.
+{% endhint %}
+
+{% hint style="info" %}
+For unit-testing, please implement a mock version of IVRRF in your test.
+{% endhint %}
 
 ## Use cases
 
-Viction VRRF may be utilized to construct trustworthy smart contracts for any applications that are dependent on the possibility of unforeseen results:\
+VRRF may be utilized to construct trustworthy smart contracts for any applications that are dependent on the possibility of unforeseen results:\
 Responsibilities and resources are distributed at random. For instance, customer service members are assigned to any tickets or tele-sale support activities.
 
-* By utilizing Viction VRRF, it is possible to generate distinct attributes for NFTs, adding a touch of uniqueness to the minting process. Game Studio can use this to assign a unique set of characteristics through a randomized process.
+* By utilizing VRRF, it is possible to generate distinct attributes for NFTs, adding a touch of uniqueness to the minting process. Game Studio can use this to assign a unique set of characteristics through a randomized process.
 * Developers have the ability to create more enjoyable blockchain games by using random results, which are unpredictable.
-* Lottery system to select winners at random. With Viction VRRF, users will be able to verify that each winner is picked using a random source that is not biased in any way.
+* Lottery system to select winners at random. With VRRF, users will be able to verify that each winner is picked using a random source that is not biased in any way.
 
 ## Cost
 
 At Viction, we believed that the VRRF should be **free** and **accessible** to everyone. So, any user may utilize this feature to construct what they want while enjoying a frictionless journey to Web3.
 
-## Security Considerations
+## Notices
 
-## Testing
+* Due to the fact that VRRF relies on the order of calling transaction, protocols who make use of VRRF must wait for a short period of time (say 8-10 seconds) before displaying random result to end-users to avoid issues related to block re-org.
+
