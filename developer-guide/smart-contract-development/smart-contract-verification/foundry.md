@@ -6,10 +6,6 @@ description: >-
 
 # Foundry
 
-{% hint style="warning" %}
-This feature is on Beta testing... It will be released soon
-{% endhint %}
-
 ### Prerequisites[​](https://docs.linea.build/build-on-linea/quickstart/deploy-smart-contract/hardhat#prerequisites) <a href="#user-content-prerequisites" id="user-content-prerequisites"></a>
 
 Before you begin, ensure you've:
