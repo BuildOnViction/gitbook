@@ -169,6 +169,23 @@ tomo  --syncmode "full" \
     --ethstats $IDENTITY:$WS_SECRET@$NETSTATS_HOST:$NETSTATS_PORT
 ```
 
+If you want to run an archive node to be able to access historical data, you must add two more parameters to the command line `--gcmode archive --store-reward` , so the final command line will be:
+
+```
+tomo  --syncmode "full" \
+    --announce-txs \
+    --datadir $DATA_DIR --networkid $NETWORK_ID --port 30303 \
+    --keystore $KEYSTORE_DIR --password $PASSWORD \
+    --rpc --rpccorsdomain "*" --rpcaddr 0.0.0.0 --rpcport 8545 --rpcvhosts "*" \
+    --rpcapi "db,eth,net,web3,personal,debug" \
+    --ws --wsaddr 0.0.0.0 --wsport 8546 --wsorigins "*" --unlock "$YOUR_COINBASE_ADDRESS" \
+    --identity $IDENTITY \
+    --mine --gasprice 250000000 \
+    --bootnodes $BOOTNODES \
+    --ethstats $IDENTITY:$WS_SECRET@$NETSTATS_HOST:$NETSTATS_PORT
+    --gcmode archive --store-reward
+```
+
 **Some explanations on the flags**
 
 ```

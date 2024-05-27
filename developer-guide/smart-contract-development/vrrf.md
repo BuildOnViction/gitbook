@@ -28,30 +28,22 @@ VRRF creates a pseudo-random number based on mathematical and cryptographic tech
 
 ## APIs
 
-To integrate with VRRF, you will need to call to either `newSeed(bytes32 salt)` or `newSeedN(bytes32 slot, bytes32 salt)` function. Both of them return a 256-bit number, which is large enough to serve any application the developers may want.
+To integrate with VRRF, you will simply need to call `random(bytes32 salt)` function. Both of them return a 256-bit number, which is large enough to serve any application the developers may want.
 
 ```solidity
 interface IVRRF {
-  /***
-   * @notice Get pseudo-random number base on provided seed using default slot
-   * @param salt Random data as an additional input to make thing more unpredictable 
+  /**
+   * @notice Get pseudo-random number base on provided seed
+   * @param salt Random data as an additional input to harden the random
    */
-  function newSeed(bytes32 salt) external returns(bytes32);
-  
-  /***
-   * @notice Get pseudo-random number base on provided seed using custom slot for
-   * @param slot Slot number to use as source of random 
-   * @param salt Random data as an additional input to make thing more unpredictable
-   */
-  function newSeedN(bytes32 slot, bytes32 salt) external returns(bytes32);
+  function random(bytes32 salt) external returns(bytes32);
 }
 ```
 
 The API is available at the following address in Viction:
 
-{% hint style="info" %}
-The official address on Viction Mainnet and Testnet is coming soon.
-{% endhint %}
+* Mainnet: 0x53eDcf19e4fb242c9957CB449d2d4106fD760A7F
+* Testnet: 0xDb14c007634F6589Fb542F64199821c3308A9d92
 
 {% hint style="info" %}
 For unit-testing, please implement a mock version of IVRRF in your test.
