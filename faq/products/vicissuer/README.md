@@ -32,11 +32,11 @@ Before issuing your token on Viction, make sure you are aware of the available t
 
 **Step 1:** Go to [https://issuer.viction.xyz/](https://issuer.viction.xyz/) and click on **Issue New Token**.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-11-26 at 00.41.26.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-11-26 at 00.41.26.png" alt=""><figcaption></figcaption></figure>
 
 **Step 2:** Unlock your wallet by choosing one of the available methods.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-11-26 at 00.44.53.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-11-26 at 00.44.53.png" alt=""><figcaption></figcaption></figure>
 
 **Step 3:** Fill out the token information including Token Name, Token Symbol, Token Supply, Decimals, Token Type VRC20(deprecated) or VRC25, and whether or not it’s reissuable.
 
@@ -44,15 +44,23 @@ Before issuing your token on Viction, make sure you are aware of the available t
 * Decimals refer to how divisible a token can be, from 0 (not at all divisible) to 18 (pretty much continuous) and even higher if required. Technically speaking, the decimal value is the number of digits that come after the decimal place when displaying token values on-screen.
 * Make sure to check out the differences between reissuable/ non-reissuable tokens, and VRC20(deprecated)/ VRC25 tokens by hovering on the information icon and clicking on the “Differences?” link.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-11-26 at 00.50.40.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-11-26 at 00.50.40.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-11-26 at 00.51.13.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-11-26 at 00.51.13.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 **Disclaimer:** The token issuance fee could vary depending on how much it costs to deploy the smart contract.
 {% endhint %}
 
 **Step 4:** VicIssuer will ask for the token’s information to confirm. Please check all the criteria carefully before clicking on the “Issue token” and wait for the contract to be deployed.
+
+For VRC25 tokens, if you want to verify and publish the contract source code on VicScan, please copy the source code from the **Code review** section. You can refer to the guidance [here](how-to-verify-and-publish-contract-source-code-on-vicscan.md).
+
+{% hint style="warning" %}
+If you do not copy it at this stage, you will not be able to go back and copy it later
+{% endhint %}
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-05-30 at 00.41.56 (2).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note:** Any developer with some experience developing and deploying smart contracts can refer to our reference implementation of the [Standards & Specification](https://docs.viction.xyz/developer-guide/standards-and-specification) to make customizations to the deployed token contract.

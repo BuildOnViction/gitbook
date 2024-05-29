@@ -6,11 +6,11 @@ Viction Wallet allows users to store, send, and receive non-fungible tokens (NFT
 
 **Step 1:** On the home screen, click the **NFTs tab**
 
-<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 2:** Click on a NFT to see the NFT detail, then click **Send** to make a transaction
 
-<figure><img src="../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 3**: Input the recipient address in these ways:
 
@@ -20,12 +20,12 @@ Viction Wallet allows users to store, send, and receive non-fungible tokens (NFT
 
 → Then click **Review**
 
-<figure><img src="../../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 4**: Click **Confirm** to confirm transaction
 
-<figure><img src="../../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 After the transaction has been finalized, the sender will be redirected to a transaction details page, and the recipient will get a message that they have received the NFT.
 
-<figure><img src="../../../../.gitbook/assets/image (8).png" alt="" width="360"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (8) (1).png" alt="" width="360"><figcaption></figcaption></figure>

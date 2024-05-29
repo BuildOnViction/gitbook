@@ -10,7 +10,7 @@ We have developed the “Wallet Settings” feature for users to change themes, 
 
 <div>
 
-<figure><img src="../../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
  
 
@@ -32,7 +32,7 @@ We have developed the “Wallet Settings” feature for users to change themes, 
 
 <div>
 
-<figure><img src="../../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
  
 

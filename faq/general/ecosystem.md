@@ -19,7 +19,7 @@ Building on Viction isn't just about leveraging advanced blockchain technologyâ€
 Viction receives support from the Ninety Eight Ecosystem, as well as numerous close\
 partners and projects.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 ### Marketing Amplification
 
