@@ -18,11 +18,11 @@ Allow the connection to the site, then confirm the deployment of a new contract 
 
 <div>
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-05-30 at 00.44.23.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-05-30 at 00.44.23.png" alt="" width="563"><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-05-30 at 00.44.55.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-05-30 at 00.44.55 (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
