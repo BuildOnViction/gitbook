@@ -1,8 +1,8 @@
 # How to Verify & Publish Contract Source Code on VicScan
 
-## Issue a token on Vic Issuer <a href="#issue-a-token-on-vic-issuer" id="issue-a-token-on-vic-issuer"></a>
+## Issue a token on VicIssuer <a href="#issue-a-token-on-vic-issuer" id="issue-a-token-on-vic-issuer"></a>
 
-To issue a token on Vic Issuer, ensure you've completed the preceding steps. Once done, proceed to the final step outlined below. For detailed guidance, refer to the instructions [here ](./)
+To issue a token on VicIssuer, ensure you've completed the preceding steps. Once done, proceed to the final step outlined below. For detailed guidance, refer to the instructions [here ](./)
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2024-05-30 at 00.41.17.png" alt="" width="563"><figcaption></figcaption></figure>
 
