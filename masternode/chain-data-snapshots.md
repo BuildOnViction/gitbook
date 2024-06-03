@@ -4,11 +4,7 @@
 
 For a node to join the network and work with other nodes, it must sync data with other nodes first. Overtime, the data to be synchronized will increased and the process will take several days to weeks, even months.
 
-&#x20;
-
 The snapshot consists of 2 parts that must be downloaded and extracted for a node to synchronize properly.
-
-
 
 ## Full Node
 
@@ -27,7 +23,7 @@ We also have checksum information to verify downloaded files are correct.
 ## Archive Node
 
 {% hint style="info" %}
-To help node operators to catchup with network quickly, we create a  archive snapshot for Viction mainnet quarter(3 months) for cost saving. Latest data is snapshot on May-29-2024
+To help node operators to catchup with network quickly, we create a  archive snapshot for Viction mainnet quarter(3 months) for cost saving. Latest data is snapshot on **May 29th,2024**
 {% endhint %}
 
 * TomoX**:** `https://snapshot.viction.xyz/archive-node/TOMOX_DATA.tar.zst`
@@ -41,7 +37,7 @@ We also have checksum information to verify downloaded files are correct.
 ### Example
 
 {% hint style="info" %}
-This is an example for using the snapshot with Full Node, if you are about to use for Arhchive Node, then please update the link to the archive data URL.
+This is an example for using the snapshot with **Full Node**, if you are about to use for **Archive Node**, then please update the link to the archive data URL above.
 {% endhint %}
 
 This example demonstrates how to use the snapshot files with the assumption that the node has been stopped and node data is stored at the following path: `/var/lib/docker/volumes/viction_mainnet/_data/data`
