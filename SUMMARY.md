@@ -91,6 +91,7 @@
     * [VicIssuer](faq/products/vicissuer/README.md)
       * [How to Verify & Publish Contract Source Code on VicScan](faq/products/vicissuer/how-to-verify-and-publish-contract-source-code-on-vicscan.md)
     * [Viction Wallet](faq/products/viction-wallet.md)
+    * [Viction Data Availability Network](faq/products/viction-data-availability-network.md)
   * [How to Vote for Viction Saigon Network Upgrade Proposal](faq/how-to-vote-for-viction-saigon-network-upgrade-proposal.md)
 * [Whitepaper and Research](whitepaper-and-research.md)
 * [Legal](legal/README.md)
