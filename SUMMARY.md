@@ -55,6 +55,7 @@
     * [VIC ZeroGas integration](developer-guide/integration/vic-zerogas-integration.md)
     * [VRC25 Exchange/Wallet integration](developer-guide/integration/vrc25-exchange-wallet-integration.md)
     * [Viction Staking Governance](developer-guide/integration/viction-staking-governance.md)
+    * [How to apply ZeroGas for VRC725 contract](developer-guide/integration/how-to-apply-zerogas-for-vrc725-contract.md)
   * [Deploy on Viction](developer-guide/deploy-on-viction/README.md)
     * [Viction Mainnet](developer-guide/deploy-on-viction/viction-mainnet.md)
     * [Viction Testnet](developer-guide/deploy-on-viction/viction-testnet.md)
