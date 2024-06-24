@@ -1,10 +1,8 @@
 ---
-description: >-
-  This is the step by step guide to apply the ZeroGas protocol for any  VRC725
-  contract
+description: This is the step by step guide to deploy the VRC725 contract
 ---
 
-# How to apply ZeroGas for VRC725 contract
+# How to deploy the VRC725 contract
 
 ## Deploy a VRC725 contract
 
