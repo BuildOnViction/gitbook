@@ -8,7 +8,7 @@ description: >-
 
 ## Prerequisites
 
-A token cantract is issued by VICIssuer
+A token cantract is issued by VICIssuer (Guide: [https://docs.viction.xyz/how-to/how-to-issue-a-token-via-vicissuer](https://docs.viction.xyz/how-to/how-to-issue-a-token-via-vicissuer))
 
 * VICIssuer on Testnet: [https://issuer-testnet.viction.xyz/](https://issuer-testnet.viction.xyz/)
 * VICIssuer on Mainnet:[https://issuer.viction.xyz/](https://issuer.viction.xyz/)
