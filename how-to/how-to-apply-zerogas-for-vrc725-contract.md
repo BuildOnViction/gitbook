@@ -24,7 +24,7 @@ This step can be achieved by following step:
 
 * Access to Contract tab & **connect** the wallet
 
-<figure><img src="../.gitbook/assets/10.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/10 (1).png" alt=""><figcaption></figcaption></figure>
 
 * Input **10 VIC** for the deposit & the **VRC725 contract address** (**0x4d76D1eBe3E95Ad0b8B4Ce59ABedE9cF1A7Bc593**) to apply the ZeroGas.
 
