@@ -8,7 +8,7 @@ description: >-
 
 ## Prerequisites
 
-The VRC725 contract had been deployed. The following guide can be used to create it:
+The VRC725 contract had been deployed (Guide: [https://docs.viction.xyz/how-to/how-to-deploy-the-vrc725-contract](https://docs.viction.xyz/how-to/how-to-deploy-the-vrc725-contract))
 
 ## Applying Vic ZeroGas Protocol
 
