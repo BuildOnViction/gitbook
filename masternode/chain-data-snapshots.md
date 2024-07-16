@@ -12,13 +12,13 @@ The snapshot consists of 2 parts that must be downloaded and extracted for a nod
 To help node operators to catchup with network quickly, we create a snapshot for Viction mainnet **every Friday**
 {% endhint %}
 
-* TomoX**:** `https://snapshot.viction.xyz/TOMOX_DATA.tar`
-* Chain Data: `https://snapshot.viction.xyz/CHAIN_DATA.tar`
+* TomoX**:** [https://snapshot.viction.xyz/TOMOX\_DATA.tar.zst](https://snapshot.viction.xyz/TOMOX\_DATA.tar.zst)
+* Chain Data: [https://snapshot.viction.xyz/CHAIN\_DATA.tar.zdt](https://snapshot.viction.xyz/CHAIN\_DATA.tar.zdt)
 
 We also have checksum information to verify downloaded files are correct.
 
-* TomoX**:** `https://snapshot.viction.xyz/TOMOX_DATA.tar.sha1`
-* Chain Data**:** `https://snapshot.viction.xyz/CHAIN_DATA.tar.sha1`
+* TomoX**:** [https://snapshot.viction.xyz/TOMOX\_DATA.tar.zst.sha1](https://snapshot.viction.xyz/TOMOX\_DATA.tar.zst.sha1)
+* Chain Data**:** [https://snapshot.viction.xyz/CHAIN\_DATA.tar.zst.sha1](https://snapshot.viction.xyz/CHAIN\_DATA.tar.zst.sha1)
 
 ## Archive Node
 
@@ -59,8 +59,8 @@ VIC_DATA_DIR="/var/lib/docker/volumes/viction_mainnet/_data/data"
 TMP_DIR="/tmp"
 
 # download the files to /tmp folder
-wget -c https://snapshot.viction.xyz/TOMOX_DATA.tar -O $TMP_DIR/TOMOX_DATA.tar
-wget -c https://snapshot.viction.xyz/CHAIN_DATA.tar -O $TMP_DIR/CHAIN_DATA.tar
+wget -c https://snapshot.viction.xyz/TOMOX_DATA.tar.zst -O $TMP_DIR/TOMOX_DATA.tar
+wget -c https://snapshot.viction.xyz/CHAIN_DATA.tar.zdt -O $TMP_DIR/CHAIN_DATA.tar
 
 # remove existing data
 rm -r $VIC_DATA_DIR/tomox
@@ -71,20 +71,20 @@ mkdir -p $VIC_DATA_DIR/tomox
 mkdir -p $VIC_DATA_DIR/tomo/chaindata
 
 # extract the file
-tar xvf $TMP_DIR/TOMOX_DATA.tar -C $VIC_DATA_DIR/tomox
-tar xvf $TMP_DIR/CHAIN_DATA.tar -C $VIC_DATA_DIR/tomo/chaindata
+tar zstd xvf $TMP_DIR/TOMOX_DATA.tar.zst -C $VIC_DATA_DIR/tomox
+tar zstd xvf $TMP_DIR/CHAIN_DATA.tar.zst -C $VIC_DATA_DIR/tomo/chaindata
 ```
 
 * The file **CHAIN\_DATA.tar** is huge at the time of writing and will take a long time to download and extract. You can use the following command to perform those operations in background:
 
 ```bash
 # download the file
-wget -bqc https://snapshot.viction.xyz/CHAIN_DATA.tar -O $TMP_DIR/CHAIN_DATA.tar
+wget -bqc https://snapshot.viction.xyz/CHAIN_DATA.tar.zdt -O $TMP_DIR/CHAIN_DATA.tar
 ```
 
 ```bash
 # extract the file
-nohup tar xvf $TMP_DIR/CHAIN_DAhttps://snapshot.viction.xyz/archive-node/CHAIN_DATA.tar.zstTA.tar -C $VIC_DATA_DIR/tomo/chaindata &
+nohup tar xvf $TMP_DIR/CHAIN_DA -C $VIC_DATA_DIR/tomo/chaindata &
 ```
 
 ### For Archive Node
