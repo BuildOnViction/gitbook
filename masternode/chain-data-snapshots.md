@@ -59,8 +59,8 @@ VIC_DATA_DIR="/var/lib/docker/volumes/viction_mainnet/_data/data"
 TMP_DIR="/tmp"
 
 # download the files to /tmp folder
-wget -c https://snapshot.viction.xyz/TOMOX_DATA.tar.zst -O $TMP_DIR/TOMOX_DATA.tar
-wget -c https://snapshot.viction.xyz/CHAIN_DATA.tar.zdt -O $TMP_DIR/CHAIN_DATA.tar
+wget -c https://snapshot.viction.xyz/TOMOX_DATA.tar.zst -O $TMP_DIR/TOMOX_DATA.tar.zst
+wget -c https://snapshot.viction.xyz/CHAIN_DATA.tar.zst -O $TMP_DIR/CHAIN_DATA.tar.zst
 
 # remove existing data
 rm -r $VIC_DATA_DIR/tomox
@@ -79,12 +79,12 @@ tar zstd xvf $TMP_DIR/CHAIN_DATA.tar.zst -C $VIC_DATA_DIR/tomo/chaindata
 
 ```bash
 # download the file
-wget -bqc https://snapshot.viction.xyz/CHAIN_DATA.tar.zdt -O $TMP_DIR/CHAIN_DATA.tar
+wget -bqc https://snapshot.viction.xyz/CHAIN_DATA.tar.zst -O $TMP_DIR/CHAIN_DATA.tar.zst
 ```
 
 ```bash
 # extract the file
-nohup tar xvf $TMP_DIR/CHAIN_DA -C $VIC_DATA_DIR/tomo/chaindata &
+nohup tar xvf $TMP_DIR/CHAIN_DATA.tar -C $VIC_DATA_DIR/tomo/chaindata &
 ```
 
 ### For Archive Node
