@@ -13,7 +13,7 @@ To help node operators to catchup with network quickly, we create a snapshot for
 {% endhint %}
 
 * TomoX**:** [https://snapshot.viction.xyz/TOMOX\_DATA.tar.zst](https://snapshot.viction.xyz/TOMOX\_DATA.tar.zst)
-* Chain Data: [https://snapshot.viction.xyz/CHAIN\_DATA.tar.zdt](https://snapshot.viction.xyz/CHAIN\_DATA.tar.zdt)
+* Chain Data: [https://snapshot.viction.xyz/CHAIN\_DATA.tar.zst](https://snapshot.viction.xyz/CHAIN\_DATA.tar.zst)
 
 We also have checksum information to verify downloaded files are correct.
 
@@ -75,7 +75,7 @@ tar zstd xvf $TMP_DIR/TOMOX_DATA.tar.zst -C $VIC_DATA_DIR/tomox
 tar zstd xvf $TMP_DIR/CHAIN_DATA.tar.zst -C $VIC_DATA_DIR/tomo/chaindata
 ```
 
-* The file **CHAIN\_DATA.tar** is huge at the time of writing and will take a long time to download and extract. You can use the following command to perform those operations in background:
+* The file **CHAIN\_DATA.tar.zst** is huge at the time of writing and will take a long time to download and extract. You can use the following command to perform those operations in background:
 
 ```bash
 # download the file
@@ -84,7 +84,7 @@ wget -bqc https://snapshot.viction.xyz/CHAIN_DATA.tar.zst -O $TMP_DIR/CHAIN_DATA
 
 ```bash
 # extract the file
-nohup tar xvf $TMP_DIR/CHAIN_DATA.tar -C $VIC_DATA_DIR/tomo/chaindata &
+nohup tar zstd xvf $TMP_DIR/CHAIN_DATA.tar.zst -C $VIC_DATA_DIR/tomo/chaindata &
 ```
 
 ### For Archive Node
