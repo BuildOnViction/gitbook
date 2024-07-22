@@ -12,7 +12,7 @@ In addition to the above, VIC is an integral part of the Viction network for a n
 * VIC will be used as a reward to incentivise the building of the Viction engine/ecosystem.
 * VIC will be used as a long-term, decentralized governance instrument of the Viction network.
 
-You can check our [technical whitepaper](https://viction.xyz/files/technical-whitepaper-1.0.pdf) for more details.
+You can check our [technical whitepaper](https://docs.viction.xyz/whitepaper-and-research) for more details.
 
 ### **Can I mine VIC?**
 
