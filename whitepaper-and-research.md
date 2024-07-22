@@ -7,19 +7,31 @@ description: >-
 
 # Whitepaper and Research
 
-## Technical Paper
+### Version 1.1
 
-{% file src="../.gitbook/assets/technical-whitepaper-1.0.pdf" %}
+{% hint style="info" %}
+Updated document will be released soon
+{% endhint %}
 
-## Economics Paper
+#### Technical Paper
+
+#### Economics Paper
+
+#### Sharding Proposal
 
 
 
-{% file src="../.gitbook/assets/TomoChain Economics Paper.pdf" %}
+### Version 1
 
-## Sharding Proposal
+#### Technical Paper
 
+{% file src=".gitbook/assets/technical-whitepaper-1.0.pdf" %}
 
+#### Economics Paper
 
-{% file src="../.gitbook/assets/TomoChain sharding proposal.pdf" %}
+{% file src=".gitbook/assets/TomoChain Economics Paper.pdf" %}
+
+#### Sharding Proposal
+
+{% file src=".gitbook/assets/TomoChain sharding proposal.pdf" %}
 
