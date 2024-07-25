@@ -111,7 +111,6 @@ You can trade VIC on various exchanges. Please refer to the information below:
 | [Gate.io](http://gate.io/) | [VIC/USDT](https://gate.io/trade/VIC\_USDT)                                                    |
 | Bitmart                    | [VIC/USDT](https://www.bitmart.com/trade/en?symbol=$VIC\_USDT\&r=PjkAFy)                       |
 | Bybit                      | [VIC/USDT](https://www.bybit.com/trade/spot/VIC/USDT/)                                         |
-| WOO X                      | [VIC/USDT](https://x.woo.org/en/trade/VIC\_USDT)                                               |
 | StealthEX                  | [VIC/USDT](https://stealthex.io/exchange/new/)                                                 |
 | Aliniex                    | [VIC/VND](https://aliniex.com/mua-ban/vic)                                                     |
 | Giottus                    | [VIC/USDT](https://www.giottus.com/)                                                           |
