@@ -1,6 +1,6 @@
 # Setup Environment
 
-### Prerequisites <a href="#7095" id="7095"></a>
+### Prerequisites <a href="#id-7095" id="id-7095"></a>
 
 To start building your Dapp you will need to install some programs:
 
@@ -123,7 +123,7 @@ Write them down. This will be needed later. **Notice that your wallet address (p
 
 Tokens are required for different matters, like smart contract deployment or to use in Dapps.
 
-**Testnet:** Receive 15 free testnet VIC tokens using [Viction's Faucet](https://faucet.testnet.tomochain.com/).
+**Testnet:** Receive 15 free testnet VIC tokens using [Viction's Faucet](https://faucet-testnet.viction.xyz/).
 
 **Mainnet:** You need real VIC tokens from exchanges.
 
