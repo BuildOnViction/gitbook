@@ -29,6 +29,7 @@
     * [Staking Rewards](general/staking/staking-rewards.md)
     * [How to stake on Viction Wallet](general/staking/how-to-stake-on-viction-wallet.md)
 * [Developer Guide](developer-guide/README.md)
+  * [Data and analytics](developer-guide/data-and-analytics.md)
   * [Smart Contract Development](developer-guide/smart-contract-development/README.md)
     * [Solidity](developer-guide/smart-contract-development/solidity/README.md)
       * [A Simple Smart Contract](developer-guide/smart-contract-development/solidity/a-simple-smart-contract.md)
