@@ -73,6 +73,7 @@
   * [Spacegate](victionbridge/spacegate.md)
   * [Arken Bridge](victionbridge/arken-bridge.md)
   * [Hyperlane](victionbridge/hyperlane.md)
+* [Viction Data Availability](viction-data-availability.md)
 * [FAQ](faq/README.md)
   * [APIs](https://apidocs.tomochain.com/)
   * [General](faq/general/README.md)
