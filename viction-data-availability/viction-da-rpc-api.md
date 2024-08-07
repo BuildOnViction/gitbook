@@ -6,7 +6,7 @@ You can make JSON RPC calls to Viction DA endpoints at [https://da.viction.xyz](
 
 ## Commit data
 
-<mark style="color:green;">`POST`</mark> `/commit`
+<mark style="color:yellow;">`POST`</mark> `/commit`
 
 Commit data to the DA Layer & returns Commitment for each given Blob
 
@@ -155,7 +155,7 @@ Return Proofs for each given ID
 
 ## Submit
 
-<mark style="color:green;">`POST`</mark> `/submit`
+<mark style="color:yellow;">`POST`</mark> `/submit`
 
 Submit data to Data layer & returns tuple of ID and Commitment for each given Blob
 
@@ -211,13 +211,13 @@ Submit data to Data layer & returns tuple of ID and Commitment for each given Bl
 
 ## Validate
 
-<mark style="color:green;">`POST`</mark> `/validate`
+<mark style="color:yellow;">`POST`</mark> `/validate`
 
-Request body 1st params argument is a "hello" string Id and Commitment("${Id}-{Commitment}"),&#x20;
+Request body 1st params argument is a "hello" string Id and Commitment**("${Id}-{Commitment}")**
 
 Kindly view `Submit` example 2nd onw is a data with corrupted proof byte array
 
-**Valid RequestBody**
+**RequestBody**
 
 `ERROR RESPONSE` In case the request has invalid params
 
@@ -257,7 +257,7 @@ Kindly view `Submit` example 2nd onw is a data with corrupted proof byte array
 
 
 
-**Valid Response**
+**Response**
 
 Success response should return **true** and **false**
 
@@ -274,15 +274,7 @@ Success response should return **true** and **false**
 ```
 {% endtab %}
 
-{% tab title="400" %}
-```json
-{
-  "error": "Invalid request"
-}
-```
-{% endtab %}
-
-{% tab title="Error response" %}
+{% tab title="200 with Error response" %}
 ```json
 {
     "jsonrpc": "2.0",
@@ -292,6 +284,14 @@ Success response should return **true** and **false**
         "data": "invalid type: integer `22`, expected byte array at line 1 column 3"
     },
     "id": 128
+}
+```
+{% endtab %}
+
+{% tab title="400" %}
+```json
+{
+  "error": "Invalid request"
 }
 ```
 {% endtab %}
