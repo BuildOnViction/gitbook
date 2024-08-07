@@ -20,7 +20,7 @@ By offering its DA layer as a modular component, Viction provides an efficient, 
 
 
 
-<figure><img src=".gitbook/assets/Screenshot 2024-08-07 at 11.29.52.png" alt=""><figcaption><p>Viction DA infrastructure diagram</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2024-08-07 at 11.29.52.png" alt=""><figcaption><p>Viction DA infrastructure diagram</p></figcaption></figure>
 
 **Viction DA** takes advantage of AWS CloudFormation, a powerful service specifically designed to manage and provision AWS infrastructure using code. This approach allows us to define their cloud resources in simple text files, which can then be used to automatically and consistently create and manage those resources.&#x20;
 
@@ -28,7 +28,7 @@ By utilizing AWS CloudFormation, **Viction DA** ensures a deployment model that 
 
 ## System component context diagram
 
-<figure><img src=".gitbook/assets/Screenshot 2024-08-07 at 11.31.48.png" alt=""><figcaption><p>Viction DA - System component context diagram</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2024-08-07 at 11.31.48.png" alt=""><figcaption><p>Viction DA - System component context diagram</p></figcaption></figure>
 
 
 
