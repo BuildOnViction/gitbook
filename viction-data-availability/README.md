@@ -37,7 +37,7 @@ This describes the system components that we develop and how it connects to exte
 * Users initiate transactions on the Layer 2 (L2) blockchain.
 * The L2 blockchain's data availability (DA) client submits the block data to the Viction DA service.
 * Viction DA compresses the data, generates unique commitments and IDs, and returns these IDs. These IDs are used to retrieve the original data and associated proofs.
-* The L2 blockchain sends the IDs back to Viction DA.
+* The L2 blockchain sends the IDs back to Viction (Rollup Tx).
 * Light nodes and users can use these IDs to fetch the corresponding commitments and proofs from Viction DA.
 * Light nodes and users utilize the commitments and proofs to validate the authenticity and integrity of the data.
 
