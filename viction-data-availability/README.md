@@ -32,12 +32,12 @@ By utilizing AWS CloudFormation, **Viction DA** ensures a deployment model that 
 
 This describes the system components that we develop and how it connects to external components.
 
-* Users initiate transactions on the Layer 2 (L2) blockchain.
-* The L2 blockchain/ DA client submits the block data to the Viction DA service.
-* Viction DA compresses the data, generates unique commitments and IDs, and returns these IDs. These IDs are used to retrieve the original data and associated proofs.
-* The L2 blockchain sends the IDs back to Viction (Rollup Tx).
-* Light nodes/ users can use these IDs to fetch the corresponding commitments and proofs from Viction DA.
-* Light nodes/ users utilize the commitments and proofs to validate the authenticity and integrity of the data.
+1. Users initiate transactions on the Layer 2 (L2) blockchain.
+2. The L2 blockchain/ DA client submits the block data to the Viction DA service.
+3. Viction DA compresses the data, generates unique commitments and IDs, and returns these IDs. These IDs are used to retrieve the original data and associated proofs.
+4. The L2 blockchain sends the IDs back to Viction (Rollup Tx).
+5. Light nodes/ users can use these IDs to fetch the corresponding commitments and proofs from Viction DA.
+6. Light nodes/ users utilize the commitments and proofs to validate the data.
 
 
 
