@@ -26,20 +26,18 @@ By offering its DA layer as a modular component, Viction provides an efficient, 
 
 By utilizing AWS CloudFormation, **Viction DA** ensures a deployment model that is highly scalable, meaning it can handle increased load without performance issues. It is also highly reliable, providing a stable and consistent environment, and automated, reducing the need for manual intervention and minimizing the risk of human error. This results in an efficient and effective way to manage cloud resources, ensuring that the infrastructure can grow and adapt as needed.
 
-## System component context diagram
+## System components context diagram
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-08-07 at 11.31.48.png" alt=""><figcaption><p>Viction DA - System component context diagram</p></figcaption></figure>
-
-
+<figure><img src="../.gitbook/assets/Screenshot 2024-08-08 at 18.19.36.png" alt=""><figcaption><p>Viction DA - System component context diagram</p></figcaption></figure>
 
 This describes the system components that we develop and how it connects to external components.
 
 * Users initiate transactions on the Layer 2 (L2) blockchain.
-* The L2 blockchain's data availability (DA) client submits the block data to the Viction DA service.
+* The L2 blockchain/ DA client submits the block data to the Viction DA service.
 * Viction DA compresses the data, generates unique commitments and IDs, and returns these IDs. These IDs are used to retrieve the original data and associated proofs.
 * The L2 blockchain sends the IDs back to Viction (Rollup Tx).
-* Light nodes and users can use these IDs to fetch the corresponding commitments and proofs from Viction DA.
-* Light nodes and users utilize the commitments and proofs to validate the authenticity and integrity of the data.
+* Light nodes/ users can use these IDs to fetch the corresponding commitments and proofs from Viction DA.
+* Light nodes/ users utilize the commitments and proofs to validate the authenticity and integrity of the data.
 
 
 
