@@ -6,7 +6,7 @@ description: Terms and conditions for using Viction's products.
 
 TERMS OF SERVICE
 
-Last Revision Date: **December 06, 2023**
+Last Revision Date: **August 9, 2023**
 
 ## Introduction
 
@@ -32,11 +32,11 @@ The Service is intended for users who are at least 18 years old. You agree that 
 
 If you are using our Service on behalf of a legal entity, you further represent and warrant that: (a) the legal entity is duly organized and validly existing under the applicable laws of the jurisdiction of its organization; and (b) you are duly authorized by such legal entity to act on its behalf.
 
-The information and features provided on the Site or by the Service are not intended for distribution to or use by any person or entity in any jurisdiction or country where distribution or use would be contrary to law or regulation, such as applicable sanctions, or require us to hold any special license or registration within your jurisdiction. We make no claims that the Service or any of its content or features are accessible or appropriate in the user’s jurisdiction. Access to the Site or using the Service may not be legal by certain persons or in certain countries. If you access the Site or use the Service, you are solely responsible for ensuring that your using of the Service  does not violate any applicable laws or regulations in any jurisdiction to which you may be subject.
+The information and features provided on the Site or by the Service are not intended for distribution to or use by any person or entity in Cuba, Egypt, Hong Kong, Iran, Iraq, People’s Republic of China, Saudi Arabia, Syria, Ukraine, United States of America or any jurisdiction or country where distribution or use would be contrary to law or regulation, such as applicable sanctions, or require us to hold any special license or registration within your jurisdiction. We make no claims that the Service or any of its content or features are accessible or appropriate in the user’s jurisdiction. Access to the Site or using the Service may not be legal by certain persons or in certain countries. If you access the Site or use the Service, you are solely responsible for ensuring that your using of the Service  does not violate any applicable laws or regulations in any jurisdiction to which you may be subject.
 
 &#x20;
 
-## Accessing the Siteite
+## Accessing the Site
 
 We reserve the right to withdraw or amend the Site, and any service or material we provide on the Site, in our sole discretion without notice. We do not guarantee that our Site or any content on it will always be available or be interrupted. We will not be liable if for any reason all or any part of the Site is unavailable at any time or for any period. From time to time, we may restrict access to some parts of the Site, or the entire Site, to users.
 
@@ -163,7 +163,7 @@ In no event will the Foundation Parties or their respective officers, directors,
 
 ## Governing Law
 
-These Terms and your access to and use of the Service shall be governed by and construed and enforced in accordance with the laws of Saint Vincent and the Grenadines without [giving](https://www.lawinsider.com/clause/giving) [effect](https://www.lawinsider.com/clause/effect) to the [conflict of laws](https://www.lawinsider.com/clause/conflict-of-laws) [principles](https://www.lawinsider.com/clause/principles) thereof.
+These Terms and your access to and use of the Service shall be governed by and construed and enforced in accordance with the laws of Saint Vincent and the Grenadines without giving effect to the conflict of laws principles thereof.
 
 
 
