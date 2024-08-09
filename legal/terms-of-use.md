@@ -6,7 +6,7 @@ description: Terms and conditions for using Viction's products.
 
 TERMS OF SERVICE
 
-Last Revision Date: **August 9, 2023**
+Last Revision Date: **August 9, 2024**
 
 ## Introduction
 
