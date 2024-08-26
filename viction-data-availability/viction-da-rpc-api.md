@@ -1,12 +1,16 @@
+---
+description: >-
+  Viction DA, the interconnecting data layer for Web3, breaking down
+  communication barriers between blockchain platforms.
+---
+
 # Viction DA RPC API
 
-You can make JSON RPC calls to Viction DA-Testnet endpoints at [https://da.viction.xyz](https://da.viction.xyz)
+You can make JSON RPC calls to Viction via those following URLs:
 
+DA-Testnet: [https://da-testnet.viction.xyz](https://da-testnet.viction.xyz)
 
-
-{% hint style="info" %}
-Viction DA Mainnet will be released soon. Stay tuned!
-{% endhint %}
+DA-Mainnet: [https://da.viction.xyz](https://da.viction.xyz)
 
 ## Commit data
 
