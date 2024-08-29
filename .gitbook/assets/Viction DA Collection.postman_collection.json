@@ -1,0 +1,159 @@
+{
+	"info": {
+		"_postman_id": "b8f081bd-00e8-4ae6-bf27-3e0cc245e92e",
+		"name": "Viction DA Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28055926"
+	},
+	"item": [
+		{
+			"name": "RPC SUBMIT",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"jsonrpc\":\"2.0\",\n    \"id\": 128,\n    \"method\": \"submit\",\n    \"params\": [\n        [[104,101,108,108,111]],\n        \"namespace\"\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}",
+					"host": [
+						"{{url}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RPC COMMIT",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"jsonrpc\":\"2.0\",\n    \"id\": 128,\n    \"method\": \"commit\",\n    \"params\": [\n        [[104,101,108,108,111]],\n        \"namespace\"\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://da.viction.xyz",
+					"protocol": "https",
+					"host": [
+						"da",
+						"viction",
+						"xyz"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RPC GET_PROOFS",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"jsonrpc\":\"2.0\",\n    \"id\": 128,\n    \"method\": \"get_proofs\",\n    \"params\": [\n        [\n            [1,97,54,102,57,50,55,97,102,51,53,100,98,50,50,100,49,55,98,53,51,100,55,102,54,51,97,52,98,52,97,102,102,99,55,48,49,48,55,100,54,56,49,97,98,101,98,48,102,97,53,50,53,57,57,101,56,57,50,57,49,54,99,97]\n        ],\n        \"namespace\"\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://da.viction.xyz",
+					"protocol": "https",
+					"host": [
+						"da",
+						"viction",
+						"xyz"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RPC GET",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"jsonrpc\":\"2.0\",\n    \"id\": 128,\n        \"method\": \"get\",\n    \"params\": [\n        [\n            [1,97,54,102,57,50,55,97,102,51,53,100,98,50,50,100,49,55,98,53,51,100,55,102,54,51,97,52,98,52,97,102,102,99,55,48,49,48,55,100,54,56,49,97,98,101,98,48,102,97,53,50,53,57,57,101,56,57,50,57,49,54,99,97]\n        ],\n        \"namespace\"\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://da.viction.xyz",
+					"protocol": "https",
+					"host": [
+						"da",
+						"viction",
+						"xyz"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RPC VALIDATE",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "   {\n    \"jsonrpc\":\"2.0\",\n    \"id\": 128,\n    \"method\": \"validate\",\n    \"params\": [\n        [\n            [1,97,54,102,57,50,55,97,102,51,53,100,98,50,50,100,49,55,98,53,51,100,55,102,54,51,97,52,98,52,97,102,102,99,55,48,49,48,55,100,54,56,49,97,98,101,98,48,102,97,53,50,53,57,57,101,56,57,50,57,49,54,99,97]\n        ],\n        [\n            [179,75,83,34,165,175,249,223,47,197,64,246,39,144,246,178,41,129,180,213,74,140,54,81,194,150,87,48,172,66,114,200,132,185,173,238,171,189,233,151,60,138,111,177,2,96,22,134]\n        ],\n        [\n            [166,226,152,3,148,197,142,68,37,3,30,235,83,168,156,244,25,94,85,95,38,18,205,209,242,109,0,45,121,48,13,160,133,205,96,223,139,179,76,141,151,183,74,156,153,101,48,136]\n        ],\n        \"namespace\"\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://da.viction.xyz",
+					"protocol": "https",
+					"host": [
+						"da",
+						"viction",
+						"xyz"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
