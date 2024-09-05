@@ -60,6 +60,7 @@
     * [CLI Commands](developer-guide/deploy-on-viction/cli-commands.md)
     * [Viction Private Testnet Setup](developer-guide/deploy-on-viction/viction-private-testnet-setup.md)
   * [Data and analytics](developer-guide/data-and-analytics.md)
+  * [Embedded Wallet (MPC)](developer-guide/embedded-wallet-mpc.md)
 * [Masternode](masternode/README.md)
   * [Requirements](masternode/requirements.md)
   * [Run a Full Node](masternode/run-a-full-node/README.md)
