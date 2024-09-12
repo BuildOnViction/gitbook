@@ -10,7 +10,7 @@ description: >-
 
 As Viction aims to meet the scaling needs of any dapps and pave the way for mass adoption, embedded wallets are indispensable tooling for developers to go to market faster and onboard all online users to onchain.
 
-By having Ramper technical content visible on docs.viction.com, Viction builders can leverage the no-code wallet tooling and be inspired to build scalable onchain applications.
+By using embedded wallets, Viction builders can leverage the no-code wallet tooling and be inspired to build scalable onchain applications for daily use.
 
 ## About Ramper SDK
 
