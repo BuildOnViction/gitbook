@@ -23,7 +23,7 @@ We also have checksum information to verify downloaded files are correct.
 ## Archive Node
 
 {% hint style="info" %}
-To help node operators to catchup with network quickly, we create a  archive snapshot for Viction mainnet quarter(3 months) for cost saving. Latest data is snapshot on **May 29th, 2024**
+To help node operators to catchup with network quickly, we create a  archive snapshot for Viction mainnet quarter(3 months) for cost saving. Latest data is snapshot on **July 2nd, 2024**
 {% endhint %}
 
 * TomoX**:** `https://snapshot.viction.xyz/archive-node/TOMOX_DATA.tar.zst`
