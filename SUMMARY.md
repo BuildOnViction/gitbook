@@ -97,6 +97,7 @@
     * [Viction Data Availability Network](faq/products/viction-data-availability-network.md)
 * [Whitepaper and Research](whitepaper-and-research.md)
 * [How to](how-to/README.md)
+  * [How to troubleshoot when the node is up but couldn't begin to sync block](how-to/how-to-troubleshoot-when-the-node-is-up-but-couldnt-begin-to-sync-block.md)
   * [How to Vote for Viction Saigon Network Upgrade Proposal](how-to/how-to-vote-for-viction-saigon-network-upgrade-proposal.md)
   * [How to issue a token via VICIssuer](how-to/how-to-issue-a-token-via-vicissuer.md)
   * [How to verify if a contract has been issued via VICIssuer](how-to/how-to-verify-if-a-contract-has-been-issued-via-vicissuer.md)
