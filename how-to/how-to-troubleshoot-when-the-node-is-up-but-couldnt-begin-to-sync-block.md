@@ -42,7 +42,7 @@ networks:
 
 services:
   geth:
-    image: *****.dkr.ecr.ap-northeast-1.amazonaws.com/blockchain-vic:1ef07e87
+    image: *****.example-vic-repo.amazonaws.com/vic:1ef45erd
     restart: unless-stopped
     stop_signal: SIGTERM
     stop_grace_period: 300s
