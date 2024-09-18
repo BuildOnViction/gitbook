@@ -1,27 +1,27 @@
 # How to troubleshoot when the node is up but couldn't begin to sync block
 
-Generally, the node would be start to sync new block as long as it is up. However, there is a few unexpected behavior which didn't allow the block to sync. Hence this guideline will help to address the issue for not syncing blocks after the node is up.
+In general, as long as the node is operational, it will begin to sync new blocks. However, there were a few unknown behaviors that prevented the block from synchronizing. As a result, this instruction will be helpful in resolving the issue of blocks not synchronizing once the node has been powered up.
 
 <figure><img src="../.gitbook/assets/photo_2024-09-18 23.27.08 (1).jpeg" alt=""><figcaption><p>Node is Up but unable to sync new blocks</p></figcaption></figure>
 
-There are a couple of reason why it didn't work:
+The reason can come from the P2P port (default **30303**) from the node had been blocked by the Firewall. &#x20;
 
-* The reason can come from the P2P port (default 30303) from the node had been blocked by the Firewall. &#x20;
-  * **Solution**:  Rectify  & Unblocked the port.
-  * If the case that the firewall had been opened for the port. Then please try to run the node with the add-on command  `--nat extip:111.111.111.111` with `111.111.111.111` is the IP address to connect with internet (external network) of that (virtual) machine.
+* **Solution**:  Rectify  & Unblocked the port.
+* If the case that the firewall had been opened for the port. Then please try to run the node with the add-on command  `--nat extip:111.111.111.111` with `111.111.111.111` is the IP address to connect with internet (external network) of that node.
 
 In case you are running the node via Docker, then you need to:
 
-* Open the port 30303 to internet for TCP/UDP
+* Open the port **30303** to internet for **TCP/UDP**
 * Docker should use the network mode `host` instead of `bridge`
-* `Incorrect mapping port`
+
+&#x20;**Incorrect** mapping port
 
 ```
       - "30343:30303"
       - "30343:30303/udp"
 ```
 
-* `Correct mapping port`
+**Correct** mapping port
 
 ```
   - "30303:30303"
@@ -30,11 +30,7 @@ In case you are running the node via Docker, then you need to:
 
 The explanation for the network mode host is that Docker may use the port as long as it starts the container; it does not need to map to another port. This will result in improved performance as docker will no longer need to proxy traffic.
 
-
-
 Example of the `docker start command`
-
-
 
 ```
 networks:
@@ -87,4 +83,4 @@ services:
 
 If you are looking for other bootnodes, please refer to this [link](https://docs.viction.xyz/developer-guide/deploy-on-viction/viction-mainnet#bootnodes)
 
-More detail for running a node in mainnet can be found at the readme file [here](https://github.com/BuildOnViction/victionchain?tab=readme-ov-file#run-docker)
+More detail for using the docker to run a node in mainnet can be found at the readme file [here](https://github.com/BuildOnViction/victionchain?tab=readme-ov-file#run-docker)
