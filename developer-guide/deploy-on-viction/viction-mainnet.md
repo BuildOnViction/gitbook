@@ -11,17 +11,13 @@
 * Consensus nodes: up to 150 (masternodes)
 * Genesis block date: `December 14th, 2018`
 * Transaction fee: gas price 0.25 Gwei
-* Solidity Compiler version: < 0.6.6
+* Solidity Compiler version: <= 0.8.17
 
 ### Other RPC Providers
 
 RockX: [https://access.rockx.com/product/viction-blockchain-api-for-web3-builders](https://access.rockx.com/product/viction-blockchain-api-for-web3-builders)
 
-NOWNodes: [https://nownodes.io/nodes/viction-vic](https://nownodes.io/nodes/viction-vic)
-
 BlockPi: [https://blockpi.io/viction](https://blockpi.io/viction)
-
-Provalidator:  [ https://nodereal.io/api-marketplace/viction-rpc](https://nodereal.io/api-marketplace/viction-rpc)
 
 ### Useful links
 
@@ -44,4 +40,4 @@ enode://c8f2f0643527d4efffb8cb10ef9b6da4310c5ac9f2e988a7f85363e81d42f1793f64a9aa
 
 `getty-site-pablo-auger-room-sos-blair-shin-whiz-delhi`
 
-Host: stats.tomochain.com:443
+Host: stats.viction.xyz:443
