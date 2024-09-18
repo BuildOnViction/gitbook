@@ -28,7 +28,11 @@ In case you are running the node via Docker, then you need to:
   - "30303:30303/udp"
 ```
 
+
+
+{% hint style="info" %}
 The explanation for the network mode host is that Docker may use the port as long as it starts the container; it does not need to map to another port. This will result in improved performance as docker will no longer need to proxy traffic.
+{% endhint %}
 
 Example of the `docker start command`
 
