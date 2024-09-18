@@ -86,3 +86,5 @@ services:
 ```
 
 If you are looking for other bootnodes, please refer to this [link](https://docs.viction.xyz/developer-guide/deploy-on-viction/viction-mainnet#bootnodes)
+
+More detail for running a node in mainnet can be found at the readme file [here](https://github.com/BuildOnViction/victionchain?tab=readme-ov-file#run-docker)
