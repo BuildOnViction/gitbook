@@ -9,6 +9,18 @@ The reason can come from the P2P port (default **30303**) from the node had been
 * **Solution**:  Rectify  & Unblocked the port.
 * If the case that the firewall had been opened for the port. Then please try to run the node with the add-on command  `--nat extip:111.111.111.111` with `111.111.111.111` is the IP address to connect with internet (external network) of that node.
 
+{% hint style="info" %}
+Tips: If you are unsure whether your the port **30303** is **opened** or **not**, hence you can check it via port-checker online tools. For example: [https://www.yougetsignal.com/tools/open-ports/](https://www.yougetsignal.com/tools/open-ports/)
+{% endhint %}
+
+<figure><img src="../.gitbook/assets/30303 port opened.png" alt="" width="375"><figcaption><p>Example for Port <strong>30303</strong> <strong>opened</strong></p></figcaption></figure>
+
+
+
+<figure><img src="../.gitbook/assets/30303 port closed.png" alt="" width="375"><figcaption><p>Example for Port <strong>30303</strong> <strong>closed</strong></p></figcaption></figure>
+
+
+
 In case you are running the node via Docker, then you need to:
 
 * Open the port **30303** to internet for **TCP/UDP**
@@ -30,7 +42,7 @@ In case you are running the node via Docker, then you need to:
 
 
 
-{% hint style="info" %}
+{% hint style="success" %}
 The explanation for the network mode host is that Docker may use the port as long as it starts the container; it does not need to map to another port. This will result in improved performance as docker will no longer need to proxy traffic.
 {% endhint %}
 
