@@ -1,5 +1,6 @@
 ---
 description: In this article, we are stimulate the process to issue a token via VicIssuer
+hidden: true
 ---
 
 # How to issue a token via VICIssuer
