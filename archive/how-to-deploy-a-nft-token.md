@@ -316,7 +316,7 @@ ganache-cli -p 8545
 
 `Ganache` will start running, listening on port `8545`. Automatically you will have 10 available wallets with their private keys and `100 ETH` each. You can use them to test your smart contracts.
 
-![](<../.gitbook/assets/image (4) (1) (1).png>)
+![](<../.gitbook/assets/image (4) (1) (1) (1).png>)
 
 ## 5. Adding Tests <a href="#id-9c8f" id="id-9c8f"></a>
 
@@ -484,9 +484,9 @@ You can use MEW to _**Write**_ and to _**Read**_ functions, like `getGradient`! 
 In `Ethereum (Ropsten)`, the Etherscan page with [our migrated contract](https://ropsten.etherscan.io/address/0x22fb8a49811d33d34be96c82b3937b252e78a8d5) will **change** after the first token is minted. A new link will be displayed now to track the ERC721 token `GRAD`.
 {% endhint %}
 
-![](<../.gitbook/assets/image (8) (1) (1).png>)
+![](<../.gitbook/assets/image (8) (1) (1) (1).png>)
 
-![](<../.gitbook/assets/image (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png>)
 
 ## What’s next? <a href="#id-2883" id="id-2883"></a>
 

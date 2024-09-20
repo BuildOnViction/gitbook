@@ -2,6 +2,7 @@
 description: >-
   In this article, we will cover for how to verify the token contract had been
   issued by VICIssuer
+hidden: true
 ---
 
 # How to verify if a contract has been issued via VICIssuer
