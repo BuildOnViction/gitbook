@@ -2,9 +2,9 @@
 
 Viction is an EVM-compatible public blockchain. So you can use [Viction JSON-RPC APIs](https://apidocs.tomochain.com/#Viction-apis-json-rpc) similar as in Ethereum.
 
-EVM compatible libraries such as [Web3.js](../smart-contract-development/ides-and-tools/web3js.md) or [Ethers.js](../smart-contract-development/ides-and-tools/ethers.js.md) library can be fully reused in integration to create a wallet, check wallet balances, or create/send transactions. All you need is to connect to Viction's RPC public endpoint. [This tutorial](../working-with-Viction/) will guide you the steps to connect to Viction Testnet/Mainnet using Web3.js.
+EVM compatible libraries such as [Web3.js](../../smart-contract-development/ides-and-tools/web3js.md) or [Ethers.js](../../smart-contract-development/ides-and-tools/ethers.js.md) library can be fully reused in integration to create a wallet, check wallet balances, or create/send transactions. All you need is to connect to Viction's RPC public endpoint. [This tutorial](../working-with-Viction/) will guide you the steps to connect to Viction Testnet/Mainnet using Web3.js.
 
-### Connect to Viction's public RPC endpoint <a href="#connect-to-Viction-nodes" id="connect-to-Viction-nodes"></a>
+### Connect to Viction's public RPC endpoint <a href="#connect-to-viction-nodes" id="connect-to-viction-nodes"></a>
 
 ```javascript
 import Web3 from 'web3';
@@ -185,7 +185,7 @@ In normal case, you can wait for 60 confirmations, then checking block finality 
 
 If `result` >= 75, it means the block with the input hash is finalized, thus irreversible.
 
-### How does Viction smart contract work? <a href="#how-does-Viction-smart-contract-work" id="how-does-Viction-smart-contract-work"></a>
+### How does Viction smart contract work? <a href="#how-does-viction-smart-contract-work" id="how-does-viction-smart-contract-work"></a>
 
 Viction supports Solidity compiler version <= 0.8.17
 
@@ -193,6 +193,6 @@ Viction supports Solidity compiler version <= 0.8.17
 
 Yes. Similar to Ethereum, you can use Gnosis MultiSigWallet.
 
-### Run Viction node <a href="#run-Viction-node" id="run-Viction-node"></a>
+### Run Viction node <a href="#run-viction-node" id="run-viction-node"></a>
 
 Please check [Run Viction Fullnode](../../masternode/run-a-full-node/) for details how to run a Viction full node.

@@ -2,7 +2,7 @@
 
 Now we’re ready to use our Dapp!
 
-### Install and configure MetaMask <a href="#4986" id="4986"></a>
+### Install and configure MetaMask <a href="#id-4986" id="id-4986"></a>
 
 1. Install the [MetaMask browser extension](https://metamask.io/) in Chrome or FireFox.
 2. Once installed, you’ll see the MetaMask fox icon next to your address bar. Click the icon and MetaMask will open up.
@@ -14,7 +14,7 @@ _Initiating MetaMask_
 
 4\. Now we’re connected to the Ethereum network, with a brand new wallet with 0 ETH.
 
-5\. Let’s now connect MetaMask to Viction (testnet). Click the menu with the “Main Ethereum Network” and select **Custom RPC**. Use the [Networks data from Viction](../../general/how-to-connect-to-viction-network/metamask.md) (testnet) and click **Save**
+5\. Let’s now connect MetaMask to Viction (testnet). Click the menu with the “Main Ethereum Network” and select **Custom RPC**. Use the [Networks data from Viction](../../how-to/how-to-connect-to-viction-network/metamask.md) (testnet) and click **Save**
 
 ![](https://miro.medium.com/max/60/1\*Dm4qhGJOjnolRwxX-VN94w.png?q=20) ![](https://miro.medium.com/max/1424/1\*Dm4qhGJOjnolRwxX-VN94w.png)
 
@@ -30,7 +30,7 @@ We could use the VIC wallet we created previously, but better **let’s create a
 
 _Importing a wallet_
 
-### Using the Dapp <a href="#9432" id="9432"></a>
+### Using the Dapp <a href="#id-9432" id="id-9432"></a>
 
 If you want to get started with your dApp quickly or see what this whole project looks like with a frontend, you can use Hardhat's[ boilerplate repo](https://github.com/NomicFoundation/hardhat-boilerplate).
 

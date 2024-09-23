@@ -24,7 +24,7 @@ You can access the Remix IDE in different ways: online, via a web browser like C
 
 You can access the Remix IDE from your web browser without any special installation. Visit [https://remix.ethereum.org/](https://remix.ethereum.org/) and you’ll be presented with a complete IDE with a code editor and various panels for compiling, running and debugging your smart contracts. You’ll have a default example _Ballot_ contract that you can play with. Beside you should refer [Remix](https://remix-ide.readthedocs.io/en/latest/) document if need more detail.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-10-18 at 10.08.46.png" alt=""><figcaption><p>Main screen</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-10-18 at 10.08.46.png" alt=""><figcaption><p>Main screen</p></figcaption></figure>
 
 ### Remix Panels <a href="#remixpanels" id="remixpanels"></a>
 
@@ -34,7 +34,7 @@ After seeing how to open the Remix IDE, let’s now see the various panels compo
 
 The file explorer provides a view with the created files stored in the browser’s storage. You can rename or delete any file by right-clicking on it, then choosing the right operation from the context menu.
 
-![Workspace](<../../../.gitbook/assets/Screenshot 2023-10-18 at 10.32.28.png>)
+![Workspace](<../../.gitbook/assets/Screenshot 2023-10-18 at 10.32.28.png>)
 
 Please note that the file explorer uses the browser’s local storage by default, which means you can lose all your files if you clear or the operating system automatically clears the storage. For advanced work, it’s recommended to use [Remixd](https://github.com/ethereum/remixd) - a Node.js tool (available from npm `npm install -g remixd`) which allows the Remix IDE to access your computer’s file system.
 
@@ -60,13 +60,13 @@ the last button can be used to connect the Remix IDE to your local file system i
 
 The Solidity code editor provides the interface where you can write your code with many features such as syntax highlighting, auto-recompling, auto-saving etc. You can open multiple tabs and also increase/decrease the font size using the _+/-_ button in the top-left corner.
 
-![Solidity Code Editor](<../../../.gitbook/assets/Screenshot 2023-10-18 at 10.42.36.png>)
+![Solidity Code Editor](<../../.gitbook/assets/Screenshot 2023-10-18 at 10.42.36.png>)
 
 #### Terminal <a href="#terminal" id="terminal"></a>
 
 The terminal window below the editor integrates a JavaScript interpreter and the `web3` object. You can execute JavaScript code in the current context, visualize the actions performed from the IDE, visualize all network transactions or transactions created from the Remix IDE etc. You can also search for data in the terminal and clear the logs.
 
-![Remix terminal](<../../../.gitbook/assets/Screenshot 2023-10-18 at 10.43.19.png>)
+![Remix terminal](<../../.gitbook/assets/Screenshot 2023-10-18 at 10.43.19.png>)
 
 #### Tabs Panel <a href="#tabspanel" id="tabspanel"></a>
 
@@ -80,7 +80,7 @@ The _Tabs_ panel provides many tabs for working with the IDE:
 * the _File Explorer_ tab: used for display all files and folders in Remix.
 * the Debug tab: used for debug when execute contract.
 
-![Remix tabs](<../../../.gitbook/assets/Screenshot 2023-10-19 at 11.51.55.png>)
+![Remix tabs](<../../.gitbook/assets/Screenshot 2023-10-19 at 11.51.55.png>)
 
 ### Remix Execution Environments <a href="#remixexecutionenvironments" id="remixexecutionenvironments"></a>
 
@@ -90,7 +90,7 @@ The Remix IDE provides many environments for executing the transactions:
 * Injected Web3: a provider that injects web3 such as [`Metamask`](https://coinsbench.com/how-to-use-remix-ide-to-deploy-your-smart-contract-on-chain-5e37e1faa15a), allow you to connect to real blockchain.
 * Web3 Provider: a remote node with geth, parity or any Ethereum client. Can be used to connect to the real network, or to your private blockchain directly without MetaMask in the middle.
 
-![Remix Execution Environments](<../../../.gitbook/assets/Screenshot 2023-10-18 at 11.12.39 (1).png>)
+![Remix Execution Environments](<../../.gitbook/assets/Screenshot 2023-10-18 at 11.12.39 (1).png>)
 
 ### Using Remix IDE to Compile and Deploy a Smart Contract <a href="#usingremixidetocompileanddeployasmartcontract" id="usingremixidetocompileanddeployasmartcontract"></a>
 
@@ -138,45 +138,45 @@ Now, go ahead and open the Remix IDE from [remix.ethereum.org](https://remix.eth
 
 Next, create a new file by clicking on the button with the _+_ icon.
 
-![Create a new file](broken-reference)
+![Create a new file](../../developer-guide/smart-contract-development/ides-and-tools/broken-reference)
 
 And then you must enter a name , then press Enter:
 
-![Set filename](<../../../.gitbook/assets/Screenshot 2023-10-18 at 11.25.28.png>)
+![Set filename](<../../.gitbook/assets/Screenshot 2023-10-18 at 11.25.28.png>)
 
 A new tab will be opened in the code editor where you can start writing your contract. So just copy and paste the previous contract code in there.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-10-18 at 11.35.26.png" alt=""><figcaption><p>New blank file</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-10-18 at 11.35.26.png" alt=""><figcaption><p>New blank file</p></figcaption></figure>
 
 Next, let’s deploy the contract with our RemixVM. Switch to the _Deploy and_ _Run Transaction_ tab, and select _Remix VM_ from the dropdown menu.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-10-18 at 11.38.17.png" alt=""><figcaption><p>Deployment environments</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-10-18 at 11.38.17.png" alt=""><figcaption><p>Deployment environments</p></figcaption></figure>
 
 Next, click the _Deploy_ button below the contract name.
 
-<figure><img src="broken-reference" alt=""><figcaption><p>Deploy the contract</p></figcaption></figure>
+<figure><img src="../../developer-guide/smart-contract-development/ides-and-tools/broken-reference" alt=""><figcaption><p>Deploy the contract</p></figcaption></figure>
 
 Once the contract is deployed successfully on the Remix VM, a box will be opened on the bottom as below.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-10-18 at 11.43.06.png" alt=""><figcaption><p>Contract is deployed</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-10-18 at 11.43.06.png" alt=""><figcaption><p>Contract is deployed</p></figcaption></figure>
 
 Under the name and address of the deployed contract, we have some buttons with red and blue colors. Red buttons refer to actions that cause a write to the blockchain, where blue buttons refer to reading from blockchain.
 
 The Remix VM provides 15 fake accounts with _100_ ether each, which we can use to test the contract. You can select a current account from the dropdown menu with the name _Account_ below the _Environment_ dropdown.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-10-18 at 11.48.03.png" alt=""><figcaption><p>Built-in account for testing</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-10-18 at 11.48.03.png" alt=""><figcaption><p>Built-in account for testing</p></figcaption></figure>
 
 You can see we have 2 functions, therefore we interact with smart contract easily. As below, we just called function store to change global variable number of contract.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-10-18 at 11.55.47.png" alt=""><figcaption><p>Call a contract</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-10-18 at 11.55.47.png" alt=""><figcaption><p>Call a contract</p></figcaption></figure>
 
 After call a function in smart contract, you can check log in terminal as below:
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-10-18 at 13.35.40.png" alt=""><figcaption><p>Transaction log in terminal</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-10-18 at 13.35.40.png" alt=""><figcaption><p>Transaction log in terminal</p></figcaption></figure>
 
 When compile contract, we might run into several errors. Therefore , Remix support developer by using ChatGPT, as you can see below:
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-10-19 at 11.58.25.png" alt=""><figcaption><p>ChatGPT support</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-10-19 at 11.58.25.png" alt=""><figcaption><p>ChatGPT support</p></figcaption></figure>
 
 ### Remix Alternatives <a href="#remixalternatives" id="remixalternatives"></a>
 

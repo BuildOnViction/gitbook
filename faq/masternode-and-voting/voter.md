@@ -28,7 +28,7 @@ Any token holder can vote. Login to [VicMaster](https://vicmaster.xyz/) and then
 
 There are many ways to vote in VicMaster:
 
-* Voting from [Viction Wallet](../../general/how-to-connect-to-viction-network/viction-wallet/) (coming soon)
+* Voting from [Viction Wallet](../../viction-wallet/) (coming soon)
 * Voting from [TomoWallet](https://www.youtube.com/watch?v=EdeTsN6-hRM\&list=PLuqf1yr-JvSy0AwnxMyalxmM\_jKFOP\_Y\_) (sunset soon - 31/12/2023)
 * Voting from [Ledger wallet](https://www.youtube.com/watch?v=wfHK03D2m7s\&list=PLuqf1yr-JvSx7XiLxXlhItFhpz\_-j1fD0)
 * Voting from Trezor wallet (same as Ledger)
@@ -88,7 +88,7 @@ The minimum amount to stake is 100 VIC.
 
 ### **Which hardware-wallet can I use to vote?**
 
-You are able to use hardware wallets (Ledger, Trezor) with MyEtherWallet or Metamask. You can also directly [connect to the Viction Mainnet ](../../general/how-to-connect-to-viction-network/)with Ledger/Trezor and vote on [VicMaster](https://vicmaster.xyz/).
+You are able to use hardware wallets (Ledger, Trezor) with MyEtherWallet or Metamask. You can also directly [connect to the Viction Mainnet ](../../how-to/how-to-connect-to-viction-network/)with Ledger/Trezor and vote on [VicMaster](https://vicmaster.xyz/).
 
 ### **Is it possible to re-invest the VIC earned and use it to continue voting?**
 

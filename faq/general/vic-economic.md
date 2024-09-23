@@ -77,7 +77,7 @@ You can store VIC in Viction Wallet, TrustWallet, MetaMask, MyEtherWallet, Ledge
 
 We recommend to store VIC in Viction Wallet.
 
-Please, read more details [here](../../general/how-to-connect-to-viction-network/viction-wallet/)
+Please, read more details [here](../../viction-wallet/)
 
 ### **How do I connect Metamask with Viction mainnet?**
 
@@ -90,9 +90,9 @@ The following is information used for configuring Metamask to connect to Viction
 
 If you're unable to add the Viction Mainnet using the previous instructions, you can try an alternative method by connecting through [https://chainlist.org/?search=viction](https://chainlist.org/?search=viction).
 
-You can find the info about our Mainnet or Testnet [here](../../developer-guide/deploy-on-viction/).&#x20;
+You can find the info about our Mainnet or Testnet [here](../../archive/deploy-on-viction/).&#x20;
 
-Also, you can find out more detailed information about how to use different wallet types to connect to Viction Mainnet on [Connect your wallet](../../general/how-to-connect-to-viction-network/)
+Also, you can find out more detailed information about how to use different wallet types to connect to Viction Mainnet on [Connect your wallet](../../how-to/how-to-connect-to-viction-network/)
 
 ### **Where can I buy VIC?**
 

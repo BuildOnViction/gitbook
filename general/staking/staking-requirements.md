@@ -10,7 +10,7 @@ description: Introduction to stake VIC on Masternodes.
 
 ### Introduction <a href="#introduction" id="introduction"></a>
 
-With a connected wallet, it's time to try voting for some Masternodes. If there is any trouble with connecting to the Viction network, go to [How to Connect to Viction Network](../how-to-connect-to-viction-network/).
+With a connected wallet, it's time to try voting for some Masternodes. If there is any trouble with connecting to the Viction network, go to [How to Connect to Viction Network](../../how-to/how-to-connect-to-viction-network/).
 
 ### How To Vote <a href="#how-to-vote" id="how-to-vote"></a>
 

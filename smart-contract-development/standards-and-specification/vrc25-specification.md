@@ -627,4 +627,4 @@ Source: [SampleVRC25.sol](https://github.com/BuildOnViction/trc25/blob/main/cont
 
 ### Enable gas-less transaction
 
-Once you have deployed a VRC25 compatible contract. You will also need to register for VIC ZeroGas to enable gas-less transaction for your contract. Please refer to [VIC ZeroGas](../integration/vic-zerogas-integration.md) page for more information.
+Once you have deployed a VRC25 compatible contract. You will also need to register for VIC ZeroGas to enable gas-less transaction for your contract. Please refer to [VIC ZeroGas](../../developer-guide/integration/vic-zerogas-integration.md) page for more information.

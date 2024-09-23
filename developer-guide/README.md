@@ -4,22 +4,22 @@ description: >-
   APIs, tools, and useful tutorials.
 ---
 
-# Developer Guide
+# DApp Development
 
-{% content-ref url="smart-contract-development/" %}
-[smart-contract-development](smart-contract-development/)
+{% content-ref url="../smart-contract-development/" %}
+[smart-contract-development](../smart-contract-development/)
 {% endcontent-ref %}
 
-{% content-ref url="standards-and-specification/" %}
-[standards-and-specification](standards-and-specification/)
+{% content-ref url="../smart-contract-development/standards-and-specification/" %}
+[standards-and-specification](../smart-contract-development/standards-and-specification/)
 {% endcontent-ref %}
 
 {% content-ref url="build-a-dapp-on-viction/" %}
 [build-a-dapp-on-viction](build-a-dapp-on-viction/)
 {% endcontent-ref %}
 
-{% content-ref url="deploy-on-viction/" %}
-[deploy-on-viction](deploy-on-viction/)
+{% content-ref url="../archive/deploy-on-viction/" %}
+[deploy-on-viction](../archive/deploy-on-viction/)
 {% endcontent-ref %}
 
 {% content-ref url="integration/" %}

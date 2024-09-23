@@ -1,11 +1,11 @@
-# Working with Viction
+# Deploy on Viction
 
-{% content-ref url="viction-mainnet.md" %}
-[viction-mainnet.md](viction-mainnet.md)
+{% content-ref url="../../general/network-information/viction-mainnet.md" %}
+[viction-mainnet.md](../../general/network-information/viction-mainnet.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../archive/viction-testnet.md" %}
-[viction-testnet.md](../../archive/viction-testnet.md)
+{% content-ref url="../viction-testnet.md" %}
+[viction-testnet.md](../viction-testnet.md)
 {% endcontent-ref %}
 
 {% content-ref url="cli-commands.md" %}

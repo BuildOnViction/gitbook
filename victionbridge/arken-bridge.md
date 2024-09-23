@@ -49,8 +49,8 @@ Click on the **Connect Wallet** button and choose your preferred wallet provider
 
 * After successful completion, your chosen token will be available in your Viction wallet address. You might need to add the token address manually to your wallet if it's not automatically displayed.
 
-{% content-ref url="../general/how-to-connect-to-viction-network/viction-wallet/user-guide/add-custom-token.md" %}
-[add-custom-token.md](../general/how-to-connect-to-viction-network/viction-wallet/user-guide/add-custom-token.md)
+{% content-ref url="../viction-wallet/user-guide/add-custom-token.md" %}
+[add-custom-token.md](../viction-wallet/user-guide/add-custom-token.md)
 {% endcontent-ref %}
 
 {% hint style="info" %}

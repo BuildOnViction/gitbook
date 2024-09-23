@@ -4,7 +4,7 @@ description: >-
   token
 ---
 
-# VIC ZeroGas integration
+# VIC ZeroGas
 
 ### How it works
 
@@ -14,7 +14,7 @@ description: >-
 
 ### Requirement
 
-* Smart-contract that meet [VRC25 Specification](../standards-and-specification/vrc25-specification.md).
+* Smart-contract that meet [VRC25 Specification](../../smart-contract-development/standards-and-specification/vrc25-specification.md).
 * 10 VIC for first time registration.
 
 ### How to apply (mainnet)
