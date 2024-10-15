@@ -27,7 +27,7 @@ Once all OP services are started, proceed with the following steps:
 
 **4. Resume the Batcher Service:** Resume the batcher service to continue processing transactions.
 
-[As illustrated in the Light Client diagram](https://app.gitbook.com/o/T5NoFw3kpfO1sTCSR41o/s/J7KRTq1pTZaELn1mvmb2/\~/changes/11/glitchd-products/data-availability/da-layer-integration-case-studies), the light client performs the following functions:
+[As illustrated in the Light Client diagram](https://docs.viction.xyz/viction-data-availability/da-integration-use-cases), the light client performs the following functions:
 
 * Stores L2 transaction batch data to the DA Layer.
 * Saves versioned hashes on Viction.
