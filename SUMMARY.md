@@ -71,6 +71,8 @@
   * [Hyperlane](victionbridge/hyperlane.md)
 * [Viction Data Availability](viction-data-availability/README.md)
   * [Viction DA RPC API](viction-data-availability/viction-da-rpc-api.md)
+  * [DA Integration Use cases](viction-data-availability/da-integration-use-cases/README.md)
+    * [Simple Guide for Integrating OP Stack Rollup with Viction DA Layer](viction-data-availability/da-integration-use-cases/simple-guide-for-integrating-op-stack-rollup-with-viction-da-layer.md)
 * [How to](how-to/README.md)
   * [How to Connect to Viction Blockchain](how-to/how-to-connect-to-viction-network/README.md)
     * [Coin98 Super Wallet](how-to/how-to-connect-to-viction-network/coin98-super-wallet.md)
