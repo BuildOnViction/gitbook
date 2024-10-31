@@ -7,31 +7,9 @@ description: >-
 
 # Whitepaper and Research
 
-### Version 1.1
-
-{% hint style="info" %}
-Updated document will be released soon
-{% endhint %}
-
-#### Technical Paper
-
-#### Economics Paper
-
-#### Sharding Proposal
 
 
+<table data-view="cards"><thead><tr><th>Name</th><th>Version</th><th></th><th data-type="files"></th></tr></thead><tbody><tr><td>Technical Whitepaper </td><td>2.0</td><td>technical-whitepaper-2.0</td><td><a href=".gitbook/assets/technical-whitepaper-2.0.pdf">technical-whitepaper-2.0.pdf</a></td></tr><tr><td> Economics Paper </td><td>2.</td><td>VICTION Economics Paper 2.0</td><td><a href=".gitbook/assets/VICTION Economics Paper 2.0.pdf">VICTION Economics Paper 2.0.pdf</a></td></tr><tr><td>Technical Whitepaper        </td><td>1.0</td><td>technical-whitepaper-1.0</td><td><a href=".gitbook/assets/technical-whitepaper-1.0.pdf">technical-whitepaper-1.0.pdf</a></td></tr><tr><td>Economics paper </td><td>1.0</td><td>VICTION Economics Paper 1.0</td><td><a href=".gitbook/assets/VICTION Economics Paper 1.0.pdf">VICTION Economics Paper 1.0.pdf</a></td></tr></tbody></table>
 
-### Version 1
 
-#### Technical Paper
-
-{% file src=".gitbook/assets/technical-whitepaper-1.0.pdf" %}
-
-#### Economics Paper
-
-{% file src=".gitbook/assets/TomoChain Economics Paper.pdf" %}
-
-#### Sharding Proposal
-
-{% file src=".gitbook/assets/TomoChain sharding proposal.pdf" %}
 
