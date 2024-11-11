@@ -486,7 +486,7 @@ In `Ethereum (Ropsten)`, the Etherscan page with [our migrated contract](https:/
 
 ![](<../.gitbook/assets/image (8) (2).png>)
 
-![](<../.gitbook/assets/image (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (1).png>)
 
 ## What’s next? <a href="#id-2883" id="id-2883"></a>
 

@@ -80,7 +80,7 @@ Your token is now ready for use, however **without ZeroGas registration**, you *
 
 **Step 2:** The Zero Gas introduction and conditions will appear; please read them carefully and click the **I Understand** button to proceed.
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 3:** The token issuer needs to deposit a minimum amount of 10 VIC. Click the **Submit** button to review.
 
@@ -120,4 +120,4 @@ If there are not enough VIC funds to pay for subsequent transaction fees, any to
 
 Go to the **Donate VRC-25 fee** tab from VicIssuer’s homepage. Enter the name of the token to donate VIC to, then enter the donation amount. Considering that the transaction fee in Viction is near zero, 1 VIC can power thousands of transactions.
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
