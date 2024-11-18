@@ -13,6 +13,7 @@
   * [Network Information](general/network-information/README.md)
     * [Viction Mainnet](general/network-information/viction-mainnet.md)
     * [Viction Testnet](general/network-information/viction-testnet.md)
+  * [Viction RPC API](general/viction-rpc-api.md)
 * [Smart Contract Development](smart-contract-development/README.md)
   * [Solidity](smart-contract-development/solidity/README.md)
     * [A Simple Smart Contract](smart-contract-development/solidity/a-simple-smart-contract.md)
