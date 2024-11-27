@@ -34,4 +34,4 @@ This step can be achieved by following step:
 
 <figure><img src="../.gitbook/assets/13.png" alt=""><figcaption></figcaption></figure>
 
-Then your **VRC725 contract** is now **ZeroGas** with the following transaction**:** [https://testnet.vicscan.xyz/tx/0x66c39ec3474366a6eae64d37c0d4c72796af7fb967a4cba4ea1690bc75349b89](https://testnet.vicscan.xyz/tx/0x66c39ec3474366a6eae64d37c0d4c72796af7fb967a4cba4ea1690bc75349b89)
+Then your **VRC725 contract** is now **ZeroGas** with the following transactio&#x6E;**:** [https://testnet.vicscan.xyz/tx/0x66c39ec3474366a6eae64d37c0d4c72796af7fb967a4cba4ea1690bc75349b89](https://testnet.vicscan.xyz/tx/0x66c39ec3474366a6eae64d37c0d4c72796af7fb967a4cba4ea1690bc75349b89)

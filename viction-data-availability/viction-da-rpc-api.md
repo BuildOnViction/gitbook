@@ -347,7 +347,7 @@ Submit data to Data layer & returns tuple of ID and Commitment for each given Bl
 
 <mark style="color:yellow;">`POST`</mark> `/validate`
 
-Request body 1st params argument is a "hello" string Id and Commitment**("${Id}-{Commitment}")**
+Request body 1st params argument is a "hello" string Id and Commitmen&#x74;**("${Id}-{Commitment}")**
 
 Kindly view `Submit` example 2nd onw is a data with corrupted proof byte array
 

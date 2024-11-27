@@ -4,8 +4,8 @@
 
 The voting period lasts for 7 days for proposals, and 5 days for temperature checks. In this time, users cast their vote by connecting their wallet holding the governance. Voting is carried on the proposal dashboard on the governance platform. Snapshot automatically calculates the voting power. Once a vote has been cast it can be changed but not undone. The process flow for Voters can be seen in Figure 3.
 
-[![](https://lh3.googleusercontent.com/seSgxAQPgbkPlApGEYi2b1lmzFjAotuLVlM5fl1hAvPmZVCFXIPCohbHoNcgNbjshiXTJQHBysyczD10InYSDmE60q8k9IXqF6S8iHRGIz\_M2h0myRsqlKk85JRyqggqg8w12fhSnQBnC\_oq8UPfIA)](https://app.diagrams.net/?page-id=98j1RYpuqxviwHLO6aVl\&scale=auto#G1YroYyZUxWgKmX6-qrhq\_pvu5YYSRMVny)\
-_Figure 3: Process Flow for Voters_
+[![](https://lh3.googleusercontent.com/seSgxAQPgbkPlApGEYi2b1lmzFjAotuLVlM5fl1hAvPmZVCFXIPCohbHoNcgNbjshiXTJQHBysyczD10InYSDmE60q8k9IXqF6S8iHRGIz_M2h0myRsqlKk85JRyqggqg8w12fhSnQBnC_oq8UPfIA)](https://app.diagrams.net/?page-id=98j1RYpuqxviwHLO6aVl\&scale=auto#G1YroYyZUxWgKmX6-qrhq_pvu5YYSRMVny)\
+&#xNAN;_&#x46;igure 3: Process Flow for Voters_
 
 At the conclusion of the voting period, Voters receive a reward paid into their wallet. The reward is a preset value set at the creation of the proposal. Reward size is in relation to the size of the proposals, with larger proposals having more rewards available. This reward is split evenly between voting members irrespective of voting power. The reward system is a key element that separates TomoMasterDAO from other governance platforms.
 

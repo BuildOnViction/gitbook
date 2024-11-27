@@ -12,13 +12,13 @@ The snapshot consists of 2 parts that must be downloaded and extracted for a nod
 To help node operators to catchup with network quickly, we create a snapshot for Viction mainnet **every Friday**
 {% endhint %}
 
-* TomoX**:** [https://snapshot.viction.xyz/TOMOX\_DATA.tar.zst](https://snapshot.viction.xyz/TOMOX\_DATA.tar.zst)
-* Chain Data: [https://snapshot.viction.xyz/CHAIN\_DATA.tar.zst](https://snapshot.viction.xyz/CHAIN\_DATA.tar.zst)
+* Tomo&#x58;**:** [https://snapshot.viction.xyz/TOMOX\_DATA.tar.zst](https://snapshot.viction.xyz/TOMOX_DATA.tar.zst)
+* Chain Data: [https://snapshot.viction.xyz/CHAIN\_DATA.tar.zst](https://snapshot.viction.xyz/CHAIN_DATA.tar.zst)
 
 We also have checksum information to verify downloaded files are correct.
 
-* TomoX**:** [https://snapshot.viction.xyz/TOMOX\_DATA.tar.zst.sha1](https://snapshot.viction.xyz/TOMOX\_DATA.tar.zst.sha1)
-* Chain Data**:** [https://snapshot.viction.xyz/CHAIN\_DATA.tar.zst.sha1](https://snapshot.viction.xyz/CHAIN\_DATA.tar.zst.sha1)
+* Tomo&#x58;**:** [https://snapshot.viction.xyz/TOMOX\_DATA.tar.zst.sha1](https://snapshot.viction.xyz/TOMOX_DATA.tar.zst.sha1)
+* Chain Dat&#x61;**:** [https://snapshot.viction.xyz/CHAIN\_DATA.tar.zst.sha1](https://snapshot.viction.xyz/CHAIN_DATA.tar.zst.sha1)
 
 ## Archive Node
 
@@ -26,13 +26,13 @@ We also have checksum information to verify downloaded files are correct.
 To help node operators to catchup with network quickly, we create a  archive snapshot for Viction mainnet quarter(3 months) for cost saving. Latest data is snapshot on **July 2nd, 2024.** The next blockchai data will be snapshoted early **October, 2024.**&#x20;
 {% endhint %}
 
-* TomoX**:** `https://snapshot.viction.xyz/archive-node/TOMOX_DATA.tar.zst`
+* Tomo&#x58;**:** `https://snapshot.viction.xyz/archive-node/TOMOX_DATA.tar.zst`
 * Chain Data: `https://snapshot.viction.xyz/archive-node/CHAIN_DATA.tar.zst`
 
 We also have checksum information to verify downloaded files are correct.
 
-* TomoX**:** `https://snapshot.viction.xyz/archive-node/TOMOX_DATA.tar.zst.sha1`
-* Chain Data**:** `https://snapshot.viction.xyz/archive-node/CHAIN_DATA.tar.zst.sha1`
+* Tomo&#x58;**:** `https://snapshot.viction.xyz/archive-node/TOMOX_DATA.tar.zst.sha1`
+* Chain Dat&#x61;**:** `https://snapshot.viction.xyz/archive-node/CHAIN_DATA.tar.zst.sha1`
 
 ## **Notes**
 
