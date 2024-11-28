@@ -26,8 +26,21 @@ One of SubQuery's significant competitive advantages is its capability to aggreg
 
 
 
-To get started, use the [Viction starter](https://github.com/subquery/ethereum-subql-starter/tree/main/Viction/viction-starter) and begin indexing Viction blockchain data in minutes. It is advised to first start with the [quick start guide](https://academy.subquery.network/indexer/quickstart/quickstart.html). Otherwise, further information may be obtained [here](https://academy.subquery.network/).\
+To get started, use the [Viction starter](https://github.com/subquery/ethereum-subql-starter/tree/main/Viction/viction-starter) and begin indexing Viction blockchain data in minutes. It is advised to first start with the [quick start guide](https://academy.subquery.network/indexer/quickstart/quickstart.html). Otherwise, further information may be obtained [here](https://academy.subquery.network/).
 
 
 
+## Goldsky Subgraph <a href="#subquery-network" id="subquery-network"></a>
+
+Goldsky is the go-to data indexer for web3 builders, offering high-performance subgraph hosting and realtime data replication pipelines.
+
+Goldsky provides a completely backwards-compatible subgraph indexing solution. The core of the indexing uses exactly the same WASM processing layer, but in addition, Goldsky offers:
+
+* a rewritten RPC layer, autoscaling query layer, and storage optimizations to improve reliability (99.9%+ uptime) and performance (up to 6x faster)
+* webhooks support out-the-box to enable notifications, messaging, and other push-based use cases
+* support for custom EVM chains so you can index your own rollup or private blockchain seamlessly
+
+You can query Viction blocks easily using this endpoint
+
+[https://api.goldsky.com/api/public/project\_cld6kdj9u539w0htd50sbeqyz/subgraphs/viction-blocks/1.0/gn](https://api.goldsky.com/api/public/project_cld6kdj9u539w0htd50sbeqyz/subgraphs/viction-blocks/1.0/gn)
 
