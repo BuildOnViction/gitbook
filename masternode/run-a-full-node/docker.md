@@ -46,7 +46,7 @@ This image runs the [Viction go client](https://github.com/BuildOnViction/tomoch
 
 | Path                | Content   |
 | ------------------- | --------- |
-| `/Viction/data`     | Chaindata |
+| `/tomochain/data`   | Chaindata |
 | `/Viction/keystore` | Accounts  |
 
 ### Examples <a href="#examples" id="examples"></a>
@@ -63,7 +63,7 @@ docker run -d --name masternode \
   -e WS_SECRET=$STATS_WS_SECRET \
   -p 30303:30303 \
   -p 30303:30303/udp \
-  -v chaindata:/Viction/data \
+  -v chaindata:/tomochain/data \
   Viction/node:stable
 ```
 
@@ -85,5 +85,5 @@ services:
       - 30303:30303
       - 30303:30303/udp
     volumes:
-      - chaindata:/Viction/data
+      - chaindata:/tomochain/data
 ```
