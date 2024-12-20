@@ -32,7 +32,7 @@ Also 150 is [Dunbar’s Number](https://en.wikipedia.org/wiki/Dunbar's_number).
 
 **Pre** [**VIP#1 Hardfork**](https://gov.viction.xyz/viction-improvement-proposal-vip-1-the-need-for-viction-future-initiatives) The block rewards will come from a 17 million VIC reserve for 8 years - this was decided since the genesis block. Our [Economics paper ](https://docs.google.com/document/d/197Cu57A6OYPoEQbrUVr067qNVEzP_FEwaDCFff7hnlM/edit)lays out the number in detail.
 
-**Post** [**VIP#1 Hardfork**](https://gov.viction.xyz/viction-improvement-proposal-vip-1-the-need-for-viction-future-initiatives) In addition to the 17 million VIC old rewards pre [**VIP#1 Hardfork**](https://gov.viction.xyz/viction-improvement-proposal-vip-1-the-need-for-viction-future-initiatives)**,** there will be newly added 30 million VIC reward with the same distribution logic
+**Post** [**VIP#1 Hardfork**](https://gov.viction.xyz/viction-improvement-proposal-vip-1-the-need-for-viction-future-initiatives) In addition to the 17 million VIC old rewards pre [**VIP#1 Hardfork**](https://gov.viction.xyz/viction-improvement-proposal-vip-1-the-need-for-viction-future-initiatives)**,** there will be newly added 30 million VIC reward with the same distribution logic starting from October 29th, 2024 and from block #86158494 onward.
 
 Masternode operators and Voters will receive rewards every epoch. An epoch is represented as 900-blocks of 2-second block time (\~30 minutes).
 
