@@ -26,13 +26,13 @@ After the initial deposit, if the account does not become a Masternode (has less
 
 The reason came from considering both decentralization and scalability. In terms of decentralization, 150 is better than 99. The more important consideration was scalability. We also increased the number of Masternodes to better suit a future sharding solution.
 
-Also 150 is [Dunbar’s Number](https://en.wikipedia.org/wiki/Dunbar's\_number).
+Also 150 is [Dunbar’s Number](https://en.wikipedia.org/wiki/Dunbar's_number).
 
 ### **Where will the Masternode rewards come from? Will they be from the DEX?**
 
-The block rewards will come from a 17 million VIC reserve for 8 years - this was decided since the genesis block. Our [Economics paper ](https://docs.google.com/document/d/197Cu57A6OYPoEQbrUVr067qNVEzP\_FEwaDCFff7hnlM/edit)lays out the number in detail.
+**Pre** [**VIP#1 Hardfork**](https://gov.viction.xyz/viction-improvement-proposal-vip-1-the-need-for-viction-future-initiatives) The block rewards will come from a 17 million VIC reserve for 8 years - this was decided since the genesis block. Our [Economics paper ](https://docs.google.com/document/d/197Cu57A6OYPoEQbrUVr067qNVEzP_FEwaDCFff7hnlM/edit)lays out the number in detail.
 
-### **When are Masternode rewards paid out?**
+**Post** [**VIP#1 Hardfork**](https://gov.viction.xyz/viction-improvement-proposal-vip-1-the-need-for-viction-future-initiatives) In addition to the 17 million VIC old rewards pre [**VIP#1 Hardfork**](https://gov.viction.xyz/viction-improvement-proposal-vip-1-the-need-for-viction-future-initiatives)**,** there will be newly added 30 million VIC reward with the same distribution logic
 
 Masternode operators and Voters will receive rewards every epoch. An epoch is represented as 900-blocks of 2-second block time (\~30 minutes).
 
@@ -46,7 +46,7 @@ Each epoch consists of 900 blocks, which will reward a total of 250 VIC in the f
 
 Example: With only 25 Masternodes with equal performance, every Masternode would be rewarded with 10 VIC. With 125 Masternodes, each one would receive 2 VIC per epoch.
 
-Please, refer to our [Economics paper](https://docs.google.com/document/d/197Cu57A6OYPoEQbrUVr067qNVEzP\_FEwaDCFff7hnlM/edit) for more details about the Masternode rewards.
+Please, refer to our [Economics paper](https://docs.google.com/document/d/197Cu57A6OYPoEQbrUVr067qNVEzP_FEwaDCFff7hnlM/edit) for more details about the Masternode rewards.
 
 ### **How much of the Masternode reward will go to the Masternode infrastructure (node owner) and to voters?**
 
@@ -60,7 +60,7 @@ There is a reward sharing ratio among token holders and the Masternodes which ha
 
 The rewards for every Masternode will be dynamic and depend on multiple factors like: number of Masternodes in the network, the efficiency signing blocks, the total number of votes on each Masternode.
 
-Please, refer to our [Economics paper ](https://docs.google.com/document/d/197Cu57A6OYPoEQbrUVr067qNVEzP\_FEwaDCFff7hnlM/edit)for more details about the Masternodes reward. We discuss 3 possible scenarios with 50, 100 and 150 Masternodes; and different number of total votes.
+Please, refer to our [Economics paper ](https://docs.google.com/document/d/197Cu57A6OYPoEQbrUVr067qNVEzP_FEwaDCFff7hnlM/edit)for more details about the Masternodes reward. We discuss 3 possible scenarios with 50, 100 and 150 Masternodes; and different number of total votes.
 
 One example is outlined below.
 
