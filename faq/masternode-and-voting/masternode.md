@@ -30,7 +30,7 @@ Also 150 is [Dunbar’s Number](https://en.wikipedia.org/wiki/Dunbar's_number).
 
 ### **Where will the Masternode rewards come from? Will they be from the DEX?**
 
-**Pre** [**VIP#1 Hardfork**](https://gov.viction.xyz/viction-improvement-proposal-vip-1-the-need-for-viction-future-initiatives) The block rewards will come from a 17 million VIC reserve for 8 years - this was decided since the genesis block. Our [Economics paper ](https://docs.google.com/document/d/197Cu57A6OYPoEQbrUVr067qNVEzP_FEwaDCFff7hnlM/edit)lays out the number in detail.
+**Pre** [**VIP#1 Hardfork**](https://gov.viction.xyz/viction-improvement-proposal-vip-1-the-need-for-viction-future-initiatives) The block rewards will come from a 17 million VIC reserve for 8 years - this was decided since the genesis block. Our [Economics paper](https://1198941402-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FPmPMaOPJdK9KcdXtJdQH%2Fuploads%2FZUMv9nKNTKxJS8MlRULO%2FVICTION%20Economics%20Paper%202.0.pdf?alt=media\&token=e9480ae4-4a67-4c1f-8fb4-acd529607746) lays out the number in detail.
 
 **Post** [**VIP#1 Hardfork**](https://gov.viction.xyz/viction-improvement-proposal-vip-1-the-need-for-viction-future-initiatives) In addition to the 17 million VIC old rewards pre [**VIP#1 Hardfork**](https://gov.viction.xyz/viction-improvement-proposal-vip-1-the-need-for-viction-future-initiatives)**,** there will be newly added 30 million VIC reward with the same distribution logic starting from October 29th, 2024 and from block #86158494 onward.
 
