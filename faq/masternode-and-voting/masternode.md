@@ -46,7 +46,7 @@ Each epoch consists of 900 blocks, which will reward a total of 250 VIC in the f
 
 Example: With only 25 Masternodes with equal performance, every Masternode would be rewarded with 10 VIC. With 125 Masternodes, each one would receive 2 VIC per epoch.
 
-Please, refer to our [Economics paper](https://docs.google.com/document/d/197Cu57A6OYPoEQbrUVr067qNVEzP_FEwaDCFff7hnlM/edit) for more details about the Masternode rewards.
+Please, refer to our [Economics paper](https://1198941402-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FPmPMaOPJdK9KcdXtJdQH%2Fuploads%2FZUMv9nKNTKxJS8MlRULO%2FVICTION%20Economics%20Paper%202.0.pdf?alt=media\&token=e9480ae4-4a67-4c1f-8fb4-acd529607746) for more details about the Masternode rewards.
 
 ### **How much of the Masternode reward will go to the Masternode infrastructure (node owner) and to voters?**
 
