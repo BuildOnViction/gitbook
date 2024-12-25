@@ -91,6 +91,7 @@
   * [How to confirm a project on Vicscan](how-to/how-to-confirm-a-project-on-vicscan.md)
   * [How to check if a token is gas sponsored on Viction](how-to/how-to-check-if-a-token-is-gas-sponsored-on-viction.md)
   * [How to verify gas sponsored transactions](how-to/how-to-verify-gas-sponsored-transactions.md)
+  * [How to create Telegram Mini Apps](how-to/how-to-create-telegram-mini-apps.md)
 * [FAQ](faq/README.md)
   * [APIs](https://apidocs.tomochain.com/)
   * [General](faq/general/README.md)

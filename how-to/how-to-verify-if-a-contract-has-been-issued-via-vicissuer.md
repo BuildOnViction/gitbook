@@ -2,7 +2,6 @@
 description: >-
   In this article, we will cover for how to verify the token contract had been
   issued by VICIssuer
-hidden: true
 ---
 
 # How to verify if a contract has been issued via VICIssuer
@@ -18,15 +17,7 @@ A token cantract is issued by VICIssuer (Guide: [https://docs.viction.xyz/how-to
 
 Open the contract detail URL on the **Vicscan** or **VICIssuer** UI
 
-<div>
-
-<figure><img src="../.gitbook/assets/6 (1).png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/7 (2).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src="../.gitbook/assets/6 (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/7 (2).png" alt=""><figcaption></figcaption></figure></div>
 
 Click on the **Contract** tab & click on **Verify & Publish** button
 

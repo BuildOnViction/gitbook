@@ -1,6 +1,5 @@
 ---
 description: In this article, we are stimulate the process to issue a token via VicIssuer
-hidden: true
 ---
 
 # How to issue a token via VICIssuer
@@ -24,15 +23,7 @@ If you didn't copy the source code here, there is no way for you to go back to c
 
 Allow the connection to the site & Confirm to deploy a new contract via wallet pop-up
 
-<div>
-
-<figure><img src="../.gitbook/assets/3 (1).png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/4 (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src="../.gitbook/assets/3 (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/4 (1).png" alt=""><figcaption></figcaption></figure></div>
 
 The token has been issued successfully
 
