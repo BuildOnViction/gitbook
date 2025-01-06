@@ -92,6 +92,7 @@
   * [How to check if a token is gas sponsored on Viction](how-to/how-to-check-if-a-token-is-gas-sponsored-on-viction.md)
   * [How to verify gas sponsored transactions](how-to/how-to-verify-gas-sponsored-transactions.md)
   * [How to create Telegram Mini Apps](how-to/how-to-create-telegram-mini-apps.md)
+  * [How to use VictionSafe (Multisig)](how-to/how-to-use-victionsafe-multisig.md)
 * [FAQ](faq/README.md)
   * [APIs](https://apidocs.tomochain.com/)
   * [General](faq/general/README.md)
