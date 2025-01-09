@@ -1,36 +1,60 @@
 ---
-description: Here are the base requirements for running a Masternode Candidate.
+description: Hardware specification for running a Viction Mainnet node.
 ---
 
 # Requirements
 
-### Hardware Recommendation <a href="#hardware" id="hardware"></a>
+### General System Specs <a href="#hardware" id="hardware"></a>
 
-* Directly facing internet
-* 16 cores CPU
-* 32GB of RAM
-* SSD storage for chain data ([https://docs.viction.xyz/masternode/chain-data-snapshots](https://docs.viction.xyz/masternode/chain-data-snapshots))
-  * Minimum requirement: 1TB
-  * Recommended requirement: 2TB or above
+Minimum requirements
+
+* CPU: 2 cores
+* RAM: 8 GB
+* SSD: 1 TB
+* Network: 10 Mb/s
+
+Full node requirements
+
+* CPU: 4 cores
+* RAM: 16 GB
+* SSD: 1 TB
+* Network: 25 Mb/s
+
+Masternode requirements
+
+* CPU: 8 cores
+* RAM: 16 GB
+* SSD: 1 TB
+* Network: 25 Mb/s
+
+Archive node requirements
+
+* CPU: 16-64 cores
+* RAM: 32 GB
+* SSD: 4 TB
+* Network: 25 Mb/s
+
+The requirements above are for typical workload and cannot cover all workloads. These are good starting points to adjust node specifications to fit with your workload.
 
 {% hint style="info" %}
-Note
+As of December 2024, the size of blockchain data is:
 
-If you are running a node in Testnet, 2CPU/8GB of RAM is sufficient.
+* Full node: 900 GB
+* Archive node: 3743 GB
 {% endhint %}
 
-We recommend using popular cloud providers as there reliability and uptime are close to 100%. These servers would be a good starting point:
+### Recommendation
 
-* **DigitalOcean**: CPU optimized droplet 32GB/16CPU
+We recommend using popular cloud providers as their reliability and uptime are close to 100%. These servers would be a good starting point:
+
 * **Amazon EC2**: C5 instance
-* **Google Cloud Engine**: n1-highcpu-16
+* **DigitalOcean**: CPU optimized droplet 16GB/8vCPU
+* **Google Cloud Engine**: n2d-standard-8
 
-Setting up a Masternode Candidate on a weaker machine might result in poor performances, significantly impacting owner's rewards and the chain performance.
-
-If you have other production grade environment than a cloud provider at your disposal, please come chat with us on our [Gitter](https://gitter.im/Viction).
+Setting up a Masternode Candidate on a low specs machine might result in poor performances, significantly impacting owner's rewards and the chain performance.
 
 {% hint style="info" %}
-Info
+Notice
 
 A Masternode has a certain number of tasks to process (validations, block creations, etc.) over time. Your Masternode should be able to process all the tasks that are designated to it, or the rewards will be negatively impacted. However, overpowered technical specifications of the Masternode will not result in greater rewards.
 {% endhint %}
@@ -39,11 +63,11 @@ A Masternode has a certain number of tasks to process (validations, block creati
 
 All IT systems require maintenance.
 
-It is of the owner's responsibility to ensure regular maintenance and that the node has enough:
+It is of the owner's responsibility to ensure regular maintenance, and that the node has enough:
 
-* Disk space to store the new blockchain data
-* Processing power to keep the chain operating at optimal speed
-* Monitoring to be able to react quickly in case of a problem occurring
+* Disk space to store the new blockchain data.
+* Processing power to keep the chain operating at optimal speed.
+* Monitoring to be able to react quickly in case of a problem occurring.
 * Security measures like firewalling, OS security patching, SSH via keypairs, etc.
 
-This is a non exhaustive list.
+This is a non-exhaustive list.
