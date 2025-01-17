@@ -167,6 +167,7 @@ This event MUST be emitted when tokens are transferred in functions `transfer` a
 
 For a contract to meet VRC25 requirements, it must satisfy the following conditions:
 
+* The contract must not be a proxy contract.
 * Implement `IVRC25` interface in the specification.
 * Have 3 first storage slots in the contracts as follow:
 
