@@ -52,6 +52,7 @@
   * [Apply Your Node](masternode/apply-your-node.md)
   * [Slashing Mechanism](masternode/viction-slashing-mechanism.md)
   * [Chain Data Snapshots](masternode/chain-data-snapshots.md)
+  * [Troubleshooting](masternode/troubleshooting.md)
 * [Viction Wallet](viction-wallet/README.md)
   * [User Guide](viction-wallet/user-guide/README.md)
     * [Authentication](viction-wallet/user-guide/authentication.md)

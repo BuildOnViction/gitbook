@@ -14,7 +14,7 @@ For EVM-based blockchain, ERC20 has became the standard for fungible tokens. Thi
 
 VRC25 is developed in effort to simplify the way a token works by eliminate the need of gas when using the token. It means that users won't need to keep native token when they transfer, approve or any other actions available on the token. Instead the fee for the network can be paid by the token itself.
 
-### Specification <a href="#trc25-specification" id="trc25-specification"></a>
+### Specification <a href="#specification" id="specification"></a>
 
 ```solidity
 interface IVRC25 {
@@ -163,7 +163,7 @@ event Fee(address indexed from, address indexed to, address indexed issuer, uint
 
 This event MUST be emitted when tokens are transferred in functions `transfer` and `transferFrom` in order for clients/DApp/third-party wallets to notify their users about the paid transaction fee in terms of tokens.
 
-### Requirement <a href="#implementation" id="implementation"></a>
+### Requirement <a href="#requirement" id="requirement"></a>
 
 For a contract to meet VRC25 requirements, it must satisfy the following conditions:
 
@@ -580,7 +580,7 @@ abstract contract VRC25Permit is VRC25, EIP712, IVRC25Permit {
 
 Source: [VRC25Permit.sol](https://github.com/BuildOnViction/vrc25/blob/main/contracts/VRC25Permit.sol)
 
-### Example <a href="#trc25-token-example" id="trc25-token-example"></a>
+### Example <a href="#example" id="example"></a>
 
 The following example demonstrates a token using the VRC25 standard with a custom fee.
 
