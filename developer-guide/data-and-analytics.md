@@ -30,7 +30,7 @@ To get started, use the [Viction starter](https://github.com/subquery/ethereum-s
 
 
 
-## Goldsky Subgraph <a href="#subquery-network" id="subquery-network"></a>
+## Goldsky Subgraph
 
 Goldsky is the go-to data indexer for web3 builders, offering high-performance subgraph hosting and realtime data replication pipelines.
 
@@ -46,7 +46,7 @@ You can query Viction blocks easily using this endpoint
 
 
 
-## The Graph <a href="#subquery-network" id="subquery-network"></a>
+## The Graph
 
 Getting historical data on a smart contract can be frustrating when you’re building a dApp. [The Graph](https://thegraph.com/) provides an easy way to query smart contract data through APIs known as subgraphs. The Graph’s infrastructure relies on a decentralized network of indexers, enabling your dapp to become truly decentralized.
 
