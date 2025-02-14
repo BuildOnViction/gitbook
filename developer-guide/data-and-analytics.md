@@ -78,13 +78,17 @@ You will then land on your subgraph’s page. All the CLI commands you need will
 
 On your local machine run the following:
 
-`npm install -g @graphprotocol/graph-cli`
+```
+npm install -g @graphprotocol/graph-cli
+```
 
 #### Initialize your Subgraph⁠[​](https://docs.fuse.io/developers/subgraphs#initialize-your-subgraph)
 
 You can copy this directly from your subgraph page to include your specific subgraph slug:
 
-`graph init <SUBGRAPH_SLUG>`
+```
+graph init <SUBGRAPH_SLUG>// Some code
+```
 
 You’ll be prompted to provide some info on your subgraph like this:
 
@@ -98,15 +102,17 @@ Simply have your contract verified on the block explorer and the CLI will automa
 
 First run these commands:
 
-`$ graph codegen`
-
-`$ graph build`
+```
+$ graph codegen
+$ graph build
+```
 
 Then run these to authenticate and deploy your subgraph. You can copy these commands directly from your subgraph’s page in Studio to include your specific deploy key and subgraph slug:
 
-`$ graph auth <DEPLOY_KEY>`
-
-`$ graph deploy <SUBGRAPH_SLUG>`
+```
+$ graph auth <DEPLOY_KEY>
+$ graph deploy <SUBGRAPH_SLUG>
+```
 
 You will be asked for a version label. You can enter something like v0.0.1, but you’re free to choose the format.
 
@@ -158,106 +164,64 @@ In Subgraph Studio, you’ll see the “API Keys” menu at the top of the page.
 
 This query shows the most expensive CryptoPunks sold.
 
-`{`
-
-&#x20;`trades(orderBy: priceETH, orderDirection: desc) {`
-
-&#x20;  `priceETH`
-
-&#x20;  `tokenId`
-
-&#x20;`}`
-
-`}`
-
+```
+{
+ trades(orderBy: priceETH, orderDirection: desc) {
+   priceETH
+   tokenId
+ }
+}
 Passing this into the query URL returns this result:
-
-`{`
-
-&#x20;`"data": {`
-
-&#x20;  `"trades": [`
-
-&#x20;    `{`
-
-&#x20;      `"priceETH": "124457.067524886018255505",`
-
-&#x20;      `"tokenId": "9998"`
-
-&#x20;    `},`
-
-&#x20;    `{`
-
-&#x20;      `"priceETH": "8000",`
-
-&#x20;      `"tokenId": "5822"`
-
-&#x20;    `},`
-
-`//      ...`
+{
+ "data": {
+   "trades": [
+     {
+       "priceETH": "124457.067524886018255505",
+       "tokenId": "9998"
+     },
+     {
+       "priceETH": "8000",
+       "tokenId": "5822"
+     },
+//      ...
+```
 
 💡 Trivia: Looking at the top sales on [CryptoPunks website](https://cryptopunks.app/cryptopunks/topsales) it looks like the top sale is Punk #5822, not #9998. Why? Because they censor the flash-loan sale that happened.
 
 #### Sample code[​](https://docs.fuse.io/developers/subgraphs#sample-code)
 
-`const axios = require("axios");`\
+```
+const axios = require("axios");
 
+const graphqlQuery = `{
+ trades(orderBy: priceETH, orderDirection: desc) {
+   priceETH
+   tokenId
+ }
+}`;
+const queryUrl =
+ "https://gateway-arbitrum.network.thegraph.com/api/[api-key]/subgraphs/id/HdVdERFUe8h61vm2fDyycHgxjsde5PbB832NHgJfZNqK";
 
-``const graphqlQuery = `{``
+const graphQLRequest = {
+ method: "post",
+ url: queryUrl,
+ data: {
+   query: graphqlQuery,
+ },
+};
 
-&#x20;`trades(orderBy: priceETH, orderDirection: desc) {`
-
-&#x20;  `priceETH`
-
-&#x20;  `tokenId`
-
-&#x20;`}`
-
-``}`;``
-
-`const queryUrl =`
-
-&#x20;`"https://gateway-arbitrum.network.thegraph.com/api/[api-key]/subgraphs/id/HdVdERFUe8h61vm2fDyycHgxjsde5PbB832NHgJfZNqK";`
-
-
-
-`const graphQLRequest = {`
-
-&#x20;`method: "post",`
-
-&#x20;`url: queryUrl,`
-
-&#x20;`data: {`
-
-&#x20;  `query: graphqlQuery,`
-
-&#x20;`},`
-
-`};`
-
-
-
-`// Send the GraphQL query`
-
-`axios(graphQLRequest)`
-
-&#x20;`.then((response) => {`
-
-&#x20;  `// Handle the response here`
-
-&#x20;  `const data = response.data.data;`
-
-&#x20;  `console.log(data);`
-
-&#x20;`})`
-
-&#x20;`.catch((error) => {`
-
-&#x20;  `// Handle any errors`
-
-&#x20;  `console.error(error);`
-
-&#x20;`});`
+// Send the GraphQL query
+axios(graphQLRequest)
+ .then((response) => {
+   // Handle the response here
+   const data = response.data.data;
+   console.log(data);
+ })
+ .catch((error) => {
+   // Handle any errors
+   console.error(error);
+ });
+```
 
 #### Additional resources:[​](https://docs.fuse.io/developers/subgraphs#additional-resources)
 
