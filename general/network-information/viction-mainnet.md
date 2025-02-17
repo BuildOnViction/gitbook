@@ -3,12 +3,8 @@
 ### Specifications
 
 * Chain ID: `88 or 0x58`
-* RPC endpoint:&#x20;
-  * `https://rpc.viction.xyz`
-  * `https://viction.drpc.org`
-* Websocket endpoint:&#x20;
-  * `wss://ws.viction.xyz`
-  * `wss://viction.drpc.org`
+* RPC endpoint: `https://rpc.viction.xyz`
+* Websocket endpoint: `wss://ws.viction.xyz`
 * HD derivation path: `m/44'/60'/0'/0/`
 * Consensus: POSV
 * Block finality: `>75%`
@@ -19,9 +15,11 @@
 
 ### Other RPC Providers
 
-RockX: [https://access.rockx.com/product/viction-blockchain-api-for-web3-builders](https://access.rockx.com/product/viction-blockchain-api-for-web3-builders)
-
-BlockPi: [https://blockpi.io/viction](https://blockpi.io/viction)
+* RockX: [https://access.rockx.com/product/viction-blockchain-api-for-web3-builders](https://access.rockx.com/product/viction-blockchain-api-for-web3-builders)
+* BlockPi: [https://blockpi.io/viction](https://blockpi.io/viction)
+* dRPC:
+  * RPC endpoint: [`https://viction.drpc.org`](https://viction.drpc.org)
+  * Websocket endpoint: wss://viction.drpc.org
 
 ### Useful links
 
