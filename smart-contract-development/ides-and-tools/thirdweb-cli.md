@@ -4,4 +4,4 @@ thirdweb provides an interactive command line interface, allowing you to create,
 
 You can use the thirdweb CLI to create and deploy smart contracts to the Viction EVM network.
 
-Visit [Viction's thirdweb](https://thirdweb.com/tomochain) for more details.
+Visit [Viction's thirdweb](https://portal.thirdweb.com/cli) for more details.
