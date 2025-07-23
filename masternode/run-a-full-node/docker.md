@@ -20,18 +20,18 @@ This image runs the [Viction go client](https://github.com/BuildOnViction/tomoch
 
 ### Environment variables <a href="#environment-variables" id="environment-variables"></a>
 
-| Variable        | Required | Default         | Example                                    | Description                                                                                                   |
-| --------------- | -------- | --------------- | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------- |
-| `IDENTITY`      | False    | Random name     | `my-super-node`                            | The name of your asternode                                                                                    |
-| `PASSWORD`      | False    | Random password | `S5G@fS3A8+*g-)ftYc`                       | The password used by the the client to localy encrypt its account                                             |
-| `PRIVATE_KEY`   | False    | Random account  | `0xa3f5195...`                             | The private key of the account who will identify the node and receive txs fees                                |
-| `BOOTNODES`     | True     | None            | `enode://4d3...@1.2.3.4:30301,enode://...` | The comma separated list of bootnodes. Find them [here](https://docs.viction.xyz/general/networks/)           |
-| `VERBOSITY`     | False    | 3               | `4`                                        | The level of logging (default one should be enough)                                                           |
-| `NETWORK_ID`    | False    | 89              | `88`                                       | The network id of the join your node is joining. Find them [here](https://docs.viction.xyz/general/networks/) |
-| `WS_SECRET`     | False    | None            | `d$M4J4\5gLAz%Zjn>%`                       | The password to send data to the stats website                                                                |
-| `NETSTATS_HOST` | False    | netstats-server | `https://stats.tomochain.com`              | The stats website to report to, regarding to your environment                                                 |
-| `NETSTATS_PORT` | False    | 3000            | `443`                                      | The port used by the stats website (usually 443)                                                              |
-| `ANNOUNCE_TXS`  | False    | None            | `True`                                     | Enable reporting transactions via RPC/WS                                                                      |
+| Variable        | Required | Default         | Example                                    | Description                                                                                                             |
+| --------------- | -------- | --------------- | ------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------- |
+| `IDENTITY`      | False    | Random name     | `my-super-node`                            | The name of your asternode                                                                                              |
+| `PASSWORD`      | False    | Random password | `S5G@fS3A8+*g-)ftYc`                       | The password used by the the client to localy encrypt its account                                                       |
+| `PRIVATE_KEY`   | False    | Random account  | `0xa3f5195...`                             | The private key of the account who will identify the node and receive txs fees                                          |
+| `BOOTNODES`     | True     | None            | `enode://4d3...@1.2.3.4:30301,enode://...` | The comma separated list of bootnodes. Find them [here](../../general/network-information/viction-mainnet.md#bootnodes) |
+| `VERBOSITY`     | False    | 3               | `4`                                        | The level of logging (default one should be enough)                                                                     |
+| `NETWORK_ID`    | False    | 89              | `88`                                       | The network id of the join your node is joining. Find them [here](https://docs.viction.xyz/general/networks/)           |
+| `WS_SECRET`     | False    | None            | `d$M4J4\5gLAz%Zjn>%`                       | The password to send data to the stats website                                                                          |
+| `NETSTATS_HOST` | False    | netstats-server | `https://stats.tomochain.com`              | The stats website to report to, regarding to your environment                                                           |
+| `NETSTATS_PORT` | False    | 3000            | `443`                                      | The port used by the stats website (usually 443)                                                                        |
+| `ANNOUNCE_TXS`  | False    | None            | `True`                                     | Enable reporting transactions via RPC/WS                                                                                |
 
 ### Ports <a href="#ports" id="ports"></a>
 
