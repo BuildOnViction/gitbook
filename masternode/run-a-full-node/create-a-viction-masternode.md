@@ -102,22 +102,6 @@ Verify that docker-compose is correctly installed by running the version command
 docker-compose version
 ```
 
-### Installation <a href="#installation" id="installation"></a>
-
-Download `create-Viction-masternode` from the [latest release](https://github.com/BuildOnViction/create-Viction-masternode/releases/latest).
-
-Make it executable.
-
-```
-chmod +x create-Viction-masternode
-```
-
-Move it in your path.
-
-```
-sudo mv create-Viction-masternode /usr/local/bin/
-```
-
 ### Usage <a href="#usage" id="usage"></a>
 
 Simply run create-Viction-masternode with the name of your Masternode as argument.
