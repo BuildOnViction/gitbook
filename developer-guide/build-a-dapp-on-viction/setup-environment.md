@@ -97,11 +97,11 @@ When Hardhat is run, it searches for the closest `hardhat.config.js` file starti
 
 #### 1. Create a VIC wallet and save your Mnemonic
 
-You can create a new VIC wallet using **Viction Wallet** mobile app for [iOS](https://apps.apple.com/us/app/viction-wallet-by-coin98/id1436476145), or the web version ([https://wallet.tomochain.com/#/login](https://wallet.tomochain.com/#/login)). Under _Settings_ go to _Advanced Settings,_ here you can _Choose network_ and select `Viction TestNet` or `Viction` \[mainnet].
+You can create a new VIC wallet using **Viction Wallet** mobile app for [iOS](https://apps.apple.com/us/app/viction-wallet-by-coin98/id1436476145), [Android](https://play.google.com/store/apps/details?id=viction.coin98.crypto.wallet) or [Google Chrome](https://chromewebstore.google.com/detail/viction-wallet/nopnfnlbinpfoihclomelncopjiioain). Under _Settings_ go to _Advanced Settings,_ here you can _Choose network_ and select `Viction TestNet` or `Viction` \[mainnet].
 
 Go to _Settings_ menu, select _Backup wallet_ and then **Continue**. Here you can see your wallet’s private key and the 12-word recovery phrase. **Write down the 12-word recovery phrase.**
 
-You can also create a new [Viction wallet with MetaMask, MyEtherWallet or TrustWallet](https://docs.viction.xyz/get-started/wallet/). For instance, for mainnet you can go to [MyEtherWallet](https://www.myetherwallet.com/) and select **VIC (viction.xyz)** on the top right corner. Enter a password and then Create a new wallet. **Write down your recovery phrase.**
+You can also create a new [Viction wallet with Coin98 Super Wallet, Metamask or Ledger](https://docs.viction.xyz/how-to/how-to-connect-to-viction-network). 
 
 For this tutorial, my wallet address (testnet) is:
 
