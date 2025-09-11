@@ -6,7 +6,7 @@ description: Terms and conditions for using Viction's products.
 
 TERMS OF SERVICE
 
-Last Revision Date: **May 5, 2025**
+Last Revision Date: **September 11, 2025**
 
 ## Introduction
 
@@ -32,7 +32,7 @@ The Service is intended for users who are at least 18 years old. You agree that 
 
 If you are using our Service on behalf of a legal entity, you further represent and warrant that: (a) the legal entity is duly organized and validly existing under the applicable laws of the jurisdiction of its organization; and (b) you are duly authorized by such legal entity to act on its behalf.
 
-The information and features provided on the Site or by the Service are not intended for distribution to or use by any person or entity in Cuba, Egypt, Hong Kong, Iran, Iraq, People’s Republic of Korea, Saudi Arabia, Syria, Ukraine or any jurisdiction or country where distribution or use would be contrary to law or regulation, such as applicable sanctions, or require us to hold any special license or registration within your jurisdiction. We make no claims that the Service or any of its content or features are accessible or appropriate in the user’s jurisdiction. Access to the Site or using the Service may not be legal by certain persons or in certain countries. If you access the Site or use the Service, you are solely responsible for ensuring that your using of the Service  does not violate any applicable laws or regulations in any jurisdiction to which you may be subject.
+The information and features provided on the Site or by the Service are not intended for distribution to or use by any person or entity in Cuba, Egypt, Hong Kong, Iran, Iraq, People’s Republic of Korea, Saudi Arabia, Syria, Ukraine, Vietnam or any jurisdiction or country where distribution or use would be contrary to law or regulation, such as applicable sanctions, or require us to hold any special license or registration within your jurisdiction. We make no claims that the Service or any of its content or features are accessible or appropriate in the user’s jurisdiction. Access to the Site or using the Service may not be legal by certain persons or in certain countries. If you access the Site or use the Service, you are solely responsible for ensuring that your using of the Service  does not violate any applicable laws or regulations in any jurisdiction to which you may be subject.
 
 &#x20;
 
