@@ -16,7 +16,24 @@ Additionally, gaining a solid understanding of indexing is important, as indexes
 
 From an architectural standpoint, it is also beneficial to understand the fundamentals of **APIs (Application Programming Interfaces)** and **REST (Representational State Transfer)**. Even a theoretical knowledge of these concepts can be invaluable. **APIs** enable different software applications to communicate with each other, while **REST** is a widely-used architectural style for designing networked applications. Together, they play a crucial role in developing robust and scalable systems for blockchain data analytics. Familiarity with these concepts will provide a solid foundation for leveraging block explorers and data indexing effectively in your projects.
 
+## GoldRush - powered by Covalent <a href="#goldrush" id="goldrush-covalent"></a>
 
+GoldRush offers the most comprehensive Blockchain Data API suite for developers, analysts, and enterprises. Whether you are building a DeFi dashboard, a wallet, a trading bot, an AI agent or a compliance platform, the Data APIs provide fast, accurate, and developer-friendly access to the essential on-chain data you need. 
+
+GoldRush consists of the following self-serve products that can be used independently or together to power your application:
+
+| **Product Name** | **Description** | **Key Data Feeds** | **Use Cases** |
+| --- | --- | --- | --- |
+| **Foundational API** | Access structured historical blockchain data across 100+ chains via REST APIs | <ul><li>Token balances (spot & historical)</li><li>Token transfers</li><li>Token holders (spot & historical)</li><li>Token prices (onchain)</li><li>Wallet transactions</li><li>Get logs</li></ul> |<ul><li>Wallets</li><li>Portfolio trackers</li><li>Crypto accounting & tax tools</li><li>DeFi dashboards</li><li>Activity feeds</li></ul> |
+| **Streaming API** | Subscribe to real-time blockchain events with sub-second latency using GraphQL over WebSockets | <ul><li>OHLCV tokens & pairs</li><li>New & updated DEX pairs</li><li>Wallet activity</li><li>Token balances</li></ul> | <ul><li>Trading dashboards</li><li>Sniper bots</li><li>Gaming</li><li>Agentic workflows</li></ul> |
+
+
+The **[GoldRush TypeScript SDK](https://www.npmjs.com/package/@covalenthq/client-sdk)** is the fastest way to integrate the GoldRush APIs. Install with:
+
+```bash
+npm install @covalenthq/client-sdk
+```
+Learn more about GoldRush's integration with Viction [here](https://goldrush.dev/docs/chains/viction?utm_source=viction&utm_medium=partner-docs) .
 
 ## SubQuery Network <a href="#subquery-network" id="subquery-network"></a>
 
