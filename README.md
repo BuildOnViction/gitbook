@@ -2,7 +2,7 @@
 description: >-
   The documents contained are intended to educate users on Viction's technology
   and to provide developer tutorials and documentation for building solutions on
-  Viction public blockchain.
+  Viction public blockchain
 ---
 
 # Getting Started
