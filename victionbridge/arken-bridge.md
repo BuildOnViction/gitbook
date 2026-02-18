@@ -1,3 +1,8 @@
+---
+hidden: true
+noIndex: true
+---
+
 # Arken Bridge
 
 ## How to bridge **with Arken Finance?**
