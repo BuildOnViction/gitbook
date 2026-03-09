@@ -9,12 +9,17 @@ For a node to join the network and work with other nodes, it must sync data with
 Snapshots for mainnet are available for both full node and archive node:
 
 * Full node: [https://snapshot.viction.xyz/VICTION\_FULL\_DATA.tar.zst](https://snapshot.viction.xyz/VICTION_FULL_DATA.tar.zst)
-* Full node mirror: [https://chain-snapshots.tforce.dev/viction/vic\_main\_full.tar.zst](https://chain-snapshots.tforce.dev/viction/vic_main_full.tar.zst)
+* Full node mirror: [https://chain-snapshots.tforce.dev/viction\_mainnet\_full.tar.zst](https://chain-snapshots.tforce.dev/viction_mainnet_full.tar.zst)
 * Archive node: [https://snapshot.viction.xyz/VICTION\_ARCHIVE\_DATA.tar.zst](https://snapshot.viction.xyz/VICTION_ARCHIVE_DATA.tar.zst)
-* Archive node mirror: [https://chain-snapshots.tforce.dev/viction/vic\_main\_archive.tar.zst](https://chain-snapshots.tforce.dev/viction/vic_main_archive.tar.zst)&#x20;
+* Archive node mirror: [https://chain-snapshots.tforce.dev/viction\_mainnet\_archive.tar.zst](https://chain-snapshots.tforce.dev/viction_mainnet_archive.tar.zst)
+
+Snapshots for testnet are available for full node and archive node:
+
+* Full node: [https://chain-snapshots.tforce.dev/viction\_testnet\_full.tar.zst](https://chain-snapshots.tforce.dev/viction_testnet_full.tar.zst)
+* Archive node: [https://chain-snapshots.tforce.dev/viction\_testnet\_archive.tar.zst](https://chain-snapshots.tforce.dev/viction_testnet_archive.tar.zst)
 
 {% hint style="info" %}
-As of September 2025, the size after extraction for full node and archive node are 1014G and 4161G respectively.
+As of January 2026, the size after extraction for full node and archive node are 1025G and 4213G respectively.
 {% endhint %}
 
 To download the file, it's recommended to use **wget** or **aria2**.
