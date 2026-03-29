@@ -42,6 +42,5 @@ Click the **Menu icon** on the top right corner → Choose **Login.** When the C
 {% endstepper %}
 
 {% hint style="success" %}
-## After Step 4, you can start experiencing the VicMaster!
+## After successful wallet connection at Step 4, you can start experiencing the VicMaster!
 {% endhint %}
-
