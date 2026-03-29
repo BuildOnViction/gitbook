@@ -13,4 +13,4 @@ By providing this intermediary layer, the integration facilitates a seamless con
 
 **Note**: The current version of the Light Client is undergoing active testing and will be updated soon with new improvements.
 
-\
+<br>

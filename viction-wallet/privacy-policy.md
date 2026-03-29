@@ -205,4 +205,4 @@ If you wish to exercise any of your rights, you may contact us at support@victio
 
 We may be permitted under applicable laws to refuse a request, for example, we may refuse (a) a request for erasure where the personal data is required for in connection with claims; or (b) an objection request and continue processing your personal data based on compelling legitimate grounds for the processing.
 
-\
+<br>

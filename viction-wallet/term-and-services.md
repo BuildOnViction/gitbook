@@ -64,8 +64,7 @@ Viction Wallet retains all authority over the issuing, maintenance, and closing 
 4. Services
 5. Our Services. The App allows you to:
 
-\
-
+<br>
 
 2. Wallet Address, Private Key, and Backup Capabilities
 
@@ -245,9 +244,8 @@ These Terms constitute the entire agreement between you and Viction Wallet relat
 
 Except as otherwise provided herein, these Terms are intended solely for the benefit of the parties and are not intended to confer third-party beneficiary rights upon any other person or entity.
 
-\
-
+<br>
 
 &#x20;
 
-\
+<br>
