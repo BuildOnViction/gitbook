@@ -34,7 +34,7 @@ Click the **Selection tab** in the top right corner of the screen to choose the 
 Click the **Menu icon** on the top right corner → Choose **Login.** When the Connect Request pops up, click **Connect** to confirm.
 
 {% hint style="success" %}
-## <mark style="color:$danger;">After successful wallet connection at Step 4, you can start experiencing VicMaster!</mark>
+## <mark style="color:blue;">After successful wallet connection at Step 4, you can start experiencing VicMaster!</mark>
 {% endhint %}
 
 <figure><img src="../../../.gitbook/assets/photo_2026-03-29 10.21.07.jpeg" alt=""><figcaption></figcaption></figure>
@@ -47,7 +47,7 @@ Click the **Menu icon** on the top right corner → Choose **Login.** When the C
 {% step %}
 ### How to Vote
 
-On the homescreen of the VicMaster, choose **the Masternode** you would like to vote for
+On the homescreen of the VicMaster, choose **the Masternode** you would like to vote for.
 
 {% hint style="info" %}
 **Note**: Minimum 100 VIC is required per vote.
@@ -60,10 +60,10 @@ On the homescreen of the VicMaster, choose **the Masternode** you would like to 
 ### How to Unvote
 
 1. Click **Unvote** on the masternode you previously voted for.
-2. Enter the amount of VIC to unvote
+2. Enter the amount of VIC to unvote.
 
 {% hint style="info" %}
-* Unvoted VIC remains locked in the smart contract for \~48 hours (96 epochs) before withdrawal
+* Unvoted VIC remains locked in the smart contract for \~48 hours (96 epochs) before withdrawal. Hence, if you just unvote VIC, please wait for \~48 hours to withdraw them&#x20;
 * Minimum unvote supported: **100 VIC.** Ensure either:
   * You unvote all, or
   * The remaining balance stays above 100 VIC (so you can unvote next time)
@@ -77,7 +77,7 @@ On the homescreen of the VicMaster, choose **the Masternode** you would like to 
 
 <figure><img src="../../../.gitbook/assets/photo_2026-03-29 11.32.34.jpeg" alt=""><figcaption></figcaption></figure>
 
-&#x20;2\. Select a withdrawal option to withdraw VIC back to your wallet
+&#x20;2\. Select a withdrawal option to withdraw VIC back to your wallet.
 
 {% hint style="info" %}
 **Note:**
