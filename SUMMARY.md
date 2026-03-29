@@ -107,7 +107,7 @@
   * [Products](faq/products/README.md)
     * [VicScan (Explorer)](faq/products/vicscan-explorer.md)
     * [VicMaster](faq/products/vicmaster/README.md)
-      * [How to connect Coin98 Super Wallet to VicMaster](faq/products/vicmaster/how-to-connect-coin98-super-wallet-to-vicmaster.md)
+      * [How to vote on VicMaster with Coin98 Super Wallet](faq/products/vicmaster/how-to-vote-on-vicmaster-with-coin98-super-wallet.md)
     * [VicStats](faq/products/tomostats.md)
     * [VicIssuer](faq/products/vicissuer/README.md)
       * [How to Verify & Publish Contract Source Code on VicScan](faq/products/vicissuer/how-to-verify-and-publish-contract-source-code-on-vicscan.md)

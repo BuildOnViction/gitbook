@@ -18,7 +18,7 @@ description: This guide will show you how to verify a contract on Vicscan
     * Go to the VicScan explorer and search for the contract.
     * Click on **Contract/Verify & Publish** to initiate the verification process.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Approach 2**:
   * **Action Required**: Alternatively, partners can use the Hardhat plugin to verify the contract. A detailed guide is available to assist with this process.

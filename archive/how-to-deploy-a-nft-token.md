@@ -48,7 +48,7 @@ Online games can have up to 100,000 different digital items. The current problem
 
 ## Use-cases of Non-Fungible Tokens (NFT) <a href="#id-2194" id="id-2194"></a>
 
-Most of the time when people think about ERC-721 or NFT, they refer to the most notably successful [CryptoKitties](https://medium.com/u/c8b1419b5d28?source=post\_page-----fe476a68594d----------------------). But there are many other usability applications for NFT contracts:
+Most of the time when people think about ERC-721 or NFT, they refer to the most notably successful [CryptoKitties](https://medium.com/u/c8b1419b5d28?source=post_page-----fe476a68594d----------------------). But there are many other usability applications for NFT contracts:
 
 * **Software titles** or [**software licences**](https://medium.com/collabs-io/software-licences-as-non-fungible-tokens-1f0635913e41) to guarantee anti-piracy, privacy and transferability — like [Collabs.io](https://medium.com/collabs-io)
 * **Betting** in real time on the outcome of a video game being live-streamed
@@ -81,7 +81,7 @@ We will now implement an NFT collectible token, like CryptoKitties but with simp
 
 You’ll learn **how to create non fungible tokens**, how to **write tests** for your smart contracts and **how to interact** with them once deployed.
 
-We’ll build non-fungible collectibles: [**gradient tokens**](https://github.com/satansdeer/gradient-token). Every token will be represented as a unique [CSS](https://en.wikipedia.org/wiki/Cascading\_Style\_Sheets) gradient and will look somewhat like this:
+We’ll build non-fungible collectibles: [**gradient tokens**](https://github.com/satansdeer/gradient-token). Every token will be represented as a unique [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) gradient and will look somewhat like this:
 
 ## 0. Prerequisites <a href="#id-46e0" id="id-46e0"></a>
 
@@ -177,7 +177,7 @@ Every token will have a **unique** `tokenId`, like a serial number. We also adde
 
 Our solidity code is simple and I would recommend a deeper dive into the ERC-721 standard and the OpenZeppelin implementation.
 
-You can see the functions to use in OpenZeppelin ERC721 [here](https://docs.openzeppelin.org/docs/token\_erc721\_erc721) and [here](https://docs.openzeppelin.org/docs/token\_erc721\_erc721token).
+You can see the functions to use in OpenZeppelin ERC721 [here](https://docs.openzeppelin.org/docs/token_erc721_erc721) and [here](https://docs.openzeppelin.org/docs/token_erc721_erc721token).
 
 You can find another [ERC721 smart contract **example** by OpenZeppelin here](https://docs.openzeppelin.org/docs/learn-about-tokens.html#erc721).
 
@@ -486,7 +486,7 @@ In `Ethereum (Ropsten)`, the Etherscan page with [our migrated contract](https:/
 
 ![](<../.gitbook/assets/image (8) (2).png>)
 
-![](<../.gitbook/assets/image (1) (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (1) (1).png>)
 
 ## What’s next? <a href="#id-2883" id="id-2883"></a>
 
