@@ -15,9 +15,14 @@
 
 ### Other RPC Providers
 
-RockX: [https://access.rockx.com/product/viction-blockchain-api-for-web3-builders](https://access.rockx.com/product/viction-blockchain-api-for-web3-builders)
-
-BlockPi: [https://blockpi.io/viction](https://blockpi.io/viction)
+* RockX: <https://access.rockx.com/product/viction-blockchain-api-for-web3-builders>
+* BlockPi: <https://blockpi.io/viction>
+* dRPC:
+  * RPC endpoint: [`https://viction.drpc.org`](https://viction.drpc.org)
+  * Websocket endpoint: wss\://viction.drpc.org
+* NOWNodes:
+  * RPC endpoint: [`https://tomo.nownodes.io/`](https://tomo.nownodes.io/)
+  * Documentation: <https://docs.nownodes.io/tomo/>
 
 ### Useful links
 
